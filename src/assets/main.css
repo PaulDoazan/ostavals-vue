@@ -1,0 +1,24 @@
+:root {
+  /* Default text sizes */
+  --text-size-base: 1.5rem;
+  --text-size-large: 2.5rem;
+  --text-size-xlarge: 4rem;
+}
+
+/* Apply text sizes to elements */
+body {
+  font-size: var(--text-size-base);
+}
+
+h1 {
+  font-size: var(--text-size-xlarge);
+}
+
+h2 {
+  font-size: var(--text-size-large);
+}
+
+/* Make sure text sizes are inherited */
+* {
+  font-size: inherit;
+} 
