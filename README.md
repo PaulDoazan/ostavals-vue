@@ -27,7 +27,7 @@ npm run build
 - **Type de projet** : Choisir `Node.js`
 
 ### 5. Configuration du projet Node.js
-- Pointer la source du projet vers le fichier `bundle.js`
+- Pointer la source du projet vers le fichier `bundle.js` dans votre dossier local où vous avez récupéré le dépôt bixie-node
 - Cliquer sur `Start` pour initialiser le projet
 
 ### 6. Ajout du widget HTML5
