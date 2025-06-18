@@ -1,11 +1,11 @@
 <template>
   <div class="w-100 overflow-y-auto">
-    <VRow>
+    <div class="descriptions-grid">
       <!-- Caractéristiques de production -->
-      <VCol cols="12" md="4">
+      <div class="description-card">
         <div class="rounded-lg shadow-md pa-6">
           <h2 class="font-weight-bold mb-4">Caractéristiques de production</h2>
-          <div class="d-flex flex-column ga-4 overflow-y-auto custom-scrollbar" style="max-height: 600px;">
+          <div class="d-flex flex-column overflow-y-auto custom-scrollbar" style="max-height: 600px;">
             <div class="mb-4">
               Les variétés et/ou les
               races sont de souche
@@ -34,10 +34,10 @@
             </div>
           </div>
         </div>
-      </VCol>
+      </div>
 
       <!-- Produits -->
-      <VCol cols="12" md="4">
+      <div class="description-card">
         <div class="rounded-lg shadow-md pa-6 h-100" :style="{ backgroundColor: 'rgb(var(--v-theme-background))' }">
           <h2 class="font-weight-bold mb-4">Produits</h2>
           <div class="d-flex flex-column ga-4 overflow-y-auto custom-scrollbar" style="max-height: 600px;">
@@ -51,10 +51,10 @@
             </div>
           </div>
         </div>
-      </VCol>
+      </div>
 
       <!-- Chiffres clés -->
-      <VCol cols="12" md="4">
+      <div class="description-card">
         <div class="rounded-lg shadow-md pa-6 h-100" :style="{ backgroundColor: 'rgb(var(--v-theme-background))' }">
           <h2 class="font-weight-bold mb-4">Chiffres clés</h2>
           <div class="d-flex flex-column ga-4 overflow-y-auto custom-scrollbar" style="max-height: 600px;">
@@ -66,12 +66,23 @@
             </div>
           </div>
         </div>
-      </VCol>
-    </VRow>
+      </div>
+    </div>
   </div>
 </template>
 
 <style scoped>
+.descriptions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.description-card {
+  min-height: 0;
+}
+
 .custom-scrollbar::-webkit-scrollbar {
   width: 8px;
   display: block;

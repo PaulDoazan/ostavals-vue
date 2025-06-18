@@ -4,7 +4,7 @@ import Descriptions from './Descriptions.vue'
 </script>
 
 <template>
-  <div class="absolute top-0 left-0 w-100 h-100">
+  <div class="absolute top-0 left-0 w-screen h-screen">
     <Descriptions />
     <Menu />
   </div>

@@ -60,7 +60,7 @@ const toggleTheme = () => {
                             <VListItem @click="toggleTheme">
                                 <VBtn icon="mdi-palette" size="large" class="mr-2" />
                                 <span>{{ theme.global.name.value === 'light' ? 'Switch to Gray' : 'Switch to Light'
-                                    }}</span>
+                                }}</span>
                             </VListItem>
                         </VList>
                     </VMenu>
