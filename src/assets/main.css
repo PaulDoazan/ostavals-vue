@@ -8,6 +8,7 @@
 /* Apply text sizes to elements */
 body {
   font-size: var(--text-size-base);
+  font-family: 'MinionPro', 'LFT_Etica', 'Roboto', sans-serif;
 }
 
 h1 {
@@ -21,4 +22,19 @@ h2 {
 /* Make sure text sizes are inherited */
 * {
   font-size: inherit;
+}
+
+/* Custom font classes */
+.custom-font {
+  font-family: 'MinionPro', 'LFT_Etica', 'Roboto', sans-serif;
+}
+
+/* Individual font classes */
+.minion-font {
+  font-family: 'MinionPro', serif;
+}
+
+.etica-font {
+  font-family: 'LFT_Etica', sans-serif;
+  font-weight: bold;
 } 

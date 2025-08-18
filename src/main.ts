@@ -24,6 +24,17 @@ const vuetify = createVuetify({
       mdi,
     },
   },
+  defaults: {
+    VCard: {
+      class: 'custom-font'
+    },
+    VBtn: {
+      class: 'custom-font'
+    },
+    VTextField: {
+      class: 'custom-font'
+    }
+  },
   theme: {
     defaultTheme: 'light',
     themes: {
