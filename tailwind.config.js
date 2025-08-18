@@ -23,6 +23,7 @@ export default {
       },
       fontFamily: {
         'custom': ['LFT_Etica_Bold', 'MinionPro-Regular', 'sans-serif'],
+        'soleil': ['Soleil', 'sans-serif'],
       }
     },
   },

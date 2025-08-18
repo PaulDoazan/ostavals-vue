@@ -1,5 +1,43 @@
 @import "tailwindcss";
 
+/* Soleil Font Face Declarations */
+@font-face {
+  font-family: 'Soleil';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("/fonts/soleil/SoleilLight.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Soleil';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/soleil/SoleilRegular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Soleil';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/soleil/SoleilBook.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Soleil';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/soleil/SoleilBold.otf") format("opentype");
+}
+
+/* Direct CSS class for font-soleil */
+.font-soleil {
+  font-family: 'Soleil', sans-serif !important;
+}
+
 /* Reset all margins and padding */
 * {
   margin: 0;
