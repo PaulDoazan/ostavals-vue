@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 /* Reset all margins and padding */
 * {
@@ -9,35 +7,13 @@
   box-sizing: border-box;
 }
 
-:root {
-  --text-size-small: 0.875rem;
-  --text-size-base: 1rem;
-  --text-size-large: 1.125rem;
-}
-
 body {
   font-family: 'LFT_Etica_Bold', 'MinionPro-Regular', sans-serif;
-  font-size: var(--text-size-base);
   line-height: 1.5;
   color: #020203;
   background-color: #F2ECE0;
-  padding: 0;
-  margin: 0;
 }
 
 .custom-font {
   font-family: 'LFT_Etica_Bold', 'MinionPro-Regular', sans-serif;
-  font-size: var(--text-size-base);
 }
-
-.text-small {
-  font-size: var(--text-size-small);
-}
-
-.text-base {
-  font-size: var(--text-size-base);
-}
-
-.text-large {
-  font-size: var(--text-size-large);
-} 
