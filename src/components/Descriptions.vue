@@ -1,11 +1,11 @@
 <template>
-  <div class="w-100 overflow-y-auto">
+  <div class="w-full overflow-y-auto">
     <div class="descriptions-grid">
       <!-- Caractéristiques de production -->
       <div class="description-card">
-        <div class="rounded-lg shadow-md pa-6">
-          <h2 class="font-weight-bold mb-4">Caractéristiques de production</h2>
-          <div class="d-flex flex-column overflow-y-auto custom-scrollbar" style="max-height: 600px;">
+        <div class="rounded-lg shadow-md p-6">
+          <h2 class="font-bold mb-4">Caractéristiques de production</h2>
+          <div class="flex flex-col overflow-y-auto custom-scrollbar" style="max-height: 600px;">
             <div class="mb-4">
               Les variétés et/ou les
               races sont de souche
@@ -38,9 +38,9 @@
 
       <!-- Produits -->
       <div class="description-card">
-        <div class="rounded-lg shadow-md pa-6 h-100" :style="{ backgroundColor: 'rgb(var(--v-theme-background))' }">
-          <h2 class="font-weight-bold mb-4">Produits</h2>
-          <div class="d-flex flex-column ga-4 overflow-y-auto custom-scrollbar" style="max-height: 600px;">
+        <div class="rounded-lg shadow-md p-6 h-full bg-background">
+          <h2 class="font-bold mb-4">Produits</h2>
+          <div class="flex flex-col gap-4 overflow-y-auto custom-scrollbar" style="max-height: 600px;">
             <div>
               Production animale ou végétale
               qui respecte le cahier des charges.
@@ -55,9 +55,9 @@
 
       <!-- Chiffres clés -->
       <div class="description-card">
-        <div class="rounded-lg shadow-md pa-6 h-100" :style="{ backgroundColor: 'rgb(var(--v-theme-background))' }">
-          <h2 class="font-weight-bold mb-4">Chiffres clés</h2>
-          <div class="d-flex flex-column ga-4 overflow-y-auto custom-scrollbar" style="max-height: 600px;">
+        <div class="rounded-lg shadow-md p-6 h-full bg-background">
+          <h2 class="font-bold mb-4">Chiffres clés</h2>
+          <div class="flex flex-col gap-4 overflow-y-auto custom-scrollbar" style="max-height: 600px;">
             <div>
               Nombre de
               producteurs
