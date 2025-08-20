@@ -20,6 +20,9 @@ export default {
         'on-surface': '#020203',
         'custom-red': '#C93D28',
         'menu-background': '#D2BEB0',
+        creme: '#F0E9DD',
+        kaki: '#899D6D',
+        lightkaki: '#DACF75',
       },
       fontFamily: {
         'custom': ['LFT_Etica_Bold', 'MinionPro-Regular', 'sans-serif'],
