@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+@theme {
+  --color-creme: #F0E9DD;
+  --color-kaki: #899D6D;
+  --color-lightkaki: #DACF75;
+}
+
 /* Soleil Font Face Declarations */
 @font-face {
   font-family: 'Soleil';
@@ -33,9 +39,47 @@
   src: url("/fonts/soleil/SoleilBold.otf") format("opentype");
 }
 
+/* Athelas Font Face Declarations */
+@font-face {
+  font-family: 'Athelas';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/athelas/Athelas-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Athelas';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/athelas/Athelas-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Athelas';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/athelas/Athelas-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Athelas';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/athelas/Athelas-BoldItalic.ttf") format("truetype");
+}
+
 /* Direct CSS class for font-soleil */
 .font-soleil {
   font-family: 'Soleil', sans-serif !important;
+}
+
+/* Direct CSS class for font-athelas */
+.font-athelas {
+  font-family: 'Athelas', serif !important;
 }
 
 /* Reset all margins and padding */
