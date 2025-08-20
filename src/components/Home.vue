@@ -1,9 +1,17 @@
 <script setup lang="ts">
 import ArrowIn from './Icon/ArrowIn.vue'
+import BlueDecoration from './Icon/BlueDecoration.vue';
+import RedDecoration from './Icon/RedDecoration.vue';
 </script>
 
 <template>
   <div class="w-screen bg-background">
+    <div class="absolute" style="top: -57.5px; left: 22px;">
+      <RedDecoration />
+    </div>
+    <div class="absolute" style="top: 968px; left: 1652px;">
+      <BlueDecoration />
+    </div>
     <div class="h-screen grid grid-cols-3">
       <div class="bg-creme flex items-center justify-center">
         <div class="h-84 w-100 flex flex-col justify-between transform -translate-y-12">
