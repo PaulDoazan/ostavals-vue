@@ -1,12 +1,17 @@
 <script setup lang="ts">
-import { ref } from 'vue';
+import { ref, onMounted } from 'vue';
 import IconBack from './Icon/Back.vue';
 import IconHome from './Icon/Home.vue';
 import IconLang from './Icon/Lang.vue';
 import LangPanel from './LangPanel.vue';
+import { useLanguage } from '../composables/useLanguage';
 
 const showLangPanel = ref(true);
+const { initializeLanguage } = useLanguage();
 
+onMounted(() => {
+    initializeLanguage();
+});
 </script>
 
 <template>

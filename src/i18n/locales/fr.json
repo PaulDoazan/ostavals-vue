@@ -1,0 +1,25 @@
+{
+  "menu": {
+    "back": "Retour",
+    "home": "Accueil",
+    "language": "Langue"
+  },
+  "languages": {
+    "french": "Français",
+    "basque": "Euskara"
+  },
+  "home": {
+    "title": "Borne ressource",
+    "description": "Accédez à une sélection de fiches explicatives et de vidéos pour découvrir le patrimoine, les filières, les démarches collectives et les productions agricoles du territoire.",
+    "explanatorySheets": "Fiches explicatives",
+    "videotheque": "Vidéothèque"
+  },
+  "idleScreen": {
+    "clickScreen": "Cliquez sur l'écran"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès"
+  }
+}

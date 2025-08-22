@@ -1,8 +1,11 @@
 <script setup lang="ts">
+import { useI18n } from 'vue-i18n'
 import ArrowIn from './Icon/ArrowIn.vue'
 import BlueDecoration from './Icon/BlueDecoration.vue';
 import RedDecoration from './Icon/RedDecoration.vue';
 import Menu from './Menu.vue';
+
+const { t } = useI18n()
 </script>
 
 <template>
@@ -18,19 +21,17 @@ import Menu from './Menu.vue';
       <div class="bg-creme flex items-center justify-center">
         <div class="h-84 w-100 flex flex-col justify-between transform -translate-y-12">
           <div class="font-bold leading-20" style="font-size: 40px;">
-            Borne ressource
+            {{ t('home.title') }}
           </div>
           <div class="font-soleil leading-9.5 text-2xl" style="font-size: 28px;">
-            Accédez à une sélection de fiches explicatives et de vidéos pour découvrir le patrimoine, les filières,
-            les
-            démarches collectives et les productions agricoles du territoire.
+            {{ t('home.description') }}
           </div>
         </div>
       </div>
       <div class="bg-kaki flex items-center justify-center">
         <div class="h-84 flex flex-col items-center justify-between transform -translate-y-14">
           <div class="text-2xl font-athelas text-center leading-20" style="font-size: 70px;">
-            Fiches<br>explicatives
+            {{ t('home.explanatorySheets') }}<br>
           </div>
           <div>
             <ArrowIn />
@@ -40,7 +41,7 @@ import Menu from './Menu.vue';
       <div class="bg-lightkaki flex items-center justify-center">
         <div class="h-84 flex flex-col items-center justify-between transform -translate-y-14">
           <div class="text-2xl font-athelas text-center leading-20" style="font-size: 70px;">
-            Vidéothèque
+            {{ t('home.videotheque') }}
           </div>
           <ArrowIn />
         </div>
