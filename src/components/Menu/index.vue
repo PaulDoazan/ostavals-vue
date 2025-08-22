@@ -5,6 +5,17 @@ import IconHome from '../Icon/Home.vue';
 import IconLang from '../Icon/Lang.vue';
 import LangPanel from './LangPanel.vue';
 import { useLanguage } from '../../composables/useLanguage';
+import { useRouter } from 'vue-router';
+
+const router = useRouter();
+
+const goBack = () => {
+    router.go(-1);
+};
+
+const goHome = () => {
+    router.push('/');
+};
 
 const showLangPanel = ref(true);
 const menuRef = ref<HTMLElement | null>(null);
@@ -44,6 +55,8 @@ const handleClickOutside = (event: Event) => {
     }
 }
 
+
+
 onMounted(() => {
     initializeLanguage();
     document.addEventListener('click', handleClickOutside);
@@ -58,8 +71,8 @@ onUnmounted(() => {
     <div ref="menuRef" class="absolute bottom-0 left-20">
         <div
             :class="`flex justify-between items-center bg-redgrey rounded-tl-[50px] ${!showLangPanel && 'rounded-tr-[50px]'}`">
-            <IconBack style="margin: 36px;" />
-            <IconHome style="margin: 36px;" />
+            <IconBack style="margin: 36px;" @click="goBack" />
+            <IconHome @click="goHome" style="margin: 36px;" />
             <IconLang @click="showLangPanel = !showLangPanel" style="margin: 36px;" />
             <LangPanel v-if="showLangPanel" @closeLangPanel="closeLangPanel" />
         </div>
