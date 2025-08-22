@@ -4,6 +4,8 @@
   --color-creme: #F0E9DD;
   --color-kaki: #899D6D;
   --color-lightkaki: #DACF75;
+  --color-redgrey: #D3BFAF;
+  --color-red: #C83F28;
 }
 
 /* Soleil Font Face Declarations */
@@ -84,8 +86,6 @@
 
 /* Reset all margins and padding */
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 

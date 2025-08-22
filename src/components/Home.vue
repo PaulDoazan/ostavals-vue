@@ -2,6 +2,7 @@
 import ArrowIn from './Icon/ArrowIn.vue'
 import BlueDecoration from './Icon/BlueDecoration.vue';
 import RedDecoration from './Icon/RedDecoration.vue';
+import Menu from './Menu.vue';
 </script>
 
 <template>
@@ -12,6 +13,7 @@ import RedDecoration from './Icon/RedDecoration.vue';
     <div class="absolute" style="top: 968px; left: 1652px;">
       <BlueDecoration />
     </div>
+    <Menu />
     <div class="h-screen grid grid-cols-3">
       <div class="bg-creme flex items-center justify-center">
         <div class="h-84 w-100 flex flex-col justify-between transform -translate-y-12">
