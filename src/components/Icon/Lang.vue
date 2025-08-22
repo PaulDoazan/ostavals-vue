@@ -1,6 +1,6 @@
 <template>
-  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="79.745" height="79.745"
-    viewBox="0 0 79.745 79.745">
+  <svg class="icon-lang" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="79.745"
+    height="79.745" viewBox="0 0 79.745 79.745">
     <defs>
       <clipPath id="clip-path">
         <rect id="Rectangle_23" data-name="Rectangle 23" width="79.745" height="79.745" fill="none" />
