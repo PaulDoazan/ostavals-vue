@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useLanguage } from '../composables/useLanguage'
+import { useLanguage } from '../../composables/useLanguage'
 
 const { currentLanguage, switchLanguage } = useLanguage()
 

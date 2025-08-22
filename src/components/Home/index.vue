@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
 import { useRouter } from 'vue-router'
-import ArrowIn from './Icon/ArrowIn.vue'
-import BlueDecoration from './Icon/BlueDecoration.vue';
-import RedDecoration from './Icon/RedDecoration.vue';
-import Menu from './Menu.vue';
+import ArrowIn from '../Icon/ArrowIn.vue'
+import BlueDecoration from '../Icon/BlueDecoration.vue';
+import RedDecoration from '../Icon/RedDecoration.vue';
+import Menu from '../Menu/index.vue';
 
 const { t } = useI18n()
 const router = useRouter()

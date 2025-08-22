@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../components/Home.vue'
-import Resources from '../components/Resources.vue'
-import Sheets from '../components/Sheets.vue'
-import Videos from '../components/Videos.vue'
+import Home from '../components/Home/index.vue'
+import Resources from '../components/Resources/index.vue'
+import Sheets from '../components/Sheets/index.vue'
+import Videos from '../components/Videos/index.vue'
 
 const routes = [
   {

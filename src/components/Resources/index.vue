@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
 import { useRouter } from 'vue-router'
-import Menu from './Menu.vue'
+import Menu from '../Menu/index.vue'
 
 const { t } = useI18n()
 const router = useRouter()

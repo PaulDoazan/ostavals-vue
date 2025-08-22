@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import IdleScreen from './components/IdleScreen.vue'
+import IdleScreen from './components/Idle/index.vue'
 import { ref } from 'vue';
 
 const showIdleScreen = ref(false)
