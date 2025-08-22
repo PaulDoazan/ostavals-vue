@@ -14,12 +14,25 @@
     "explanatorySheets": "Azalpen-fitxak",
     "videotheque": "Bideo-teka"
   },
+  "resources": {
+    "title": "Baliabideak",
+    "description": "Eskuratu lurraldeko baliabideak"
+  },
+  "sheets": {
+    "title": "Azalpen-fitxak",
+    "description": "Ezagutu lurraldeko ondarearen eta arloen azalpen-fitxak"
+  },
+  "videos": {
+    "title": "Bideo-teka",
+    "description": "Esploratu lurraldeko bideo-bilduma"
+  },
   "idleScreen": {
     "clickScreen": "Egin klik pantailan"
   },
   "common": {
     "loading": "Kargatzen...",
     "error": "Errorea",
-    "success": "Arrakasta"
+    "success": "Arrakasta",
+    "back": "Hasierara itzuli"
   }
 }
