@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import Home from '../components/Home/index.vue'
 import Resources from '../components/Resources/index.vue'
 import Sheets from '../components/Sheets/index.vue'
@@ -13,22 +13,22 @@ const routes = [
   {
     path: '/resources',
     name: 'Resources',
-    component: () => Resources
+    component: Resources
   },
   {
     path: '/sheets',
     name: 'Sheets',
-    component: () => Sheets
+    component: Sheets
   },
   {
     path: '/videos',
     name: 'Videos',
-    component: () => Videos
+    component: Videos
   }
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   routes
 })
 

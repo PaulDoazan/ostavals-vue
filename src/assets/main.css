@@ -1,4 +1,6 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @theme {
   --color-creme: #F0E9DD;
@@ -6,6 +8,25 @@
   --color-lightkaki: #DACF75;
   --color-redgrey: #D3BFAF;
   --color-red: #C83F28;
+}
+
+/* Responsive base font sizing for 1920x1080 to 3840x2160 scaling */
+html {
+  font-size: calc(16px + (24 - 16) * ((100vw - 1920px) / (3840 - 1920)));
+  /* Base font size: 16px at 1920px width, 24px at 3840px width */
+}
+
+/* Ensure minimum and maximum font sizes */
+@media (max-width: 1920px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 3840px) {
+  html {
+    font-size: 24px;
+  }
 }
 
 /* Soleil Font Face Declarations */
@@ -63,7 +84,7 @@
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url("/fonts/athelas/Athelas-Italic.ttf") format("truetype");
+  src: url("/fonts/athelas/Athelas-Italic.ttf") format("opentype");
 }
 
 @font-face {
@@ -71,7 +92,7 @@
   font-style: italic;
   font-weight: 700;
   font-display: swap;
-  src: url("/fonts/athelas/Athelas-BoldItalic.ttf") format("truetype");
+  src: url("/fonts/athelas/Athelas-BoldItalic.ttf") format("opentype");
 }
 
 /* Direct CSS class for font-soleil */
@@ -99,3 +120,135 @@ body {
 .custom-font {
   font-family: 'LFT_Etica_Bold', 'MinionPro-Regular', sans-serif;
 }
+
+/* BrightSign-compatible utility classes */
+.rem-1 { margin: 0.0625rem; }
+.rem-2 { margin: 0.125rem; }
+.rem-4 { margin: 0.25rem; }
+.rem-8 { margin: 0.5rem; }
+.rem-16 { margin: 1rem; }
+.rem-20 { margin: 1.25rem; }
+.rem-24 { margin: 1.5rem; }
+.rem-32 { margin: 2rem; }
+.rem-36 { margin: 2.25rem; }
+.rem-40 { margin: 2.5rem; }
+.rem-48 { margin: 3rem; }
+.rem-56 { margin: 3.5rem; }
+.rem-64 { margin: 4rem; }
+.rem-72 { margin: 4.5rem; }
+.rem-80 { margin: 5rem; }
+.rem-96 { margin: 6rem; }
+.rem-112 { margin: 7rem; }
+.rem-128 { margin: 8rem; }
+.rem-144 { margin: 9rem; }
+.rem-160 { margin: 10rem; }
+.rem-176 { margin: 11rem; }
+.rem-192 { margin: 12rem; }
+.rem-208 { margin: 13rem; }
+.rem-224 { margin: 14rem; }
+.rem-240 { margin: 15rem; }
+.rem-256 { margin: 16rem; }
+.rem-272 { margin: 17rem; }
+.rem-288 { margin: 18rem; }
+.rem-304 { margin: 19rem; }
+.rem-320 { margin: 20rem; }
+.rem-336 { margin: 21rem; }
+.rem-352 { margin: 22rem; }
+.rem-368 { margin: 23rem; }
+.rem-384 { margin: 24rem; }
+.rem-400 { margin: 25rem; }
+.rem-416 { margin: 26rem; }
+.rem-432 { margin: 27rem; }
+.rem-448 { margin: 28rem; }
+.rem-464 { margin: 29rem; }
+.rem-480 { margin: 30rem; }
+.rem-496 { margin: 31rem; }
+.rem-512 { margin: 32rem; }
+.rem-528 { margin: 33rem; }
+.rem-544 { margin: 34rem; }
+.rem-560 { margin: 35rem; }
+.rem-576 { margin: 36rem; }
+.rem-592 { margin: 37rem; }
+.rem-608 { margin: 38rem; }
+.rem-624 { margin: 39rem; }
+.rem-640 { margin: 40rem; }
+.rem-656 { margin: 41rem; }
+.rem-672 { margin: 42rem; }
+.rem-688 { margin: 43rem; }
+.rem-704 { margin: 44rem; }
+.rem-720 { margin: 45rem; }
+.rem-736 { margin: 46rem; }
+.rem-752 { margin: 47rem; }
+.rem-768 { margin: 48rem; }
+.rem-784 { margin: 49rem; }
+.rem-800 { margin: 50rem; }
+.rem-816 { margin: 51rem; }
+.rem-832 { margin: 52rem; }
+.rem-848 { margin: 53rem; }
+.rem-864 { margin: 54rem; }
+.rem-880 { margin: 55rem; }
+.rem-896 { margin: 56rem; }
+.rem-912 { margin: 57rem; }
+.rem-928 { margin: 58rem; }
+.rem-944 { margin: 59rem; }
+.rem-960 { margin: 60rem; }
+.rem-976 { margin: 61rem; }
+.rem-992 { margin: 62rem; }
+.rem-1008 { margin: 64rem; }
+.rem-1024 { margin: 64rem; }
+.rem-1040 { margin: 65rem; }
+.rem-1056 { margin: 66rem; }
+.rem-1072 { margin: 67rem; }
+.rem-1088 { margin: 68rem; }
+.rem-1104 { margin: 69rem; }
+.rem-1120 { margin: 70rem; }
+.rem-1136 { margin: 71rem; }
+.rem-1152 { margin: 72rem; }
+.rem-1168 { margin: 73rem; }
+.rem-1184 { margin: 74rem; }
+.rem-1200 { margin: 75rem; }
+.rem-1216 { margin: 76rem; }
+.rem-1232 { margin: 77rem; }
+.rem-1248 { margin: 78rem; }
+.rem-1264 { margin: 79rem; }
+.rem-1280 { margin: 80rem; }
+.rem-1296 { margin: 81rem; }
+.rem-1312 { margin: 82rem; }
+.rem-1328 { margin: 83rem; }
+.rem-1344 { margin: 84rem; }
+.rem-1360 { margin: 85rem; }
+.rem-1376 { margin: 86rem; }
+.rem-1392 { margin: 87rem; }
+.rem-1408 { margin: 88rem; }
+.rem-1424 { margin: 89rem; }
+.rem-1440 { margin: 90rem; }
+.rem-1456 { margin: 91rem; }
+.rem-1472 { margin: 92rem; }
+.rem-1488 { margin: 93rem; }
+.rem-1504 { margin: 94rem; }
+.rem-1520 { margin: 95rem; }
+.rem-1536 { margin: 96rem; }
+.rem-1552 { margin: 97rem; }
+.rem-1568 { margin: 98rem; }
+.rem-1584 { margin: 99rem; }
+.rem-1600 { margin: 100rem; }
+.rem-1616 { margin: 101rem; }
+.rem-1632 { margin: 102rem; }
+.rem-1648 { margin: 103rem; }
+.rem-1664 { margin: 104rem; }
+.rem-1680 { margin: 105rem; }
+.rem-1696 { margin: 106rem; }
+.rem-1712 { margin: 107rem; }
+.rem-1728 { margin: 108rem; }
+.rem-1744 { margin: 109rem; }
+.rem-1760 { margin: 110rem; }
+.rem-1776 { margin: 111rem; }
+.rem-1792 { margin: 112rem; }
+.rem-1808 { margin: 113rem; }
+.rem-1824 { margin: 114rem; }
+.rem-1840 { margin: 115rem; }
+.rem-1856 { margin: 116rem; }
+.rem-1872 { margin: 117rem; }
+.rem-1888 { margin: 118rem; }
+.rem-1904 { margin: 119rem; }
+.rem-1920 { margin: 120rem; }

@@ -23,12 +23,31 @@ export default {
         creme: '#F0E9DD',
         kaki: '#899D6D',
         lightkaki: '#DACF75',
+        redgrey: '#D3BFAF',
+        red: '#C83F28',
       },
       fontFamily: {
         'custom': ['LFT_Etica_Bold', 'MinionPro-Regular', 'sans-serif'],
         'soleil': ['Soleil', 'sans-serif'],
+        'athelas': ['Athelas', 'serif'],
+      },
+      spacing: {
+        '84': '21rem',
+        '100': '25rem',
       }
     },
   },
   plugins: [],
+  // BrightSign compatibility settings
+  corePlugins: {
+    // Disable features that might cause issues on BrightSign
+    backdropBlur: false,
+    backdropFilter: false,
+    backdropGrayscale: false,
+    backdropHueRotate: false,
+    backdropInvert: false,
+    backdropOpacity: false,
+    backdropSaturate: false,
+    backdropSepia: false,
+  }
 }
