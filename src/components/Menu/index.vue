@@ -17,7 +17,7 @@ const goHome = () => {
     router.push('/');
 };
 
-const showLangPanel = ref(true);
+const showLangPanel = ref(false);
 const menuRef = ref<HTMLElement | null>(null);
 const { initializeLanguage } = useLanguage();
 
