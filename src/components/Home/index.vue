@@ -34,7 +34,7 @@ const navigateTo = (path: string) => {
           </div>
         </div>
       </div>
-      <div @click="navigateTo('/sheets')" class="bg-kaki flex items-center justify-center">
+      <div @click="navigateTo('/sheets?from=home')" class="bg-kaki flex items-center justify-center">
         <div class="h-84 flex flex-col items-center justify-between transform -translate-y-14">
           <div class="text-2xl font-athelas text-center leading-20" style="font-size: 70px;">
             {{ t('home.explanatorySheets') }}<br>

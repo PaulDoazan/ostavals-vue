@@ -5,12 +5,31 @@ import IconHome from '../Icon/Home.vue';
 import IconLang from '../Icon/Lang.vue';
 import LangPanel from './LangPanel.vue';
 import { useLanguage } from '../../composables/useLanguage';
-import { useRouter } from 'vue-router';
+import { useRouter, useRoute } from 'vue-router';
 
 const router = useRouter();
+const route = useRoute();
 
 const goBack = () => {
-    router.go(-1);
+    // Hierarchical navigation - go one level up in the navigation tree
+    const currentPath = route.path;
+
+    if (currentPath.startsWith('/presentation/')) {
+        // From presentation, go back to sheets
+        router.push('/sheets');
+    } else if (currentPath === '/sheets') {
+        // From sheets, go back to home
+        router.push('/');
+    } else if (currentPath === '/resources') {
+        // From resources, go back to home
+        router.push('/');
+    } else if (currentPath === '/videos') {
+        // From videos, go back to home
+        router.push('/');
+    } else {
+        // If we're already at home, do nothing (or could go to a previous app state)
+        // For now, just stay at home
+    }
 };
 
 const goHome = () => {

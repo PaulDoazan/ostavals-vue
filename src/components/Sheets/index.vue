@@ -1,13 +1,55 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted, watch } from 'vue'
+import { useRouter, useRoute } from 'vue-router'
 import Menu from '../Menu/index.vue'
 import Arrow from '../Icon/Arrow.vue'
 
 const { t } = useI18n()
+const router = useRouter()
+const route = useRoute()
 
-// Current page state
+// Current page state - restore from localStorage if available
 const currentPage = ref(0)
+
+
+
+// Watch for route changes to handle navigation from Home to Sheets
+watch(() => route.path, (newPath, oldPath) => {
+  if (newPath === '/sheets') {
+    // Check if we're coming from Home navigation via query parameter
+    if (route.query.from === 'home') {
+      // Fresh navigation from Home - reset to page 1 and clear saved state
+      currentPage.value = 0
+      localStorage.removeItem('sheets-current-page')
+    } else {
+      // Check if we have a saved page state (returning from presentation)
+      const savedPage = localStorage.getItem('sheets-current-page')
+      if (savedPage !== null) {
+        currentPage.value = parseInt(savedPage, 10)
+      }
+    }
+  }
+})
+
+// Set initial page state on component mount
+onMounted(() => {
+  // Check if we're coming from Home navigation via query parameter
+  if (route.query.from === 'home') {
+    // Fresh navigation from Home - reset to page 1 and clear saved state
+    currentPage.value = 0
+    localStorage.removeItem('sheets-current-page')
+  } else {
+    // Check if we have a saved page state (returning from presentation)
+    const savedPage = localStorage.getItem('sheets-current-page')
+    if (savedPage !== null) {
+      currentPage.value = parseInt(savedPage, 10)
+    } else {
+      // No saved state - start on first page
+      currentPage.value = 0
+    }
+  }
+})
 
 // 35 grid items
 const gridItems = [
@@ -63,18 +105,29 @@ const currentPageItems = computed(() => {
 const nextPage = () => {
   if (currentPage.value < totalPages - 1) {
     currentPage.value++
+    // Save current page to localStorage
+    localStorage.setItem('sheets-current-page', currentPage.value.toString())
   }
 }
 
 const prevPage = () => {
   if (currentPage.value > 0) {
     currentPage.value--
+    // Save current page to localStorage
+    localStorage.setItem('sheets-current-page', currentPage.value.toString())
   }
 }
 
 // Check if navigation is possible
 const canGoNext = computed(() => currentPage.value < totalPages - 1)
 const canGoPrev = computed(() => currentPage.value > 0)
+
+// Navigation to presentation
+const goToPresentation = (itemId: number) => {
+  // Save current page state before navigating
+  localStorage.setItem('sheets-current-page', currentPage.value.toString())
+  router.push(`/presentation/${itemId}`)
+}
 </script>
 
 <template>
@@ -91,7 +144,9 @@ const canGoPrev = computed(() => currentPage.value > 0)
       <!-- Grid that takes full width between title and menu -->
       <div class="px-20 pt-36 pb-40">
         <div class="grid grid-cols-5 grid-rows-3 gap-x-16 gap-y-12 h-full">
-          <div v-for="item in currentPageItems" :key="item.id" class="flex flex-col items-center justify-center">
+          <div v-for="item in currentPageItems" :key="item.id"
+            class="flex flex-col items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
+            @click="goToPresentation(item.id)">
             <!-- Thumbnail image -->
             <div class="mb-3 overflow-hidden">
               <img :src="item.thumbnail" :alt="item.title" class="w-full h-full object-cover" />
