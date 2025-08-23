@@ -1,12 +1,7 @@
 <script setup lang="ts">
-import { useI18n } from 'vue-i18n'
 import { ref, computed } from 'vue'
-import { useRouter } from 'vue-router'
 import Menu from '../Menu/index.vue'
 import Arrow from '../Icon/Arrow.vue'
-
-const { t } = useI18n()
-const router = useRouter()
 
 // Props
 interface Props {

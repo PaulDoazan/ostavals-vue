@@ -15,7 +15,7 @@ const currentPage = ref(0)
 
 
 // Watch for route changes to handle navigation from Home to Sheets
-watch(() => route.path, (newPath, oldPath) => {
+watch(() => route.path, (newPath) => {
   if (newPath === '/sheets') {
     // Check if we're coming from Home navigation via query parameter
     if (route.query.from === 'home') {
