@@ -2,11 +2,11 @@
   <div class="navigation-arrows">
     <!-- Previous page arrow -->
     <Arrow class="absolute bottom-10 right-56 rotate-180 cursor-pointer transition-opacity"
-      :class="{ 'opacity-0 cursor-none': !canGoPrev }" @click="handlePrevPage" />
+      :class="{ 'opacity-0 cursor-default': !canGoPrev }" @click="handlePrevPage" />
 
     <!-- Next page arrow -->
     <Arrow class="absolute bottom-10 right-20 cursor-pointer transition-opacity"
-      :class="{ 'opacity-0 cursor-none': !canGoNext }" @click="handleNextPage" />
+      :class="{ 'opacity-0 cursor-default': !canGoNext }" @click="handleNextPage" />
   </div>
 </template>
 

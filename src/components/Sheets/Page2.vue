@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
+import RedThinDecoration from '../Icon/RedThinDecoration.vue'
 
 // Props
 interface Props {
@@ -17,6 +18,7 @@ defineProps<Props>()
 <template>
   <div class="h-full flex items-start">
     <!-- Left side - Content -->
+    <RedThinDecoration class="absolute -top-48 right-56 rotate-90" />
     <div class="w-[45%] pr-20">
       <h2 class="text-3xl font-soleil font-bold text-black mb-8">
         {{ t('history') }}
