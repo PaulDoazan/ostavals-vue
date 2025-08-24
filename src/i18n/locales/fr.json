@@ -34,5 +34,7 @@
     "error": "Erreur",
     "success": "Succès",
     "back": "Retour à l'accueil"
-  }
+  },
+  "history": "Histoire",
+  "productionZone": "Zone de production"
 }

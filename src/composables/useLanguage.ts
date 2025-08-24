@@ -3,7 +3,9 @@ import { useI18n } from 'vue-i18n'
 
 export function useLanguage() {
   const { locale } = useI18n()
-  const currentLanguage = ref(locale.value)
+  
+  // Make currentLanguage computed from the i18n locale to ensure reactivity
+  const currentLanguage = computed(() => locale.value)
 
   const availableLanguages = [
     { code: 'fr', name: 'Français', nativeName: 'Français' },
@@ -16,7 +18,7 @@ export function useLanguage() {
 
   function switchLanguage(langCode: string) {
     if (['fr', 'eus'].includes(langCode)) {
-      currentLanguage.value = langCode
+      // Only update the i18n locale, currentLanguage will automatically update
       locale.value = langCode
       // Store in localStorage for persistence
       localStorage.setItem('preferred-language', langCode)

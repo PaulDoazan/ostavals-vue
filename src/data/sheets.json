@@ -1,805 +1,2043 @@
 [
   {
     "id": 1,
-    "title": "Patrimoine 1",
+    "title": {
+      "fr": "Patrimoine 1",
+      "eus": "Ondarea 1"
+    },
     "thumbnail": "/images/idlescreen.jpg",
     "pages": [
       {
-        "title": "Page 1",
-        "description": "La cerise d’Itxassou est connue pour sa confiture utilisée dans le traditionnel gâteau basque et en accompagnement du fromage AOP Ossau-Iraty. Si la cerise noire d’Itxassou (variétés Peloa et Beltxa) est la plus connue, il existe 6 autres variétés de cerises d’Itxassou que l’association Xapata a décidé de caractériser et de relancer. Du noir au jaune orangé, en passant par le rouge rubis, ces variétés rustiques de cerise sont des guignes qui ont toutes la particularité d’avoir la chair tendre, une saveur sucrée, plutôt un petit calibre et d’être bien adaptées au climat local. Dans l’attente de l’obtention d’une AOP, seuls les fruits frais et les confitures de cerises estampillées du logo « Cerise d’Itxassou – Itsasuko gerezia » garantissent une origine locale de la production, dans le respect d’un cahier des charges.",
-        "image": "/images/idlescreen.jpg"
+        "presentation": {
+          "fr": "La cerise d’Itxassou est connue pour sa confiture utilisée dans le traditionnel gâteau basque et en accompagnement du fromage AOP Ossau-Iraty. Si la cerise noire d’Itxassou (variétés Peloa et Beltxa) est la plus connue, il existe 6 autres variétés de cerises d’Itxassou que l’association Xapata a décidé de caractériser et de relancer. Du noir au jaune orangé, en passant par le rouge rubis, ces variétés rustiques de cerise sont des guignes qui ont toutes la particularité d’avoir la chair tendre, une saveur sucrée, plutôt un petit calibre et d’être bien adaptées au climat local. Dans l’attente de l’obtention d’une AOP, seuls les fruits frais et les confitures de cerises estampillées du logo « Cerise d’Itxassou – Itsasuko gerezia » garantissent une origine locale de la production, dans le respect d’un cahier des charges.",
+          "eus": "Itxassou gerezia ezaguna da bere marmeladagatik, ohikoa den euskarri-opiletan eta Ossau-Iraty DOP gaztaren lagungarri gisa erabiltzen baita. Itxassou gerezi beltza (Peloa eta Beltxa barietateak) ezagunena den arren, Xapata elkarteak beste 6 Itxassou gerezi barietate daude karakterizatu eta berriro merkaturatzea erabaki dituenak. Beltzetik hasi eta laranja-horiraino, errubi gorriraino, gerezi barietate rustiko hauek mami samurra, zapore gozoa, tamaina txiki samarra eta tokiko klimara ondo egokituta egotearen berezitasuna duten gereziak dira. DOP bat lortzeko zain, \"Cerise d'Itxassou - Itsasuko gerezia\" logotipoa duten fruta freskoek eta gerezi marmeladek soilik bermatzen dute ekoizpenaren tokiko jatorria, zehaztapenen arabera."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
       },
       {
-        "title": "Page 2",
-        "description": "Du noir au jaune orangé, en passant par le rouge rubis, ces variétés rustiques de cerise sont des guignes qui ont toutes la particularité d'avoir la chair tendre, une saveur sucrée, plutôt un petit calibre et d'être bien adaptées au climat local.",
-        "image": "/images/idlescreen.jpg"
+        "history": {
+          "fr": "Les vergers de cerisiers d’Itxassou remontent au moins au 18e siècle. La production est à son apogée au 19ème siècle jusqu’aux années 1960. Les producteurs en vendaient sur les marchés d’Itxassou mais aussi sur les marchés de Bayonne, Dax et même Bordeaux. La cerise d’Itxassou constituait alors le revenu principal de certaines fermes. Mais après la seconde guerre mondiale, les fermes se modernisent et se spécialisent notamment dans l’élevage de brebis laitières et l’arboriculture disparait peu à peu. En 1994, l’association Xapata est créée pour relancer, sauvegarder, promouvoir et développer la filière cerise d’Itxassou. A cette occasion, des travaux de greffage et de plantation sont initiés et un verger conservatoire est créé à Itxassou. Après plusieurs années de travail, une demande de reconnaissance en AOP a été déposée en 2023.",
+          "eus": "Itxassouko gereziondo-soroak gutxienez XVIII. mendekoak dira. Ekoizpena XIX. mendean iritsi zen gailurrera eta 1960ko hamarkadara arte jarraitu zuen. Ekoizleek Itxassouko merkatuetan saltzen zituzten, baita Baionako, Daxko eta baita Bordelekoetan ere. Itxassouko gereziak ziren baserri batzuen diru-iturri nagusia. Hala ere, Bigarren Mundu Gerraren ondoren, baserriak modernizatu eta esne-ardi hazkuntzan espezializatu ziren, eta zuhaitzen hazkuntza pixkanaka desagertu zen. 1994an, Xapata elkartea sortu zen Itxassouko gereziondo-industria berpizteko, babesteko, sustatzeko eta garatzeko. Txertoak eta landaketak hasi ziren, eta kontserbazio-soro bat sortu zen Itxassou-n. Hainbat urtez lan egin ondoren, JDB aitortza eskatzeko eskaera aurkeztu zen 2023an."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "Production et transformation dans l’aire géographique (66 communes situées dans les provinces du Labourd et de la Basse-Navarre).",
+          "eus": "Ekoizpena eta transformazioa Itxassouko eremu geografikoan (Labourd eta Basa Navarrako 66 komuna)."
+        }
       },
       {
-        "title": "Page 3",
-        "description": "Dans l'attente de l'obtention d'une AOP, seuls les fruits frais et les confitures de cerises estampillées du logo « Cerise d'Itxassou – Itsasuko gerezia » garantissent une origine locale de la production, dans le respect d'un cahier des charges.",
-        "image": "/images/idlescreen.jpg"
+        "characteristics": [
+          {
+            "fr": "8 variétés locales dont 3 principalement cultivées (Peloa, Xapata, Beltxa) et 5 moins connues (Bilarroa, Garroa, Goixtiarra, Markixta et Xuria)",
+            "eus": "8 gerezi lokalak daude, non-garrantzitsuak (Bilarroa, Garroa, Goixtiarra, Markixta eta Xuria) eta garrantzitsuak (Peloa, Xapata, Beltxa)"
+          },
+          {
+            "fr": "Traitements phytosanitaires et engrais de synthèse interdits",
+            "eus": "Ezin dira eragiketa fitosanitariak eta sintetikoak egiten"
+          },
+          {
+            "fr": "Sols sous arbres enherbés ou cultivés au moins 6 mois par an",
+            "eus": "Ez da iragazketa egin behar txertuetan 6 hilabete edo gehiago ekoizpena egitean"
+          },
+          {
+            "fr": "Irrigation des vergers adultes interdite pendant la fructification",
+            "eus": "Ez da iragazketa egin behar txertuetan 6 hilabete edo gehiago ekoizpena egitean"
+          }
+        ],
+        "products": [
+          {
+            "fr": "Cerise d’Itxassou – Itsasuko gerezia fraîche et Cerise d’Itxassou – Itsasuko gerezia transformée en confiture",
+            "eus": "Itxassou gerezia fraikia eta Itxassou gerezia transformatua marmeladatan"
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "33 producteurs (donnée 2023) - 1 verger conservatoire",
+            "eus": "33 ekoizle (2023ko datuak) - 1 kontserbazio-soro"
+          },
+          {
+            "fr": "Plus de 6 500 cerisiers recensés sur l’actuelle zone de production (en partie dans les provinces du Labourd et de la Basse Navarre)",
+            "eus": "6500 gereziak erregistratuta daude ekoizpen eremuan (Labourd eta Basa Navarrako provintzetan)"
+          },
+          {
+            "fr": "Production annuelle très variable selon les conditions climatiques, en moyenne entre 8 à 10 tonnes",
+            "eus": "Ekoizpena anua aldakorra da klima-baldintzak arabera, batez besteko 8 eta 10 toneladatara"
+          }
+        ],
+        "website": "https://www.itsasukogerezia.com/",
+        "observatory": "https://www.observatoire-cerise.com/cerise-itsasuko-gerezia"
       }
     ]
   },
   {
     "id": 2,
-    "title": "Patrimoine 2",
+    "title": {
+      "fr": "Patrimoine 2",
+      "eus": "Ondarea 2"
+    },
     "thumbnail": "/images/idlescreen.jpg",
-    "description": "Description for Patrimoine 2",
     "pages": [
       {
-        "title": "Page 1",
-        "description": "This is the first page content for Patrimoine 2.",
-        "image": "/images/idlescreen.jpg"
+        "presentation": {
+          "fr": "Présentation du patrimoine 2. Description détaillée de ce patrimoine culturel et historique.",
+          "eus": "2. ondarearen aurkezpena. Ondare kultural eta historiko honen deskribapen xehea."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
       },
       {
-        "title": "Page 2",
-        "description": "This is the second page content for Patrimoine 2.",
-        "image": "/images/idlescreen.jpg"
+        "history": {
+          "fr": "Histoire du patrimoine 2. Contexte historique et évolution au fil du temps.",
+          "eus": "2. ondarearen historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "Description de la zone de production et de l'aire géographique du patrimoine 2.",
+          "eus": "2. ondarearen ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+        }
       },
       {
-        "title": "Page 3",
-        "description": "This is the final page for Patrimoine 2.",
-        "image": "/images/idlescreen.jpg"
+        "characteristics": [
+          {
+            "fr": "Caractéristique principale du patrimoine 2",
+            "eus": "2. ondarearen ezaugarri nagusia"
+          },
+          {
+            "fr": "Deuxième caractéristique importante",
+            "eus": "Bigarren ezaugarri garrantzitsua"
+          },
+          {
+            "fr": "Troisième caractéristique distinctive",
+            "eus": "Hirugarren ezaugarri bereizgarria"
+          }
+        ],
+        "products": [
+          {
+            "fr": "Produits dérivés du patrimoine 2",
+            "eus": "2. ondaretik eratorritako produktuak"
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "Chiffres clés et statistiques du patrimoine 2",
+            "eus": "2. ondarearen zenbaki gakoak eta estatistikak"
+          }
+        ],
+        "website": "https://example.com",
+        "observatory": "https://observatory.example.com"
       }
     ]
   },
   {
     "id": 3,
-    "title": "Patrimoine 3",
+    "title": {
+      "fr": "Patrimoine 3",
+      "eus": "Ondarea 3"
+    },
     "thumbnail": "/images/idlescreen.jpg",
-    "description": "Description for Patrimoine 3",
     "pages": [
       {
-        "title": "Page 1",
-        "description": "This is the first page content for Patrimoine 3.",
-        "image": "/images/idlescreen.jpg"
+        "presentation": {
+          "fr": "Présentation du patrimoine 3. Description détaillée de ce patrimoine culturel et historique.",
+          "eus": "3. ondarearen aurkezpena. Ondare kultural eta historiko honen deskribapen xehea."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
       },
       {
-        "title": "Page 2",
-        "description": "This is the second page content for Patrimoine 3.",
-        "image": "/images/idlescreen.jpg"
+        "history": {
+          "fr": "Histoire du patrimoine 3. Contexte historique et évolution au fil du temps.",
+          "eus": "3. ondarearen historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "Description de la zone de production et de l'aire géographique du patrimoine 3.",
+          "eus": "3. ondarearen ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+        }
       },
       {
-        "title": "Page 3",
-        "description": "This is the final page for Patrimoine 3.",
-        "image": "/images/idlescreen.jpg"
+        "characteristics": [
+          {
+            "fr": "Caractéristique principale du patrimoine 3",
+            "eus": "3. ondarearen ezaugarri nagusia"
+          },
+          {
+            "fr": "Deuxième caractéristique importante",
+            "eus": "Bigarren ezaugarri garrantzitsua"
+          },
+          {
+            "fr": "Troisième caractéristique distinctive",
+            "eus": "Hirugarren ezaugarri bereizgarria"
+          }
+        ],
+        "products": [
+          {
+            "fr": "Produits dérivés du patrimoine 3",
+            "eus": "3. ondaretik eratorritako produktuak"
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "Chiffres clés et statistiques du patrimoine 3",
+            "eus": "3. ondarearen zenbaki gakoak eta estatistikak"
+          }
+        ],
+        "website": "https://example.com",
+        "observatory": "https://observatory.example.com"
       }
     ]
   },
   {
     "id": 4,
-    "title": "Patrimoine 4",
+    "title": {
+      "fr": "Patrimoine 4",
+      "eus": "Ondarea 4"
+    },
     "thumbnail": "/images/idlescreen.jpg",
-    "description": "Description for Patrimoine 4",
     "pages": [
       {
-        "title": "Page 1",
-        "description": "This is the first page content for Patrimoine 4.",
-        "image": "/images/idlescreen.jpg"
+        "presentation": {
+          "fr": "Présentation du patrimoine 4. Description détaillée de ce patrimoine culturel et historique.",
+          "eus": "4. ondarearen aurkezpena. Ondare kultural eta historiko honen deskribapen xehea."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
       },
       {
-        "title": "Page 2",
-        "description": "This is the second page content for Patrimoine 4.",
-        "image": "/images/idlescreen.jpg"
+        "history": {
+          "fr": "Histoire du patrimoine 4. Contexte historique et évolution au fil du temps.",
+          "eus": "4. ondarearen historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "Description de la zone de production et de l'aire géographique du patrimoine 4.",
+          "eus": "4. ondarearen ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+        }
       },
       {
-        "title": "Page 3",
-        "description": "This is the final page for Patrimoine 4.",
-        "image": "/images/idlescreen.jpg"
+        "characteristics": [
+          {
+            "fr": "Caractéristique principale du patrimoine 4",
+            "eus": "4. ondarearen ezaugarri nagusia"
+          },
+          {
+            "fr": "Deuxième caractéristique importante",
+            "eus": "Bigarren ezaugarri garrantzitsua"
+          },
+          {
+            "fr": "Troisième caractéristique distinctive",
+            "eus": "Hirugarren ezaugarri bereizgarria"
+          }
+        ],
+        "products": [
+          {
+            "fr": "Produits dérivés du patrimoine 4",
+            "eus": "4. ondaretik eratorritako produktuak"
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "Chiffres clés et statistiques du patrimoine 4",
+            "eus": "4. ondarearen zenbaki gakoak eta estatistikak"
+          }
+        ],
+        "website": "https://example.com",
+        "observatory": "https://observatory.example.com"
       }
     ]
   },
   {
     "id": 5,
-    "title": "Patrimoine 5",
+    "title": {
+      "fr": "Patrimoine 5",
+      "eus": "Ondarea 5"
+    },
     "thumbnail": "/images/idlescreen.jpg",
-    "description": "Description for Patrimoine 5",
     "pages": [
       {
-        "title": "Page 1",
-        "description": "This is the first page content for Patrimoine 5.",
-        "image": "/images/idlescreen.jpg"
+        "presentation": {
+          "fr": "Présentation du patrimoine 5. Description détaillée de ce patrimoine culturel et historique.",
+          "eus": "5. ondarearen aurkezpena. Ondare kultural eta historiko honen deskribapen xehea."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
       },
       {
-        "title": "Page 2",
-        "description": "This is the second page content for Patrimoine 5.",
-        "image": "/images/idlescreen.jpg"
+        "history": {
+          "fr": "Histoire du patrimoine 5. Contexte historique et évolution au fil du temps.",
+          "eus": "5. ondarearen historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "Description de la zone de production et de l'aire géographique du patrimoine 5.",
+          "eus": "5. ondarearen ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+        }
       },
       {
-        "title": "Page 3",
-        "description": "This is the final page for Patrimoine 5.",
-        "image": "/images/idlescreen.jpg"
+        "characteristics": [
+          {
+            "fr": "Caractéristique principale du patrimoine 5",
+            "eus": "5. ondarearen ezaugarri nagusia"
+          },
+          {
+            "fr": "Deuxième caractéristique importante",
+            "eus": "Bigarren ezaugarri garrantzitsua"
+          },
+          {
+            "fr": "Troisième caractéristique distinctive",
+            "eus": "Hirugarren ezaugarri bereizgarria"
+          }
+        ],
+        "products": [
+          {
+            "fr": "Produits dérivés du patrimoine 5",
+            "eus": "5. ondaretik eratorritako produktuak"
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "Chiffres clés et statistiques du patrimoine 5",
+            "eus": "5. ondarearen zenbaki gakoak eta estatistikak"
+          }
+        ],
+        "website": "https://example.com",
+        "observatory": "https://observatory.example.com"
       }
     ]
   },
   {
     "id": 6,
-    "title": "Patrimoine 6",
+    "title": {
+      "fr": "Patrimoine 6",
+      "eus": "Ondarea 6"
+    },
     "thumbnail": "/images/idlescreen.jpg",
-    "description": "Description for Patrimoine 6",
     "pages": [
       {
-        "title": "Page 1",
-        "description": "This is the first page content for Patrimoine 6.",
-        "image": "/images/idlescreen.jpg"
+        "presentation": {
+          "fr": "Présentation du patrimoine 6. Description détaillée de ce patrimoine culturel et historique.",
+          "eus": "6. ondarearen aurkezpena. Ondare kultural eta historiko honen deskribapen xehea."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
       },
       {
-        "title": "Page 2",
-        "description": "This is the second page content for Patrimoine 6.",
-        "image": "/images/idlescreen.jpg"
+        "history": {
+          "fr": "Histoire du patrimoine 6. Contexte historique et évolution au fil du temps.",
+          "eus": "6. ondarearen historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "Description de la zone de production et de l'aire géographique du patrimoine 6.",
+          "eus": "6. ondarearen ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+        }
       },
       {
-        "title": "Page 3",
-        "description": "This is the final page for Patrimoine 6.",
-        "image": "/images/idlescreen.jpg"
+        "characteristics": [
+          {
+            "fr": "Caractéristique principale du patrimoine 6",
+            "eus": "6. ondarearen ezaugarri nagusia"
+          },
+          {
+            "fr": "Deuxième caractéristique importante",
+            "eus": "Bigarren ezaugarri garrantzitsua"
+          },
+          {
+            "fr": "Troisième caractéristique distinctive",
+            "eus": "Hirugarren ezaugarri bereizgarria"
+          }
+        ],
+        "products": [
+          {
+            "fr": "Produits dérivés du patrimoine 6",
+            "eus": "6. ondaretik eratorritako produktuak"
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "Chiffres clés et statistiques du patrimoine 6",
+            "eus": "6. ondarearen zenbaki gakoak eta estatistikak"
+          }
+        ],
+        "website": "https://example.com",
+        "observatory": "https://observatory.example.com"
       }
     ]
   },
   {
     "id": 7,
-    "title": "Patrimoine 7",
+    "title": {
+      "fr": "Patrimoine 7",
+      "eus": "Ondarea 7"
+    },
     "thumbnail": "/images/idlescreen.jpg",
-    "description": "Description for Patrimoine 7",
     "pages": [
       {
-        "title": "Page 1",
-        "description": "This is the first page content for Patrimoine 7.",
-        "image": "/images/idlescreen.jpg"
+        "presentation": {
+          "fr": "Présentation du patrimoine 7. Description détaillée de ce patrimoine culturel et historique.",
+          "eus": "7. ondarearen aurkezpena. Ondare kultural eta historiko honen deskribapen xehea."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
       },
       {
-        "title": "Page 2",
-        "description": "This is the second page content for Patrimoine 7.",
-        "image": "/images/idlescreen.jpg"
+        "history": {
+          "fr": "Histoire du patrimoine 7. Contexte historique et évolution au fil du temps.",
+          "eus": "7. ondarearen historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "Description de la zone de production et de l'aire géographique du patrimoine 7.",
+          "eus": "7. ondarearen ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+        }
       },
       {
-        "title": "Page 3",
-        "description": "This is the final page for Patrimoine 7.",
-        "image": "/images/idlescreen.jpg"
+        "characteristics": [
+          {
+            "fr": "Caractéristique principale du patrimoine 7",
+            "eus": "7. ondarearen ezaugarri nagusia"
+          },
+          {
+            "fr": "Deuxième caractéristique importante",
+            "eus": "Bigarren ezaugarri garrantzitsua"
+          },
+          {
+            "fr": "Troisième caractéristique distinctive",
+            "eus": "Hirugarren ezaugarri bereizgarria"
+          }
+        ],
+        "products": [
+          {
+            "fr": "Produits dérivés du patrimoine 7",
+            "eus": "7. ondaretik eratorritako produktuak"
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "Chiffres clés et statistiques du patrimoine 7",
+            "eus": "7. ondarearen zenbaki gakoak eta estatistikak"
+          }
+        ],
+        "website": "https://example.com",
+        "observatory": "https://observatory.example.com"
       }
     ]
   },
   {
     "id": 8,
-    "title": "Patrimoine 8",
+    "title": {
+      "fr": "Patrimoine 8",
+      "eus": "Ondarea 8"
+    },
     "thumbnail": "/images/idlescreen.jpg",
-    "description": "Description for Patrimoine 8",
     "pages": [
       {
-        "title": "Page 1",
-        "description": "This is the first page content for Patrimoine 8.",
-        "image": "/images/idlescreen.jpg"
+        "presentation": {
+          "fr": "Présentation du patrimoine 8. Description détaillée de ce patrimoine culturel et historique.",
+          "eus": "8. ondarearen aurkezpena. Ondare kultural eta historiko honen deskribapen xehea."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
       },
       {
-        "title": "Page 2",
-        "description": "This is the second page content for Patrimoine 8.",
-        "image": "/images/idlescreen.jpg"
+        "history": {
+          "fr": "Histoire du patrimoine 8. Contexte historique et évolution au fil du temps.",
+          "eus": "8. ondarearen historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "Description de la zone de production et de l'aire géographique du patrimoine 8.",
+          "eus": "8. ondarearen ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+        }
       },
       {
-        "title": "Page 3",
-        "description": "This is the final page for Patrimoine 8.",
-        "image": "/images/idlescreen.jpg"
+        "characteristics": [
+          {
+            "fr": "Caractéristique principale du patrimoine 8",
+            "eus": "8. ondarearen ezaugarri nagusia"
+          },
+          {
+            "fr": "Deuxième caractéristique importante",
+            "eus": "Bigarren ezaugarri garrantzitsua"
+          },
+          {
+            "fr": "Troisième caractéristique distinctive",
+            "eus": "Hirugarren ezaugarri bereizgarria"
+          }
+        ],
+        "products": [
+          {
+            "fr": "Produits dérivés du patrimoine 8",
+            "eus": "8. ondaretik eratorritako produktuak"
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "Chiffres clés et statistiques du patrimoine 8",
+            "eus": "8. ondarearen zenbaki gakoak eta estatistikak"
+          }
+        ],
+        "website": "https://example.com",
+        "observatory": "https://observatory.example.com"
       }
     ]
   },
   {
     "id": 9,
-    "title": "Patrimoine 9",
+    "title": {
+      "fr": "Patrimoine 9",
+      "eus": "Ondarea 9"
+    },
     "thumbnail": "/images/idlescreen.jpg",
-    "description": "Description for Patrimoine 9",
     "pages": [
       {
-        "title": "Page 1",
-        "description": "This is the first page content for Patrimoine 9.",
-        "image": "/images/idlescreen.jpg"
+        "presentation": {
+          "fr": "Présentation du patrimoine 9. Description détaillée de ce patrimoine culturel et historique.",
+          "eus": "9. ondarearen aurkezpena. Ondare kultural eta historiko honen deskribapen xehea."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
       },
       {
-        "title": "Page 2",
-        "description": "This is the second page content for Patrimoine 9.",
-        "image": "/images/idlescreen.jpg"
+        "history": {
+          "fr": "Histoire du patrimoine 9. Contexte historique et évolution au fil du temps.",
+          "eus": "9. ondarearen historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "Description de la zone de production et de l'aire géographique du patrimoine 9.",
+          "eus": "9. ondarearen ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+        }
       },
       {
-        "title": "Page 3",
-        "description": "This is the final page for Patrimoine 9.",
-        "image": "/images/idlescreen.jpg"
+        "characteristics": [
+          {
+            "fr": "Caractéristique principale du patrimoine 9",
+            "eus": "9. ondarearen ezaugarri nagusia"
+          },
+          {
+            "fr": "Deuxième caractéristique importante",
+            "eus": "Bigarren ezaugarri garrantzitsua"
+          },
+          {
+            "fr": "Troisième caractéristique distinctive",
+            "eus": "Hirugarren ezaugarri bereizgarria"
+          }
+        ],
+        "products": [
+          {
+            "fr": "Produits dérivés du patrimoine 9",
+            "eus": "9. ondaretik eratorritako produktuak"
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "Chiffres clés et statistiques du patrimoine 9",
+            "eus": "9. ondarearen zenbaki gakoak eta estatistikak"
+          }
+        ],
+        "website": "https://example.com",
+        "observatory": "https://observatory.example.com"
       }
     ]
   },
   {
     "id": 10,
-    "title": "Patrimoine 10",
+    "title": {
+      "fr": "Patrimoine 10",
+      "eus": "Ondarea 10"
+    },
     "thumbnail": "/images/idlescreen.jpg",
-    "description": "Description for Patrimoine 10",
     "pages": [
       {
-        "title": "Page 1",
-        "description": "This is the first page content for Patrimoine 10.",
-        "image": "/images/idlescreen.jpg"
+        "presentation": {
+          "fr": "Présentation du patrimoine 10. Description détaillée de ce patrimoine culturel et historique.",
+          "eus": "10. ondarearen aurkezpena. Ondare kultural eta historiko honen deskribapen xehea."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
       },
       {
-        "title": "Page 2",
-        "description": "This is the second page content for Patrimoine 10.",
-        "image": "/images/idlescreen.jpg"
+        "history": {
+          "fr": "Histoire du patrimoine 10. Contexte historique et évolution au fil du temps.",
+          "eus": "10. ondarearen historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "Description de la zone de production et de l'aire géographique du patrimoine 10.",
+          "eus": "10. ondarearen ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+        }
       },
       {
-        "title": "Page 3",
-        "description": "This is the final page for Patrimoine 10.",
-        "image": "/images/idlescreen.jpg"
+        "characteristics": [
+          {
+            "fr": "Caractéristique principale du patrimoine 10",
+            "eus": "10. ondarearen ezaugarri nagusia"
+          },
+          {
+            "fr": "Deuxième caractéristique importante",
+            "eus": "Bigarren ezaugarri garrantzitsua"
+          },
+          {
+            "fr": "Troisième caractéristique distinctive",
+            "eus": "Hirugarren ezaugarri bereizgarria"
+          }
+        ],
+        "products": [
+          {
+            "fr": "Produits dérivés du patrimoine 10",
+            "eus": "10. ondaretik eratorritako produktuak"
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "Chiffres clés et statistiques du patrimoine 10",
+            "eus": "10. ondarearen zenbaki gakoak eta estatistikak"
+          }
+        ],
+        "website": "https://example.com",
+        "observatory": "https://observatory.example.com"
       }
     ]
   },
   {
     "id": 11,
-    "title": "Filière 1",
+    "title": {
+      "fr": "Filière 1",
+      "eus": "Filière 1"
+    },
     "thumbnail": "/images/idlescreen.jpg",
-    "description": "Description for Filière 1",
     "pages": [
       {
-        "title": "Page 1",
-        "description": "This is the first page content for Filière 1.",
-        "image": "/images/idlescreen.jpg"
+        "presentation": {
+          "fr": "Présentation de la filière 1. Description détaillée de cette filière économique et culturelle.",
+          "eus": "1. filièrearen aurkezpena. Filière ekonomiko eta kultural honen deskribapen xehea."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
       },
       {
-        "title": "Page 2",
-        "description": "This is the second page content for Filière 1.",
-        "image": "/images/idlescreen.jpg"
+        "history": {
+          "fr": "Histoire de la filière 1. Contexte historique et évolution au fil du temps.",
+          "eus": "1. filièrearen historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "Description de la zone de production et de l'aire géographique de la filière 1.",
+          "eus": "1. filièrearen ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+        }
       },
       {
-        "title": "Page 3",
-        "description": "This is the final page for Filière 1.",
-        "image": "/images/idlescreen.jpg"
+        "characteristics": [
+          {
+            "fr": "Caractéristique principale de la filière 1",
+            "eus": "1. filièrearen ezaugarri nagusia"
+          },
+          {
+            "fr": "Deuxième caractéristique importante",
+            "eus": "Bigarren ezaugarri garrantzitsua"
+          },
+          {
+            "fr": "Troisième caractéristique distinctive",
+            "eus": "Hirugarren ezaugarri bereizgarria"
+          }
+        ],
+        "products": [
+          {
+            "fr": "Produits dérivés de la filière 1",
+            "eus": "1. filièreatik eratorritako produktuak"
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "Chiffres clés et statistiques de la filière 1",
+            "eus": "1. filièrearen zenbaki gakoak eta estatistikak"
+          }
+        ],
+        "website": "https://example.com",
+        "observatory": "https://observatory.example.com"
       }
     ]
   },
   {
     "id": 12,
-    "title": "Filière 2",
+    "title": {
+      "fr": "Filière 2",
+      "eus": "Filière 2"
+    },
     "thumbnail": "/images/idlescreen.jpg",
-    "description": "Description for Filière 2",
     "pages": [
       {
-        "title": "Page 1",
-        "description": "This is the first page content for Filière 2.",
-        "image": "/images/idlescreen.jpg"
+        "presentation": {
+          "fr": "Présentation de la filière 2. Description détaillée de cette filière économique et culturelle.",
+          "eus": "2. filièrearen aurkezpena. Filière ekonomiko eta kultural honen deskribapen xehea."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
       },
       {
-        "title": "Page 2",
-        "description": "This is the second page content for Filière 2.",
-        "image": "/images/idlescreen.jpg"
+        "history": {
+          "fr": "Histoire de la filière 2. Contexte historique et évolution au fil du temps.",
+          "eus": "2. filièrearen historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "Description de la zone de production et de l'aire géographique de la filière 2.",
+          "eus": "2. filièrearen ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+        }
       },
       {
-        "title": "Page 3",
-        "description": "This is the final page for Filière 2.",
-        "image": "/images/idlescreen.jpg"
+        "characteristics": [
+          {
+            "fr": "Caractéristique principale de la filière 2",
+            "eus": "2. filièrearen ezaugarri nagusia"
+          },
+          {
+            "fr": "Deuxième caractéristique importante",
+            "eus": "Bigarren ezaugarri garrantzitsua"
+          },
+          {
+            "fr": "Troisième caractéristique distinctive",
+            "eus": "Hirugarren ezaugarri bereizgarria"
+          }
+        ],
+        "products": [
+          {
+            "fr": "Produits dérivés de la filière 2",
+            "eus": "2. filièreatik eratorritako produktuak"
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "Chiffres clés et statistiques de la filière 2",
+            "eus": "2. filièrearen zenbaki gakoak eta estatistikak"
+          }
+        ],
+        "website": "https://example.com",
+        "observatory": "https://observatory.example.com"
       }
     ]
   },
   {
     "id": 13,
-    "title": "Filière 3",
+    "title": {
+      "fr": "Filière 3",
+      "eus": "Filière 3"
+    },
     "thumbnail": "/images/idlescreen.jpg",
-    "description": "Description for Filière 3",
     "pages": [
       {
-        "title": "Page 1",
-        "description": "This is the first page content for Filière 3.",
-        "image": "/images/idlescreen.jpg"
+        "presentation": {
+          "fr": "Présentation de la filière 3. Description détaillée de cette filière économique et culturelle.",
+          "eus": "3. filièrearen aurkezpena. Filière ekonomiko eta kultural honen deskribapen xehea."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
       },
       {
-        "title": "Page 2",
-        "description": "This is the second page content for Filière 3.",
-        "image": "/images/idlescreen.jpg"
+        "history": {
+          "fr": "Histoire de la filière 3. Contexte historique et évolution au fil du temps.",
+          "eus": "3. filièrearen historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "Description de la zone de production et de l'aire géographique de la filière 3.",
+          "eus": "3. filièrearen ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+        }
       },
       {
-        "title": "Page 3",
-        "description": "This is the final page for Filière 3.",
-        "image": "/images/idlescreen.jpg"
+        "characteristics": [
+          {
+            "fr": "Caractéristique principale de la filière 3",
+            "eus": "3. filièrearen ezaugarri nagusia"
+          },
+          {
+            "fr": "Deuxième caractéristique importante",
+            "eus": "Bigarren ezaugarri garrantzitsua"
+          },
+          {
+            "fr": "Troisième caractéristique distinctive",
+            "eus": "Hirugarren ezaugarri bereizgarria"
+          }
+        ],
+        "products": [
+          {
+            "fr": "Produits dérivés de la filière 3",
+            "eus": "3. filièreatik eratorritako produktuak"
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "Chiffres clés et statistiques de la filière 3",
+            "eus": "3. filièrearen zenbaki gakoak eta estatistikak"
+          }
+        ],
+        "website": "https://example.com",
+        "observatory": "https://observatory.example.com"
       }
     ]
   },
   {
     "id": 14,
-    "title": "Filière 4",
+    "title": {
+      "fr": "Filière 4",
+      "eus": "Filière 4"
+    },
     "thumbnail": "/images/idlescreen.jpg",
-    "description": "Description for Filière 4",
     "pages": [
       {
-        "title": "Page 1",
-        "description": "This is the first page content for Filière 4.",
-        "image": "/images/idlescreen.jpg"
+        "presentation": {
+          "fr": "Présentation de la filière 4. Description détaillée de cette filière économique et culturelle.",
+          "eus": "4. filièrearen aurkezpena. Filière ekonomiko eta kultural honen deskribapen xehea."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
       },
       {
-        "title": "Page 2",
-        "description": "This is the second page content for Filière 4.",
-        "image": "/images/idlescreen.jpg"
+        "history": {
+          "fr": "Histoire de la filière 4. Contexte historique et évolution au fil du temps.",
+          "eus": "4. filièrearen historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "Description de la zone de production et de l'aire géographique de la filière 4.",
+          "eus": "4. filièrearen ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+        }
       },
       {
-        "title": "Page 3",
-        "description": "This is the final page for Filière 4.",
-        "image": "/images/idlescreen.jpg"
+        "characteristics": [
+          {
+            "fr": "Caractéristique principale de la filière 4",
+            "eus": "4. filièrearen ezaugarri nagusia"
+          },
+          {
+            "fr": "Deuxième caractéristique importante",
+            "eus": "Bigarren ezaugarri garrantzitsua"
+          },
+          {
+            "fr": "Troisième caractéristique distinctive",
+            "eus": "Hirugarren ezaugarri bereizgarria"
+          }
+        ],
+        "products": [
+          {
+            "fr": "Produits dérivés de la filière 4",
+            "eus": "4. filièreatik eratorritako produktuak"
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "Chiffres clés et statistiques de la filière 4",
+            "eus": "4. filièrearen zenbaki gakoak eta estatistikak"
+          }
+        ],
+        "website": "https://example.com",
+        "observatory": "https://observatory.example.com"
       }
     ]
   },
   {
     "id": 15,
-    "title": "Filière 5",
+    "title": {
+      "fr": "Filière 5",
+      "eus": "Filière 5"
+    },
     "thumbnail": "/images/idlescreen.jpg",
-    "description": "Description for Filière 5",
     "pages": [
       {
-        "title": "Page 1",
-        "description": "This is the first page content for Filière 5.",
-        "image": "/images/idlescreen.jpg"
+        "presentation": {
+          "fr": "Présentation de la filière 5. Description détaillée de cette filière économique et culturelle.",
+          "eus": "5. filièrearen aurkezpena. Filière ekonomiko eta kultural honen deskribapen xehea."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
       },
       {
-        "title": "Page 2",
-        "description": "This is the second page content for Filière 5.",
-        "image": "/images/idlescreen.jpg"
+        "history": {
+          "fr": "Histoire de la filière 5. Contexte historique et évolution au fil du temps.",
+          "eus": "5. filièrearen historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "Description de la zone de production et de l'aire géographique de la filière 5.",
+          "eus": "5. filièrearen ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+        }
       },
       {
-        "title": "Page 3",
-        "description": "This is the final page for Filière 5.",
-        "image": "/images/idlescreen.jpg"
+        "characteristics": [
+          {
+            "fr": "Caractéristique principale de la filière 5",
+            "eus": "5. filièrearen ezaugarri nagusia"
+          },
+          {
+            "fr": "Deuxième caractéristique importante",
+            "eus": "Bigarren ezaugarri garrantzitsua"
+          },
+          {
+            "fr": "Troisième caractéristique distinctive",
+            "eus": "Hirugarren ezaugarri bereizgarria"
+          }
+        ],
+        "products": [
+          {
+            "fr": "Produits dérivés de la filière 5",
+            "eus": "5. filièreatik eratorritako produktuak"
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "Chiffres clés et statistiques de la filière 5",
+            "eus": "5. filièrearen zenbaki gakoak eta estatistikak"
+          }
+        ],
+        "website": "https://example.com",
+        "observatory": "https://observatory.example.com"
       }
     ]
   },
   {
     "id": 16,
-    "title": "Filière 6",
+    "title": {
+      "fr": "Filière 6",
+      "eus": "Filière 6"
+    },
     "thumbnail": "/images/idlescreen.jpg",
-    "description": "Description for Filière 6",
     "pages": [
       {
-        "title": "Page 1",
-        "description": "This is the first page content for Filière 6.",
-        "image": "/images/idlescreen.jpg"
+        "presentation": {
+          "fr": "Présentation de la filière 6. Description détaillée de cette filière économique et culturelle.",
+          "eus": "6. filièrearen aurkezpena. Filière ekonomiko eta kultural honen deskribapen xehea."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
       },
       {
-        "title": "Page 2",
-        "description": "This is the second page content for Filière 6.",
-        "image": "/images/idlescreen.jpg"
+        "history": {
+          "fr": "Histoire de la filière 6. Contexte historique et évolution au fil du temps.",
+          "eus": "6. filièrearen historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "Description de la zone de production et de l'aire géographique de la filière 6.",
+          "eus": "6. filièrearen ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+        }
       },
       {
-        "title": "Page 3",
-        "description": "This is the final page for Filière 6.",
-        "image": "/images/idlescreen.jpg"
+        "characteristics": [
+          {
+            "fr": "Caractéristique principale de la filière 6",
+            "eus": "6. filièrearen ezaugarri nagusia"
+          },
+          {
+            "fr": "Deuxième caractéristique importante",
+            "eus": "Bigarren ezaugarri garrantzitsua"
+          },
+          {
+            "fr": "Troisième caractéristique distinctive",
+            "eus": "Hirugarren ezaugarri bereizgarria"
+          }
+        ],
+        "products": [
+          {
+            "fr": "Produits dérivés de la filière 6",
+            "eus": "6. filièreatik eratorritako produktuak"
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "Chiffres clés et statistiques de la filière 6",
+            "eus": "6. filièrearen zenbaki gakoak eta estatistikak"
+          }
+        ],
+        "website": "https://example.com",
+        "observatory": "https://observatory.example.com"
       }
     ]
   },
   {
     "id": 17,
-    "title": "Filière 7",
+    "title": {
+      "fr": "Filière 7",
+      "eus": "Filière 7"
+    },
     "thumbnail": "/images/idlescreen.jpg",
-    "description": "Description for Filière 7",
     "pages": [
       {
-        "title": "Page 1",
-        "description": "This is the first page content for Filière 7.",
-        "image": "/images/idlescreen.jpg"
+        "presentation": {
+          "fr": "Présentation de la filière 7. Description détaillée de cette filière économique et culturelle.",
+          "eus": "7. filièrearen aurkezpena. Filière ekonomiko eta kultural honen deskribapen xehea."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
       },
       {
-        "title": "Page 2",
-        "description": "This is the second page content for Filière 7.",
-        "image": "/images/idlescreen.jpg"
+        "history": {
+          "fr": "Histoire de la filière 7. Contexte historique et évolution au fil du temps.",
+          "eus": "7. filièrearen historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "Description de la zone de production et de l'aire géographique de la filière 7.",
+          "eus": "7. filièrearen ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+        }
       },
       {
-        "title": "Page 3",
-        "description": "This is the final page for Filière 7.",
-        "image": "/images/idlescreen.jpg"
+        "characteristics": [
+          {
+            "fr": "Caractéristique principale de la filière 7",
+            "eus": "7. filièrearen ezaugarri nagusia"
+          },
+          {
+            "fr": "Deuxième caractéristique importante",
+            "eus": "Bigarren ezaugarri garrantzitsua"
+          },
+          {
+            "fr": "Troisième caractéristique distinctive",
+            "eus": "Hirugarren ezaugarri bereizgarria"
+          }
+        ],
+        "products": [
+          {
+            "fr": "Produits dérivés de la filière 7",
+            "eus": "7. filièreatik eratorritako produktuak"
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "Chiffres clés et statistiques de la filière 7",
+            "eus": "7. filièrearen zenbaki gakoak eta estatistikak"
+          }
+        ],
+        "website": "https://example.com",
+        "observatory": "https://observatory.example.com"
       }
     ]
   },
   {
     "id": 18,
-    "title": "Filière 8",
+    "title": {
+      "fr": "Filière 8",
+      "eus": "Filière 8"
+    },
     "thumbnail": "/images/idlescreen.jpg",
-    "description": "Description for Filière 8",
     "pages": [
       {
-        "title": "Page 1",
-        "description": "This is the first page content for Filière 8.",
-        "image": "/images/idlescreen.jpg"
+        "presentation": {
+          "fr": "Présentation de la filière 8. Description détaillée de cette filière économique et culturelle.",
+          "eus": "8. filièrearen aurkezpena. Filière ekonomiko eta kultural honen deskribapen xehea."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
       },
       {
-        "title": "Page 2",
-        "description": "This is the second page content for Filière 8.",
-        "image": "/images/idlescreen.jpg"
+        "history": {
+          "fr": "Histoire de la filière 8. Contexte historique et évolution au fil du temps.",
+          "eus": "8. filièrearen historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "Description de la zone de production et de l'aire géographique de la filière 8.",
+          "eus": "8. filièrearen ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+        }
       },
       {
-        "title": "Page 3",
-        "description": "This is the final page for Filière 8.",
-        "image": "/images/idlescreen.jpg"
+        "characteristics": [
+          {
+            "fr": "Caractéristique principale de la filière 8",
+            "eus": "8. filièrearen ezaugarri nagusia"
+          },
+          {
+            "fr": "Deuxième caractéristique importante",
+            "eus": "Bigarren ezaugarri garrantzitsua"
+          },
+          {
+            "fr": "Troisième caractéristique distinctive",
+            "eus": "Hirugarren ezaugarri bereizgarria"
+          }
+        ],
+        "products": [
+          {
+            "fr": "Produits dérivés de la filière 8",
+            "eus": "8. filièreatik eratorritako produktuak"
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "Chiffres clés et statistiques de la filière 8",
+            "eus": "8. filièrearen zenbaki gakoak eta estatistikak"
+          }
+        ],
+        "website": "https://example.com",
+        "observatory": "https://observatory.example.com"
       }
     ]
   },
   {
     "id": 19,
-    "title": "Filière 9",
+    "title": {
+      "fr": "Filière 9",
+      "eus": "Filière 9"
+    },
     "thumbnail": "/images/idlescreen.jpg",
-    "description": "Description for Filière 9",
     "pages": [
       {
-        "title": "Page 1",
-        "description": "This is the first page content for Filière 9.",
-        "image": "/images/idlescreen.jpg"
+        "presentation": {
+          "fr": "Présentation de la filière 9. Description détaillée de cette filière économique et culturelle.",
+          "eus": "9. filièrearen aurkezpena. Filière ekonomiko eta kultural honen deskribapen xehea."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
       },
       {
-        "title": "Page 2",
-        "description": "This is the second page content for Filière 9.",
-        "image": "/images/idlescreen.jpg"
+        "history": {
+          "fr": "Histoire de la filière 9. Contexte historique et évolution au fil du temps.",
+          "eus": "9. filièrearen historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "Description de la zone de production et de l'aire géographique de la filière 9.",
+          "eus": "9. filièrearen ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+        }
       },
       {
-        "title": "Page 3",
-        "description": "This is the final page for Filière 9.",
-        "image": "/images/idlescreen.jpg"
+        "characteristics": [
+          {
+            "fr": "Caractéristique principale de la filière 9",
+            "eus": "9. filièrearen ezaugarri nagusia"
+          },
+          {
+            "fr": "Deuxième caractéristique importante",
+            "eus": "Bigarren ezaugarri garrantzitsua"
+          },
+          {
+            "fr": "Troisième caractéristique distinctive",
+            "eus": "Hirugarren ezaugarri bereizgarria"
+          }
+        ],
+        "products": [
+          {
+            "fr": "Produits dérivés de la filière 9",
+            "eus": "9. filièreatik eratorritako produktuak"
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "Chiffres clés et statistiques de la filière 9",
+            "eus": "9. filièrearen zenbaki gakoak eta estatistikak"
+          }
+        ],
+        "website": "https://example.com",
+        "observatory": "https://observatory.example.com"
       }
     ]
   },
   {
     "id": 20,
-    "title": "Filière 10",
+    "title": {
+      "fr": "Filière 10",
+      "eus": "Filière 10"
+    },
     "thumbnail": "/images/idlescreen.jpg",
-    "description": "Description for Filière 10",
     "pages": [
       {
-        "title": "Page 1",
-        "description": "This is the first page content for Filière 10.",
-        "image": "/images/idlescreen.jpg"
+        "presentation": {
+          "fr": "Présentation de la filière 10. Description détaillée de cette filière économique et culturelle.",
+          "eus": "10. filièrearen aurkezpena. Filière ekonomiko eta kultural honen deskribapen xehea."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
       },
       {
-        "title": "Page 2",
-        "description": "This is the second page content for Filière 10.",
-        "image": "/images/idlescreen.jpg"
+        "history": {
+          "fr": "Histoire de la filière 10. Contexte historique et évolution au fil du temps.",
+          "eus": "10. filièrearen historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "Description de la zone de production et de l'aire géographique de la filière 10.",
+          "eus": "10. filièrearen ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+        }
       },
       {
-        "title": "Page 3",
-        "description": "This is the final page for Filière 10.",
-        "image": "/images/idlescreen.jpg"
+        "characteristics": [
+          {
+            "fr": "Caractéristique principale de la filière 10",
+            "eus": "10. filièrearen ezaugarri nagusia"
+          },
+          {
+            "fr": "Deuxième caractéristique importante",
+            "eus": "Bigarren ezaugarri garrantzitsua"
+          },
+          {
+            "fr": "Troisième caractéristique distinctive",
+            "eus": "Hirugarren ezaugarri bereizgarria"
+          }
+        ],
+        "products": [
+          {
+            "fr": "Produits dérivés de la filière 10",
+            "eus": "10. filièreatik eratorritako produktuak"
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "Chiffres clés et statistiques de la filière 10",
+            "eus": "10. filièrearen zenbaki gakoak eta estatistikak"
+          }
+        ],
+        "website": "https://example.com",
+        "observatory": "https://observatory.example.com"
       }
     ]
   },
   {
     "id": 21,
-    "title": "Production 1",
+    "title": {
+      "fr": "Production 1",
+      "eus": "Ekoizpena 1"
+    },
     "thumbnail": "/images/idlescreen.jpg",
-    "description": "Description for Production 1",
     "pages": [
       {
-        "title": "Page 1",
-        "description": "This is the first page content for Production 1.",
-        "image": "/images/idlescreen.jpg"
+        "presentation": {
+          "fr": "Présentation de la production 1. Description détaillée de cette production économique et culturelle.",
+          "eus": "1. ekoizpenaren aurkezpena. Ekoizpen ekonomiko eta kultural honen deskribapen xehea."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
       },
       {
-        "title": "Page 2",
-        "description": "This is the second page content for Production 1.",
-        "image": "/images/idlescreen.jpg"
+        "history": {
+          "fr": "Histoire de la production 1. Contexte historique et évolution au fil du temps.",
+          "eus": "1. ekoizpenaren historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "Description de la zone de production et de l'aire géographique de la production 1.",
+          "eus": "1. ekoizpenaren ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+        }
       },
       {
-        "title": "Page 3",
-        "description": "This is the final page for Production 1.",
-        "image": "/images/idlescreen.jpg"
+        "characteristics": [
+          {
+            "fr": "Caractéristique principale de la production 1",
+            "eus": "1. ekoizpenaren ezaugarri nagusia"
+          },
+          {
+            "fr": "Deuxième caractéristique importante",
+            "eus": "Bigarren ezaugarri garrantzitsua"
+          },
+          {
+            "fr": "Troisième caractéristique distinctive",
+            "eus": "Hirugarren ezaugarri bereizgarria"
+          }
+        ],
+        "products": [
+          {
+            "fr": "Produits dérivés de la production 1",
+            "eus": "1. ekoizpenatik eratorritako produktuak"
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "Chiffres clés et statistiques de la production 1",
+            "eus": "1. ekoizpenaren zenbaki gakoak eta estatistikak"
+          }
+        ],
+        "website": "https://example.com",
+        "observatory": "https://observatory.example.com"
       }
     ]
   },
   {
     "id": 22,
-    "title": "Production 2",
+    "title": {
+      "fr": "Production 2",
+      "eus": "Ekoizpena 2"
+    },
     "thumbnail": "/images/idlescreen.jpg",
-    "description": "Description for Production 2",
     "pages": [
       {
-        "title": "Page 1",
-        "description": "This is the first page content for Production 2.",
-        "image": "/images/idlescreen.jpg"
+        "presentation": {
+          "fr": "Présentation de la production 2. Description détaillée de cette production économique et culturelle.",
+          "eus": "2. ekoizpenaren aurkezpena. Ekoizpen ekonomiko eta kultural honen deskribapen xehea."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
       },
       {
-        "title": "Page 2",
-        "description": "This is the second page content for Production 2.",
-        "image": "/images/idlescreen.jpg"
+        "history": {
+          "fr": "Histoire de la production 2. Contexte historique et évolution au fil du temps.",
+          "eus": "2. ekoizpenaren historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "Description de la zone de production et de l'aire géographique de la production 2.",
+          "eus": "2. ekoizpenaren ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+        }
       },
       {
-        "title": "Page 3",
-        "description": "This is the final page for Production 2.",
-        "image": "/images/idlescreen.jpg"
+        "characteristics": [
+          {
+            "fr": "Caractéristique principale de la production 2",
+            "eus": "2. ekoizpenaren ezaugarri nagusia"
+          },
+          {
+            "fr": "Deuxième caractéristique importante",
+            "eus": "Bigarren ezaugarri garrantzitsua"
+          },
+          {
+            "fr": "Troisième caractéristique distinctive",
+            "eus": "Hirugarren ezaugarri bereizgarria"
+          }
+        ],
+        "products": [
+          {
+            "fr": "Produits dérivés de la production 2",
+            "eus": "2. ekoizpenatik eratorritako produktuak"
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "Chiffres clés et statistiques de la production 2",
+            "eus": "2. ekoizpenaren zenbaki gakoak eta estatistikak"
+          }
+        ],
+        "website": "https://example.com",
+        "observatory": "https://observatory.example.com"
       }
     ]
   },
   {
     "id": 23,
-    "title": "Production 3",
+    "title": {
+      "fr": "Production 3",
+      "eus": "Ekoizpena 3"
+    },
     "thumbnail": "/images/idlescreen.jpg",
-    "description": "Description for Production 3",
     "pages": [
       {
-        "title": "Page 1",
-        "description": "This is the first page content for Production 3.",
-        "image": "/images/idlescreen.jpg"
+        "presentation": {
+          "fr": "Présentation de la production 3. Description détaillée de cette production économique et culturelle.",
+          "eus": "3. ekoizpenaren aurkezpena. Ekoizpen ekonomiko eta kultural honen deskribapen xehea."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
       },
       {
-        "title": "Page 2",
-        "description": "This is the second page content for Production 3.",
-        "image": "/images/idlescreen.jpg"
+        "history": {
+          "fr": "Histoire de la production 3. Contexte historique et évolution au fil du temps.",
+          "eus": "3. ekoizpenaren historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "Description de la zone de production et de l'aire géographique de la production 3.",
+          "eus": "3. ekoizpenaren ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+        }
       },
       {
-        "title": "Page 3",
-        "description": "This is the final page for Production 3.",
-        "image": "/images/idlescreen.jpg"
+        "characteristics": [
+          {
+            "fr": "Caractéristique principale de la production 3",
+            "eus": "3. ekoizpenaren ezaugarri nagusia"
+          },
+          {
+            "fr": "Deuxième caractéristique importante",
+            "eus": "Bigarren ezaugarri garrantzitsua"
+          },
+          {
+            "fr": "Troisième caractéristique distinctive",
+            "eus": "Hirugarren ezaugarri bereizgarria"
+          }
+        ],
+        "products": [
+          {
+            "fr": "Produits dérivés de la production 3",
+            "eus": "3. ekoizpenatik eratorritako produktuak"
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "Chiffres clés et statistiques de la production 3",
+            "eus": "3. ekoizpenaren zenbaki gakoak eta estatistikak"
+          }
+        ],
+        "website": "https://example.com",
+        "observatory": "https://observatory.example.com"
       }
     ]
   },
   {
     "id": 24,
-    "title": "Production 4",
+    "title": {
+      "fr": "Production 4",
+      "eus": "Ekoizpena 4"
+    },
     "thumbnail": "/images/idlescreen.jpg",
-    "description": "Description for Production 4",
     "pages": [
       {
-        "title": "Page 1",
-        "description": "This is the first page content for Production 4.",
-        "image": "/images/idlescreen.jpg"
+        "presentation": {
+          "fr": "Présentation de la production 4. Description détaillée de cette production économique et culturelle.",
+          "eus": "4. ekoizpenaren aurkezpena. Ekoizpen ekonomiko eta kultural honen deskribapen xehea."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
       },
       {
-        "title": "Page 2",
-        "description": "This is the second page content for Production 4.",
-        "image": "/images/idlescreen.jpg"
+        "history": {
+          "fr": "Histoire de la production 4. Contexte historique et évolution au fil du temps.",
+          "eus": "4. ekoizpenaren historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "Description de la zone de production et de l'aire géographique de la production 4.",
+          "eus": "4. ekoizpenaren ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+        }
       },
       {
-        "title": "Page 3",
-        "description": "This is the final page for Production 4.",
-        "image": "/images/idlescreen.jpg"
+        "characteristics": [
+          {
+            "fr": "Caractéristique principale de la production 4",
+            "eus": "4. ekoizpenaren ezaugarri nagusia"
+          },
+          {
+            "fr": "Deuxième caractéristique importante",
+            "eus": "Bigarren ezaugarri garrantzitsua"
+          },
+          {
+            "fr": "Troisième caractéristique distinctive",
+            "eus": "Hirugarren ezaugarri bereizgarria"
+          }
+        ],
+        "products": [
+          {
+            "fr": "Produits dérivés de la production 4",
+            "eus": "4. ekoizpenatik eratorritako produktuak"
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "Chiffres clés et statistiques de la production 4",
+            "eus": "4. ekoizpenaren zenbaki gakoak eta estatistikak"
+          }
+        ],
+        "website": "https://example.com",
+        "observatory": "https://observatory.example.com"
       }
     ]
   },
   {
     "id": 25,
-    "title": "Production 5",
+    "title": {
+      "fr": "Production 5",
+      "eus": "Ekoizpena 5"
+    },
     "thumbnail": "/images/idlescreen.jpg",
-    "description": "Description for Production 5",
     "pages": [
       {
-        "title": "Page 1",
-        "description": "This is the first page content for Production 5.",
-        "image": "/images/idlescreen.jpg"
+        "presentation": {
+          "fr": "Présentation de la production 5. Description détaillée de cette production économique et culturelle.",
+          "eus": "5. ekoizpenaren aurkezpena. Ekoizpen ekonomiko eta kultural honen deskribapen xehea."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
       },
       {
-        "title": "Page 2",
-        "description": "This is the second page content for Production 5.",
-        "image": "/images/idlescreen.jpg"
+        "history": {
+          "fr": "Histoire de la production 5. Contexte historique et évolution au fil du temps.",
+          "eus": "5. ekoizpenaren historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "Description de la zone de production et de l'aire géographique de la production 5.",
+          "eus": "5. ekoizpenaren ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+        }
       },
       {
-        "title": "Page 3",
-        "description": "This is the final page for Production 5.",
-        "image": "/images/idlescreen.jpg"
+        "characteristics": [
+          {
+            "fr": "Caractéristique principale de la production 5",
+            "eus": "5. ekoizpenaren ezaugarri nagusia"
+          },
+          {
+            "fr": "Deuxième caractéristique importante",
+            "eus": "Bigarren ezaugarri garrantzitsua"
+          },
+          {
+            "fr": "Troisième caractéristique distinctive",
+            "eus": "Hirugarren ezaugarri bereizgarria"
+          }
+        ],
+        "products": [
+          {
+            "fr": "Produits dérivés de la production 5",
+            "eus": "5. ekoizpenatik eratorritako produktuak"
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "Chiffres clés et statistiques de la production 5",
+            "eus": "5. ekoizpenaren zenbaki gakoak eta estatistikak"
+          }
+        ],
+        "website": "https://example.com",
+        "observatory": "https://observatory.example.com"
       }
     ]
   },
   {
     "id": 26,
-    "title": "Production 6",
+    "title": {
+      "fr": "Production 6",
+      "eus": "Ekoizpena 6"
+    },
     "thumbnail": "/images/idlescreen.jpg",
-    "description": "Description for Production 6",
     "pages": [
       {
-        "title": "Page 1",
-        "description": "This is the first page content for Production 6.",
-        "image": "/images/idlescreen.jpg"
+        "presentation": {
+          "fr": "Présentation de la production 6. Description détaillée de cette production économique et culturelle.",
+          "eus": "6. ekoizpenaren aurkezpena. Ekoizpen ekonomiko eta kultural honen deskribapen xehea."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
       },
       {
-        "title": "Page 2",
-        "description": "This is the second page content for Production 6.",
-        "image": "/images/idlescreen.jpg"
+        "history": {
+          "fr": "Histoire de la production 6. Contexte historique et évolution au fil du temps.",
+          "eus": "6. ekoizpenaren historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "Description de la zone de production et de l'aire géographique de la production 6.",
+          "eus": "6. ekoizpenaren ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+        }
       },
       {
-        "title": "Page 3",
-        "description": "This is the final page for Production 6.",
-        "image": "/images/idlescreen.jpg"
+        "characteristics": [
+          {
+            "fr": "Caractéristique principale de la production 6",
+            "eus": "6. ekoizpenaren ezaugarri nagusia"
+          },
+          {
+            "fr": "Deuxième caractéristique importante",
+            "eus": "Bigarren ezaugarri garrantzitsua"
+          },
+          {
+            "fr": "Troisième caractéristique distinctive",
+            "eus": "Hirugarren ezaugarri bereizgarria"
+          }
+        ],
+        "products": [
+          {
+            "fr": "Produits dérivés de la production 6",
+            "eus": "6. ekoizpenatik eratorritako produktuak"
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "Chiffres clés et statistiques de la production 6",
+            "eus": "6. ekoizpenaren zenbaki gakoak eta estatistikak"
+          }
+        ],
+        "website": "https://example.com",
+        "observatory": "https://observatory.example.com"
       }
     ]
   },
   {
     "id": 27,
-    "title": "Production 7",
+    "title": {
+      "fr": "Production 7",
+      "eus": "Ekoizpena 7"
+    },
     "thumbnail": "/images/idlescreen.jpg",
-    "description": "Description for Production 7",
     "pages": [
       {
-        "title": "Page 1",
-        "description": "This is the first page content for Production 7.",
-        "image": "/images/idlescreen.jpg"
+        "presentation": {
+          "fr": "Présentation de la production 7. Description détaillée de cette production économique et culturelle.",
+          "eus": "7. ekoizpenaren aurkezpena. Ekoizpen ekonomiko eta kultural honen deskribapen xehea."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
       },
       {
-        "title": "Page 2",
-        "description": "This is the second page content for Production 7.",
-        "image": "/images/idlescreen.jpg"
+        "history": {
+          "fr": "Histoire de la production 7. Contexte historique et évolution au fil du temps.",
+          "eus": "7. ekoizpenaren historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "Description de la zone de production et de l'aire géographique de la production 7.",
+          "eus": "7. ekoizpenaren ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+        }
       },
       {
-        "title": "Page 3",
-        "description": "This is the final page for Production 7.",
-        "image": "/images/idlescreen.jpg"
+        "characteristics": [
+          {
+            "fr": "Caractéristique principale de la production 7",
+            "eus": "7. ekoizpenaren ezaugarri nagusia"
+          },
+          {
+            "fr": "Deuxième caractéristique importante",
+            "eus": "Bigarren ezaugarri garrantzitsua"
+          },
+          {
+            "fr": "Troisième caractéristique distinctive",
+            "eus": "Hirugarren ezaugarri bereizgarria"
+          }
+        ],
+        "products": [
+          {
+            "fr": "Produits dérivés de la production 7",
+            "eus": "7. ekoizpenatik eratorritako produktuak"
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "Chiffres clés et statistiques de la production 7",
+            "eus": "7. ekoizpenaren zenbaki gakoak eta estatistikak"
+          }
+        ],
+        "website": "https://example.com",
+        "observatory": "https://observatory.example.com"
       }
     ]
   },
   {
     "id": 28,
-    "title": "Production 8",
+    "title": {
+      "fr": "Production 8",
+      "eus": "Ekoizpena 8"
+    },
     "thumbnail": "/images/idlescreen.jpg",
-    "description": "Description for Production 8",
     "pages": [
       {
-        "title": "Page 1",
-        "description": "This is the first page content for Production 8.",
-        "image": "/images/idlescreen.jpg"
+        "presentation": {
+          "fr": "Présentation de la production 8. Description détaillée de cette production économique et culturelle.",
+          "eus": "8. ekoizpenaren aurkezpena. Ekoizpen ekonomiko eta kultural honen deskribapen xehea."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
       },
       {
-        "title": "Page 2",
-        "description": "This is the second page content for Production 8.",
-        "image": "/images/idlescreen.jpg"
+        "history": {
+          "fr": "Histoire de la production 8. Contexte historique et évolution au fil du temps.",
+          "eus": "8. ekoizpenaren historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "Description de la zone de production et de l'aire géographique de la production 8.",
+          "eus": "8. ekoizpenaren ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+        }
       },
       {
-        "title": "Page 3",
-        "description": "This is the final page for Production 8.",
-        "image": "/images/idlescreen.jpg"
+        "characteristics": [
+          {
+            "fr": "Caractéristique principale de la production 8",
+            "eus": "8. ekoizpenaren ezaugarri nagusia"
+          },
+          {
+            "fr": "Deuxième caractéristique importante",
+            "eus": "Bigarren ezaugarri garrantzitsua"
+          },
+          {
+            "fr": "Troisième caractéristique distinctive",
+            "eus": "Hirugarren ezaugarri bereizgarria"
+          }
+        ],
+        "products": [
+          {
+            "fr": "Produits dérivés de la production 8",
+            "eus": "8. ekoizpenatik eratorritako produktuak"
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "Chiffres clés et statistiques de la production 8",
+            "eus": "8. ekoizpenaren zenbaki gakoak eta estatistikak"
+          }
+        ],
+        "website": "https://example.com",
+        "observatory": "https://observatory.example.com"
       }
     ]
   },
   {
     "id": 29,
-    "title": "Production 9",
+    "title": {
+      "fr": "Production 9",
+      "eus": "Ekoizpena 9"
+    },
     "thumbnail": "/images/idlescreen.jpg",
-    "description": "Description for Production 9",
     "pages": [
       {
-        "title": "Page 1",
-        "description": "This is the first page content for Production 9.",
-        "image": "/images/idlescreen.jpg"
+        "presentation": {
+          "fr": "Présentation de la production 9. Description détaillée de cette production économique et culturelle.",
+          "eus": "9. ekoizpenaren aurkezpena. Ekoizpen ekonomiko eta kultural honen deskribapen xehea."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
       },
       {
-        "title": "Page 2",
-        "description": "This is the second page content for Production 9.",
-        "image": "/images/idlescreen.jpg"
+        "history": {
+          "fr": "Histoire de la production 9. Contexte historique et évolution au fil du temps.",
+          "eus": "9. ekoizpenaren historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "Description de la zone de production et de l'aire géographique de la production 9.",
+          "eus": "9. ekoizpenaren ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+        }
       },
       {
-        "title": "Page 3",
-        "description": "This is the final page for Production 9.",
-        "image": "/images/idlescreen.jpg"
+        "characteristics": [
+          {
+            "fr": "Caractéristique principale de la production 9",
+            "eus": "9. ekoizpenaren ezaugarri nagusia"
+          },
+          {
+            "fr": "Deuxième caractéristique importante",
+            "eus": "Bigarren ezaugarri garrantzitsua"
+          },
+          {
+            "fr": "Troisième caractéristique distinctive",
+            "eus": "Hirugarren ezaugarri bereizgarria"
+          }
+        ],
+        "products": [
+          {
+            "fr": "Produits dérivés de la production 9",
+            "eus": "9. ekoizpenatik eratorritako produktuak"
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "Chiffres clés et statistiques de la production 9",
+            "eus": "9. ekoizpenaren zenbaki gakoak eta estatistikak"
+          }
+        ],
+        "website": "https://example.com",
+        "observatory": "https://observatory.example.com"
       }
     ]
   },
   {
     "id": 30,
-    "title": "Production 10",
+    "title": {
+      "fr": "Production 10",
+      "eus": "Ekoizpena 10"
+    },
     "thumbnail": "/images/idlescreen.jpg",
-    "description": "Description for Production 10",
     "pages": [
       {
-        "title": "Page 1",
-        "description": "This is the first page content for Production 10.",
-        "image": "/images/idlescreen.jpg"
+        "presentation": {
+          "fr": "Présentation de la production 10. Description détaillée de cette production économique et culturelle.",
+          "eus": "10. ekoizpenaren aurkezpena. Ekoizpen ekonomiko eta kultural honen deskribapen xehea."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
       },
       {
-        "title": "Page 2",
-        "description": "This is the second page content for Production 10.",
-        "image": "/images/idlescreen.jpg"
+        "history": {
+          "fr": "Histoire de la production 10. Contexte historique et évolution au fil du temps.",
+          "eus": "10. ekoizpenaren historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "Description de la zone de production et de l'aire géographique de la production 10.",
+          "eus": "10. ekoizpenaren ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+        }
       },
       {
-        "title": "Page 3",
-        "description": "This is the final page for Production 10.",
-        "image": "/images/idlescreen.jpg"
+        "characteristics": [
+          {
+            "fr": "Caractéristique principale de la production 10",
+            "eus": "10. ekoizpenaren ezaugarri nagusia"
+          },
+          {
+            "fr": "Deuxième caractéristique importante",
+            "eus": "Bigarren ezaugarri garrantzitsua"
+          },
+          {
+            "fr": "Troisième caractéristique distinctive",
+            "eus": "Hirugarren ezaugarri bereizgarria"
+          }
+        ],
+        "products": [
+          {
+            "fr": "Produits dérivés de la production 10",
+            "eus": "10. ekoizpenatik eratorritako produktuak"
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "Chiffres clés et statistiques de la production 10",
+            "eus": "10. ekoizpenaren zenbaki gakoak eta estatistikak"
+          }
+        ],
+        "website": "https://example.com",
+        "observatory": "https://observatory.example.com"
       }
     ]
   },
   {
     "id": 31,
-    "title": "Innovation 1",
+    "title": {
+      "fr": "Innovation 1",
+      "eus": "Berrikuntza 1"
+    },
     "thumbnail": "/images/idlescreen.jpg",
-    "description": "Description for Innovation 1",
     "pages": [
       {
-        "title": "Page 1",
-        "description": "This is the first page content for Innovation 1.",
-        "image": "/images/idlescreen.jpg"
+        "presentation": {
+          "fr": "Présentation de l'innovation 1. Description détaillée de cette innovation technologique et culturelle.",
+          "eus": "1. berrikuntzaren aurkezpena. Berrikuntza teknologiko eta kultural honen deskribapen xehea."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
       },
       {
-        "title": "Page 2",
-        "description": "This is the second page content for Innovation 1.",
-        "image": "/images/idlescreen.jpg"
+        "history": {
+          "fr": "Histoire de l'innovation 1. Contexte historique et évolution au fil du temps.",
+          "eus": "1. berrikuntzaren historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "Description de la zone de production et de l'aire géographique de l'innovation 1.",
+          "eus": "1. berrikuntzaren ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+        }
       },
       {
-        "title": "Page 3",
-        "description": "This is the final page for Innovation 1.",
-        "image": "/images/idlescreen.jpg"
+        "characteristics": [
+          {
+            "fr": "Caractéristique principale de l'innovation 1",
+            "eus": "1. berrikuntzaren ezaugarri nagusia"
+          },
+          {
+            "fr": "Deuxième caractéristique importante",
+            "eus": "Bigarren ezaugarri garrantzitsua"
+          },
+          {
+            "fr": "Troisième caractéristique distinctive",
+            "eus": "Hirugarren ezaugarri bereizgarria"
+          }
+        ],
+        "products": [
+          {
+            "fr": "Produits dérivés de l'innovation 1",
+            "eus": "1. berrikuntzatik eratorritako produktuak"
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "Chiffres clés et statistiques de l'innovation 1",
+            "eus": "1. berrikuntzaren zenbaki gakoak eta estatistikak"
+          }
+        ],
+        "website": "https://example.com",
+        "observatory": "https://observatory.example.com"
       }
     ]
   },
   {
     "id": 32,
-    "title": "Innovation 2",
+    "title": {
+      "fr": "Innovation 2",
+      "eus": "Berrikuntza 2"
+    },
     "thumbnail": "/images/idlescreen.jpg",
-    "description": "Description for Innovation 2",
     "pages": [
       {
-        "title": "Page 1",
-        "description": "This is the first page content for Innovation 2.",
-        "image": "/images/idlescreen.jpg"
+        "presentation": {
+          "fr": "Présentation de l'innovation 2. Description détaillée de cette innovation technologique et culturelle.",
+          "eus": "2. berrikuntzaren aurkezpena. Berrikuntza teknologiko eta kultural honen deskribapen xehea."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
       },
       {
-        "title": "Page 2",
-        "description": "This is the second page content for Innovation 2.",
-        "image": "/images/idlescreen.jpg"
+        "history": {
+          "fr": "Histoire de l'innovation 2. Contexte historique et évolution au fil du temps.",
+          "eus": "2. berrikuntzaren historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "Description de la zone de production et de l'aire géographique de l'innovation 2.",
+          "eus": "2. berrikuntzaren ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+        }
       },
       {
-        "title": "Page 3",
-        "description": "This is the final page for Innovation 2.",
-        "image": "/images/idlescreen.jpg"
+        "characteristics": [
+          {
+            "fr": "Caractéristique principale de l'innovation 2",
+            "eus": "2. berrikuntzaren ezaugarri nagusia"
+          },
+          {
+            "fr": "Deuxième caractéristique importante",
+            "eus": "Bigarren ezaugarri garrantzitsua"
+          },
+          {
+            "fr": "Troisième caractéristique distinctive",
+            "eus": "Hirugarren ezaugarri bereizgarria"
+          }
+        ],
+        "products": [
+          {
+            "fr": "Produits dérivés de l'innovation 2",
+            "eus": "2. berrikuntzatik eratorritako produktuak"
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "Chiffres clés et statistiques de l'innovation 2",
+            "eus": "2. berrikuntzaren zenbaki gakoak eta estatistikak"
+          }
+        ],
+        "website": "https://example.com",
+        "observatory": "https://observatory.example.com"
       }
     ]
   },
   {
     "id": 33,
-    "title": "Innovation 3",
+    "title": {
+      "fr": "Innovation 3",
+      "eus": "Berrikuntza 3"
+    },
     "thumbnail": "/images/idlescreen.jpg",
-    "description": "Description for Innovation 3",
     "pages": [
       {
-        "title": "Page 1",
-        "description": "This is the first page content for Innovation 3.",
-        "image": "/images/idlescreen.jpg"
+        "presentation": {
+          "fr": "Présentation de l'innovation 3. Description détaillée de cette innovation technologique et culturelle.",
+          "eus": "3. berrikuntzaren aurkezpena. Berrikuntza teknologiko eta kultural honen deskribapen xehea."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
       },
       {
-        "title": "Page 2",
-        "description": "This is the second page content for Innovation 3.",
-        "image": "/images/idlescreen.jpg"
+        "history": {
+          "fr": "Histoire de l'innovation 3. Contexte historique et évolution au fil du temps.",
+          "eus": "3. berrikuntzaren historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "Description de la zone de production et de l'aire géographique de l'innovation 3.",
+          "eus": "3. berrikuntzaren ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+        }
       },
       {
-        "title": "Page 3",
-        "description": "This is the final page for Innovation 3.",
-        "image": "/images/idlescreen.jpg"
+        "characteristics": [
+          {
+            "fr": "Caractéristique principale de l'innovation 3",
+            "eus": "3. berrikuntzaren ezaugarri nagusia"
+          },
+          {
+            "fr": "Deuxième caractéristique importante",
+            "eus": "Bigarren ezaugarri garrantzitsua"
+          },
+          {
+            "fr": "Troisième caractéristique distinctive",
+            "eus": "Hirugarren ezaugarri bereizgarria"
+          }
+        ],
+        "products": [
+          {
+            "fr": "Produits dérivés de l'innovation 3",
+            "eus": "3. berrikuntzatik eratorritako produktuak"
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "Chiffres clés et statistiques de l'innovation 3",
+            "eus": "3. berrikuntzaren zenbaki gakoak eta estatistikak"
+          }
+        ],
+        "website": "https://example.com",
+        "observatory": "https://observatory.example.com"
       }
     ]
   },
   {
     "id": 34,
-    "title": "Innovation 4",
+    "title": {
+      "fr": "Innovation 4",
+      "eus": "Berrikuntza 4"
+    },
     "thumbnail": "/images/idlescreen.jpg",
-    "description": "Description for Innovation 4",
     "pages": [
       {
-        "title": "Page 1",
-        "description": "This is the first page content for Innovation 4.",
-        "image": "/images/idlescreen.jpg"
+        "presentation": {
+          "fr": "Présentation de l'innovation 4. Description détaillée de cette innovation technologique et culturelle.",
+          "eus": "4. berrikuntzaren aurkezpena. Berrikuntza teknologiko eta kultural honen deskribapen xehea."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
       },
       {
-        "title": "Page 2",
-        "description": "This is the second page content for Innovation 4.",
-        "image": "/images/idlescreen.jpg"
+        "history": {
+          "fr": "Histoire de l'innovation 4. Contexte historique et évolution au fil du temps.",
+          "eus": "4. berrikuntzaren historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "Description de la zone de production et de l'aire géographique de l'innovation 4.",
+          "eus": "4. berrikuntzaren ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+        }
       },
       {
-        "title": "Page 3",
-        "description": "This is the final page for Innovation 4.",
-        "image": "/images/idlescreen.jpg"
+        "characteristics": [
+          {
+            "fr": "Caractéristique principale de l'innovation 4",
+            "eus": "4. berrikuntzaren ezaugarri nagusia"
+          },
+          {
+            "fr": "Deuxième caractéristique importante",
+            "eus": "Bigarren ezaugarri garrantzitsua"
+          },
+          {
+            "fr": "Troisième caractéristique distinctive",
+            "eus": "Hirugarren ezaugarri bereizgarria"
+          }
+        ],
+        "products": [
+          {
+            "fr": "Produits dérivés de l'innovation 4",
+            "eus": "4. berrikuntzatik eratorritako produktuak"
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "Chiffres clés et statistiques de l'innovation 4",
+            "eus": "4. berrikuntzaren zenbaki gakoak eta estatistikak"
+          }
+        ],
+        "website": "https://example.com",
+        "observatory": "https://observatory.example.com"
       }
     ]
   },
   {
     "id": 35,
-    "title": "Innovation 5",
+    "title": {
+      "fr": "Innovation 5",
+      "eus": "Berrikuntza 5"
+    },
     "thumbnail": "/images/idlescreen.jpg",
-    "description": "Description for Innovation 5",
     "pages": [
       {
-        "title": "Page 1",
-        "description": "This is the first page content for Innovation 5.",
-        "image": "/images/idlescreen.jpg"
+        "presentation": {
+          "fr": "Présentation de l'innovation 5. Description détaillée de cette innovation technologique et culturelle.",
+          "eus": "5. berrikuntzaren aurkezpena. Berrikuntza teknologiko eta kultural honen deskribapen xehea."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
       },
       {
-        "title": "Page 2",
-        "description": "This is the second page content for Innovation 5.",
-        "image": "/images/idlescreen.jpg"
+        "history": {
+          "fr": "Histoire de l'innovation 5. Contexte historique et évolution au fil du temps.",
+          "eus": "5. berrikuntzaren historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "Description de la zone de production et de l'aire géographique de l'innovation 5.",
+          "eus": "5. berrikuntzaren ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+        }
       },
       {
-        "title": "Page 3",
-        "description": "This is the final page for Innovation 5.",
-        "image": "/images/idlescreen.jpg"
+        "characteristics": [
+          {
+            "fr": "Caractéristique principale de l'innovation 5",
+            "eus": "5. berrikuntzaren ezaugarri nagusia"
+          },
+          {
+            "fr": "Deuxième caractéristique importante",
+            "eus": "Bigarren ezaugarri garrantzitsua"
+          },
+          {
+            "fr": "Troisième caractéristique distinctive",
+            "eus": "Hirugarren ezaugarri bereizgarria"
+          }
+        ],
+        "products": [
+          {
+            "fr": "Produits dérivés de l'innovation 5",
+            "eus": "5. berrikuntzatik eratorritako produktuak"
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "Chiffres clés et statistiques de l'innovation 5",
+            "eus": "5. berrikuntzaren zenbaki gakoak eta estatistikak"
+          }
+        ],
+        "website": "https://example.com",
+        "observatory": "https://observatory.example.com"
       }
     ]
   }

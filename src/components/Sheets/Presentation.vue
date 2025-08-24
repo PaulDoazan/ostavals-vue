@@ -6,6 +6,7 @@ import Page1 from './Page1.vue'
 import Page2 from './Page2.vue'
 import Page3 from './Page3.vue'
 import sheetsData from '../../data/sheets.json'
+import { useLanguage } from '../../composables/useLanguage'
 
 // Props
 interface Props {
@@ -14,8 +15,33 @@ interface Props {
 
 const props = defineProps<Props>()
 
+// Get current language
+const { currentLanguage } = useLanguage()
+
 // Current page state (0, 1, or 2 for the 3 pages)
 const currentPage = ref(0)
+
+// Helper function to get localized text
+const getLocalizedText = (text: any, fallback?: string): string => {
+  if (typeof text === 'string') {
+    return text
+  }
+  if (text && typeof text === 'object') {
+    return text[currentLanguage.value] || text.fr || fallback || 'Content not found.'
+  }
+  return fallback || 'Content not found.'
+}
+
+// Helper function to get localized title
+const getLocalizedTitle = (title: any): string => {
+  if (typeof title === 'string') {
+    return title
+  }
+  if (title && typeof title === 'object') {
+    return title[currentLanguage.value] || title.fr || 'Untitled'
+  }
+  return 'Untitled'
+}
 
 // Get data for the current grid item from the JSON file
 const presentationData = computed(() => {
@@ -34,25 +60,77 @@ const presentationData = computed(() => {
         {
           title: 'Page 1',
           description: 'Content not found.',
-          image: '/images/idlescreen.jpg'
+          imageDescription: '/images/idlescreen.jpg'
         },
         {
           title: 'Page 2',
-          description: 'Content not found.',
-          image: '/images/idlescreen.jpg'
+          history: 'Content not found.',
+          areaProductionImage: '/images/idlescreen.jpg',
+          areaProductionDescription: 'Content not found.'
         },
         {
           title: 'Page 3',
           description: 'Content not found.',
-          image: '/images/idlescreen.jpg'
+          imageDescription: '/images/idlescreen.jpg'
         }
       ]
     }
   }
 
+  // Handle both old and new data structures
+  const title = getLocalizedTitle(item.title)
+
+  // Transform pages to match the expected structure
+  const pages = item.pages.map((page: any, index: number) => {
+    if (index === 0) {
+      // First page - presentation
+      return {
+        title: 'Presentation',
+        description: getLocalizedText(page.presentation, 'Presentation content not found.'),
+        imageDescription: page.imagePresentation || '/images/idlescreen.jpg'
+      }
+    } else if (index === 1) {
+      // Second page - history
+      return {
+        title: 'History',
+        history: getLocalizedText(page.history, 'History content not found.'),
+        areaProductionImage: page.areaProductionImage || '/images/idlescreen.jpg',
+        areaProductionDescription: getLocalizedText(page.areaProductionDescription, 'Area production description not found.')
+      }
+    } else {
+      // Third page - characteristics, products, keyfigures
+      const characteristics = Array.isArray(page.characteristics)
+        ? page.characteristics.map((char: any) => getLocalizedText(char, 'Characteristic not found.'))
+        : []
+
+      const products = Array.isArray(page.products)
+        ? page.products.map((prod: any) => getLocalizedText(prod, 'Product not found.'))
+        : []
+
+      const keyfigures = Array.isArray(page.keyfigures)
+        ? page.keyfigures.map((fig: any) => getLocalizedText(fig, 'Key figure not found.'))
+        : []
+
+      const description = [
+        ...characteristics.map((char: string) => `• ${char}`),
+        ...products.map((prod: string) => `• ${prod}`),
+        ...keyfigures.map((fig: string) => `• ${fig}`)
+      ].join('\n')
+
+      return {
+        title: 'Details',
+        description: description || 'Details content not found.',
+        imageDescription: '/images/idlescreen.jpg',
+        characteristics,
+        products,
+        keyFigures: keyfigures
+      }
+    }
+  })
+
   return {
-    title: item.title,
-    pages: item.pages
+    title,
+    pages
   }
 })
 
@@ -90,9 +168,21 @@ const getCurrentPageComponent = computed(() => {
       <!-- Content area that takes full width between title and menu -->
       <div class="px-20 pt-40 pb-52 flex-1">
         <!-- Dynamic page component -->
-        <component :is="getCurrentPageComponent" :title="presentationData.pages[currentPage].title"
-          :description="presentationData.pages[currentPage].description"
-          :image="presentationData.pages[currentPage].image" />
+        <component :is="getCurrentPageComponent" v-if="currentPage === 0"
+          :title="presentationData.pages[currentPage].title"
+          :description="presentationData.pages[currentPage].description || ''"
+          :imageDescription="presentationData.pages[currentPage].imageDescription || ''" />
+
+        <component :is="getCurrentPageComponent" v-else-if="currentPage === 1"
+          :title="presentationData.pages[currentPage].title"
+          :history="presentationData.pages[currentPage].history || ''"
+          :areaProductionImage="presentationData.pages[currentPage].areaProductionImage || ''"
+          :areaProductionDescription="presentationData.pages[currentPage].areaProductionDescription || ''" />
+
+        <component :is="getCurrentPageComponent" v-else-if="currentPage === 2"
+          :characteristics="presentationData.pages[currentPage].characteristics || []"
+          :products="presentationData.pages[currentPage].products || []"
+          :keyFigures="presentationData.pages[currentPage].keyFigures || []" />
       </div>
 
       <!-- Navigation arrows -->

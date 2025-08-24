@@ -5,16 +5,15 @@ import { useRouter, useRoute } from 'vue-router'
 import Menu from '../Menu/index.vue'
 import NavigationArrows from '../NavigationArrows.vue'
 import sheetsData from '../../data/sheets.json'
-import type { SheetsData } from '../../types/sheets'
+import { useLanguage } from '../../composables/useLanguage'
 
 const { t } = useI18n()
 const router = useRouter()
 const route = useRoute()
+const { currentLanguage } = useLanguage()
 
 // Current page state - restore from localStorage if available
 const currentPage = ref(0)
-
-
 
 // Watch for route changes to handle navigation from Home to Sheets
 watch(() => route.path, (newPath) => {
@@ -97,11 +96,11 @@ const goToPresentation = (itemId: number) => {
             @click="goToPresentation(item.id)">
             <!-- Thumbnail image -->
             <div class="mb-3 overflow-hidden">
-              <img :src="item.thumbnail" :alt="item.title" class="w-full h-full object-cover" />
+              <img :src="item.thumbnail" class="w-full h-full object-cover" />
             </div>
             <!-- Title below thumbnail -->
             <h3 class="text-lg font-soleil font-medium text-center text-gray-800 px-2" style="font-size: 28px">
-              {{ item.title }}
+              {{ typeof item.title === 'string' ? item.title : item.title[currentLanguage as 'fr' | 'eus'] }}
             </h3>
           </div>
         </div>

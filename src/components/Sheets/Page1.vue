@@ -5,7 +5,7 @@ import RedThinDecoration from '../Icon/RedThinDecoration.vue';
 interface Props {
   title: string
   description: string
-  image: string
+  imageDescription: string
 }
 
 defineProps<Props>()
@@ -18,7 +18,7 @@ defineProps<Props>()
     <div class="flex flex-1 gap-20">
       <!-- Left column: Image (763px / 1729px ≈ 44.1%) -->
       <div class="w-[44%]">
-        <img :src="image" :alt="title" class="w-full h-full object-cover rounded-lg"
+        <img :src="imageDescription" :alt="title" class="w-full h-full object-cover rounded-lg"
           style="max-height: calc(100vh - 200px);" />
       </div>
 
