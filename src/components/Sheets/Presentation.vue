@@ -1,7 +1,10 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue'
 import Menu from '../Menu/index.vue'
-import Arrow from '../Icon/Arrow.vue'
+import NavigationArrows from '../NavigationArrows.vue'
+import Page1 from './Page1.vue'
+import Page2 from './Page2.vue'
+import Page3 from './Page3.vue'
 
 // Props
 interface Props {
@@ -38,24 +41,24 @@ const presentationData = computed(() => {
   }
 })
 
-// Navigation functions
-const nextPage = () => {
-  if (currentPage.value < 2) {
-    currentPage.value++
-  }
+// Navigation is now handled by the NavigationArrows component
+const handlePageChange = (newPage: number) => {
+  currentPage.value = newPage
 }
 
-const prevPage = () => {
-  if (currentPage.value > 0) {
-    currentPage.value--
+// Get current page component based on page number
+const getCurrentPageComponent = computed(() => {
+  switch (currentPage.value) {
+    case 0:
+      return Page1
+    case 1:
+      return Page2
+    case 2:
+      return Page3
+    default:
+      return Page1
   }
-}
-
-// Check if navigation is possible
-const canGoNext = computed(() => currentPage.value < 2)
-const canGoPrev = computed(() => currentPage.value > 0)
-
-
+})
 </script>
 
 <template>
@@ -71,32 +74,13 @@ const canGoPrev = computed(() => currentPage.value > 0)
     <div class="h-screen flex flex-col">
       <!-- Content area that takes full width between title and menu -->
       <div class="px-20 pt-36 pb-40 flex-1">
-        <div class="h-full flex flex-col items-center justify-center">
-          <!-- Page content -->
-          <div class="text-center max-w-4xl">
-            <h2 class="text-4xl font-athelas font-bold text-black mb-8">
-              {{ presentationData.pages[currentPage].title }}
-            </h2>
-
-            <!-- Image -->
-            <div class="mb-8">
-              <img :src="presentationData.pages[currentPage].image" :alt="presentationData.pages[currentPage].title"
-                class="w-full max-w-2xl mx-auto object-cover rounded-lg" />
-            </div>
-
-            <!-- Content text -->
-            <p class="text-xl font-soleil text-gray-800 leading-relaxed">
-              {{ presentationData.pages[currentPage].content }}
-            </p>
-          </div>
-        </div>
+        <!-- Dynamic page component -->
+        <component :is="getCurrentPageComponent" :title="presentationData.pages[currentPage].title"
+          :content="presentationData.pages[currentPage].content" :image="presentationData.pages[currentPage].image" />
       </div>
 
       <!-- Navigation arrows -->
-      <Arrow class="absolute bottom-10 right-56 rotate-180 cursor-pointer transition-opacity"
-        :class="{ 'opacity-50': !canGoPrev }" @click="prevPage" />
-      <Arrow class="absolute bottom-10 right-20 cursor-pointer transition-opacity" :class="{ 'opacity-50': !canGoNext }"
-        @click="nextPage" />
+      <NavigationArrows :current-page="currentPage" :total-pages="3" @page-change="handlePageChange" />
 
       <!-- Page indicator -->
       <div class="absolute bottom-10 left-20 flex space-x-2">

@@ -3,7 +3,7 @@ import { useI18n } from 'vue-i18n'
 import { ref, computed, onMounted, watch } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
 import Menu from '../Menu/index.vue'
-import Arrow from '../Icon/Arrow.vue'
+import NavigationArrows from '../NavigationArrows.vue'
 
 const { t } = useI18n()
 const router = useRouter()
@@ -101,26 +101,11 @@ const currentPageItems = computed(() => {
   return gridItems.slice(start, end)
 })
 
-// Navigation functions
-const nextPage = () => {
-  if (currentPage.value < totalPages - 1) {
-    currentPage.value++
-    // Save current page to localStorage
-    localStorage.setItem('sheets-current-page', currentPage.value.toString())
-  }
+// Navigation is now handled by the NavigationArrows component
+const handlePageChange = (newPage: number) => {
+  currentPage.value = newPage
+  localStorage.setItem('sheets-current-page', newPage.toString())
 }
-
-const prevPage = () => {
-  if (currentPage.value > 0) {
-    currentPage.value--
-    // Save current page to localStorage
-    localStorage.setItem('sheets-current-page', currentPage.value.toString())
-  }
-}
-
-// Check if navigation is possible
-const canGoNext = computed(() => currentPage.value < totalPages - 1)
-const canGoPrev = computed(() => currentPage.value > 0)
 
 // Navigation to presentation
 const goToPresentation = (itemId: number) => {
@@ -160,10 +145,7 @@ const goToPresentation = (itemId: number) => {
       </div>
 
       <!-- Navigation arrows -->
-      <Arrow class="absolute bottom-10 right-56 rotate-180 cursor-pointer transition-opacity"
-        :class="{ 'opacity-50': !canGoPrev }" @click="prevPage" />
-      <Arrow class="absolute bottom-10 right-20 cursor-pointer transition-opacity" :class="{ 'opacity-50': !canGoNext }"
-        @click="nextPage" />
+      <NavigationArrows :current-page="currentPage" :total-pages="totalPages" @page-change="handlePageChange" />
 
       <!-- Menu at bottom -->
       <Menu />
