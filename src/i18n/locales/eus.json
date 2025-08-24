@@ -20,7 +20,12 @@
   },
   "sheets": {
     "title": "Azalpen-fitxak",
-    "description": "Ezagutu lurraldeko ondarearen eta arloen azalpen-fitxak"
+    "description": "Ezagutu lurraldeko ondarearen eta arloen azalpen-fitxak",
+    "page3": {
+      "characteristicsTitle": "Ekoizpenaren ezaugarriak",
+      "productsTitle": "Produktuak",
+      "keyFiguresTitle": "Zenbaki gakoak"
+    }
   },
   "videos": {
     "title": "Bideo-teka",

@@ -20,7 +20,12 @@
   },
   "sheets": {
     "title": "Fiches explicatives",
-    "description": "Découvrez les fiches explicatives du patrimoine et des filières"
+    "description": "Découvrez les fiches explicatives du patrimoine et des filières",
+    "page3": {
+      "characteristicsTitle": "Caractéristiques de production",
+      "productsTitle": "Produits",
+      "keyFiguresTitle": "Chiffres clés"
+    }
   },
   "videos": {
     "title": "Vidéothèque",
