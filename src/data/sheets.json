@@ -1,0 +1,806 @@
+[
+  {
+    "id": 1,
+    "title": "Patrimoine 1",
+    "thumbnail": "/images/idlescreen.jpg",
+    "pages": [
+      {
+        "title": "Page 1",
+        "description": "La cerise d’Itxassou est connue pour sa confiture utilisée dans le traditionnel gâteau basque et en accompagnement du fromage AOP Ossau-Iraty. Si la cerise noire d’Itxassou (variétés Peloa et Beltxa) est la plus connue, il existe 6 autres variétés de cerises d’Itxassou que l’association Xapata a décidé de caractériser et de relancer. Du noir au jaune orangé, en passant par le rouge rubis, ces variétés rustiques de cerise sont des guignes qui ont toutes la particularité d’avoir la chair tendre, une saveur sucrée, plutôt un petit calibre et d’être bien adaptées au climat local. Dans l’attente de l’obtention d’une AOP, seuls les fruits frais et les confitures de cerises estampillées du logo « Cerise d’Itxassou – Itsasuko gerezia » garantissent une origine locale de la production, dans le respect d’un cahier des charges.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 2",
+        "description": "Du noir au jaune orangé, en passant par le rouge rubis, ces variétés rustiques de cerise sont des guignes qui ont toutes la particularité d'avoir la chair tendre, une saveur sucrée, plutôt un petit calibre et d'être bien adaptées au climat local.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 3",
+        "description": "Dans l'attente de l'obtention d'une AOP, seuls les fruits frais et les confitures de cerises estampillées du logo « Cerise d'Itxassou – Itsasuko gerezia » garantissent une origine locale de la production, dans le respect d'un cahier des charges.",
+        "image": "/images/idlescreen.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Patrimoine 2",
+    "thumbnail": "/images/idlescreen.jpg",
+    "description": "Description for Patrimoine 2",
+    "pages": [
+      {
+        "title": "Page 1",
+        "description": "This is the first page content for Patrimoine 2.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 2",
+        "description": "This is the second page content for Patrimoine 2.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 3",
+        "description": "This is the final page for Patrimoine 2.",
+        "image": "/images/idlescreen.jpg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Patrimoine 3",
+    "thumbnail": "/images/idlescreen.jpg",
+    "description": "Description for Patrimoine 3",
+    "pages": [
+      {
+        "title": "Page 1",
+        "description": "This is the first page content for Patrimoine 3.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 2",
+        "description": "This is the second page content for Patrimoine 3.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 3",
+        "description": "This is the final page for Patrimoine 3.",
+        "image": "/images/idlescreen.jpg"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Patrimoine 4",
+    "thumbnail": "/images/idlescreen.jpg",
+    "description": "Description for Patrimoine 4",
+    "pages": [
+      {
+        "title": "Page 1",
+        "description": "This is the first page content for Patrimoine 4.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 2",
+        "description": "This is the second page content for Patrimoine 4.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 3",
+        "description": "This is the final page for Patrimoine 4.",
+        "image": "/images/idlescreen.jpg"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Patrimoine 5",
+    "thumbnail": "/images/idlescreen.jpg",
+    "description": "Description for Patrimoine 5",
+    "pages": [
+      {
+        "title": "Page 1",
+        "description": "This is the first page content for Patrimoine 5.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 2",
+        "description": "This is the second page content for Patrimoine 5.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 3",
+        "description": "This is the final page for Patrimoine 5.",
+        "image": "/images/idlescreen.jpg"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Patrimoine 6",
+    "thumbnail": "/images/idlescreen.jpg",
+    "description": "Description for Patrimoine 6",
+    "pages": [
+      {
+        "title": "Page 1",
+        "description": "This is the first page content for Patrimoine 6.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 2",
+        "description": "This is the second page content for Patrimoine 6.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 3",
+        "description": "This is the final page for Patrimoine 6.",
+        "image": "/images/idlescreen.jpg"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Patrimoine 7",
+    "thumbnail": "/images/idlescreen.jpg",
+    "description": "Description for Patrimoine 7",
+    "pages": [
+      {
+        "title": "Page 1",
+        "description": "This is the first page content for Patrimoine 7.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 2",
+        "description": "This is the second page content for Patrimoine 7.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 3",
+        "description": "This is the final page for Patrimoine 7.",
+        "image": "/images/idlescreen.jpg"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Patrimoine 8",
+    "thumbnail": "/images/idlescreen.jpg",
+    "description": "Description for Patrimoine 8",
+    "pages": [
+      {
+        "title": "Page 1",
+        "description": "This is the first page content for Patrimoine 8.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 2",
+        "description": "This is the second page content for Patrimoine 8.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 3",
+        "description": "This is the final page for Patrimoine 8.",
+        "image": "/images/idlescreen.jpg"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Patrimoine 9",
+    "thumbnail": "/images/idlescreen.jpg",
+    "description": "Description for Patrimoine 9",
+    "pages": [
+      {
+        "title": "Page 1",
+        "description": "This is the first page content for Patrimoine 9.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 2",
+        "description": "This is the second page content for Patrimoine 9.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 3",
+        "description": "This is the final page for Patrimoine 9.",
+        "image": "/images/idlescreen.jpg"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Patrimoine 10",
+    "thumbnail": "/images/idlescreen.jpg",
+    "description": "Description for Patrimoine 10",
+    "pages": [
+      {
+        "title": "Page 1",
+        "description": "This is the first page content for Patrimoine 10.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 2",
+        "description": "This is the second page content for Patrimoine 10.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 3",
+        "description": "This is the final page for Patrimoine 10.",
+        "image": "/images/idlescreen.jpg"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Filière 1",
+    "thumbnail": "/images/idlescreen.jpg",
+    "description": "Description for Filière 1",
+    "pages": [
+      {
+        "title": "Page 1",
+        "description": "This is the first page content for Filière 1.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 2",
+        "description": "This is the second page content for Filière 1.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 3",
+        "description": "This is the final page for Filière 1.",
+        "image": "/images/idlescreen.jpg"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Filière 2",
+    "thumbnail": "/images/idlescreen.jpg",
+    "description": "Description for Filière 2",
+    "pages": [
+      {
+        "title": "Page 1",
+        "description": "This is the first page content for Filière 2.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 2",
+        "description": "This is the second page content for Filière 2.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 3",
+        "description": "This is the final page for Filière 2.",
+        "image": "/images/idlescreen.jpg"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Filière 3",
+    "thumbnail": "/images/idlescreen.jpg",
+    "description": "Description for Filière 3",
+    "pages": [
+      {
+        "title": "Page 1",
+        "description": "This is the first page content for Filière 3.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 2",
+        "description": "This is the second page content for Filière 3.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 3",
+        "description": "This is the final page for Filière 3.",
+        "image": "/images/idlescreen.jpg"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Filière 4",
+    "thumbnail": "/images/idlescreen.jpg",
+    "description": "Description for Filière 4",
+    "pages": [
+      {
+        "title": "Page 1",
+        "description": "This is the first page content for Filière 4.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 2",
+        "description": "This is the second page content for Filière 4.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 3",
+        "description": "This is the final page for Filière 4.",
+        "image": "/images/idlescreen.jpg"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Filière 5",
+    "thumbnail": "/images/idlescreen.jpg",
+    "description": "Description for Filière 5",
+    "pages": [
+      {
+        "title": "Page 1",
+        "description": "This is the first page content for Filière 5.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 2",
+        "description": "This is the second page content for Filière 5.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 3",
+        "description": "This is the final page for Filière 5.",
+        "image": "/images/idlescreen.jpg"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Filière 6",
+    "thumbnail": "/images/idlescreen.jpg",
+    "description": "Description for Filière 6",
+    "pages": [
+      {
+        "title": "Page 1",
+        "description": "This is the first page content for Filière 6.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 2",
+        "description": "This is the second page content for Filière 6.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 3",
+        "description": "This is the final page for Filière 6.",
+        "image": "/images/idlescreen.jpg"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Filière 7",
+    "thumbnail": "/images/idlescreen.jpg",
+    "description": "Description for Filière 7",
+    "pages": [
+      {
+        "title": "Page 1",
+        "description": "This is the first page content for Filière 7.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 2",
+        "description": "This is the second page content for Filière 7.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 3",
+        "description": "This is the final page for Filière 7.",
+        "image": "/images/idlescreen.jpg"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Filière 8",
+    "thumbnail": "/images/idlescreen.jpg",
+    "description": "Description for Filière 8",
+    "pages": [
+      {
+        "title": "Page 1",
+        "description": "This is the first page content for Filière 8.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 2",
+        "description": "This is the second page content for Filière 8.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 3",
+        "description": "This is the final page for Filière 8.",
+        "image": "/images/idlescreen.jpg"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Filière 9",
+    "thumbnail": "/images/idlescreen.jpg",
+    "description": "Description for Filière 9",
+    "pages": [
+      {
+        "title": "Page 1",
+        "description": "This is the first page content for Filière 9.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 2",
+        "description": "This is the second page content for Filière 9.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 3",
+        "description": "This is the final page for Filière 9.",
+        "image": "/images/idlescreen.jpg"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Filière 10",
+    "thumbnail": "/images/idlescreen.jpg",
+    "description": "Description for Filière 10",
+    "pages": [
+      {
+        "title": "Page 1",
+        "description": "This is the first page content for Filière 10.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 2",
+        "description": "This is the second page content for Filière 10.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 3",
+        "description": "This is the final page for Filière 10.",
+        "image": "/images/idlescreen.jpg"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Production 1",
+    "thumbnail": "/images/idlescreen.jpg",
+    "description": "Description for Production 1",
+    "pages": [
+      {
+        "title": "Page 1",
+        "description": "This is the first page content for Production 1.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 2",
+        "description": "This is the second page content for Production 1.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 3",
+        "description": "This is the final page for Production 1.",
+        "image": "/images/idlescreen.jpg"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Production 2",
+    "thumbnail": "/images/idlescreen.jpg",
+    "description": "Description for Production 2",
+    "pages": [
+      {
+        "title": "Page 1",
+        "description": "This is the first page content for Production 2.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 2",
+        "description": "This is the second page content for Production 2.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 3",
+        "description": "This is the final page for Production 2.",
+        "image": "/images/idlescreen.jpg"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Production 3",
+    "thumbnail": "/images/idlescreen.jpg",
+    "description": "Description for Production 3",
+    "pages": [
+      {
+        "title": "Page 1",
+        "description": "This is the first page content for Production 3.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 2",
+        "description": "This is the second page content for Production 3.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 3",
+        "description": "This is the final page for Production 3.",
+        "image": "/images/idlescreen.jpg"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Production 4",
+    "thumbnail": "/images/idlescreen.jpg",
+    "description": "Description for Production 4",
+    "pages": [
+      {
+        "title": "Page 1",
+        "description": "This is the first page content for Production 4.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 2",
+        "description": "This is the second page content for Production 4.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 3",
+        "description": "This is the final page for Production 4.",
+        "image": "/images/idlescreen.jpg"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Production 5",
+    "thumbnail": "/images/idlescreen.jpg",
+    "description": "Description for Production 5",
+    "pages": [
+      {
+        "title": "Page 1",
+        "description": "This is the first page content for Production 5.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 2",
+        "description": "This is the second page content for Production 5.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 3",
+        "description": "This is the final page for Production 5.",
+        "image": "/images/idlescreen.jpg"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Production 6",
+    "thumbnail": "/images/idlescreen.jpg",
+    "description": "Description for Production 6",
+    "pages": [
+      {
+        "title": "Page 1",
+        "description": "This is the first page content for Production 6.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 2",
+        "description": "This is the second page content for Production 6.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 3",
+        "description": "This is the final page for Production 6.",
+        "image": "/images/idlescreen.jpg"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Production 7",
+    "thumbnail": "/images/idlescreen.jpg",
+    "description": "Description for Production 7",
+    "pages": [
+      {
+        "title": "Page 1",
+        "description": "This is the first page content for Production 7.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 2",
+        "description": "This is the second page content for Production 7.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 3",
+        "description": "This is the final page for Production 7.",
+        "image": "/images/idlescreen.jpg"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Production 8",
+    "thumbnail": "/images/idlescreen.jpg",
+    "description": "Description for Production 8",
+    "pages": [
+      {
+        "title": "Page 1",
+        "description": "This is the first page content for Production 8.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 2",
+        "description": "This is the second page content for Production 8.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 3",
+        "description": "This is the final page for Production 8.",
+        "image": "/images/idlescreen.jpg"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Production 9",
+    "thumbnail": "/images/idlescreen.jpg",
+    "description": "Description for Production 9",
+    "pages": [
+      {
+        "title": "Page 1",
+        "description": "This is the first page content for Production 9.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 2",
+        "description": "This is the second page content for Production 9.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 3",
+        "description": "This is the final page for Production 9.",
+        "image": "/images/idlescreen.jpg"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Production 10",
+    "thumbnail": "/images/idlescreen.jpg",
+    "description": "Description for Production 10",
+    "pages": [
+      {
+        "title": "Page 1",
+        "description": "This is the first page content for Production 10.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 2",
+        "description": "This is the second page content for Production 10.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 3",
+        "description": "This is the final page for Production 10.",
+        "image": "/images/idlescreen.jpg"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Innovation 1",
+    "thumbnail": "/images/idlescreen.jpg",
+    "description": "Description for Innovation 1",
+    "pages": [
+      {
+        "title": "Page 1",
+        "description": "This is the first page content for Innovation 1.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 2",
+        "description": "This is the second page content for Innovation 1.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 3",
+        "description": "This is the final page for Innovation 1.",
+        "image": "/images/idlescreen.jpg"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Innovation 2",
+    "thumbnail": "/images/idlescreen.jpg",
+    "description": "Description for Innovation 2",
+    "pages": [
+      {
+        "title": "Page 1",
+        "description": "This is the first page content for Innovation 2.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 2",
+        "description": "This is the second page content for Innovation 2.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 3",
+        "description": "This is the final page for Innovation 2.",
+        "image": "/images/idlescreen.jpg"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Innovation 3",
+    "thumbnail": "/images/idlescreen.jpg",
+    "description": "Description for Innovation 3",
+    "pages": [
+      {
+        "title": "Page 1",
+        "description": "This is the first page content for Innovation 3.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 2",
+        "description": "This is the second page content for Innovation 3.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 3",
+        "description": "This is the final page for Innovation 3.",
+        "image": "/images/idlescreen.jpg"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Innovation 4",
+    "thumbnail": "/images/idlescreen.jpg",
+    "description": "Description for Innovation 4",
+    "pages": [
+      {
+        "title": "Page 1",
+        "description": "This is the first page content for Innovation 4.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 2",
+        "description": "This is the second page content for Innovation 4.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 3",
+        "description": "This is the final page for Innovation 4.",
+        "image": "/images/idlescreen.jpg"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Innovation 5",
+    "thumbnail": "/images/idlescreen.jpg",
+    "description": "Description for Innovation 5",
+    "pages": [
+      {
+        "title": "Page 1",
+        "description": "This is the first page content for Innovation 5.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 2",
+        "description": "This is the second page content for Innovation 5.",
+        "image": "/images/idlescreen.jpg"
+      },
+      {
+        "title": "Page 3",
+        "description": "This is the final page for Innovation 5.",
+        "image": "/images/idlescreen.jpg"
+      }
+    ]
+  }
+]

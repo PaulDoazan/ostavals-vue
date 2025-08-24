@@ -2,7 +2,7 @@
 // Props
 interface Props {
   title: string
-  content: string
+  description: string
   image: string
 }
 
@@ -21,7 +21,7 @@ const props = defineProps<Props>()
       <div class="bg-white p-6 rounded-lg shadow-md">
         <h3 class="text-2xl font-athelas font-bold text-black mb-4">Overview</h3>
         <p class="text-lg font-soleil text-gray-700 leading-relaxed">
-          {{ content }}
+          {{ description }}
         </p>
       </div>
 

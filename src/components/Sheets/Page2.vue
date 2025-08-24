@@ -2,7 +2,7 @@
 // Props
 interface Props {
   title: string
-  content: string
+  description: string
   image: string
 }
 
@@ -19,7 +19,7 @@ const props = defineProps<Props>()
 
       <div class="space-y-6">
         <p class="text-xl font-soleil text-gray-800 leading-relaxed">
-          {{ content }}
+          {{ description }}
         </p>
 
         <!-- Additional content sections for Page 2 -->

@@ -5,6 +5,7 @@ import NavigationArrows from '../NavigationArrows.vue'
 import Page1 from './Page1.vue'
 import Page2 from './Page2.vue'
 import Page3 from './Page3.vue'
+import sheetsData from '../../data/sheets.json'
 
 // Props
 interface Props {
@@ -16,28 +17,42 @@ const props = defineProps<Props>()
 // Current page state (0, 1, or 2 for the 3 pages)
 const currentPage = ref(0)
 
-// Sample data for the presentation - you can customize this based on your needs
+// Get data for the current grid item from the JSON file
 const presentationData = computed(() => {
-  // This is sample data - you can replace with real data based on gridItemId
+  console.log("props:", props)
+  console.log("gridItemId:", props.gridItemId, "type:", typeof props.gridItemId)
+  console.log("sheetsData:", sheetsData)
+
+  const item = sheetsData.find(item => item.id === Number(props.gridItemId))
+
+  console.log("item", item)
+  if (!item) {
+    // Fallback data if item not found
+    return {
+      title: `Item ${props.gridItemId}`,
+      pages: [
+        {
+          title: 'Page 1',
+          description: 'Content not found.',
+          image: '/images/idlescreen.jpg'
+        },
+        {
+          title: 'Page 2',
+          description: 'Content not found.',
+          image: '/images/idlescreen.jpg'
+        },
+        {
+          title: 'Page 3',
+          description: 'Content not found.',
+          image: '/images/idlescreen.jpg'
+        }
+      ]
+    }
+  }
+
   return {
-    title: `Patrimoine ${props.gridItemId}`,
-    pages: [
-      {
-        title: 'Page 1',
-        content: 'This is the first page content for the selected item.',
-        image: '/images/idlescreen.jpg'
-      },
-      {
-        title: 'Page 2',
-        content: 'This is the second page content with more details.',
-        image: '/images/idlescreen.jpg'
-      },
-      {
-        title: 'Page 3',
-        content: 'This is the final page with additional information.',
-        image: '/images/idlescreen.jpg'
-      }
-    ]
+    title: item.title,
+    pages: item.pages
   }
 })
 
@@ -73,10 +88,11 @@ const getCurrentPageComponent = computed(() => {
     <!-- Content container -->
     <div class="h-screen flex flex-col">
       <!-- Content area that takes full width between title and menu -->
-      <div class="px-20 pt-36 pb-40 flex-1">
+      <div class="px-20 pt-40 pb-52 flex-1">
         <!-- Dynamic page component -->
         <component :is="getCurrentPageComponent" :title="presentationData.pages[currentPage].title"
-          :content="presentationData.pages[currentPage].content" :image="presentationData.pages[currentPage].image" />
+          :description="presentationData.pages[currentPage].description"
+          :image="presentationData.pages[currentPage].image" />
       </div>
 
       <!-- Navigation arrows -->
