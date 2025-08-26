@@ -109,7 +109,7 @@ const isImageLoaded = (itemId: number) => {
             <!-- Thumbnail image -->
             <div class="mb-3 overflow-hidden" style="aspect-ratio: 1920/1080;">
               <!-- Show skeleton while image is loading -->
-              <ImageSkeleton />
+              <ImageSkeleton :width="'300px'" :height="'169px'" />
               <!-- Show image once loaded -->
               <img v-show="isImageLoaded(item.id)" :src="item.thumbnail" class="w-full h-full object-cover"
                 @load="handleImageLoad(item.id)" @error="handleImageLoad(item.id)" />
