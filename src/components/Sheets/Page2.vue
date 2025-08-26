@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
 import RedThinDecoration from '../Icon/RedThinDecoration.vue'
+import ImageSkeleton from './ImageSkeleton.vue'
 
 // Props
 interface Props {
@@ -36,7 +37,11 @@ defineProps<Props>()
       <h3 class="text-3xl font-soleil font-bold mb-4">
         {{ t('productionZone') }}
       </h3>
-      <img :src="areaProductionImage" class="w-full object-cover" />
+      <!-- Show skeleton while image is loading v-if="!imageLoaded"-->
+      <ImageSkeleton :width="'100%'" :height="'560px'" class="mb-4" />
+      <!-- Show image once loaded -->
+      <!-- <img v-show="imageLoaded" :src="areaProductionImage" class="w-full object-cover" @load="handleImageLoad"
+        @error="handleImageLoad" /> -->
       <p class="text-lg font-soleil mt-4 leading-relaxed" style="font-size: 28px; line-height: 1.3">
         {{ areaProductionDescription }}
       </p>

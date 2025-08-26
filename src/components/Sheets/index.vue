@@ -6,6 +6,7 @@ import Menu from '../Menu/index.vue'
 import NavigationArrows from '../NavigationArrows.vue'
 import sheetsData from '../../data/sheets.json'
 import { useLanguage } from '../../composables/useLanguage'
+import ImageSkeleton from './ImageSkeleton.vue'
 
 const { t } = useI18n()
 const router = useRouter()
@@ -75,6 +76,17 @@ const goToPresentation = (itemId: number) => {
   localStorage.setItem('sheets-current-page', currentPage.value.toString())
   router.push(`/presentation/${itemId}`)
 }
+
+// Image loading state management
+const loadedImages = ref<Set<number>>(new Set())
+
+const handleImageLoad = (itemId: number) => {
+  loadedImages.value.add(itemId)
+}
+
+const isImageLoaded = (itemId: number) => {
+  return loadedImages.value.has(itemId)
+}
 </script>
 
 <template>
@@ -95,8 +107,12 @@ const goToPresentation = (itemId: number) => {
             class="flex flex-col items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
             @click="goToPresentation(item.id)">
             <!-- Thumbnail image -->
-            <div class="mb-3 overflow-hidden">
-              <img :src="item.thumbnail" class="w-full h-full object-cover" />
+            <div class="mb-3 overflow-hidden" style="aspect-ratio: 1920/1080;">
+              <!-- Show skeleton while image is loading -->
+              <ImageSkeleton />
+              <!-- Show image once loaded -->
+              <img v-show="isImageLoaded(item.id)" :src="item.thumbnail" class="w-full h-full object-cover"
+                @load="handleImageLoad(item.id)" @error="handleImageLoad(item.id)" />
             </div>
             <!-- Title below thumbnail -->
             <h3 class="text-lg font-soleil font-medium text-center text-gray-800 px-2" style="font-size: 28px">

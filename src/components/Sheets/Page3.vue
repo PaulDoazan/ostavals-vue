@@ -17,6 +17,10 @@ const { t } = useI18n()
 <template>
   <div class="h-full">
     <RedThinDecoration class="absolute -top-48 right-56 rotate-90" />
+
+    <!-- Rectangle shape at specified position -->
+    <div class="absolute bg-gray-600" style="left: 904px; top: 665px; width: 1016px; height: 240px;"></div>
+
     <div class="grid grid-cols-3 gap-16 h-full">
       <!-- Characteristics Column -->
       <div class="flex flex-col">
