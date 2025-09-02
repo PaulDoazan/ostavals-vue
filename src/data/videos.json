@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": {
+      "fr": "La cerise d'Itxassou - Documentaire",
+      "eus": "Itxassou gerezia - Dokumentala"
+    },
+    "thumbnail": "/images/idlescreen.jpg",
+    "urls": {
+      "fr": "/videos/cerise-itxassou-fr.mp4",
+      "eus": "/videos/cerise-itxassou-eus.mp4"
+    }
+  },
+  {
+    "id": 2,
+    "title": {
+      "fr": "Traditions basques - Artisanat",
+      "eus": "Euskal tradizioak - Artisautza"
+    },
+    "thumbnail": "/images/idlescreen.jpg",
+    "urls": {
+      "fr": "/videos/traditions-basques-fr.mp4",
+      "eus": "/videos/traditions-basques-eus.mp4"
+    }
+  },
+  {
+    "id": 3,
+    "title": {
+      "fr": "Gastronomie du Pays Basque",
+      "eus": "Euskal Herriko gastronomia"
+    },
+    "thumbnail": "/images/idlescreen.jpg",
+    "urls": {
+      "fr": "/videos/gastronomie-basque-fr.mp4",
+      "eus": "/videos/gastronomie-basque-eus.mp4"
+    }
+  },
+  {
+    "id": 4,
+    "title": {
+      "fr": "Musique traditionnelle basque",
+      "eus": "Euskal musika tradizionala"
+    },
+    "thumbnail": "/images/idlescreen.jpg",
+    "urls": {
+      "fr": "/videos/musique-basque-fr.mp4",
+      "eus": "/videos/musique-basque-eus.mp4"
+    }
+  },
+  {
+    "id": 5,
+    "title": {
+      "fr": "Architecture basque - Maisons typiques",
+      "eus": "Euskal arkitektura - Etxe tipikoak"
+    },
+    "thumbnail": "/images/idlescreen.jpg",
+    "urls": {
+      "fr": "/videos/architecture-basque-fr.mp4",
+      "eus": "/videos/architecture-basque-eus.mp4"
+    }
+  },
+  {
+    "id": 6,
+    "title": {
+      "fr": "Sports basques traditionnels",
+      "eus": "Euskal kirol tradizionalak"
+    },
+    "thumbnail": "/images/idlescreen.jpg",
+    "urls": {
+      "fr": "/videos/sports-basques-fr.mp4",
+      "eus": "/videos/sports-basques-eus.mp4"
+    }
+  },
+  {
+    "id": 7,
+    "title": {
+      "fr": "Fêtes et célébrations basques",
+      "eus": "Euskal jaiak eta ospakizunak"
+    },
+    "thumbnail": "/images/idlescreen.jpg",
+    "urls": {
+      "fr": "/videos/fetes-basques-fr.mp4",
+      "eus": "/videos/fetes-basques-eus.mp4"
+    }
+  },
+  {
+    "id": 8,
+    "title": {
+      "fr": "Langue basque - Euskera",
+      "eus": "Euskera - Euskal hizkuntza"
+    },
+    "thumbnail": "/images/idlescreen.jpg",
+    "urls": {
+      "fr": "/videos/euskera-fr.mp4",
+      "eus": "/videos/euskera-eus.mp4"
+    }
+  },
+  {
+    "id": 9,
+    "title": {
+      "fr": "Paysages du Pays Basque",
+      "eus": "Euskal Herriko paisaia"
+    },
+    "thumbnail": "/images/idlescreen.jpg",
+    "urls": {
+      "fr": "/videos/paysages-basque-fr.mp4",
+      "eus": "/videos/paysages-basque-eus.mp4"
+    }
+  }
+]
