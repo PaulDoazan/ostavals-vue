@@ -80,32 +80,6 @@ const onVideoError = (event: Event) => {
   // You could show an error message here
 }
 
-// Handle escape key to close
-const handleKeydown = (event: KeyboardEvent) => {
-  if (event.key === 'Escape') {
-    closeVideoPlayer()
-  }
-}
-
-// Handle fullscreen API if needed
-const requestFullscreen = () => {
-  if (videoElement.value && videoElement.value.requestFullscreen) {
-    videoElement.value.requestFullscreen()
-  }
-}
-
-onMounted(() => {
-  document.addEventListener('keydown', handleKeydown)
-
-  // Try to enter fullscreen mode
-  if (videoElement.value) {
-    videoElement.value.addEventListener('loadeddata', requestFullscreen)
-  }
-})
-
-onUnmounted(() => {
-  document.removeEventListener('keydown', handleKeydown)
-})
 </script>
 
 <style scoped>
