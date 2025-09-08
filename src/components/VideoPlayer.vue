@@ -8,7 +8,7 @@
         <button @click="closeVideoPlayer"
           class="text-white hover:text-gray-300 transition-colors duration-200 text-4xl font-bold"
           aria-label="Close video player">
-          ×
+          <Back />
         </button>
       </div>
 
@@ -21,9 +21,6 @@
           </video>
         </div>
       </div>
-
-      <!-- Menu at bottom (same as other pages) -->
-      <Menu />
     </div>
   </Transition>
 </template>
@@ -34,6 +31,7 @@ import { useRoute, useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import Menu from './Menu/index.vue'
 import videosData from '../data/videos.json'
+import Back from './Icon/Back.vue'
 
 const route = useRoute()
 const router = useRouter()
