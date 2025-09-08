@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
 import { ref, computed } from 'vue'
+import { useRouter } from 'vue-router'
 import Menu from '../Menu/index.vue'
 import NavigationArrows from '../NavigationArrows.vue'
 import videosData from '../../data/videos.json'
@@ -9,6 +10,7 @@ import PlayBtn from '../Icon/PlayBtn.vue'
 import NoEar from '../Icon/NoEar.vue'
 
 const { t, locale } = useI18n()
+const router = useRouter()
 const videos = ref<VideoItem[]>(videosData)
 
 // Language state for each video
@@ -48,9 +50,8 @@ const playVideo = (video: VideoItem) => {
   const videoLang = getVideoLanguage(video.id)
   const videoUrl = videoLang === 'eus' ? video.urls.eus : video.urls.fr
   if (videoUrl) {
-    // For now, we'll just log the video URL
-    // In a real implementation, you might want to open a modal or navigate to a video player
-    console.log('Playing video:', videoUrl)
+    // Navigate to the video player with the video ID
+    router.push(`/video/${video.id}`)
   }
 }
 
