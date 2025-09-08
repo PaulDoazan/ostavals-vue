@@ -6,9 +6,13 @@ import NavigationArrows from '../NavigationArrows.vue'
 import videosData from '../../data/videos.json'
 import type { VideoItem } from '../../types/videos'
 import PlayBtn from '../Icon/PlayBtn.vue'
+import NoEar from '../Icon/NoEar.vue'
 
 const { t, locale } = useI18n()
 const videos = ref<VideoItem[]>(videosData)
+
+// Language state for each video
+const videoLanguages = ref<Record<number, 'fr' | 'eus'>>({})
 
 // Pagination logic
 const currentPage = ref(0)
@@ -22,8 +26,27 @@ const currentPageItems = computed(() => {
   return videos.value.slice(start, end)
 })
 
+// Get the current language for a video (defaults to global locale)
+const getVideoLanguage = (videoId: number): 'fr' | 'eus' => {
+  return videoLanguages.value[videoId] || locale.value
+}
+
+// Toggle language for a specific video
+const toggleVideoLanguage = (videoId: number) => {
+  const currentLang = getVideoLanguage(videoId)
+  videoLanguages.value[videoId] = currentLang === 'fr' ? 'eus' : 'fr'
+}
+
+// Check if specific language URL exists
+const hasLanguageUrl = (video: VideoItem, language: 'fr' | 'eus'): boolean => {
+  const url = language === 'fr' ? video.urls.fr : video.urls.eus
+  console.log('Checking URL for', language, ':', url, 'Result:', !!(url && url.trim() !== ''))
+  return !!(url && url.trim() !== '')
+}
+
 const playVideo = (video: VideoItem) => {
-  const videoUrl = locale.value === 'eus' ? video.urls.eus : video.urls.fr
+  const videoLang = getVideoLanguage(video.id)
+  const videoUrl = videoLang === 'eus' ? video.urls.eus : video.urls.fr
   if (videoUrl) {
     // For now, we'll just log the video URL
     // In a real implementation, you might want to open a modal or navigate to a video player
@@ -48,22 +71,46 @@ const handlePageChange = (newPage: number) => {
     <!-- Content container -->
     <div class="h-screen flex flex-col">
       <!-- Video Gallery that takes full width between title and menu -->
-      <div class="px-20 pt-36 pb-40">
+      <div class="px-20 pt-36 pb-40">  
         <div class="grid grid-cols-3 gap-16 h-full">
           <div v-for="video in currentPageItems" :key="video.id"
             class="relative group cursor-pointer flex flex-col items-center justify-center" @click="playVideo(video)">
+            <!-- Language Toggle Buttons (show if at least one language has URL) -->
+            <div v-if="hasLanguageUrl(video, 'fr') || hasLanguageUrl(video, 'eus')" class="mb-12 flex gap-4 self-start">
+              <div class="flex flex-col items-center cursor-pointer" @click.stop="toggleVideoLanguage(video.id)">
+                <NoEar v-if="!hasLanguageUrl(video, 'fr')" />
+                <div v-else
+                  class="text-white font-soleil flex items-center justify-center transition-all duration-200 bg-red"
+                  style="width: 6.5rem; height: 6.5rem; border-radius: 9999px; font-size: 40px;">
+                  <span class="transform translate-y-1">
+                    FR
+                  </span>
+                </div>
+              </div>
+              <div class="flex flex-col items-center cursor-pointer" @click.stop="toggleVideoLanguage(video.id)">
+                <NoEar v-if="!hasLanguageUrl(video, 'eus')" />
+                <div v-else
+                  class="text-white font-soleil flex items-center justify-center transition-all duration-200 bg-red"
+                  style="width: 6.5rem; height: 6.5rem; border-radius: 9999px; font-size: 40px;">
+                  <span class="transform translate-y-1">
+                    EUS
+                  </span>
+                </div>
+              </div>
+            </div>
+
             <!-- Video Title -->
-            <div class="text-center mb-6">
+            <div class="mb-12">
               <h3
                 class="text-3xl font-soleil font-bold text-gray-800 group-hover:text-gray-600 transition-colors duration-300"
                 style="font-size: 28px;">
-                {{ locale === 'eus' ? video.title.eus : video.title.fr }}
+                {{ getVideoLanguage(video.id) === 'eus' ? video.title.eus : video.title.fr }}
               </h3>
             </div>
 
             <!-- Video Thumbnail -->
             <div class="relative overflow-hidden rounded-lg shadow-lg bg-gray-200 aspect-video w-full">
-              <img :src="video.thumbnail" :alt="locale === 'eus' ? video.title.eus : video.title.fr"
+              <img :src="video.thumbnail" :alt="getVideoLanguage(video.id) === 'eus' ? video.title.eus : video.title.fr"
                 class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" />
 
               <!-- Play Button Overlay -->

@@ -2,20 +2,20 @@
   {
     "id": 1,
     "title": {
-      "fr": "La cerise d'Itxassou - Documentaire",
-      "eus": "Itxassou gerezia - Dokumentala"
+      "fr": "Filière d’excellence : l’agneau de lait des Pyrénées",
+      "eus": "Filiera ekoizpena : Pyreneen agneiak"
     },
     "thumbnail": "/images/idlescreen.jpg",
     "urls": {
       "fr": "/videos/cerise-itxassou-fr.mp4",
-      "eus": "/videos/cerise-itxassou-eus.mp4"
+      "eus": ""
     }
   },
   {
     "id": 2,
     "title": {
-      "fr": "Traditions basques - Artisanat",
-      "eus": "Euskal tradizioak - Artisautza"
+      "fr": "Filière d’excellence : l’agneau de lait des Pyrénées",
+      "eus": "Filiera ekoizpena : Pyreneen agneiak"
     },
     "thumbnail": "/images/idlescreen.jpg",
     "urls": {
@@ -26,8 +26,8 @@
   {
     "id": 3,
     "title": {
-      "fr": "Gastronomie du Pays Basque",
-      "eus": "Euskal Herriko gastronomia"
+      "fr": "Filière d’excellence : l’agneau de lait des Pyrénées",
+      "eus": "Filiera ekoizpena : Pyreneen agneiak"
     },
     "thumbnail": "/images/idlescreen.jpg",
     "urls": {
