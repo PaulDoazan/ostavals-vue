@@ -104,7 +104,8 @@ const handlePageChange = (newPage: number) => {
               <h3
                 class="text-3xl font-soleil font-bold text-gray-800 group-hover:text-gray-600 transition-colors duration-300"
                 style="font-size: 28px;">
-                {{ getVideoLanguage(video.id) === 'eus' ? video.title.eus : video.title.fr }}
+                <!-- {{ getVideoLanguage(video.id) === 'eus' ? video.title.eus : video.title.fr }} -->
+                {{ video.title.fr }}
               </h3>
             </div>
 
