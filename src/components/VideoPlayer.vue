@@ -27,7 +27,7 @@
                   <button @click="closeVideoPlayer"
                     class="text-white hover:text-gray-300 transition-colors duration-200 text-4xl font-bold"
                     aria-label="Close video player">
-                    <Back />
+                    <Back arrow-color="#4b5563" />
                   </button>
                 </div>
 
