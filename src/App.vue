@@ -2,7 +2,7 @@
 import IdleScreen from './components/Idle/index.vue'
 import { ref } from 'vue';
 
-const showIdleScreen = ref(false)
+const showIdleScreen = ref(true)
 </script>
 
 <template>
