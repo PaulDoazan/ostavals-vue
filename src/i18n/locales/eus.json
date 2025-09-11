@@ -40,6 +40,10 @@
     "success": "Arrakasta",
     "back": "Hasierara itzuli"
   },
+  "credits": {
+    "title": "Kredituak",
+    "button": "Kredituak"
+  },
   "history": "Historia",
   "productionZone": "Ekoizpen eremua"
 }

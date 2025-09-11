@@ -5,6 +5,7 @@ import Sheets from '../components/Sheets/index.vue'
 import Videos from '../components/Videos/index.vue'
 import VideoPlayer from '../components/VideoPlayer.vue'
 import Presentation from '../components/Sheets/Presentation.vue'
+import Credits from '../components/Credits/index.vue'
 
 const routes = [
   {
@@ -38,6 +39,11 @@ const routes = [
     name: 'Presentation',
     component: Presentation,
     props: true
+  },
+  {
+    path: '/credits',
+    name: 'Credits',
+    component: Credits
   }
 ]
 

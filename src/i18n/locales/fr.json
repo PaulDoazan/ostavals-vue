@@ -40,6 +40,10 @@
     "success": "Succès",
     "back": "Retour à l'accueil"
   },
+  "credits": {
+    "title": "Crédits",
+    "button": "Crédits"
+  },
   "history": "Histoire",
   "productionZone": "Zone de production"
 }

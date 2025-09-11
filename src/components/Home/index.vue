@@ -24,7 +24,7 @@ const navigateTo = (path: string) => {
     </div>
     <Menu />
     <div class="h-screen grid grid-cols-3">
-      <div @click="navigateTo('/resources')" class="bg-creme flex items-center justify-center">
+      <div class="bg-creme flex items-center justify-center">
         <div class="h-84 w-100 flex flex-col justify-between transform -translate-y-12">
           <div class="font-bold leading-20" style="font-size: 40px;">
             {{ t('home.title') }}
