@@ -7,7 +7,6 @@ import NavigationArrows from '../NavigationArrows.vue'
 import videosData from '../../data/videos.json'
 import type { VideoItem } from '../../types/videos'
 import PlayBtn from '../Icon/PlayBtn.vue'
-import NoEar from '../Icon/NoEar.vue'
 
 const { t, locale } = useI18n()
 const router = useRouter()
@@ -79,23 +78,20 @@ const handlePageChange = (newPage: number) => {
             <!-- Language Toggle Buttons (show if at least one language has URL) -->
             <div v-if="hasLanguageUrl(video, 'fr') || hasLanguageUrl(video, 'eus')" class="mb-12 flex gap-4 self-start">
               <div class="flex flex-col items-center cursor-pointer" @click.stop="toggleVideoLanguage(video.id)">
-                <NoEar v-if="!hasLanguageUrl(video, 'fr')" />
-                <div v-else
-                  class="text-white font-soleil flex items-center justify-center transition-all duration-200 bg-red"
-                  style="width: 6.5rem; height: 6.5rem; border-radius: 9999px; font-size: 40px;">
-                  <span class="transform translate-y-1">
-                    FR
-                  </span>
+                <div v-if="!hasLanguageUrl(video, 'fr')">
+                  <img src="/icons/lsf.svg" alt="FR" class="w-24 h-24" />
+                </div>
+                <div v-else>
+                  <img src="/icons/fr.svg" alt="FR" class="w-24 h-24" />
                 </div>
               </div>
               <div class="flex flex-col items-center cursor-pointer" @click.stop="toggleVideoLanguage(video.id)">
-                <NoEar v-if="!hasLanguageUrl(video, 'eus')" />
-                <div v-else
-                  class="text-white font-soleil flex items-center justify-center transition-all duration-200 bg-red"
-                  style="width: 6.5rem; height: 6.5rem; border-radius: 9999px; font-size: 40px;">
-                  <span class="transform translate-y-1">
-                    EUS
-                  </span>
+                <div v-if="!hasLanguageUrl(video, 'eus')">
+                  <img src="/icons/lsf.svg" alt="EUS" class="w-24 h-24" />
+                </div>
+
+                <div v-else>
+                  <img src="/icons/eus-sub.svg" alt="EUS" class="w-24 h-24" />
                 </div>
               </div>
             </div>
