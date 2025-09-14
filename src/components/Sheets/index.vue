@@ -6,7 +6,6 @@ import Menu from '../Menu/index.vue'
 import NavigationArrows from '../NavigationArrows.vue'
 import sheetsData from '../../data/sheets.json'
 import { useLanguage } from '../../composables/useLanguage'
-import ImageSkeleton from './ImageSkeleton.vue'
 
 const { t } = useI18n()
 const router = useRouter()
@@ -107,9 +106,9 @@ const isImageLoaded = (itemId: number) => {
             class="flex flex-col items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
             @click="goToPresentation(item.id)">
             <!-- Thumbnail image -->
-            <div class="mb-3 overflow-hidden" style="aspect-ratio: 1920/1080;">
+            <div class="mb-3 overflow-hidden relative" style="width: 300px; height: 169px;">
               <!-- Show skeleton while image is loading -->
-              <ImageSkeleton :width="'300px'" :height="'169px'" />
+              <!-- <ImageSkeleton :width="'300px'" :height="'169px'" /> -->
               <!-- Show image once loaded -->
               <img v-show="isImageLoaded(item.id)" :src="item.thumbnail" class="w-full h-full object-cover"
                 @load="handleImageLoad(item.id)" @error="handleImageLoad(item.id)" />
