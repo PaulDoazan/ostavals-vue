@@ -14,7 +14,7 @@ interface Props {
   arrowColor?: string
 }
 
-const props = withDefaults(defineProps<Props>(), {
+withDefaults(defineProps<Props>(), {
   arrowColor: '#c83e29' // Default red color
 })
 </script>
