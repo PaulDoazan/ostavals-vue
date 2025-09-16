@@ -4,7 +4,7 @@ import { ref, computed } from 'vue';
 import { useRouter, useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 
-const showIdleScreen = ref(true)
+const showIdleScreen = ref(false)
 const router = useRouter()
 const route = useRoute()
 const { t } = useI18n()
