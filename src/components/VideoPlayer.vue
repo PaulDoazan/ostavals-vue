@@ -7,7 +7,7 @@
       <!-- Video container -->
 
       <div class="flex-1 flex items-center justify-center animate-fade-in-up">
-        <div class="w-full relative">
+        <div class="w-full h-full relative video-container" @click="showControls">
           <!-- Loading indicator -->
           <div v-if="isLoading" class="absolute inset-0 flex items-center justify-center bg-gray-900 rounded-lg">
             <div class="text-white text-2xl flex flex-col items-center">
@@ -28,15 +28,21 @@
           </div>
 
           <video ref="videoElement" :src="videoUrl" :preload="getOptimalPreloadStrategy" :poster="video?.thumbnail"
-            class="w-full h-full rounded-lg shadow-2xl" @ended="onVideoEnded" @error="onVideoError"
+            class="w-full h-full rounded-lg shadow-2xl object-cover" :controls="false" :playsinline="true"
+            :webkit-playsinline="true" :muted="false" @ended="onVideoEnded" @error="onVideoError"
             @timeupdate="onTimeUpdate" @loadedmetadata="onLoadedMetadata" @loadstart="onLoadStart" @canplay="onCanPlay"
             @canplaythrough="onCanPlayThrough" @waiting="onWaiting" @playing="onVideoPlay" @pause="onVideoPause"
-            @stalled="onStalled" @suspend="onSuspend">
+            @stalled="onStalled" @suspend="onSuspend" @click="showControls">
             Your browser does not support the video tag.
           </video>
 
           <!-- Custom Controls -->
-          <div class="absolute bottom-0 left-0 right-0 w-full">
+          <div class="absolute left-0 right-0 w-full z-10" :class="{ 'brightsign-controls': isEmbeddedDevice }" :style="{
+            bottom: '0px',
+            opacity: controlsVisible ? 1 : 0,
+            transition: 'opacity 0.3s ease',
+            position: 'absolute'
+          }" @mouseenter="showControls" @mouseleave="hideControls" @touchstart="showControls" @click.stop>
             <!-- Gradient slice on top -->
             <div class="h-10 w-full" style="background: linear-gradient(to top, rgba(0,0,0,0.6), transparent);"></div>
             <!-- Full width shadow background -->
@@ -115,6 +121,7 @@ const {
   isLoading,
   hasError,
   retryCount,
+  isEmbeddedDevice,
   getOptimalPreloadStrategy,
   checkMemoryUsage,
   cleanupVideo,
@@ -141,6 +148,10 @@ const duration = ref(0)
 
 // Drag state
 const isDragging = ref(false)
+
+// Control visibility state
+const controlsVisible = ref(true)
+const controlsTimeout = ref<number | null>(null)
 
 // Memory management
 const memoryCheckInterval = ref<number | null>(null)
@@ -328,11 +339,19 @@ const onLoadedMetadata = () => {
 // Handle video play event
 const onVideoPlay = () => {
   isPlaying.value = true
+  // Show controls briefly when video starts playing
+  showControls()
 }
 
 // Handle video pause event
 const onVideoPause = () => {
   isPlaying.value = false
+  // Keep controls visible when paused
+  controlsVisible.value = true
+  if (controlsTimeout.value) {
+    clearTimeout(controlsTimeout.value)
+    controlsTimeout.value = null
+  }
 }
 
 // Format time for display
@@ -426,6 +445,28 @@ const startDrag = (event: MouseEvent | TouchEvent) => {
   document.addEventListener('touchend', handleEnd)
 }
 
+// Control visibility methods
+const showControls = () => {
+  controlsVisible.value = true
+  if (controlsTimeout.value) {
+    clearTimeout(controlsTimeout.value)
+    controlsTimeout.value = null
+  }
+
+  // Auto-hide controls after 3 seconds on embedded devices
+  if (isEmbeddedDevice.value && isPlaying.value) {
+    controlsTimeout.value = window.setTimeout(() => {
+      controlsVisible.value = false
+    }, 3000)
+  }
+}
+
+const hideControls = () => {
+  if (isEmbeddedDevice.value && isPlaying.value) {
+    controlsVisible.value = false
+  }
+}
+
 // Memory management for BrightSign
 const handleMemoryCheck = () => {
   const memoryInfo = checkMemoryUsage()
@@ -456,9 +497,13 @@ onMounted(() => {
   // Set conservative video settings for BrightSign
   if (videoElement.value) {
     videoElement.value.preload = getOptimalPreloadStrategy.value
-    videoElement.value.controls = false
     videoElement.value.muted = false
     videoElement.value.playsInline = true
+
+    // Always use custom controls (no native controls)
+    videoElement.value.controls = false
+    videoElement.value.autoplay = false
+    videoElement.value.loop = false
 
     // Setup progressive loading
     progressiveLoadingCleanup.value = setupProgressiveLoading(videoElement.value) || null
@@ -490,6 +535,10 @@ onUnmounted(() => {
     clearTimeout(loadingTimeout.value)
   }
 
+  if (controlsTimeout.value) {
+    clearTimeout(controlsTimeout.value)
+  }
+
   // Clean up video element
   if (videoElement.value) {
     cleanupVideo(videoElement.value)
@@ -508,6 +557,93 @@ onUnmounted(() => {
 video {
   outline: none;
   position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Ensure video container maintains stable dimensions */
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Hide all default video controls and UI elements */
+video::-webkit-media-controls {
+  display: none !important;
+}
+
+video::-webkit-media-controls-panel {
+  display: none !important;
+}
+
+video::-webkit-media-controls-play-button {
+  display: none !important;
+}
+
+video::-webkit-media-controls-timeline {
+  display: none !important;
+}
+
+video::-webkit-media-controls-current-time-display {
+  display: none !important;
+}
+
+video::-webkit-media-controls-time-remaining-display {
+  display: none !important;
+}
+
+video::-webkit-media-controls-mute-button {
+  display: none !important;
+}
+
+video::-webkit-media-controls-volume-slider {
+  display: none !important;
+}
+
+video::-webkit-media-controls-fullscreen-button {
+  display: none !important;
+}
+
+video::-webkit-media-controls-overlay-play-button {
+  display: none !important;
+}
+
+/* Hide controls for other browsers */
+video::-moz-media-controls {
+  display: none !important;
+}
+
+video::-ms-media-controls {
+  display: none !important;
+}
+
+/* Ensure no default controls appear */
+video[controls] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* BrightSign-specific control styling */
+.brightsign-controls {
+  pointer-events: auto;
+  z-index: 1000;
+}
+
+.brightsign-controls * {
+  pointer-events: auto;
+}
+
+/* Ensure controls stay fixed at bottom */
+.absolute.left-0.right-0 {
+  position: absolute !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  transform: none !important;
 }
 
 
