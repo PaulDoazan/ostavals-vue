@@ -22,8 +22,8 @@ const isHomePage = computed(() => route.name === 'Home')
     <template v-else>
       <!-- Vertical Credits Button on the left side - only on Home page -->
       <button v-if="isHomePage" @click="goToCredits"
-        class="fixed left-0 top-3/4 transform -translate-y-1/2 z-50 bg-background border-2 border-red border-l-0   px-3 py-6 rounded-r-lg"
-        style="writing-mode: vertical-rl; text-orientation: mixed;">
+        class="fixed -left-10 top-3/4 transform z-50 bg-background border-2 border-red border-b-0 px-3 pt-6 pb-10 rounded-t-lg"
+        style="transform: translateY(-50%) rotate(90deg);">
         <span class="text-red text-3xl tracking-wider">
           {{ t('credits.button') }}
         </span>

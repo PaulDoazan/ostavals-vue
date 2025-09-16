@@ -8,9 +8,30 @@
 
       <div class="flex-1 flex items-center justify-center animate-fade-in-up">
         <div class="w-full relative">
-          <video ref="videoElement" :src="videoUrl" autoplay class="w-full h-full rounded-lg shadow-2xl"
-            @ended="onVideoEnded" @error="onVideoError" @timeupdate="onTimeUpdate" @loadedmetadata="onLoadedMetadata"
-            @play="onVideoPlay" @pause="onVideoPause">
+          <!-- Loading indicator -->
+          <div v-if="isLoading" class="absolute inset-0 flex items-center justify-center bg-gray-900 rounded-lg">
+            <div class="text-white text-2xl flex flex-col items-center">
+              <div class="animate-spin rounded-full h-16 w-16 border-b-2 border-white mb-4"></div>
+              <div>{{ t('video.loading', 'Loading video...') }}</div>
+            </div>
+          </div>
+
+          <!-- Error state -->
+          <div v-if="hasError" class="absolute inset-0 flex items-center justify-center bg-red-900 rounded-lg">
+            <div class="text-white text-2xl text-center">
+              <div class="mb-4">⚠️</div>
+              <div>{{ t('video.error', 'Error loading video') }}</div>
+              <button @click="retryLoad" class="mt-4 px-6 py-2 bg-white text-red-900 rounded hover:bg-gray-200">
+                {{ t('video.retry', 'Retry') }}
+              </button>
+            </div>
+          </div>
+
+          <video ref="videoElement" :src="videoUrl" :preload="getOptimalPreloadStrategy" :poster="video?.thumbnail"
+            class="w-full h-full rounded-lg shadow-2xl" @ended="onVideoEnded" @error="onVideoError"
+            @timeupdate="onTimeUpdate" @loadedmetadata="onLoadedMetadata" @loadstart="onLoadStart" @canplay="onCanPlay"
+            @canplaythrough="onCanPlayThrough" @waiting="onWaiting" @playing="onVideoPlay" @pause="onVideoPause"
+            @stalled="onStalled" @suspend="onSuspend">
             Your browser does not support the video tag.
           </video>
 
@@ -77,15 +98,38 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted, onUnmounted, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import videosData from '../data/videos.json'
 import Back from './Icon/Back.vue'
+import { useVideoOptimization } from '../composables/useVideoOptimization'
 
 const route = useRoute()
 const router = useRouter()
-const { locale } = useI18n()
+const { t, locale } = useI18n()
+
+// Video optimization composable
+const {
+  isBuffering,
+  isLoading,
+  hasError,
+  retryCount,
+  getOptimalPreloadStrategy,
+  checkMemoryUsage,
+  cleanupVideo,
+  setupProgressiveLoading,
+  retryWithBackoff,
+  resetStates,
+  getOptimizationRecommendations
+} = useVideoOptimization({
+  maxRetries: 3,
+  retryDelay: 2000,
+  memoryThreshold: 0.8,
+  preloadStrategy: 'metadata',
+  enableMemoryMonitoring: true,
+  enableProgressiveLoading: true
+})
 
 const videoElement = ref<HTMLVideoElement | null>(null)
 const progressBar = ref<HTMLDivElement | null>(null)
@@ -97,6 +141,10 @@ const duration = ref(0)
 
 // Drag state
 const isDragging = ref(false)
+
+// Memory management
+const memoryCheckInterval = ref<number | null>(null)
+const progressiveLoadingCleanup = ref<(() => void) | null>(null)
 
 // Get video ID from route params
 const videoId = computed(() => parseInt(route.params.id as string))
@@ -133,7 +181,68 @@ const onVideoEnded = () => {
 // Handle video error
 const onVideoError = (event: Event) => {
   console.error('Video playback error:', event)
-  // You could show an error message here
+  hasError.value = true
+  isLoading.value = false
+  isBuffering.value = false
+
+  // Auto-retry for network errors
+  if (retryCount.value < 3) {
+    setTimeout(() => {
+      retryLoad()
+    }, 2000)
+  }
+}
+
+// Handle load start
+const onLoadStart = () => {
+  isLoading.value = true
+  hasError.value = false
+  console.log('Video load started')
+}
+
+// Handle can play
+const onCanPlay = () => {
+  console.log('Video can start playing')
+  isLoading.value = false
+  isBuffering.value = false
+}
+
+// Handle can play through
+const onCanPlayThrough = () => {
+  console.log('Video can play through without stopping')
+  isLoading.value = false
+  isBuffering.value = false
+}
+
+// Handle waiting (buffering)
+const onWaiting = () => {
+  console.log('Video is waiting for data')
+  isBuffering.value = true
+}
+
+// Handle stalled
+const onStalled = () => {
+  console.log('Video stalled - trying to recover')
+  isBuffering.value = true
+}
+
+// Handle suspend
+const onSuspend = () => {
+  console.log('Video loading suspended')
+  // Don't set loading to false here as it might resume
+}
+
+// Retry loading video
+const retryLoad = async () => {
+  const success = await retryWithBackoff(() => {
+    if (videoElement.value) {
+      videoElement.value.load()
+    }
+  })
+
+  if (!success) {
+    console.error('Max retries reached')
+  }
 }
 
 // Toggle play/pause
@@ -262,6 +371,63 @@ const startDrag = (event: MouseEvent | TouchEvent) => {
   document.addEventListener('touchmove', handleMove)
   document.addEventListener('touchend', handleEnd)
 }
+
+// Memory management for BrightSign
+const handleMemoryCheck = () => {
+  const memoryInfo = checkMemoryUsage()
+  if (memoryInfo && memoryInfo.isHigh) {
+    console.warn('High memory usage detected, attempting cleanup')
+    if (videoElement.value) {
+      cleanupVideo(videoElement.value)
+    }
+  }
+}
+
+// Watch for video URL changes to reset states
+watch(videoUrl, (newUrl) => {
+  if (newUrl) {
+    resetStates()
+  }
+})
+
+// Lifecycle hooks
+onMounted(() => {
+  // Start memory monitoring
+  memoryCheckInterval.value = window.setInterval(handleMemoryCheck, 30000) // Check every 30 seconds
+
+  // Set conservative video settings for BrightSign
+  if (videoElement.value) {
+    videoElement.value.preload = getOptimalPreloadStrategy.value
+    videoElement.value.controls = false
+    videoElement.value.muted = false
+    videoElement.value.playsInline = true
+
+    // Setup progressive loading
+    progressiveLoadingCleanup.value = setupProgressiveLoading(videoElement.value) || null
+  }
+
+  // Log optimization recommendations
+  const recommendations = getOptimizationRecommendations()
+  if (recommendations.length > 0) {
+    console.log('Video optimization recommendations:', recommendations)
+  }
+})
+
+onUnmounted(() => {
+  // Cleanup
+  if (memoryCheckInterval.value) {
+    clearInterval(memoryCheckInterval.value)
+  }
+
+  if (progressiveLoadingCleanup.value) {
+    progressiveLoadingCleanup.value()
+  }
+
+  // Clean up video element
+  if (videoElement.value) {
+    cleanupVideo(videoElement.value)
+  }
+})
 
 </script>
 
