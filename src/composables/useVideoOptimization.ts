@@ -45,8 +45,9 @@ export function useVideoOptimization(config: Partial<VideoOptimizationConfig> = 
   
   // Check memory usage
   const checkMemoryUsage = () => {
-    if (performance.memory) {
-      const memory = performance.memory
+    // Check if performance.memory is available (Chrome-specific API)
+    if ('memory' in performance && performance.memory) {
+      const memory = (performance as any).memory
       const used = memory.usedJSHeapSize / 1024 / 1024
       const limit = memory.jsHeapSizeLimit / 1024 / 1024
       memoryUsage.value = used / limit

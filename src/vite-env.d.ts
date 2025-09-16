@@ -5,4 +5,13 @@ declare global {
   interface Window {
     gc?: () => void;
   }
+  
+  // Extend Performance interface for memory information
+  interface Performance {
+    memory?: {
+      usedJSHeapSize: number;
+      totalJSHeapSize: number;
+      jsHeapSizeLimit: number;
+    };
+  }
 }
