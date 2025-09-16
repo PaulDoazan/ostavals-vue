@@ -341,6 +341,11 @@ const onVideoPlay = () => {
   isPlaying.value = true
   // Show controls briefly when video starts playing
   showControls()
+
+  // Debug logging for BrightSign
+  if (isEmbeddedDevice.value) {
+    console.log('Video playing on BrightSign - controls should be visible:', controlsVisible.value)
+  }
 }
 
 // Handle video pause event
@@ -453,16 +458,18 @@ const showControls = () => {
     controlsTimeout.value = null
   }
 
-  // Auto-hide controls after 3 seconds on embedded devices
+  // Auto-hide controls after 5 seconds on embedded devices (longer timeout)
   if (isEmbeddedDevice.value && isPlaying.value) {
     controlsTimeout.value = window.setTimeout(() => {
       controlsVisible.value = false
-    }, 3000)
+    }, 5000)
   }
 }
 
 const hideControls = () => {
-  if (isEmbeddedDevice.value && isPlaying.value) {
+  // Don't hide controls on embedded devices when mouse leaves
+  // Only hide on regular browsers
+  if (!isEmbeddedDevice.value && isPlaying.value) {
     controlsVisible.value = false
   }
 }
@@ -518,6 +525,12 @@ onMounted(() => {
   const recommendations = getOptimizationRecommendations()
   if (recommendations.length > 0) {
     console.log('Video optimization recommendations:', recommendations)
+  }
+
+  // Initialize controls visibility for embedded devices
+  if (isEmbeddedDevice.value) {
+    controlsVisible.value = true
+    console.log('BrightSign device detected - controls will remain visible')
   }
 })
 
@@ -631,10 +644,19 @@ video[controls] {
 .brightsign-controls {
   pointer-events: auto;
   z-index: 1000;
+  opacity: 1 !important;
+  /* Force visibility on BrightSign */
 }
 
 .brightsign-controls * {
   pointer-events: auto;
+}
+
+/* Ensure controls are always visible on embedded devices */
+@media (pointer: coarse) {
+  .brightsign-controls {
+    opacity: 1 !important;
+  }
 }
 
 /* Ensure controls stay fixed at bottom */
