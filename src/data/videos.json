@@ -7,7 +7,7 @@
     },
     "thumbnail": "/images/idlescreen.jpg",
     "urls": {
-      "fr": "/public/videos/idle.mp4",
+      "fr": "/videos/idle.mp4",
       "eus": ""
     }
   },
@@ -19,8 +19,8 @@
     },
     "thumbnail": "/images/idlescreen.jpg",
     "urls": {
-      "fr": "/videos/bbb_2.mp4",
-      "eus": "/videos/bbb_5.mp4"
+      "fr": "/videos/ForBiggerFun.mp4",
+      "eus": "/videos/idle.mp4"
     }
   },
   {
@@ -31,8 +31,8 @@
     },
     "thumbnail": "/images/idlescreen.jpg",
     "urls": {
-      "fr": "/videos/gastronomie-basque-fr.mp4",
-      "eus": "/videos/gastronomie-basque-eus.mp4"
+      "fr": "/videos/BigBuckBunny.mp4",
+      "eus": "/videos/idle.mp4"
     }
   },
   {
@@ -43,8 +43,8 @@
     },
     "thumbnail": "/images/idlescreen.jpg",
     "urls": {
-      "fr": "/videos/musique-basque-fr.mp4",
-      "eus": "/videos/musique-basque-eus.mp4"
+      "fr": "/videos/ForBiggerJoyrides.mp4",
+      "eus": "/videos/idle.mp4"
     }
   },
   {
@@ -55,8 +55,8 @@
     },
     "thumbnail": "/images/idlescreen.jpg",
     "urls": {
-      "fr": "/videos/architecture-basque-fr.mp4",
-      "eus": "/videos/architecture-basque-eus.mp4"
+      "fr": "/videos/idle.mp4",
+      "eus": "/videos/idle.mp4"
     }
   },
   {
@@ -67,8 +67,8 @@
     },
     "thumbnail": "/images/idlescreen.jpg",
     "urls": {
-      "fr": "/videos/sports-basques-fr.mp4",
-      "eus": "/videos/sports-basques-eus.mp4"
+      "fr": "/videos/idle.mp4",
+      "eus": "/videos/idle.mp4"
     }
   },
   {
@@ -79,8 +79,8 @@
     },
     "thumbnail": "/images/idlescreen.jpg",
     "urls": {
-      "fr": "/videos/fetes-basques-fr.mp4",
-      "eus": "/videos/fetes-basques-eus.mp4"
+      "fr": "/videos/idle.mp4",
+      "eus": "/videos/idle.mp4"
     }
   },
   {
@@ -91,8 +91,8 @@
     },
     "thumbnail": "/images/idlescreen.jpg",
     "urls": {
-      "fr": "/videos/euskera-fr.mp4",
-      "eus": "/videos/euskera-eus.mp4"
+      "fr": "/videos/idle.mp4",
+      "eus": "/videos/idle.mp4"
     }
   },
   {
@@ -103,8 +103,8 @@
     },
     "thumbnail": "/images/idlescreen.jpg",
     "urls": {
-      "fr": "/videos/paysages-basque-fr.mp4",
-      "eus": "/videos/paysages-basque-eus.mp4"
+      "fr": "/videos/idle.mp4",
+      "eus": "/videos/idle.mp4"
     }
   }
 ]

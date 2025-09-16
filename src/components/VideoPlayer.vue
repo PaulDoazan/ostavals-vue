@@ -146,6 +146,9 @@ const isDragging = ref(false)
 const memoryCheckInterval = ref<number | null>(null)
 const progressiveLoadingCleanup = ref<(() => void) | null>(null)
 
+// Video loading timeout
+const loadingTimeout = ref<number | null>(null)
+
 // Get video ID from route params
 const videoId = computed(() => parseInt(route.params.id as string))
 
@@ -180,16 +183,29 @@ const onVideoEnded = () => {
 
 // Handle video error
 const onVideoError = (event: Event) => {
-  console.error('Video playback error:', event)
+  const video = event.target as HTMLVideoElement
+  const error = video.error
+
+  console.error('Video playback error:', {
+    error,
+    code: error?.code,
+    message: error?.message,
+    networkState: video.networkState,
+    readyState: video.readyState
+  })
+
   hasError.value = true
   isLoading.value = false
   isBuffering.value = false
 
   // Auto-retry for network errors
   if (retryCount.value < 3) {
+    console.log(`Retrying video load (attempt ${retryCount.value + 1})`)
     setTimeout(() => {
       retryLoad()
     }, 2000)
+  } else {
+    console.error('Max retries reached, video failed to load')
   }
 }
 
@@ -198,6 +214,19 @@ const onLoadStart = () => {
   isLoading.value = true
   hasError.value = false
   console.log('Video load started')
+
+  // Set a timeout for video loading
+  if (loadingTimeout.value) {
+    clearTimeout(loadingTimeout.value)
+  }
+
+  loadingTimeout.value = window.setTimeout(() => {
+    if (isLoading.value && !hasError.value) {
+      console.warn('Video loading timeout')
+      hasError.value = true
+      isLoading.value = false
+    }
+  }, 10000) // 10 second timeout
 }
 
 // Handle can play
@@ -205,6 +234,12 @@ const onCanPlay = () => {
   console.log('Video can start playing')
   isLoading.value = false
   isBuffering.value = false
+
+  // Clear loading timeout
+  if (loadingTimeout.value) {
+    clearTimeout(loadingTimeout.value)
+    loadingTimeout.value = null
+  }
 }
 
 // Handle can play through
@@ -212,6 +247,12 @@ const onCanPlayThrough = () => {
   console.log('Video can play through without stopping')
   isLoading.value = false
   isBuffering.value = false
+
+  // Clear loading timeout
+  if (loadingTimeout.value) {
+    clearTimeout(loadingTimeout.value)
+    loadingTimeout.value = null
+  }
 }
 
 // Handle waiting (buffering)
@@ -267,8 +308,21 @@ const onTimeUpdate = () => {
 // Handle loaded metadata
 const onLoadedMetadata = () => {
   if (!videoElement.value) return
-  duration.value = videoElement.value.duration
+
+  console.log('Video metadata loaded:', {
+    duration: videoElement.value.duration,
+    videoWidth: videoElement.value.videoWidth,
+    videoHeight: videoElement.value.videoHeight,
+    readyState: videoElement.value.readyState
+  })
+
+  duration.value = videoElement.value.duration || 0
   isPlaying.value = !videoElement.value.paused
+
+  // If duration is still 0 or NaN, try to get it from the video element
+  if (!duration.value || isNaN(duration.value)) {
+    console.warn('Duration not available, video might not be fully loaded')
+  }
 }
 
 // Handle video play event
@@ -387,6 +441,10 @@ const handleMemoryCheck = () => {
 watch(videoUrl, (newUrl) => {
   if (newUrl) {
     resetStates()
+    // Force reload the video when URL changes
+    if (videoElement.value) {
+      videoElement.value.load()
+    }
   }
 })
 
@@ -404,6 +462,11 @@ onMounted(() => {
 
     // Setup progressive loading
     progressiveLoadingCleanup.value = setupProgressiveLoading(videoElement.value) || null
+
+    // Force load the video to get metadata
+    if (videoUrl.value) {
+      videoElement.value.load()
+    }
   }
 
   // Log optimization recommendations
@@ -421,6 +484,10 @@ onUnmounted(() => {
 
   if (progressiveLoadingCleanup.value) {
     progressiveLoadingCleanup.value()
+  }
+
+  if (loadingTimeout.value) {
+    clearTimeout(loadingTimeout.value)
   }
 
   // Clean up video element
