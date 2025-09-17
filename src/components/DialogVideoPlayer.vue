@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import { ref, computed, onMounted, onUnmounted } from 'vue'
+import { ref, computed, onMounted, onUnmounted, watch } from 'vue'
 import Back from './Icon/Back.vue'
 
 interface Props {
   videoUrl: string
 }
 
-defineProps<Props>()
+const props = defineProps<Props>()
 
 const emit = defineEmits<{
   close: []
@@ -34,8 +34,15 @@ const progressPercentage = computed(() => {
 // Handle escape key to close modal
 const handleKeydown = (event: KeyboardEvent) => {
   if (event.key === 'Escape') {
+    cleanupVideo()
     emit('close')
   }
+}
+
+// Handle close button click
+const handleClose = () => {
+  cleanupVideo()
+  emit('close')
 }
 
 // Toggle play/pause
@@ -165,12 +172,40 @@ const onVideoPause = () => {
   isPlaying.value = false
 }
 
+// Clean up video element properly
+const cleanupVideo = () => {
+  if (videoElement.value) {
+    // Pause the video
+    videoElement.value.pause()
+
+    // Reset video properties
+    videoElement.value.currentTime = 0
+    videoElement.value.src = ''
+    videoElement.value.load()
+
+    // Reset state
+    isPlaying.value = false
+    currentTime.value = 0
+    duration.value = 0
+  }
+}
+
+// Watch for video URL changes to clean up previous video
+watch(() => props.videoUrl, (newUrl, oldUrl) => {
+  if (oldUrl && newUrl !== oldUrl) {
+    cleanupVideo()
+  }
+})
+
 onMounted(() => {
   document.addEventListener('keydown', handleKeydown)
 })
 
 onUnmounted(() => {
   document.removeEventListener('keydown', handleKeydown)
+
+  // Clean up video element when component is unmounted
+  cleanupVideo()
 })
 </script>
 
@@ -196,7 +231,7 @@ onUnmounted(() => {
         <div class="w-full flex items-center">
           <!-- Left column - close button -->
           <div class="w-1/4 flex justify-start">
-            <button @click="emit('close')"
+            <button @click="handleClose"
               class="text-white hover:text-gray-300 transition-colors duration-200 text-2xl font-bold"
               aria-label="Close video player">
               <Back arrow-color="#4b5563" />
