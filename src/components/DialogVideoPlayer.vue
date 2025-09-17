@@ -225,21 +225,19 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div class="relative w-full">
+  <div class="relative w-screen flex flex-col fixed top-0 left-0 right-0 z-40 fullscreen-video"
+    style="height: calc(100vh - 120px);">
     <!-- Video container -->
-    <div class="aspect-video bg-black rounded-lg overflow-hidden">
-      <video ref="videoElement" :src="videoUrl" class="w-full h-full object-cover" preload="metadata"
-        :playsinline="true" :webkit-playsinline="true" @click.stop @timeupdate="onTimeUpdate"
-        @loadedmetadata="onLoadedMetadata" @play="onVideoPlay" @pause="onVideoPause">
+    <div class="flex-1 bg-black overflow-hidden video-container">
+      <video ref="videoElement" :src="videoUrl" class="w-full h-full" preload="metadata" :playsinline="true"
+        :webkit-playsinline="true" @click.stop @timeupdate="onTimeUpdate" @loadedmetadata="onLoadedMetadata"
+        @play="onVideoPlay" @pause="onVideoPause">
         Your browser does not support the video tag.
       </video>
     </div>
 
     <!-- Custom Controls - positioned at bottom of screen -->
-    <div class="fixed left-0 right-0 w-full z-50" :style="{
-      bottom: '0px',
-      position: 'fixed',
-    }" @click.stop>
+    <div class="w-full z-50 fixed bottom-0 left-0 right-0" @click.stop>
       <!-- Full width shadow background -->
       <div class="py-4 px-6 bg-gray-900 shadow-lg">
         <!-- Controls container - 3 column layout -->
@@ -350,13 +348,22 @@ video[controls] {
   appearance: none;
 }
 
-/* Ensure controls are properly positioned at bottom of screen */
-.fixed.left-0.right-0 {
-  position: fixed !important;
-  left: 0 !important;
-  right: 0 !important;
-  bottom: 0 !important;
-  transform: none !important;
+/* Video container styling for full height and width */
+.video-container {
+  height: calc(100vh - 120px);
+  min-height: 0;
+  width: 100vw;
+}
+
+/* Ensure full screen coverage */
+.fullscreen-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  height: calc(100vh - 120px);
+  z-index: 40;
 }
 
 /* Video container styling */
@@ -365,7 +372,8 @@ video {
   position: relative;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  transform: scaleX(1.13) !important;
+  transform-origin: center !important;
 }
 
 /* BrightSign button styling fixes */
