@@ -23,6 +23,7 @@ const duration = ref(0)
 // Drag state
 const isDragging = ref(false)
 const dragTime = ref(0) // Time position during drag (visual only)
+const isSeeking = ref(false) // Flag to prevent timeupdate from overriding seek
 
 // Controls are always visible - no visibility state needed
 
@@ -78,8 +79,14 @@ const seekTo = (event: MouseEvent) => {
   const percentage = Math.max(0, Math.min(1, clickX / rect.width))
   const newTime = percentage * duration.value
 
+  isSeeking.value = true
   videoElement.value.currentTime = newTime
   currentTime.value = newTime
+
+  // Reset seeking flag after a short delay to allow timeupdate to resume
+  setTimeout(() => {
+    isSeeking.value = false
+  }, 100)
 }
 
 // Start dragging the progress bar thumb
@@ -159,7 +166,7 @@ const startDrag = (event: MouseEvent | TouchEvent) => {
 
 // Handle time update
 const onTimeUpdate = () => {
-  if (!videoElement.value || isDragging.value) return
+  if (!videoElement.value || isDragging.value || isSeeking.value) return
   currentTime.value = videoElement.value.currentTime
 }
 
@@ -239,15 +246,16 @@ onUnmounted(() => {
         <div class="w-full flex items-center">
           <!-- Left column - close button -->
           <div class="w-1/4 flex justify-start">
-            <button @click="handleClose" class="text-white text-2xl font-bold">
+            <div @click="handleClose" class="text-white text-2xl font-bold bg-transparent border-none p-0">
               <Back arrow-color="#4b5563" />
-            </button>
+            </div>
           </div>
 
           <!-- Center column - controls -->
           <div class="w-1/2 flex items-center justify-center space-x-4">
             <!-- Play/Pause Button -->
-            <button @click="togglePlayPause" class="text-white focus:outline-none flex-shrink-0"
+            <div @click="togglePlayPause"
+              class="text-white focus:outline-none flex-shrink-0 bg-transparent border-none p-0"
               :aria-label="isPlaying ? 'Pause video' : 'Play video'">
               <svg v-if="!isPlaying" class="w-24 h-24" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M8 5v14l11-7z" />
@@ -255,12 +263,12 @@ onUnmounted(() => {
               <svg v-else class="w-24 h-24" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M6 4h4v16H6V4zm8 0h4v16h-4V4z" />
               </svg>
-            </button>
+            </div>
 
             <!-- Progress Bar -->
-            <div class="flex-1 relative h-6 bg-gray-600 rounded-full cursor-pointer" @click="seekTo"
-              @mousedown="startDrag" @touchstart="startDrag" ref="progressBar">
-              <div class="absolute top-0 left-0 h-full bg-white rounded-full"
+            <div class="flex-1 relative h-6 bg-gray-600 rounded-full cursor-pointer progress-bar-container"
+              @click="seekTo" @mousedown="startDrag" @touchstart="startDrag" ref="progressBar">
+              <div class="absolute top-0 left-0 h-full bg-white progress-bar-fill"
                 :style="{ width: progressPercentage + '%' }"></div>
               <!-- Draggable thumb -->
               <div
@@ -358,5 +366,53 @@ video {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+/* BrightSign button styling fixes */
+button {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  outline: none !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+}
+
+button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+button:hover {
+  background: transparent !important;
+}
+
+button:active {
+  background: transparent !important;
+}
+
+/* Progress bar styling fixes */
+.progress-bar-container {
+  overflow: hidden;
+  border-radius: 9999px;
+}
+
+.progress-bar-fill {
+  border-radius: 9999px;
+  min-width: 0;
+}
+
+/* Ensure proper masking for small progress values */
+.progress-bar-fill::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: inherit;
+  border-radius: inherit;
 }
 </style>

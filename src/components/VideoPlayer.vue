@@ -57,7 +57,7 @@
                 <!-- Left column - back button -->
                 <div class="w-1/4 flex justify-start">
                   <button @click="closeVideoPlayer"
-                    class="text-white hover:text-gray-300 transition-colors duration-200 text-4xl font-bold"
+                    class="text-white hover:text-gray-300 transition-colors duration-200 text-4xl font-bold bg-transparent border-none p-0"
                     aria-label="Close video player">
                     <Back arrow-color="#4b5563" />
                   </button>
@@ -67,7 +67,7 @@
                 <div class="w-1/2 flex items-center justify-center space-x-6">
                   <!-- Play/Pause Button -->
                   <button @click="togglePlayPause"
-                    class="text-white hover:text-gray-300 transition-colors duration-200 focus:outline-none flex-shrink-0"
+                    class="text-white hover:text-gray-300 transition-colors duration-200 focus:outline-none flex-shrink-0 bg-transparent border-none p-0"
                     :aria-label="isPlaying ? 'Pause video' : 'Play video'">
                     <svg v-if="!isPlaying" class="w-24 h-24" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M8 5v14l11-7z" />
@@ -78,9 +78,9 @@
                   </button>
 
                   <!-- Progress Bar -->
-                  <div class="flex-1 relative h-2 bg-gray-600 rounded-full cursor-pointer" @click="seekTo"
-                    @mousedown="startDrag" @touchstart="startDrag" ref="progressBar">
-                    <div class="absolute top-0 left-0 h-full bg-white rounded-full"
+                  <div class="flex-1 relative h-2 bg-gray-600 rounded-full cursor-pointer progress-bar-container"
+                    @click="seekTo" @mousedown="startDrag" @touchstart="startDrag" ref="progressBar">
+                    <div class="absolute top-0 left-0 h-full bg-white progress-bar-fill"
                       :style="{ width: progressPercentage + '%' }"></div>
                     <!-- Draggable thumb -->
                     <div
@@ -713,5 +713,54 @@ video[controls] {
 
 .animate-fade-in-up {
   animation: fadeInUp 0.8s ease-out 0.4s both;
+}
+
+/* BrightSign button styling fixes */
+button {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  outline: none !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+}
+
+button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+button:hover {
+  background: transparent !important;
+}
+
+button:active {
+  background: transparent !important;
+}
+
+/* Progress bar styling fixes */
+.progress-bar-container {
+  overflow: hidden;
+  border-radius: 9999px;
+}
+
+.progress-bar-fill {
+  border-radius: 9999px;
+  min-width: 0;
+  transition: width 0.1s ease;
+}
+
+/* Ensure proper masking for small progress values */
+.progress-bar-fill::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: inherit;
+  border-radius: inherit;
 }
 </style>
