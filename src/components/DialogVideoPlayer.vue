@@ -22,13 +22,16 @@ const duration = ref(0)
 
 // Drag state
 const isDragging = ref(false)
+const dragTime = ref(0) // Time position during drag (visual only)
 
 // Controls are always visible - no visibility state needed
 
 // Progress percentage for progress bar
 const progressPercentage = computed(() => {
   if (duration.value === 0) return 0
-  return (currentTime.value / duration.value) * 100
+  // Use dragTime when dragging, otherwise use currentTime
+  const time = isDragging.value ? dragTime.value : currentTime.value
+  return (time / duration.value) * 100
 })
 
 // Handle escape key to close modal
@@ -90,23 +93,22 @@ const startDrag = (event: MouseEvent | TouchEvent) => {
     isPlaying.value = false
   }
 
-  // Immediately seek to the mouse position when starting drag
-  if (progressBar.value && videoElement.value) {
+  // Set initial drag position (visual only, don't update video yet)
+  if (progressBar.value) {
     const rect = progressBar.value.getBoundingClientRect()
     const clientX = 'touches' in event ? event.touches[0].clientX : event.clientX
     const clickX = clientX - rect.left
     const percentage = Math.max(0, Math.min(1, clickX / rect.width))
     const newTime = percentage * duration.value
 
-    videoElement.value.currentTime = newTime
-    currentTime.value = newTime
+    dragTime.value = newTime
   }
 
   let animationFrame: number | null = null
   let hasMoved = false
 
   const handleMove = (e: MouseEvent | TouchEvent) => {
-    if (!isDragging.value || !progressBar.value || !videoElement.value) return
+    if (!isDragging.value || !progressBar.value) return
 
     hasMoved = true
 
@@ -121,8 +123,8 @@ const startDrag = (event: MouseEvent | TouchEvent) => {
       const percentage = Math.max(0, Math.min(1, clickX / rect.width))
       const newTime = percentage * duration.value
 
-      videoElement.value!.currentTime = newTime
-      currentTime.value = newTime
+      // Only update dragTime (visual), don't update video yet
+      dragTime.value = newTime
     })
   }
 
@@ -132,6 +134,12 @@ const startDrag = (event: MouseEvent | TouchEvent) => {
     // If no movement occurred, treat it as a click
     if (!hasMoved) {
       seekTo(e as MouseEvent)
+    } else {
+      // If we were dragging, now update the video to the final position
+      if (videoElement.value) {
+        videoElement.value.currentTime = dragTime.value
+        currentTime.value = dragTime.value
+      }
     }
 
     if (animationFrame) {
@@ -231,9 +239,7 @@ onUnmounted(() => {
         <div class="w-full flex items-center">
           <!-- Left column - close button -->
           <div class="w-1/4 flex justify-start">
-            <button @click="handleClose"
-              class="text-white hover:text-gray-300 transition-colors duration-200 text-2xl font-bold"
-              aria-label="Close video player">
+            <button @click="handleClose" class="text-white text-2xl font-bold">
               <Back arrow-color="#4b5563" />
             </button>
           </div>
@@ -241,19 +247,18 @@ onUnmounted(() => {
           <!-- Center column - controls -->
           <div class="w-1/2 flex items-center justify-center space-x-4">
             <!-- Play/Pause Button -->
-            <button @click="togglePlayPause"
-              class="text-white hover:text-gray-300 transition-colors duration-200 focus:outline-none flex-shrink-0"
+            <button @click="togglePlayPause" class="text-white focus:outline-none flex-shrink-0"
               :aria-label="isPlaying ? 'Pause video' : 'Play video'">
-              <svg v-if="!isPlaying" class="w-12 h-12" fill="currentColor" viewBox="0 0 24 24">
+              <svg v-if="!isPlaying" class="w-24 h-24" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M8 5v14l11-7z" />
               </svg>
-              <svg v-else class="w-12 h-12" fill="currentColor" viewBox="0 0 24 24">
+              <svg v-else class="w-24 h-24" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M6 4h4v16H6V4zm8 0h4v16h-4V4z" />
               </svg>
             </button>
 
             <!-- Progress Bar -->
-            <div class="flex-1 relative h-2 bg-gray-600 rounded-full cursor-pointer" @click="seekTo"
+            <div class="flex-1 relative h-6 bg-gray-600 rounded-full cursor-pointer" @click="seekTo"
               @mousedown="startDrag" @touchstart="startDrag" ref="progressBar">
               <div class="absolute top-0 left-0 h-full bg-white rounded-full"
                 :style="{ width: progressPercentage + '%' }"></div>
@@ -266,8 +271,8 @@ onUnmounted(() => {
             </div>
 
             <!-- Timer -->
-            <div class="text-white text-lg font-mono flex-shrink-0 pl-4">
-              {{ formatTime(currentTime) }} / {{ formatTime(duration) }}
+            <div class="text-white text-4xl font-mono flex-shrink-0 pl-4">
+              {{ formatTime(isDragging ? dragTime : currentTime) }} / {{ formatTime(duration) }}
             </div>
           </div>
 
