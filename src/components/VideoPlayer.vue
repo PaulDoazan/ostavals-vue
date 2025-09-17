@@ -1,61 +1,181 @@
 <template>
-  <Transition enter-active-class="transition-all duration-700 ease-out" enter-from-class="opacity-0 scale-95"
-    enter-to-class="opacity-100 scale-100" leave-active-class="transition-all duration-500 ease-in"
-    leave-from-class="opacity-100 scale-100" leave-to-class="opacity-0 scale-95">
+  <Transition
+    enter-active-class="transition-all duration-700 ease-out"
+    enter-from-class="opacity-0 scale-95"
+    enter-to-class="opacity-100 scale-100"
+    leave-active-class="transition-all duration-500 ease-in"
+    leave-from-class="opacity-100 scale-100"
+    leave-to-class="opacity-0 scale-95"
+  >
     <div class="fixed inset-0 z-50 bg-black flex flex-col">
-
       <!-- Video container -->
 
       <div class="flex-1 flex items-center justify-center animate-fade-in-up">
-        <div class="w-full h-full relative video-container" @click="showControls">
+        <div
+          class="w-full h-full relative video-container"
+          @click="showControls"
+        >
           <!-- Loading indicator -->
-          <div v-if="isLoading" class="absolute inset-0 flex items-center justify-center bg-gray-900 rounded-lg">
+          <div
+            v-if="isLoading"
+            class="absolute inset-0 flex items-center justify-center bg-gray-900 rounded-lg"
+          >
             <div class="text-white text-2xl flex flex-col items-center">
-              <div class="animate-spin rounded-full h-16 w-16 border-b-2 border-white mb-4"></div>
+              <div
+                class="animate-spin rounded-full h-16 w-16 border-b-2 border-white mb-4"
+              ></div>
               <div>{{ t('video.loading', 'Loading video...') }}</div>
             </div>
           </div>
 
           <!-- Error state -->
-          <div v-if="hasError" class="absolute inset-0 flex items-center justify-center bg-red-900 rounded-lg">
+          <div
+            v-if="hasError"
+            class="absolute inset-0 flex items-center justify-center bg-red-900 rounded-lg"
+          >
             <div class="text-white text-2xl text-center">
               <div class="mb-4">⚠️</div>
               <div>{{ t('video.error', 'Error loading video') }}</div>
-              <button @click="retryLoad" class="mt-4 px-6 py-2 bg-white text-red-900 rounded hover:bg-gray-200">
+              <button
+                @click="retryLoad"
+                class="mt-4 px-6 py-2 bg-white text-red-900 rounded hover:bg-gray-200"
+              >
                 {{ t('video.retry', 'Retry') }}
               </button>
             </div>
           </div>
 
-          <video ref="videoElement" :src="videoUrl" :preload="getOptimalPreloadStrategy" :poster="video?.thumbnail"
-            class="w-full h-full rounded-lg shadow-2xl object-cover" controls :playsinline="true"
-            :webkit-playsinline="true" :muted="false" @ended="onVideoEnded" @error="onVideoError"
-            @timeupdate="onTimeUpdate" @loadedmetadata="onLoadedMetadata" @loadstart="onLoadStart" @canplay="onCanPlay"
-            @canplaythrough="onCanPlayThrough" @waiting="onWaiting" @playing="onVideoPlay" @pause="onVideoPause"
-            @stalled="onStalled" @suspend="onSuspend">
+          <video
+            ref="videoElement"
+            :src="videoUrl"
+            :preload="getOptimalPreloadStrategy"
+            :poster="video?.thumbnail"
+            class="w-full h-full rounded-lg shadow-2xl object-cover"
+            controls
+            :playsinline="true"
+            :webkit-playsinline="true"
+            :muted="false"
+            @ended="onVideoEnded"
+            @error="onVideoError"
+            @timeupdate="onTimeUpdate"
+            @loadedmetadata="onLoadedMetadata"
+            @loadstart="onLoadStart"
+            @canplay="onCanPlay"
+            @canplaythrough="onCanPlayThrough"
+            @waiting="onWaiting"
+            @playing="onVideoPlay"
+            @pause="onVideoPause"
+            @stalled="onStalled"
+            @suspend="onSuspend"
+          >
             Your browser does not support the video tag.
           </video>
 
           <!-- Custom Controls -->
-          <div class="absolute left-0 right-0 w-full z-10" :class="{ 'brightsign-controls': isEmbeddedDevice }" :style="{
-            bottom: '0px',
-            opacity: controlsVisible ? 1 : 0,
-            transition: 'opacity 0.3s ease',
-            position: 'absolute'
-          }" @mouseenter="showControls" @mouseleave="hideControls" @touchstart="showControls" @click.stop>
+          <div
+            class="absolute left-0 right-0 w-full z-10"
+            :class="{ 'brightsign-controls': isEmbeddedDevice }"
+            :style="{
+              bottom: '0px',
+              opacity: controlsVisible ? 1 : 0,
+              transition: 'opacity 0.3s ease',
+              position: 'absolute',
+            }"
+            @mouseenter="showControls"
+            @mouseleave="hideControls"
+            @touchstart="showControls"
+            @click.stop
+          >
             <!-- Gradient slice on top -->
-            <div class="h-10 w-full" style="background: linear-gradient(to top, rgba(0,0,0,0.6), transparent);"></div>
+            <div
+              class="h-10 w-full"
+              style="
+                background: linear-gradient(
+                  to top,
+                  rgba(0, 0, 0, 0.6),
+                  transparent
+                );
+              "
+            ></div>
             <!-- Full width shadow background -->
-            <div class="py-2" style="background-color: rgba(0,0,0,0.6);">
+            <div class="py-2" style="background-color: rgba(0, 0, 0, 0.6)">
               <!-- Controls container - 3 column layout -->
+              <div class="w-full flex items-center px-8">
+                <!-- Left column - back button -->
+                <div class="w-1/4 flex justify-start">
+                  <button
+                    @click="closeVideoPlayer"
+                    class="text-white hover:text-gray-300 transition-colors duration-200 text-4xl font-bold"
+                    aria-label="Close video player"
+                  >
+                    <Back arrow-color="#4b5563" />
+                  </button>
+                </div>
 
+                <!-- Center column - controls -->
+                <div class="w-1/2 flex items-center justify-center space-x-6">
+                  <!-- Play/Pause Button -->
+                  <button
+                    @click="togglePlayPause"
+                    class="text-white hover:text-gray-300 transition-colors duration-200 focus:outline-none flex-shrink-0"
+                    :aria-label="isPlaying ? 'Pause video' : 'Play video'"
+                  >
+                    <svg
+                      v-if="!isPlaying"
+                      class="w-24 h-24"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M8 5v14l11-7z" />
+                    </svg>
+                    <svg
+                      v-else
+                      class="w-24 h-24"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M6 4h4v16H6V4zm8 0h4v16h-4V4z" />
+                    </svg>
+                  </button>
+
+                  <!-- Progress Bar -->
+                  <div
+                    class="flex-1 relative h-2 bg-gray-600 rounded-full cursor-pointer"
+                    @click="seekTo"
+                    @mousedown="startDrag"
+                    @touchstart="startDrag"
+                    ref="progressBar"
+                  >
+                    <div
+                      class="absolute top-0 left-0 h-full bg-white rounded-full"
+                      :style="{ width: progressPercentage + '%' }"
+                    ></div>
+                    <!-- Draggable thumb -->
+                    <div
+                      class="absolute top-1/2 transform -translate-y-1/2 w-12 h-12 bg-transparent rounded-full cursor-pointer"
+                      :class="{
+                        'hover:scale-110 transition-transform duration-200':
+                          !isDragging,
+                      }"
+                      :style="{ left: `calc(${progressPercentage}% - 24px)` }"
+                    ></div>
+                  </div>
+
+                  <!-- Timer -->
+                  <div class="text-white text-3xl font-mono flex-shrink-0 pl-4">
+                    {{ formatTime(currentTime) }} / {{ formatTime(duration) }}
+                  </div>
+                </div>
+
+                <!-- Right column - empty for balance -->
+                <div class="w-1/4"></div>
+              </div>
             </div>
           </div>
         </div>
       </div>
       <!-- <Menu /> -->
     </div>
-
   </Transition>
 </template>
 
@@ -82,14 +202,14 @@ const {
   setupProgressiveLoading,
   retryWithBackoff,
   resetStates,
-  getOptimizationRecommendations
+  getOptimizationRecommendations,
 } = useVideoOptimization({
   maxRetries: 3,
   retryDelay: 2000,
   memoryThreshold: 0.8,
   preloadStrategy: 'metadata',
   enableMemoryMonitoring: true,
-  enableProgressiveLoading: true
+  enableProgressiveLoading: true,
 })
 
 const videoElement = ref<HTMLVideoElement | null>(null)
@@ -118,7 +238,7 @@ const videoId = computed(() => parseInt(route.params.id as string))
 
 // Find the video data
 const video = computed(() => {
-  return videosData.find(v => v.id === videoId.value)
+  return videosData.find((v) => v.id === videoId.value)
 })
 
 // Get video URL based on current language
@@ -127,8 +247,6 @@ const videoUrl = computed(() => {
   const lang = locale.value as 'fr' | 'eus'
   return video.value.urls[lang] || video.value.urls.fr || ''
 })
-
-
 
 // Handle video end
 const onVideoEnded = () => {
@@ -146,7 +264,7 @@ const onVideoError = (event: Event) => {
     code: error?.code,
     message: error?.message,
     networkState: video.networkState,
-    readyState: video.readyState
+    readyState: video.readyState,
   })
 
   hasError.value = true
@@ -241,7 +359,6 @@ const retryLoad = async () => {
   }
 }
 
-
 // Handle time update
 const onTimeUpdate = () => {
   if (!videoElement.value || isDragging.value) return
@@ -256,7 +373,7 @@ const onLoadedMetadata = () => {
     duration: videoElement.value.duration,
     videoWidth: videoElement.value.videoWidth,
     videoHeight: videoElement.value.videoHeight,
-    readyState: videoElement.value.readyState
+    readyState: videoElement.value.readyState,
   })
 
   duration.value = videoElement.value.duration || 0
@@ -276,7 +393,10 @@ const onVideoPlay = () => {
 
   // Debug logging for BrightSign
   if (isEmbeddedDevice.value) {
-    console.log('Video playing on BrightSign - controls should be visible:', controlsVisible.value)
+    console.log(
+      'Video playing on BrightSign - controls should be visible:',
+      controlsVisible.value
+    )
   }
 }
 
@@ -290,9 +410,6 @@ const onVideoPause = () => {
     controlsTimeout.value = null
   }
 }
-
-
-
 
 // Control visibility methods
 const showControls = () => {
@@ -357,7 +474,8 @@ onMounted(() => {
     videoElement.value.loop = false
 
     // Setup progressive loading
-    progressiveLoadingCleanup.value = setupProgressiveLoading(videoElement.value) || null
+    progressiveLoadingCleanup.value =
+      setupProgressiveLoading(videoElement.value) || null
 
     // Force load the video to get metadata
     if (videoUrl.value) {
@@ -401,5 +519,4 @@ onUnmounted(() => {
     cleanupVideo(videoElement.value)
   }
 })
-
 </script>

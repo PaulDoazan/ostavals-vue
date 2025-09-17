@@ -1,19 +1,22 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
 import { ref, computed } from 'vue'
-import { useRouter } from 'vue-router'
 import Menu from '../Menu/index.vue'
 import NavigationArrows from '../NavigationArrows.vue'
 import videosData from '../../data/videos.json'
 import type { VideoItem } from '../../types/videos'
 import PlayBtn from '../Icon/PlayBtn.vue'
+import TruncatedVideoPlayer from '../DialogVideoPlayer.vue'
 
 const { t, locale } = useI18n()
-const router = useRouter()
 const videos = ref<VideoItem[]>(videosData)
 
 // Language state for each video
 const videoLanguages = ref<Record<number, 'fr' | 'eus'>>({})
+
+// Dialog state
+const isDialogOpen = ref(false)
+const selectedVideo = ref<VideoItem | null>(null)
 
 // Pagination logic
 const currentPage = ref(0)
@@ -49,9 +52,21 @@ const playVideo = (video: VideoItem) => {
   const videoLang = getVideoLanguage(video.id)
   const videoUrl = videoLang === 'eus' ? video.urls.eus : video.urls.fr
   if (videoUrl) {
-    // Navigate to the video player with the video ID
-    router.push(`/video/${video.id}`)
+    selectedVideo.value = video
+    isDialogOpen.value = true
   }
+}
+
+const closeDialog = () => {
+  isDialogOpen.value = false
+  selectedVideo.value = null
+}
+
+const getSelectedVideoUrl = (): string => {
+  if (!selectedVideo.value) return ''
+  const videoLang = getVideoLanguage(selectedVideo.value.id)
+  const videoUrl = videoLang === 'eus' ? selectedVideo.value.urls.eus : selectedVideo.value.urls.fr
+  return videoUrl || ''
 }
 
 const handlePageChange = (newPage: number) => {
@@ -126,6 +141,22 @@ const handlePageChange = (newPage: number) => {
 
       <!-- Menu at bottom -->
       <Menu />
+    </div>
+
+    <!-- Video Modal Dialog -->
+    <div v-if="isDialogOpen" class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75"
+      @click="closeDialog">
+      <div class="relative w-full max-w-4xl mx-4" @click.stop>
+        <!-- Close button -->
+        <button @click="closeDialog"
+          class="absolute top-4 right-4 z-10 text-white hover:text-gray-300 transition-colors duration-200 text-4xl font-bold bg-black bg-opacity-50 rounded-full w-12 h-12 flex items-center justify-center"
+          aria-label="Close video">
+          ×
+        </button>
+
+        <!-- Video Player -->
+        <TruncatedVideoPlayer :video-url="getSelectedVideoUrl()" @close="closeDialog" />
+      </div>
     </div>
   </div>
 </template>
