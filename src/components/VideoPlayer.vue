@@ -116,10 +116,14 @@ import { useI18n } from 'vue-i18n'
 import videosData from '../data/videos.json'
 import Back from './Icon/Back.vue'
 import { useVideoOptimization } from '../composables/useVideoOptimization'
+import { useGlobalIdle } from '../composables/useGlobalIdle'
 
 const route = useRoute()
 const router = useRouter()
 const { t, locale } = useI18n()
+
+// Global idle manager
+const { resetIdleTimer, setVideoPlaying } = useGlobalIdle()
 
 // Video optimization composable
 const {
@@ -203,6 +207,9 @@ const togglePlayPause = () => {
     videoElement.value.play()
     isPlaying.value = true
   }
+
+  // Reset idle timer on video interaction
+  resetIdleTimer()
 }
 
 // Format time for display
@@ -224,12 +231,18 @@ const seekTo = (event: MouseEvent) => {
 
   videoElement.value.currentTime = newTime
   currentTime.value = newTime
+
+  // Reset idle timer on video interaction
+  resetIdleTimer()
 }
 
 // Start dragging the progress bar thumb
 const startDrag = (event: MouseEvent | TouchEvent) => {
   event.preventDefault()
   isDragging.value = true
+
+  // Reset idle timer on video interaction
+  resetIdleTimer()
 
   // Pause video when starting to drag
   if (videoElement.value && !videoElement.value.paused) {
@@ -298,6 +311,9 @@ const startDrag = (event: MouseEvent | TouchEvent) => {
 
 // Handle video end
 const onVideoEnded = () => {
+  isPlaying.value = false
+  // Set video not playing state when video ends
+  setVideoPlaying(false)
   // Optionally close the player when video ends
   // closeVideoPlayer()
 }
@@ -439,6 +455,9 @@ const onVideoPlay = () => {
   // Show controls briefly when video starts playing
   showControls()
 
+  // Set video playing state to prevent idle screen
+  setVideoPlaying(true)
+
   // Debug logging for BrightSign
   if (isEmbeddedDevice.value) {
     console.log(
@@ -457,6 +476,8 @@ const onVideoPause = () => {
     clearTimeout(controlsTimeout.value)
     controlsTimeout.value = null
   }
+  // Set video not playing state to resume idle timer
+  setVideoPlaying(false)
 }
 
 // Control visibility methods

@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted, watch } from 'vue'
 import Back from './Icon/Back.vue'
+import { useGlobalIdle } from '../composables/useGlobalIdle'
 
 interface Props {
   videoUrl: string
@@ -11,6 +12,9 @@ const props = defineProps<Props>()
 const emit = defineEmits<{
   close: []
 }>()
+
+// Global idle manager
+const { resetIdleTimer, setVideoPlaying } = useGlobalIdle()
 
 const videoElement = ref<HTMLVideoElement | null>(null)
 const progressBar = ref<HTMLDivElement | null>(null)
@@ -65,6 +69,9 @@ const togglePlayPause = () => {
     videoElement.value.play()
     isPlaying.value = true
   }
+
+  // Reset idle timer on video interaction
+  resetIdleTimer()
 }
 
 // Format time for display
@@ -88,6 +95,9 @@ const seekTo = (event: MouseEvent) => {
   videoElement.value.currentTime = newTime
   currentTime.value = newTime
 
+  // Reset idle timer on video interaction
+  resetIdleTimer()
+
   // Wait for the video to actually seek before allowing timeupdate to resume
   const checkSeekComplete = () => {
     if (Math.abs(videoElement.value!.currentTime - newTime) < 0.1) {
@@ -110,6 +120,9 @@ const seekTo = (event: MouseEvent) => {
 const startDrag = (event: MouseEvent | TouchEvent) => {
   event.preventDefault()
   isDragging.value = true
+
+  // Reset idle timer on video interaction
+  resetIdleTimer()
 
   // Pause video when starting to drag
   if (videoElement.value && !videoElement.value.paused) {
@@ -200,11 +213,15 @@ const onLoadedMetadata = () => {
 // Handle video play event
 const onVideoPlay = () => {
   isPlaying.value = true
+  // Set video playing state to prevent idle screen
+  setVideoPlaying(true)
 }
 
 // Handle video pause event
 const onVideoPause = () => {
   isPlaying.value = false
+  // Set video not playing state to resume idle timer
+  setVideoPlaying(false)
 }
 
 // Handle video load start
@@ -221,6 +238,13 @@ const onCanPlay = () => {
 // Handle video first play
 const onFirstPlay = () => {
   hasStartedPlaying.value = true
+}
+
+// Handle video ended
+const onVideoEnded = () => {
+  isPlaying.value = false
+  // Set video not playing state when video ends
+  setVideoPlaying(false)
 }
 
 // Generate thumbnail from video
@@ -317,7 +341,7 @@ onUnmounted(() => {
 
       <video ref="videoElement" :src="videoUrl" class="w-full h-full" preload="metadata" :playsinline="true"
         :webkit-playsinline="true" @click.stop @timeupdate="onTimeUpdate" @loadedmetadata="onLoadedMetadata"
-        @play="onVideoPlay" @pause="onVideoPause" @loadstart="onLoadStart" @canplay="onCanPlay"
+        @play="onVideoPlay" @pause="onVideoPause" @ended="onVideoEnded" @loadstart="onLoadStart" @canplay="onCanPlay"
         @play.once="onFirstPlay">
         Your browser does not support the video tag.
       </video>

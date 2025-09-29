@@ -5,12 +5,18 @@ import ArrowIn from '../Icon/ArrowIn.vue'
 import BlueDecoration from '../Icon/BlueDecoration.vue';
 import RedDecoration from '../Icon/RedDecoration.vue';
 import Menu from '../Menu/index.vue';
+import { useGlobalIdle } from '../../composables/useGlobalIdle';
 
 const { t } = useI18n()
 const router = useRouter()
 
+// Global idle manager
+const { resetIdleTimer } = useGlobalIdle()
+
 const navigateTo = (path: string) => {
   router.push(path)
+  // Reset idle timer on navigation
+  resetIdleTimer()
 }
 </script>
 

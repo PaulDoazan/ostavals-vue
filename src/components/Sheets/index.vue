@@ -6,11 +6,15 @@ import Menu from '../Menu/index.vue'
 import NavigationArrows from '../NavigationArrows.vue'
 import sheetsData from '../../data/sheets.json'
 import { useLanguage } from '../../composables/useLanguage'
+import { useGlobalIdle } from '../../composables/useGlobalIdle'
 
 const { t } = useI18n()
 const router = useRouter()
 const route = useRoute()
 const { currentLanguage } = useLanguage()
+
+// Global idle manager
+const { resetIdleTimer } = useGlobalIdle()
 
 // Current page state - restore from localStorage if available
 const currentPage = ref(0)
@@ -67,6 +71,8 @@ const currentPageItems = computed(() => {
 const handlePageChange = (newPage: number) => {
   currentPage.value = newPage
   localStorage.setItem('sheets-current-page', newPage.toString())
+  // Reset idle timer on navigation
+  resetIdleTimer()
 }
 
 // Navigation to presentation
@@ -74,6 +80,8 @@ const goToPresentation = (itemId: number) => {
   // Save current page state before navigating
   localStorage.setItem('sheets-current-page', currentPage.value.toString())
   router.push(`/presentation/${itemId}`)
+  // Reset idle timer on navigation
+  resetIdleTimer()
 }
 
 // Image loading state management
@@ -104,7 +112,7 @@ const isImageLoaded = (itemId: number) => {
         <div class="grid grid-cols-5 grid-rows-3 gap-x-16 gap-y-12 h-full">
           <div v-for="item in currentPageItems" :key="item.id"
             class="flex flex-col items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
-            @click="goToPresentation(item.id)">
+            @click="goToPresentation(item.id); resetIdleTimer()">
             <!-- Thumbnail image -->
             <div class="mb-3 overflow-hidden relative" style="width: 300px; height: 169px;">
               <!-- Show skeleton while image is loading -->

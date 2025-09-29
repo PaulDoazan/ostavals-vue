@@ -7,9 +7,13 @@ import videosData from '../../data/videos.json'
 import type { VideoItem } from '../../types/videos'
 import PlayBtn from '../Icon/PlayBtn.vue'
 import TruncatedVideoPlayer from '../DialogVideoPlayer.vue'
+import { useGlobalIdle } from '../../composables/useGlobalIdle'
 
 const { t, locale } = useI18n()
 const videos = ref<VideoItem[]>(videosData)
+
+// Global idle manager
+const { resetIdleTimer } = useGlobalIdle()
 
 // Language state for each video
 const videoLanguages = ref<Record<number, 'fr' | 'eus'>>({})
@@ -54,6 +58,8 @@ const playVideo = (video: VideoItem) => {
   if (videoUrl) {
     selectedVideo.value = video
     isDialogOpen.value = true
+    // Reset idle timer on video interaction
+    resetIdleTimer()
   }
 }
 
@@ -71,6 +77,8 @@ const getSelectedVideoUrl = (): string => {
 
 const handlePageChange = (newPage: number) => {
   currentPage.value = newPage
+  // Reset idle timer on navigation
+  resetIdleTimer()
 }
 </script>
 
@@ -92,7 +100,7 @@ const handlePageChange = (newPage: number) => {
             class="relative group flex flex-col items-center justify-center">
             <!-- Language Toggle Buttons (show if at least one language has URL) -->
             <div v-if="hasLanguageUrl(video, 'fr') || hasLanguageUrl(video, 'eus')" class="mb-12 flex gap-4 self-start">
-              <div class="flex flex-col items-center" @click.stop="toggleVideoLanguage(video.id)">
+              <div class="flex flex-col items-center" @click.stop="toggleVideoLanguage(video.id); resetIdleTimer()">
                 <div v-if="!hasLanguageUrl(video, 'fr')">
                   <img src="/icons/lsf.svg" alt="FR" class="w-24 h-24" />
                 </div>
@@ -100,7 +108,8 @@ const handlePageChange = (newPage: number) => {
                   <img src="/icons/fr.svg" alt="FR" class="w-24 h-24" />
                 </div>
               </div>
-              <div class="flex flex-col items-center cursor-pointer" @click.stop="toggleVideoLanguage(video.id)">
+              <div class="flex flex-col items-center cursor-pointer"
+                @click.stop="toggleVideoLanguage(video.id); resetIdleTimer()">
                 <div v-if="!hasLanguageUrl(video, 'eus')">
                   <img src="/icons/lsf.svg" alt="EUS" class="w-24 h-24" />
                 </div>
@@ -123,7 +132,7 @@ const handlePageChange = (newPage: number) => {
 
             <!-- Video Thumbnail -->
             <div class="relative overflow-hidden rounded-lg shadow-lg bg-gray-200 aspect-video w-full cursor-pointer"
-              @click="playVideo(video)">
+              @click="playVideo(video); resetIdleTimer()">
               <img :src="video.thumbnail" :alt="getVideoLanguage(video.id) === 'eus' ? video.title.eus : video.title.fr"
                 class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" />
 
