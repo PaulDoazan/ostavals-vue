@@ -165,7 +165,8 @@ const handlePageChange = (newPage: number) => {
         </button>
 
         <!-- Video Player -->
-        <TruncatedVideoPlayer :video-url="getSelectedVideoUrl()" @close="closeDialog" />
+        <TruncatedVideoPlayer :video-url="getSelectedVideoUrl()" :video-title="selectedVideo?.title?.fr || ''"
+          @close="closeDialog" />
       </div>
     </div>
   </div>

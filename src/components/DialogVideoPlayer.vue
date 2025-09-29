@@ -5,6 +5,7 @@ import { useGlobalIdle } from '../composables/useGlobalIdle'
 
 interface Props {
   videoUrl: string
+  videoTitle?: string
 }
 
 const props = defineProps<Props>()
@@ -24,10 +25,9 @@ const isPlaying = ref(false)
 const currentTime = ref(0)
 const duration = ref(0)
 
-// Loading and thumbnail state
+// Loading state
 const isLoading = ref(true)
 const hasStartedPlaying = ref(false)
-const thumbnailUrl = ref('')
 
 // Drag state
 const isDragging = ref(false)
@@ -205,9 +205,6 @@ const onLoadedMetadata = () => {
   if (!videoElement.value) return
   duration.value = videoElement.value.duration || 0
   isPlaying.value = !videoElement.value.paused
-
-  // Generate thumbnail after metadata is loaded
-  generateThumbnail()
 }
 
 // Handle video play event
@@ -247,36 +244,6 @@ const onVideoEnded = () => {
   setVideoPlaying(false)
 }
 
-// Generate thumbnail from video
-const generateThumbnail = () => {
-  if (!videoElement.value) return
-
-  const canvas = document.createElement('canvas')
-  const ctx = canvas.getContext('2d')
-  if (!ctx) return
-
-  // Get video dimensions
-  const videoWidth = videoElement.value.videoWidth || 1920
-  const videoHeight = videoElement.value.videoHeight || 1080
-
-  // Apply the same scaling as the video (scaleX 1.13)
-  const scaleX = 1.13
-  canvas.width = Math.round(videoWidth * scaleX)
-  canvas.height = videoHeight
-
-  // Seek to 1 second or 10% of duration, whichever is smaller
-  const seekTime = Math.min(1, (duration.value || 0) * 0.1)
-  videoElement.value.currentTime = seekTime
-
-  videoElement.value.addEventListener('seeked', () => {
-    // Apply the same transform as the video
-    ctx.save()
-    ctx.scale(scaleX, 1)
-    ctx.drawImage(videoElement.value!, 0, 0, videoWidth, videoHeight)
-    ctx.restore()
-    thumbnailUrl.value = canvas.toDataURL('image/jpeg', 0.8)
-  }, { once: true })
-}
 
 // Clean up video element properly
 const cleanupVideo = () => {
@@ -295,7 +262,6 @@ const cleanupVideo = () => {
     duration.value = 0
     isLoading.value = true
     hasStartedPlaying.value = false
-    thumbnailUrl.value = ''
   }
 }
 
@@ -323,10 +289,14 @@ onUnmounted(() => {
     style="height: calc(100vh - 120px);">
     <!-- Video container -->
     <div class="flex-1 bg-black overflow-hidden video-container relative">
-      <!-- Thumbnail overlay -->
-      <div v-if="!hasStartedPlaying && thumbnailUrl"
-        class="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat z-10"
-        :style="{ backgroundImage: `url(${thumbnailUrl})` }">
+      <!-- Title overlay -->
+      <div v-if="!hasStartedPlaying && videoTitle"
+        class="absolute inset-0 w-full h-full bg-black flex items-center justify-center z-10">
+        <div class="text-center px-8 max-w-4xl">
+          <h2 class="text-white text-4xl md:text-6xl font-soleil leading-tight">
+            {{ videoTitle }}
+          </h2>
+        </div>
       </div>
 
       <!-- Loading overlay -->
