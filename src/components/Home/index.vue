@@ -15,7 +15,7 @@ const navigateTo = (path: string) => {
 </script>
 
 <template>
-  <div class="w-screen bg-background">
+  <div class="w-screen h-screen bg-background">
     <div class="absolute" style="top: -57.5px; left: 22px;">
       <RedDecoration />
     </div>

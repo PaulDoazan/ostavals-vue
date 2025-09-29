@@ -23,7 +23,7 @@ const isHomePage = computed(() => route.name === 'Home')
 </script>
 
 <template>
-  <div class="bg-background relative">
+  <div class="bg-black relative">
     <IdleScreen v-if="showIdleScreen" @exit="handleIdleScreenExit" />
     <template v-else>
       <!-- Vertical Credits Button on the left side - only on Home page -->

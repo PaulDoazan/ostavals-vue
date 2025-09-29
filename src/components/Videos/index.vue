@@ -75,7 +75,7 @@ const handlePageChange = (newPage: number) => {
 </script>
 
 <template>
-  <div class="w-screen bg-background">
+  <div class="w-screen h-screen bg-background">
     <!-- Top title -->
     <div class="absolute top-8 left-20 z-10">
       <h1 class="text-6xl font-athelas font-bold text-black">
