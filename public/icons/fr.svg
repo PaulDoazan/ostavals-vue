@@ -8,9 +8,11 @@
 
       .cls-2 {
         fill: #fff;
-        font-family: Soleil-Bold, Soleil;
+        font-family: Arial, Helvetica, sans-serif;
         font-size: 40px;
         font-weight: 700;
+        text-anchor: middle;
+        dominant-baseline: middle;
       }
 
       .cls-3 {
@@ -20,8 +22,8 @@
   </defs>
   <g id="Calque_1" data-name="Calque 1">
     <rect class="cls-3" width="97.91" height="97.91" rx="13.83" ry="13.83"/>
-    <g id="EUS" class="cls-1">
-      <text class="cls-2" transform="translate(26.21 61.93)"><tspan x="0" y="0">FR</tspan></text>
+    <g id="FR" class="cls-1">
+      <text class="cls-2" x="48.955" y="48.955">FR</text>
     </g>
   </g>
 </svg>

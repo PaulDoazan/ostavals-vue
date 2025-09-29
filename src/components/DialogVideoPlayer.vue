@@ -300,8 +300,8 @@ onUnmounted(() => {
       </div>
 
       <!-- Loading overlay -->
-      <div v-if="isLoading"
-        class="absolute inset-0 w-full h-full bg-black bg-opacity-75 flex items-center justify-center z-20">
+      <div v-if="isLoading" class="absolute inset-0 w-full h-full bg-black bg-opacity-75 flex justify-center z-20"
+        style="align-items: flex-end; padding-bottom: 20vh;">
         <div class="text-white text-center">
           <!-- Loading spinner -->
           <div class="animate-spin rounded-full h-16 w-16 border-b-2 border-white mx-auto mb-4"></div>
