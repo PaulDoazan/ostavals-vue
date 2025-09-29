@@ -13,12 +13,18 @@ const goToCredits = () => {
   router.push('/credits')
 }
 
+const handleIdleScreenExit = () => {
+  showIdleScreen.value = false
+  // Navigate to home page
+  router.push('/')
+}
+
 const isHomePage = computed(() => route.name === 'Home')
 </script>
 
 <template>
   <div class="bg-background relative">
-    <IdleScreen v-if="showIdleScreen" @click="showIdleScreen = false" />
+    <IdleScreen v-if="showIdleScreen" @exit="handleIdleScreenExit" />
     <template v-else>
       <!-- Vertical Credits Button on the left side - only on Home page -->
       <button v-if="isHomePage" @click="goToCredits"
