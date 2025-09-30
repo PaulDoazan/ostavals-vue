@@ -2,6 +2,265 @@
   {
     "id": 1,
     "title": {
+      "fr": "L'abeille noire du Pays basque",
+      "eus": "Euskal Herriko erle beltza"
+    },
+    "thumbnail": "/images/idlescreen.jpg",
+    "pages": [
+      {
+        "presentation": {
+          "fr": "L'abeille noire est une sous espèce de l'abeille domestique européenne. Il existe une souche locale propre au Pays Basque. Rustique, petite et de couleur foncée, cette abeille est bien adaptée aux conditions climatiques et à la montagne.",
+          "eus": "Erle beltza Europako erle arrunaren azpiespezies da. Euskal Herrian ekotipo berezia dago. Erle mota hori azkarra, ttipia eta iluna da, eta gure lurraldeko berezitasunen ongi egokituta zaie, bereziki mendiari."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
+      },
+      {
+        "history": {
+          "fr": "Le conservatoire Euskal Erle Beltza (« Abeille noire basque » en langue basque) a été créée en 2012 dans l'objectif de préserver et développer l'abeille noire endémique du Pays Basque. En effet, cette abeille est menacée de disparition et les causes sont nombreuses : pesticides, simplification des paysages, changement climatique, prédateurs (ex : varroa, frelon asiatique), pathogènes ou encore compétition avec des abeilles importées du monde entier. Sa disparition constituerait une perte de biodiversité du territoire. Les apiculteurs amateurs et professionnels, soucieux de conserver cette espèce de grande valeur patrimoniale, se sont donc mobilisés pour préserver et développer l'abeille noire à travers une sélection génétique. L'association propose également des formations autour de l'apiculture, de la vente de produits et de location de matériel pour aider le développement de l'apiculture utilisant l'abeille noire. De plus, Euskal Erle Beltza travaille avec les arboriculteurs locaux pour favoriser la biodiversité et permettre la pollinisation des cultures.",
+          "eus": "Euskal Erle Beltza kontserbatorioa 2012an sortu zen, Euskal Herriko bertako erle beltza babesteko eta garateko. Alabaina, erle mota hori desagertzeko arriskuan da, hainbat arrazoi direla medio: pestizidak, paisaien sinplifikazioa, klima aldaketa, harrapariak (varroa, liztor asiarra etab.), patogeneak elota erle hainbat inportatzaileekin ongi egokituan konpetentzia. Urtean zehar gertatu berritzeko baliabideak baita dela, aldi berean, hautaketa genetiko harrean egitea. Erleantzari buruzko formakuntzak ere proposatzen ditu, erle multzoak saltzen eta erle beltzarekin ari diren erlezaintzariei artzeko materialak alokatzen. Euskal Erle Beltzak tokiko arbolatzailekin ere lan egiten du, polinizatzen laguntzeko."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "L'ensemble du Pays Basque nord",
+          "eus": "Ipar Euskal Herri osoa"
+        }
+      },
+      {
+        "characteristics": [],
+        "products": [
+          {
+            "fr": "Miel , reines, produits de la ruche (gelée royale, propolis, pollen)",
+            "eus": "Eztia, erregínak, erlauntzeko produktuak (erregina jalea, propolia, polena)"
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "Une centaine d'apiculteurs professionnels et amateurs au Pays Basque Nord.",
+            "eus": "Ipar Euskal Herriko ehun bat erlezain profesional eta amateur."
+          }
+        ],
+        "website": "https://www.erlebeltza.com/",
+        "observatory": ""
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": {
+      "fr": "La viande et le jambon du Kintoa AOP",
+      "eus": "Kintoa JDB haragia eta xingarra"
+    },
+    "thumbnail": "/images/idlescreen.jpg",
+    "pages": [
+      {
+        "presentation": {
+          "fr": "C'est grâce à l'engagement d'éleveurs et de transformateurs passionnés que la race de porc Pie Noir du Pays Basque, considérée comme menacée d'extinction depuis le début des années 1980, a pu bénéficier d'un programme de conservation et de relance de la production. Agile et résistant, le porc basque est parfaitement adapté à l'élevage extensif en zone de montagne. Il est réputé pour la qualité de sa viande et de son gras. Aujourd'hui, les parcours d'élevages de porcs basques, composés de prairies et forêts, sont répartis sur l'ensemble du territoire.",
+          "eus": "Abeltzain eta transformatzaile zaletu batzuen engaiamenduari esker du kausitu Euskal Herriko xerriak babesteko eta ekoizpenaren berritz abiarazteko programa. 1980ko hamarkada hastapenetic desagertzeko arriskuan bazegoen. Euskal xerria azkarra dena, erraz hazten da mendian, estensiboko erizz egokitzean dugu. Kalitate handiko haragia eta gizenra dituzeko fama du. Egun, euskal xerrien hazkuntza saroak pentze eta oihunez osatuta dira, eta Ipar Euskal Herri osoan banatuak dira."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
+      },
+      {
+        "history": {
+          "fr": "Le terme Kintoa remonte au 13e siècle lorsque le roi de Navarre prélevait un impôt sur les porcs qui venaient transhumer dans les forêts royales au moment de la glandée. Cet animal de chasse, peu craint, devint par la suite le Pie Noir du Pays Basque. C'est au 19e siècle que la race prend une ampleur et qu'une structure d'élevage se met en place. A partir de 1960, une nouvelle race de porc Pie Noir du Pays Basque, est menacée de disparaître. Eleveurs et artisans passionnés se regroupent pour la sauver. Ils font revivre le système d'élevage extensif, en prairies et forêts, et la fabrication d'un jambon à affinage long et naturel. La marque Kintoa a obtenu l'AOC en 1992 et l'AOP en 2019. La viande fraîche Kintoa a obtenu l'AOC en 2016 et l'AOP en 2017.",
+          "eus": "Kintoa hitza 13. mendekoaz da. Orduan, Nafarroako erregeak ezkur garaian errego-oihanetan ibiltzen ziren zerrién gainean zerga bat hartzen zuen. \"Kintoa\" izeneko zerga hori bost zerrik bat harrazan freskoaz, saltzen aditu, JDB 2019eko baldintza naturalazen egin xingarraren ekoizpena ere. Kintoa xingarrak 2016an JDB kausitu zuen, eta 2019an JDB 2016an ukan zuen, eta JDB 2017an."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "Une race élevée uniquement dans le porc Pie Noir du Pays Basque (également appelé porc basque ou Euskal xerria)",
+          "eus": "Tokiko arraza azkatarre hori Euskal xerria (batzuetan xerri arri eta beltza ere deitzen da)"
+        }
+      },
+      {
+        "characteristics": [
+          {
+            "fr": "Élevage extensif sur des parcours de prairies et forêts, pendant 1 an minimum",
+            "eus": "Hazkuntza estentsíboa, pentze eta oihan saroelan, gutienez urte 1ez"
+          },
+          {
+            "fr": "70 % de l'alimentation provient de l'aire d'appellation (herbe, racines, châtaignes, glands, céréales non OGM)",
+            "eus": "Elikaduraren % 70 gutienez deituraren eremukoa (belarra, erroak, gaztainak, ezkurrak, GAO gabeko zerealak)"
+          },
+          {
+            "fr": "Jambon salé au sel de Salies-de-Béarn et frotté au Piment d'Espelette AOP",
+            "eus": "Xingarra, Saliseseko gatzez gazia eta Ezpeletako biperrez torratua"
+          },
+          {
+            "fr": "16 mois minimum d'affinage dans des conditions naturelles",
+            "eus": "Gutienez 16 hilabetez ondua, baldintza naturaletan"
+          }
+        ],
+        "products": [
+          {
+            "fr": "Viande fraîche AOP Kintoa",
+            "eus": "Kintoa JDB haragia freskoa"
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "72 éleveurs dont 28 producteurs fermiers, 1 abattoir, 5 transformateurs artisanaux, 2 séchoirs",
+            "eus": "72 xerri hazle, horietatik 28 etxaldeko ekoizle, hiltegi 1, 5 ofiziale-transformatzaile, 2 idortegi"
+          },
+          {
+            "fr": "505 hectares de parcours",
+            "eus": "505 hektareako saroak"
+          },
+          {
+            "fr": "3 409 carcasses de porcs charcutiers agréées Kintoa",
+            "eus": "harategirako 3 409 xerri karkasak Kintoa deitura dute"
+          },
+          {
+            "fr": "(Données 2024)",
+            "eus": "(2024ko datuak)"
+          }
+        ],
+        "website": "https://www.kintoa.fr/",
+        "observatory": ""
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": {
+      "fr": "AOP Piment d'Espelette",
+      "eus": "JDB Ezpeletako Biperra"
+    },
+    "thumbnail": "/images/idlescreen.jpg",
+    "pages": [
+      {
+        "presentation": {
+          "fr": "Le Piment d'Espelette est la seule épice française reconnue en AOP. Sa culture et sa transformation, en frais, en corde et en poudre sont issues d'un savoir-faire transmis de génération en génération depuis plus de 5 siècles.",
+          "eus": "Ezpeletako Biperra Frantziako estatuan JDB duen espezia bakarra da. Biper horren egiteko eta freskoak, sokatan ala hauts gisa transformatzeko, baitu 5 mende baino gehiago tradizioan da. Belaunaldiz belaunaldira transmititutako jakintza."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
+      },
+      {
+        "history": {
+          "fr": "Originaire du Mexique, la culture du piment est arrivée au Pays Basque à l'époque des grands explorateurs (17e siècle). La variété Gorria, semence qui donne le Piment d'Espelette, est issue d'une sélection fermière depuis 1650, à l'initiative des femmes qui l'employait en substitution au poivre. Ce sont également elles qui encordaient les piments sur une ficelle afin de les faire sécher sur un mur de la ferme, avant de les passer au four à pain et de les pilonner pour obtenir de la poudre. Cantonnée pendant longtemps au piment d'Espelette a progressé dans le champ de la professionnalité à la fin du 20e siècle. L'AOC est obtenue en 2000 et l'AOP en 2002.",
+          "eus": "Bipergintza Mexikon du jatorria, eta esplotatzaile handien garaian iritsi zen Euskal Herrira (17. mendean). Ezpeletako Biperra ematen duen Gorria barietatean kausitzeko, etxaldean hautaspen lana egiten hasi ziren, 1650 inguruan, emaleen ekimensz, biper beltzaren ordez baliatu nahi baitzuten. Emaiteek zituzten, ere, bipetrak hari batean sartzen, etxaldetxo horma baten kontra idor atzeko; gero, ogi-labeko pasatzen zituzten, eta zapatzen zituzten, hautsaren egineko. Luzaz, Ezpeletako Biperra etxaldetako baratzetan egon zen, 20. mendean profesionalizatu zen arte. JDK 2000n kausitu zuen, eta JDB 2002an."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "Production, transformation et conditionnement au sein de l'aire géographique.",
+          "eus": "Eremu geografikoan berean ekoizten, transformatzen eta paketaizen da."
+        }
+      },
+      {
+        "characteristics": [
+          {
+            "fr": "1 variété rustique issue d'une sélection fermière : la variété Gorria",
+            "eus": "Etxaldetako hautespen lanez kausitu barietate azkar 1: Gorria barietatua"
+          },
+          {
+            "fr": "Culture exclusivement en plein champ",
+            "eus": "Kanpoan baizik ez da hazten"
+          },
+          {
+            "fr": "Plantation entre le 1er avril et le 15 juillet",
+            "eus": "Apirilak 1 eta uztailak 15 artean landatzen da"
+          },
+          {
+            "fr": "Récolte manuelle d'août aux 1ères gelées, et au plus tard au 15 décembre",
+            "eus": "Eskuz biltzen da, agorriletik 1. izotzaldietara, berantenaz abenduak 15 arte"
+          },
+          {
+            "fr": "Maturation de 15 jours minimum",
+            "eus": "Gutienez 15 egunez ontzen uzten da"
+          },
+          {
+            "fr": "Pour les Piments en corde : cordage réalisé manuellement sur les fermes",
+            "eus": "Biper sokak eskuz egiten dira, etxaldeetan"
+          }
+        ],
+        "products": [
+          {
+            "fr": "Piment d'Espelette AOP : le piment entier frais, la corde, la poudre",
+            "eus": "JDB Ezpeletako Biperra: biper oso freskoa, soka, hautsa"
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "192 producteurs - 18 transformateurs / reconditionneurs",
+            "eus": "192 ekoizle - 18 transformatzaile / paketatzaile"
+          },
+          {
+            "fr": "283 hectares plantés",
+            "eus": "283 landare hektarea"
+          },
+          {
+            "fr": "173 tonnes de poudre, 40 000 cordes",
+            "eus": "173 tona hauts, 40 000 soka"
+          },
+          {
+            "fr": "(Données 2024)",
+            "eus": "(2024ko datuak)"
+          }
+        ],
+        "website": "https://www.pimentdespelette.com/",
+        "observatory": "https://agriculture-opendatapaysbasque.aws-ec2-eu-1.opendatasoft.com/pages/piment-espelette/"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": {
+      "fr": "Le canard Kriaxera-Cridassère",
+      "eus": "Kriaxera ahatea"
+    },
+    "thumbnail": "/images/idlescreen.jpg",
+    "pages": [
+      {
+        "presentation": {
+          "fr": "Historiquement présent dans le Sud-Ouest, le Kriaxera-Cridassère est une race ancienne de canard de ferme destinée principalement à la production traditionnelle de canard gras. Sa rusticité lui permet d'être élevé en partie en plein air et à l'herbe. Alors que la race à failli disparaître, elle a été sauvée par un élevage-couvoir et une poignée d'éleveurs qui ont permis de remettre la race en avant et dans nos assiettes.",
+          "eus": "Kriaxera antiñako ahate-arraza aspaldik dago Frantziaren estatuko hego-mendebaldean. Ahate gizenen etxaldean ekoizteko baliatzen da gehienak. Arraza azkarral denez, partez kanpoan eta belarretz haz daiteke. Kasik desagertzekotuan zelarik, haztegi-txikitategi batek eta abeltzain zenbaitek sailatu zuten. Hatei esker, Kriaxera arraza berritz argitan eta gure aizietara da."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
+      },
+      {
+        "history": {
+          "fr": "Le canard Kriaxera-Cridassère correspond à l'ancienne population locale de canard de ferme, issu du col-vert domestiqué. Il était présent dans l'ensemble du Sud-ouest et plus particulièrement les Landes de Gascogne, le Pays Basque Nord et le Béarn, terres de production de canard gras de longue date. Les animaux étaient traditionnellement utilisés pour la consommation familiale et la production locale. Au cours du 20e siècle, les canards d'origine locale sont progressivement délaissés au profit de souches industrielles. Dans les années 1980, un couvoir du Pays Basque a collecté des canards Kriaxera-Cridassère dans des fermes du Pays Basque Nord et des Landes afin de sauvegarder la race, alors qu'elle avait presque disparue. En 2022, une association pour la conservation et le développement du Kriaxera est créée et fait reconnaître officiellement la race. C'est le croisement de la cane Kriaxera avec un canard Barbarie qui permet d'obtenir un mulard pour la production de canards gras et de canes à rôtir.",
+          "eus": "Kriaxera ahatoa lehango bertako etxaldetako ahate populazioari dagokio. Basahate etxekotua da. Frantziako estatuko hego-mendebalde osoan zegoen, bereziki Gaskoniako Landestan, Ipar Euskal Herrian eta Biarnon, lurralde horistan aspaldik ekoizten baita ahate gizena. Garaian, ahate horiek familian jateko eta bertán ekoizteko baliatzen ziren. 20. mendean, emeki-emeki bertako jatorrizko ahateak baztertu zituzten, eta mota industrialak lehenesti. 1980ko hamarkadan, Ipar Euskal Herriko eta Landesetako etxaldeetan Kriaxera ahatea pildu zituen, arrazaren babestzeko, kasik desagaritua baitzen. 2022an, Kriaxera ahatearen kontserbazeko eta garatzeko elkartea sortu zen, eta arrazari ezagupen ofiziala emanarazi zion. Kriaxera ahate emea eta Cairina moschata ahatearen arteko gurutzatua ahatea da ahate gizenari ematen eta erretzeko ahate emeen ekoizteko."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "Élevage et transformation en Pays Basque Nord, Béarn et Landes.",
+          "eus": "Ipar Euskal Herrian, Biarnon eta Landesetan hazten eta transformatzen da."
+        }
+      },
+      {
+        "characteristics": [
+          {
+            "fr": "Race Kriaxera",
+            "eus": "Kriaxera arraza"
+          },
+          {
+            "fr": "Élevage à croissance lente",
+            "eus": "Hazkunde urriko hazkuntza"
+          },
+          {
+            "fr": "Élevage en plein air sur des parcours herbeux",
+            "eus": "Kanpoan hazten da, belardun saroetan"
+          }
+        ],
+        "products": [
+          {
+            "fr": "Mulard (croisement de canard Kriaxera et Barbarie) à gaver pour production de foie gras, magrets, confits ou à rôtir",
+            "eus": "Galkatzeko ahate antzua (Kriaxera eta Cairina moschata ahateen arteko gurutzaketa), gibel gizenaren, bularkien, urineko haragiaren eta errekien ekoizteko"
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "Une dizaine d'éleveurs et un couvoir",
+            "eus": "Hamar bat abeltzain eta txitategi bat"
+          }
+        ],
+        "website": "pas de site web",
+        "observatory": ""
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": {
       "fr": "La cerise d’Itxassou",
       "eus": "Itxassou gerezia"
     },
@@ -70,471 +329,607 @@
     ]
   },
   {
-    "id": 2,
-    "title": {
-      "fr": "Patrimoine 2",
-      "eus": "Ondarea 2"
-    },
-    "thumbnail": "/images/idlescreen.jpg",
-    "pages": [
-      {
-        "presentation": {
-          "fr": "Présentation du patrimoine 2. Description détaillée de ce patrimoine culturel et historique.",
-          "eus": "2. ondarearen aurkezpena. Ondare kultural eta historiko honen deskribapen xehea."
-        },
-        "imagePresentation": "/images/idlescreen.jpg"
-      },
-      {
-        "history": {
-          "fr": "Histoire du patrimoine 2. Contexte historique et évolution au fil du temps.",
-          "eus": "2. ondarearen historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
-        },
-        "areaProductionImage": "/images/idlescreen.jpg",
-        "areaProductionDescription": {
-          "fr": "Description de la zone de production et de l'aire géographique du patrimoine 2.",
-          "eus": "2. ondarearen ekoizpen eremuaren eta eremu geografikoaren deskribapena."
-        }
-      },
-      {
-        "characteristics": [
-          {
-            "fr": "Caractéristique principale du patrimoine 2",
-            "eus": "2. ondarearen ezaugarri nagusia"
-          },
-          {
-            "fr": "Deuxième caractéristique importante",
-            "eus": "Bigarren ezaugarri garrantzitsua"
-          },
-          {
-            "fr": "Troisième caractéristique distinctive",
-            "eus": "Hirugarren ezaugarri bereizgarria"
-          }
-        ],
-        "products": [
-          {
-            "fr": "Produits dérivés du patrimoine 2",
-            "eus": "2. ondaretik eratorritako produktuak"
-          }
-        ],
-        "keyfigures": [
-          {
-            "fr": "Chiffres clés et statistiques du patrimoine 2",
-            "eus": "2. ondarearen zenbaki gakoak eta estatistikak"
-          }
-        ],
-        "website": "https://example.com",
-        "observatory": "https://observatory.example.com"
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "title": {
-      "fr": "Patrimoine 3",
-      "eus": "Ondarea 3"
-    },
-    "thumbnail": "/images/idlescreen.jpg",
-    "pages": [
-      {
-        "presentation": {
-          "fr": "Présentation du patrimoine 3. Description détaillée de ce patrimoine culturel et historique.",
-          "eus": "3. ondarearen aurkezpena. Ondare kultural eta historiko honen deskribapen xehea."
-        },
-        "imagePresentation": "/images/idlescreen.jpg"
-      },
-      {
-        "history": {
-          "fr": "Histoire du patrimoine 3. Contexte historique et évolution au fil du temps.",
-          "eus": "3. ondarearen historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
-        },
-        "areaProductionImage": "/images/idlescreen.jpg",
-        "areaProductionDescription": {
-          "fr": "Description de la zone de production et de l'aire géographique du patrimoine 3.",
-          "eus": "3. ondarearen ekoizpen eremuaren eta eremu geografikoaren deskribapena."
-        }
-      },
-      {
-        "characteristics": [
-          {
-            "fr": "Caractéristique principale du patrimoine 3",
-            "eus": "3. ondarearen ezaugarri nagusia"
-          },
-          {
-            "fr": "Deuxième caractéristique importante",
-            "eus": "Bigarren ezaugarri garrantzitsua"
-          },
-          {
-            "fr": "Troisième caractéristique distinctive",
-            "eus": "Hirugarren ezaugarri bereizgarria"
-          }
-        ],
-        "products": [
-          {
-            "fr": "Produits dérivés du patrimoine 3",
-            "eus": "3. ondaretik eratorritako produktuak"
-          }
-        ],
-        "keyfigures": [
-          {
-            "fr": "Chiffres clés et statistiques du patrimoine 3",
-            "eus": "3. ondarearen zenbaki gakoak eta estatistikak"
-          }
-        ],
-        "website": "https://example.com",
-        "observatory": "https://observatory.example.com"
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "title": {
-      "fr": "Patrimoine 4",
-      "eus": "Ondarea 4"
-    },
-    "thumbnail": "/images/idlescreen.jpg",
-    "pages": [
-      {
-        "presentation": {
-          "fr": "Présentation du patrimoine 4. Description détaillée de ce patrimoine culturel et historique.",
-          "eus": "4. ondarearen aurkezpena. Ondare kultural eta historiko honen deskribapen xehea."
-        },
-        "imagePresentation": "/images/idlescreen.jpg"
-      },
-      {
-        "history": {
-          "fr": "Histoire du patrimoine 4. Contexte historique et évolution au fil du temps.",
-          "eus": "4. ondarearen historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
-        },
-        "areaProductionImage": "/images/idlescreen.jpg",
-        "areaProductionDescription": {
-          "fr": "Description de la zone de production et de l'aire géographique du patrimoine 4.",
-          "eus": "4. ondarearen ekoizpen eremuaren eta eremu geografikoaren deskribapena."
-        }
-      },
-      {
-        "characteristics": [
-          {
-            "fr": "Caractéristique principale du patrimoine 4",
-            "eus": "4. ondarearen ezaugarri nagusia"
-          },
-          {
-            "fr": "Deuxième caractéristique importante",
-            "eus": "Bigarren ezaugarri garrantzitsua"
-          },
-          {
-            "fr": "Troisième caractéristique distinctive",
-            "eus": "Hirugarren ezaugarri bereizgarria"
-          }
-        ],
-        "products": [
-          {
-            "fr": "Produits dérivés du patrimoine 4",
-            "eus": "4. ondaretik eratorritako produktuak"
-          }
-        ],
-        "keyfigures": [
-          {
-            "fr": "Chiffres clés et statistiques du patrimoine 4",
-            "eus": "4. ondarearen zenbaki gakoak eta estatistikak"
-          }
-        ],
-        "website": "https://example.com",
-        "observatory": "https://observatory.example.com"
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "title": {
-      "fr": "Patrimoine 5",
-      "eus": "Ondarea 5"
-    },
-    "thumbnail": "/images/idlescreen.jpg",
-    "pages": [
-      {
-        "presentation": {
-          "fr": "Présentation du patrimoine 5. Description détaillée de ce patrimoine culturel et historique.",
-          "eus": "5. ondarearen aurkezpena. Ondare kultural eta historiko honen deskribapen xehea."
-        },
-        "imagePresentation": "/images/idlescreen.jpg"
-      },
-      {
-        "history": {
-          "fr": "Histoire du patrimoine 5. Contexte historique et évolution au fil du temps.",
-          "eus": "5. ondarearen historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
-        },
-        "areaProductionImage": "/images/idlescreen.jpg",
-        "areaProductionDescription": {
-          "fr": "Description de la zone de production et de l'aire géographique du patrimoine 5.",
-          "eus": "5. ondarearen ekoizpen eremuaren eta eremu geografikoaren deskribapena."
-        }
-      },
-      {
-        "characteristics": [
-          {
-            "fr": "Caractéristique principale du patrimoine 5",
-            "eus": "5. ondarearen ezaugarri nagusia"
-          },
-          {
-            "fr": "Deuxième caractéristique importante",
-            "eus": "Bigarren ezaugarri garrantzitsua"
-          },
-          {
-            "fr": "Troisième caractéristique distinctive",
-            "eus": "Hirugarren ezaugarri bereizgarria"
-          }
-        ],
-        "products": [
-          {
-            "fr": "Produits dérivés du patrimoine 5",
-            "eus": "5. ondaretik eratorritako produktuak"
-          }
-        ],
-        "keyfigures": [
-          {
-            "fr": "Chiffres clés et statistiques du patrimoine 5",
-            "eus": "5. ondarearen zenbaki gakoak eta estatistikak"
-          }
-        ],
-        "website": "https://example.com",
-        "observatory": "https://observatory.example.com"
-      }
-    ]
-  },
-  {
     "id": 6,
     "title": {
-      "fr": "Patrimoine 6",
-      "eus": "Ondarea 6"
+      "fr": "La châtaigne basque",
+      "eus": "Euskal gaztaina"
     },
     "thumbnail": "/images/idlescreen.jpg",
     "pages": [
       {
         "presentation": {
-          "fr": "Présentation du patrimoine 6. Description détaillée de ce patrimoine culturel et historique.",
-          "eus": "6. ondarearen aurkezpena. Ondare kultural eta historiko honen deskribapen xehea."
+          "fr": "",
+          "eus": ""
         },
         "imagePresentation": "/images/idlescreen.jpg"
       },
       {
         "history": {
-          "fr": "Histoire du patrimoine 6. Contexte historique et évolution au fil du temps.",
-          "eus": "6. ondarearen historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+          "fr": "De nombreux vergers de châtaigniers étaient historiquement présents sur la zone située autour du Massif du Baigura (zone propice à leur développement, notamment du fait de l'altitude) mais aussi dans d'autres secteurs du Pays Basque. En 1860, le Pays Basque produit 7 000 tonnes de châtaigne soit presque autant que la production nationale actuelle. A partir du 19e siècle, la culture de la châtaigne recule à cause de l'apparition de maladies, l'arrivée de la révolution agricole et l'exode rural, entrainant une perte de savoir-faire. Créée en 2018, sous l'impulsion de Beñat Itoiz et à l'initiative de 5 communes (Bidarray, Hélette, Louhossoa, Macaye et Mendionde), l'association Gaztaina (« châtaigne » en langue basque) a pour but d'accompagner la réhabilitation et la plantation des châtaigneraies et de relancer la filière de la châtaigne du Pays Basque. Un travail de recensement des variétés locales ainsi que la plantation de vergers conservatoires/pépinières sont en cours. Côté valorisation de la production, un outil collectif de transformation est en création.",
+          "eus": "Aspaldi, gaztainadi anitz ziren Baigura mendiaren inguruan (bertan ontsa garatzen dira, bereziki goratasuna dela eta), baita Euskal Herriko beste leku batzuetan ere. 1860an, Ipar Euskal Herrian 7 000 tona gaztaina ekoitzi zen; hots, kasik Frantziako estatu osoan egun urtean ekoizten dena bezainbat. 19. mendetik goiti, gaztaina ekoizpena ttipitu zen, hainbat arrazoi zirela medio: eritasunen agertzea, laborantza-iraultza eta baserrialdearen hustea. Beraz, trebetasun eta jakintza horiek galdu ziren. 2018an, Beñat Itoizen ekimenez eta 5 herrirekin (Bidarrai, Heleta, Luhuso, Makea eta Lekorne), Gaztaina elkartea sortu zen. Gaztainadien itzultzearen eta landatzearen laguntzea du xede, Euskal Herriko gaztaina sailaren berrabiarazteko. Tokiko barietateen zerrendatze lana egiten ari dira, eta kontserbaziorako gaztainadiak / mintegiak landatzen. Ekoizpenaren sustatzeko, transformaziorako tresna kolektibo bat plantan ematen ari dira."
         },
         "areaProductionImage": "/images/idlescreen.jpg",
         "areaProductionDescription": {
-          "fr": "Description de la zone de production et de l'aire géographique du patrimoine 6.",
-          "eus": "6. ondarearen ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+          "fr": "L'ensemble des 158 communes du Pays Basque Nord",
+          "eus": "Ipar Euskal Herriko 158 herri guziak"
         }
       },
       {
-        "characteristics": [
-          {
-            "fr": "Caractéristique principale du patrimoine 6",
-            "eus": "6. ondarearen ezaugarri nagusia"
-          },
-          {
-            "fr": "Deuxième caractéristique importante",
-            "eus": "Bigarren ezaugarri garrantzitsua"
-          },
-          {
-            "fr": "Troisième caractéristique distinctive",
-            "eus": "Hirugarren ezaugarri bereizgarria"
-          }
-        ],
+        "characteristics": [],
         "products": [
           {
-            "fr": "Produits dérivés du patrimoine 6",
-            "eus": "6. ondaretik eratorritako produktuak"
+            "fr": "Châtaignes crues, marrons, farine et semoule de châtaignes, divers produits transformés à base de châtaignes (pain, crème, pâte, bière, etc.) pour l'alimentation humaine",
+            "eus": "Gaztaina gordina, gaztaina irina eta ertirina, jateko gaztainazko hainbat produktu transformatu (ogia, krema, pastak, garagarnoa, etab.)"
+          },
+          {
+            "fr": "Châtaigne crues pour l'alimentation animale",
+            "eus": "Gaztaina gordinak, kabalendako"
+          },
+          {
+            "fr": "Bois et artisanat (ex: vannerie, cerclage de tonnellerie, instruments de musique...)",
+            "eus": "Zura eta artisautza (adb: saskigintza, dupen inguratzea, musika tresnak...)"
           }
         ],
         "keyfigures": [
           {
-            "fr": "Chiffres clés et statistiques du patrimoine 6",
-            "eus": "6. ondarearen zenbaki gakoak eta estatistikak"
+            "fr": "36 adhérents (15 communes, 6 producteurs, 2 transformateurs, 18 propriétaires de châtaigneraie)",
+            "eus": "36 kide (15 herri, 6 ekoizle, 2 transformatzaile, 18 gaztainadi jabe)"
+          },
+          {
+            "fr": "273 hectares de vergers recensés",
+            "eus": "273 hektarea gaztainadi zerrendatuak"
+          },
+          {
+            "fr": "5 vergers conservatoire en projet",
+            "eus": "Kontserbaziorako 5 gaztainadi bidean"
+          },
+          {
+            "fr": "(Données 2024)",
+            "eus": "(2024ko datuak)"
           }
         ],
-        "website": "https://example.com",
-        "observatory": "https://observatory.example.com"
+        "website": "",
+        "observatory": "https://agriculture-opendatapaysbasque.opendatasoft.com/pages/gaztaina/"
       }
     ]
   },
   {
     "id": 7,
     "title": {
-      "fr": "Patrimoine 7",
-      "eus": "Ondarea 7"
+      "fr": "La filière pêche maritime et estuaire",
+      "eus": "Itsasoko eta itsasadarreko arrantza"
     },
     "thumbnail": "/images/idlescreen.jpg",
     "pages": [
       {
         "presentation": {
-          "fr": "Présentation du patrimoine 7. Description détaillée de ce patrimoine culturel et historique.",
-          "eus": "7. ondarearen aurkezpena. Ondare kultural eta historiko honen deskribapen xehea."
+          "fr": "La filière pêche est profondément ancrée dans l'histoire et la culture basque. Pendant des siècles, elle a constitué un pilier économique essentiel pour la côte. Différents types de pêche ont marqué son histoire et aujourd'hui, elle se caractérise par le maintien d'une diversité de pratiques avec une volonté de valoriser les ressources locales et de promouvoir une pêche durable.",
+          "eus": "Arrantza sailak erro zahar eta sakonak ditu euskal kulturan. Hainbat mendez, kostaldeko funtsezko zutabe ekonomikoa izan zen. Garaien arabera, arrantza mota ezberdinak nagusitu dira. Egun, euskal arrantzan jokabideen aniztasunak irauten du, eta arrantzaleek tokiko baliabideen agerian emateko eta arrantza iraunkorraren sustatzeko xedea dute."
         },
         "imagePresentation": "/images/idlescreen.jpg"
       },
       {
         "history": {
-          "fr": "Histoire du patrimoine 7. Contexte historique et évolution au fil du temps.",
-          "eus": "7. ondarearen historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+          "fr": "Pêche maritime : Dès le 12e siècle, la chasse à la baleine dans le golfe de Gascogne pour l'huile est attestée. Le déclin de la chasse à la baleine pousse les marins basques vers les mers du Nord (Terre-Neuve) pour la pêche à la morue et à la baleine dès le 16e siècle. La pêche lointaine est essentielle pour l'économie basque jusqu'à la Révolution. À partir du 18e siècle, la pêche au large décline au profit de la pêche côtière (sardine, hareng). Le 20e siècle voit Saint-Jean-de-Luz/Ciboure devenir un grand port sardinier puis thonier, avec l'émergence de nombreuses conserveries. L'activité décline progressivement jusqu'aux années 2000 pour des raisons économiques. Aujourd'hui, le secteur de la pêche maritime est dynamique et diversifié, s'adaptant aux ressources marines évolutives et aux réglementations strictes (européennes, nationales, locales) pour la durabilité. 5 ports dans le Pays Basque et les Landes regroupent des bateaux de petite à moyenne taille pour la pêche côtière et de plus gros pour la pêche au large. La criée de Saint-Jean-de-Luz est spécialisée dans les merlus et thons. Un label existe pour les poissons pêchés à la ligne (bar, merlu...). Certains pêcheurs récoltent aussi les algues rouges pour la production d'agar-agar.",
+          "eus": "Itsasoko arrantza: XII. mendeaz geroztik, baleen ehiza Bizkaiko golkoan olioaren bila egiten zen. Baleen ehizaren gainbeherak euskal itsasgizonak iparraldeko itsasoetara (Ternua) bultzatu zituen, XVI. mendeaz geroztik bakailao eta baleen arrantza egiteko. Urruneko arrantza euskal ekonomiarentzat funtsezkoa izan zen Iraultzaraino. XVIII. mendeaz geroztik, itsasoko arrantza gainbehera etorri zen, kostaldeko arrantzaren (sardina, sardina) mesedetan. XX. mendean, Donibane Lohizune/Ziburu portu handi bihurtu zen, lehen sardina eta gero atun arrantzarako, eta kontserba-fabrika asko sortu ziren. Jarduera pixkanaka gainbehera etorri zen 2000ko hamarkadaraino, arrazoi ekonomikoengatik. Gaur egun, itsasoko arrantza sektorea dinamikoa eta anitza da, itsas baliabide aldakorretara eta erregulazio zorrotzetara (europar, nazional, tokiko) egokitzen dena iraunkortasunerako. Euskal Herriko eta Landetako 5 portuk itsasontzi txiki eta ertainak biltzen dituzte kostaldeko arrantzarako eta handiagoak itsasoko arrantzarako. Donibane Lohizuneko arrain saltokia legatz eta atunetan espezializatua dago. Etiketa bat dago lerroan arrantzatutako arrainentzat (lubina, legatza...). Arrantzale batzuek alga gorriak ere biltzen dituzte agar-agar ekoizpenerako."
         },
         "areaProductionImage": "/images/idlescreen.jpg",
         "areaProductionDescription": {
-          "fr": "Description de la zone de production et de l'aire géographique du patrimoine 7.",
-          "eus": "7. ondarearen ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+          "fr": "Essentiellement Golfe de Gascogne, Mer Celtique et Ouest Ecosse",
+          "eus": "Bereziki Bizkaiko Golkoa, Itsaso Zeltikoa eta Eskozia mendebaldea"
         }
       },
       {
-        "characteristics": [
-          {
-            "fr": "Caractéristique principale du patrimoine 7",
-            "eus": "7. ondarearen ezaugarri nagusia"
-          },
-          {
-            "fr": "Deuxième caractéristique importante",
-            "eus": "Bigarren ezaugarri garrantzitsua"
-          },
-          {
-            "fr": "Troisième caractéristique distinctive",
-            "eus": "Hirugarren ezaugarri bereizgarria"
-          }
-        ],
+        "characteristics": [],
         "products": [
           {
-            "fr": "Produits dérivés du patrimoine 7",
-            "eus": "7. ondaretik eratorritako produktuak"
+            "fr": "Une centaine d'espèces commercialisées",
+            "eus": "Ehun bat espezie merkatuan"
+          },
+          {
+            "fr": "Spécificités locales: Merlu de ligne pêché à la journée et thon rouge pêché à la canne à l'appât vivant",
+            "eus": "Tokiko berezitasunak: egunean amuan arrantzatu legatza eta beita biziarekin kanaberaz arrantzatu atungorria"
           }
         ],
         "keyfigures": [
           {
-            "fr": "Chiffres clés et statistiques du patrimoine 7",
-            "eus": "7. ondarearen zenbaki gakoak eta estatistikak"
+            "fr": "120 navires producteurs dont une quinzaine engagés dans la pêche à la ligne et 9 dans la pêche dans l'Adour",
+            "eus": "120 ontzi ekoizle; horietatik, hamabost bat amuko arrantzan engaiatuak, eta 9 Aturriko arrantzan"
+          },
+          {
+            "fr": "Une Criée à St Jean de Luz (1ère criée de Nouvelle Aquitaine et 1ère criée de débarquement pour le merlu en France)",
+            "eus": "Arrain saltoki bat Donibane Lohizunen (Akitania Berriko 1. arrain saltokia eta Frantziako estatuko 1. legatz saltokia)"
+          },
+          {
+            "fr": "5 866 tonnes de poisson débarquées à la criée de St Jean de Luz",
+            "eus": "5 866 arrain tona deskargatuak Donibane Lohizuneko arrain saltokian"
+          },
+          {
+            "fr": "117 espèces commercialisées",
+            "eus": "117 espezie merkatuan"
+          },
+          {
+            "fr": "2 900 tonnes de merlu dont 200 tonnes de merlu pêchés à la ligne",
+            "eus": "2 900 tona legatz; horietatik 200 tona amuan hartuak"
+          },
+          {
+            "fr": "(Données 2024)",
+            "eus": "(2024ko datuak)"
           }
         ],
-        "website": "https://example.com",
-        "observatory": "https://observatory.example.com"
+        "website": "https://merludeligne.fr/le-merlu/",
+        "observatory": "https://pecheursdaquitaine.eu"
       }
     ]
   },
   {
     "id": 8,
     "title": {
-      "fr": "Patrimoine 8",
-      "eus": "Ondarea 8"
+      "fr": "Fromages AOP Ossau-Iraty",
+      "eus": "Ossau-Irati JDB gasnak"
     },
     "thumbnail": "/images/idlescreen.jpg",
     "pages": [
       {
         "presentation": {
-          "fr": "Présentation du patrimoine 8. Description détaillée de ce patrimoine culturel et historique.",
-          "eus": "8. ondarearen aurkezpena. Ondare kultural eta historiko honen deskribapen xehea."
+          "fr": "L'Appellation Ossau-Iraty est un trait d'union entre le Pays Basque Nord et sa forêt d'Iraty et le Béarn et sa vallée d'Ossau. Avec la pratique de la transhumance tout au long de l'année, à minima 2 jours après l'agnelage et 15 jours après la mise-bas, le berceau de fabrication est celui d'un fromage au lait de brebis, à la pâte pressée non cuite au lait de brebis, qui traduit le goût et la typicité d'un terroir et d'un paysage.",
+          "eus": "Ossau-Irati deiturak Ipar Euskal Herria eta Biarno lotzen ditu erdi: urte osoan kanpoan hazkatzen dira, gutienez 3 gundaririk 2z; beraz, paisiaren mantentzen laguntzen dute."
         },
         "imagePresentation": "/images/idlescreen.jpg"
       },
       {
         "history": {
-          "fr": "Histoire du patrimoine 8. Contexte historique et évolution au fil du temps.",
-          "eus": "8. ondarearen historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+          "fr": "L'activité pastorale et la transformation fromagère sont présentes au Pays Basque depuis le début de notre ère. Les liaisons difficiles entre les vallées favorisent le développement de pratiques et savoirs locaux. Le fromage devient un élément indissociable de l'économie de montagne et d'autoconsommation, et également devient une monnaie d'échanges commerciale et constituait une des principales sources de revenus pour les bergers. Les premières preuves écrites de fabrication commerciale et d'échanges datent historiquement fermiers, mais au 20e siècle, les premières fromageries se développent. En 1978, les producteurs créent un Syndicat de Défense pour maintenir la fabrication du fromage de brebis traditionnel sur le territoire. L'AOC Ossau-Iraty est obtenue en 1980 et l'AOP en 1996.",
+          "eus": "Artzaintza eta gasnagintza gure aroareen hastapenetik egiten dira Euskal Herrian. Udako bazkalekuen eta ibarren arteko bideak zailak zirenez, artzainak gasna egiten hasi ziren, estiea gal ez zedin. Lehenak, gasna hori haiek jateko egiten zuten, eta gero, trukenko bahazen hasi ziren, artzainen irabazi iturri nagusietako bat bilakatzearno. Lehen idazkiko salerosien frogak 16. mendekoekoak dira. Gaurdaino ekoizpen ekologikaren dute. 20. mendean, aldiz, lehen gasnatgiak sortu ziren. 1978an, ekoizlek defentsa sindikatu bat sortu zuten, hurraldeari ardi gasnaren tradizioan arbelako gasna ekoizpenaren arkitzetako. Ossau-Irati JDK 1980an kausitu zuten, eta JDB 1996an."
         },
         "areaProductionImage": "/images/idlescreen.jpg",
         "areaProductionDescription": {
-          "fr": "Description de la zone de production et de l'aire géographique du patrimoine 8.",
-          "eus": "8. ondarearen ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+          "fr": "Élevage, transformation et affinage dans l'aire géographique.",
+          "eus": "Hazkuntza, gasnatzea eta ontzea eremu geografikoan berean egiten dira."
         }
       },
       {
         "characteristics": [
           {
-            "fr": "Caractéristique principale du patrimoine 8",
-            "eus": "8. ondarearen ezaugarri nagusia"
+            "fr": "3 races locales : Manex Tête Rousse - Manex Tête Noire - Basco-Béarnaise",
+            "eus": "Tokiko 3 arraza: Manex burugorria - Manex burubeltza - Euskal-biarnoarra"
           },
           {
-            "fr": "Deuxième caractéristique importante",
-            "eus": "Bigarren ezaugarri garrantzitsua"
+            "fr": "Alimentation principalement basée sur le pâturage (autant de fois que possible pour chaque saison) avec interdiction de certains fourrages et complémentés avec des céréales non OGM et des oléagineux",
+            "eus": "Ardiák kanpoan hazkatzen dira (urteko denborak gurenez); zuhaina ere ematen zaie, eta elikadura GAO gabeko zerealtz eta oleaginosoz osaitzen da."
           },
           {
-            "fr": "Troisième caractéristique distinctive",
-            "eus": "Hirugarren ezaugarri bereizgarria"
+            "fr": "Traitement de la lactation de fromage saisonnière entre le 1er novembre et le 31 août au maximum",
+            "eus": "Esne ekoizpenaren eta gasnatzaren sasuia azaroaren 1 etik gehienez abuztuaren 31ra iragaten da"
+          },
+          {
+            "fr": "Transformation selon une méthode traditionnelle (sans additif chimique, croûte naturelle) avec une durée minimale d'affinage dans l'aire d'appellation de 80 ou 120 jours selon le poids des fromages (deux formats : autour de 2 kg ou de 4 kg)",
+            "eus": "Gasnatze moldea tradiziokoa da (gehigarri kimikorik gabe, azal naturala), eta deituraren eremuan, gasna gutitienz 80 ala 120 egunez ontzi utzi behar da, gasnen pisuaren arabera (bi formatu: 2 kg inguru eta 4 kg inguru)"
           }
         ],
         "products": [
           {
-            "fr": "Produits dérivés du patrimoine 8",
-            "eus": "8. ondaretik eratorritako produktuak"
+            "fr": "Fromages AOP Ossau-Iraty (fromages à pâte pressée non cuite au lait de brebis) : au lait entier cru thermisé ou pasteurisé",
+            "eus": "Ossau-Irati JDB gasna (ardi esne egosi gabezko gasna tinkatua): esne gordinazkoa termizatua ala pasteurizatua"
+          },
+          {
+            "fr": "2 typicités (basque et béarnaise)",
+            "eus": "2 nortasun (Euskal Herrikoa eta Biarnokoa)"
+          },
+          {
+            "fr": "2 types principaux de fromages reconnaissables à leurs poinçons sur la croûte : Ossau-Iraty de fromagerie Ossau-Iraty fermier (sachant que l'Ossau-Iraty fermier existe aussi « d'estive »)",
+            "eus": "2 gasna mota nagusi, azaleko zigiluaz ezaugarriak: Gasnatgiko Ossau-Irati Etxaldeko Ossau-Irati (\"mendiko gasna\" ere etxaldekoen barne da)"
           }
         ],
         "keyfigures": [
           {
-            "fr": "Chiffres clés et statistiques du patrimoine 8",
-            "eus": "8. ondarearen zenbaki gakoak eta estatistikak"
+            "fr": "1 272 éleveurs au total dont 1 156 situés au Pays Basque Nord (dont 174 producteurs fermiers)",
+            "eus": "1 272 artzain, eta horietatik 1 156 Ipar Euskal Herrian (horietatik 174 etxaldeko ekoizle)"
+          },
+          {
+            "fr": "13 fromageries - 26 affineurs (laitiers et/ou fermiers)",
+            "eus": "13 gasnategi - 26 ontzaile (esnetegi eta/edo etxaldeetakoak)"
+          },
+          {
+            "fr": "4 357 tonnes de fromage vendu sous appellation Ossau Iraty",
+            "eus": "4 357 tona gasna saltzen da Ossau-Irati deiturararekin"
+          },
+          {
+            "fr": "(Données 2023)",
+            "eus": "(2023ko datuak)"
           }
         ],
-        "website": "https://example.com",
-        "observatory": "https://observatory.example.com"
+        "linkside": "right",
+        "website": "https://www.ossau-iraty.fr/",
+        "observatory": ""
       }
     ]
   },
   {
     "id": 9,
     "title": {
-      "fr": "Patrimoine 9",
-      "eus": "Ondarea 9"
+      "fr": "Huile paysanne basco-béarnaise Nouste Ekiliñ",
+      "eus": "Nouste Ekiliñ etxalde olio euskal-biarnokarra"
     },
     "thumbnail": "/images/idlescreen.jpg",
     "pages": [
       {
         "presentation": {
-          "fr": "Présentation du patrimoine 9. Description détaillée de ce patrimoine culturel et historique.",
-          "eus": "9. ondarearen aurkezpena. Ondare kultural eta historiko honen deskribapen xehea."
+          "fr": "L'huile Nouste Ekiliñ est issue de l'implantation des nouvelles cultures de tournesol et de colza sur le territoire. C'est le résultat d'un travail de coopération entre les paysans et les acteurs des cultures de tournesol et de colza sur le territoire. C'est le résultat d'un travail de coopération entre paysans, meuniers, huileries et restaurateurs pour permettre la souveraineté alimentaire locale et favoriser la production collective ainsi que la restauration commerciale, des épiceries et lors d'événementiels.",
+          "eus": "Nouste Ekiliñ kooperatiba 2009an sortu zen. Izena ere euskal-biarnorarra du, \"nouste\" hitzak \"gure\" arran nahi baitu harnezez. Kooperatiba sortu zuten laborari euskaldunek eta bearneseek ohurgarri dute beraienezko elikadura ekonomikoa, autonomiaren handizteko eta ardien urteko denborak gurenez); zuhaina ere ematen zaie, eta elikadura GAO gabeko zerealtz eta oleaginosoz osaitzen da. Bero-presioaren bidez, artzainak gasna egiten hasi ziren, esnea gal ez zedin. Lehenak, gasna hori haiek jateko egiten zuten, eta gero, trukenko bahazen hasi ziren, artzainen irabazi iturri."
         },
         "imagePresentation": "/images/idlescreen.jpg"
       },
       {
         "history": {
-          "fr": "Histoire du patrimoine 9. Contexte historique et évolution au fil du temps.",
-          "eus": "9. ondarearen historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+          "fr": "La coopérative Nouste Ekiliñ (respectivement « notre » en béarnais et « fleur de tournesol » en langue basque) a été créée en 2009. Elle est née de l'initiative de paysans basques et béarnais désireux : - de développer des productions et ainsi éviter la monoculture de maïs, - et également de gagner en autonomie sur leurs fermes grâce à la production de tourteau non OGM pour l'alimentation animale. Si la production est diversifiée dès le premier an tant que bio-carburant, depuis 2015, elle est exclusivement alimentaire humaine et est commercialisée principalement auprès de la restauration collective ainsi que de la restauration commerciale, des épiceries et lors d'événementiels. Collectivement, les paysans de Nouste Ekiliñ ont créé un cahier des charges, de qualité et de respectueuse de l'environnement.",
+          "eus": "Nouste Ekiliñ kooperatiba 2009an sortu zen. Izena ere euskal-biarnorarra du, \"nouste\" hitzak \"gure\" arran nahi baitu harnezez. Kooperatiba sortu zuten laborari euskaldunek eta bearneseek ohurgarri dute beraienezko - ekoizpenean aniztea, arto monokultuararen saihesteko, - ekoizle autonomia gehitzearekín ematea, beharrezkoa huste GAO rik gabeko turrua ekoítzíz. Hastalpenean, olio ekoizpena bio-erregai gisa baliatzen zen; baina, 2015etik, jendeen elikagai gisa baliatzen da, eta osatsu eta bermatze bat sortu dute, baldintza kalitate bat sortu dute, baldíntza hidduma kalítatezko dela eta inguruména errespétatzen duela bermatza."
         },
         "areaProductionImage": "/images/idlescreen.jpg",
         "areaProductionDescription": {
-          "fr": "Description de la zone de production et de l'aire géographique du patrimoine 9.",
-          "eus": "9. ondarearen ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+          "fr": "Culture et transformation en Pays Basque et Béarn",
+          "eus": "Ipar Euskal Herrian eta Biarnon lantzen eta transformatzen da"
         }
       },
       {
         "characteristics": [
           {
-            "fr": "Caractéristique principale du patrimoine 9",
-            "eus": "9. ondarearen ezaugarri nagusia"
+            "fr": "Variétés non OGM, semences fermières autorisées",
+            "eus": "GAOrik gabeko barietateak, herri hazi baimenduak"
           },
           {
-            "fr": "Deuxième caractéristique importante",
-            "eus": "Bigarren ezaugarri garrantzitsua"
+            "fr": "Rotation des cultures sur trois ans minimum",
+            "eus": "Pentzeak gutienez hiru urte guziz aldizkatzen dira"
           },
           {
-            "fr": "Troisième caractéristique distinctive",
-            "eus": "Hirugarren ezaugarri bereizgarria"
+            "fr": "Recours à l'irrigation limité",
+            "eus": "Ureztatzen mugatu da"
+          },
+          {
+            "fr": "Interdiction du glyphosate et des néonicotinoïdes. Aucun traitement dans les 3 mois précédents la récolte.",
+            "eus": "Glifosatoa eta neonikotinoideak debekatua dira. Uzta aitzineko 3 hilabeteetan tratamendurik ez."
+          },
+          {
+            "fr": "Huiles vierges issues d'une première pression à froid, sans additif ni solvant, non désodorisées",
+            "eus": "Hotzeko lehen prentsaldiko olioak, gehigarri ez disolbatzailerik gabe, desodorizatu gabeak"
           }
         ],
         "products": [
           {
-            "fr": "Produits dérivés du patrimoine 9",
-            "eus": "9. ondaretik eratorritako produktuak"
+            "fr": "Huiles vierges de tournesol et de colza, conventionnelle et AB",
+            "eus": "Lehen prentsaldiko ekilore eta koltza olioak, AB eta ohikoak"
           }
         ],
         "keyfigures": [
           {
-            "fr": "Chiffres clés et statistiques du patrimoine 9",
-            "eus": "9. ondarearen zenbaki gakoak eta estatistikak"
+            "fr": "17 producteurs - 2 sites de pressage",
+            "eus": "17 ekoizle - 2 prentsa gune"
+          },
+          {
+            "fr": "45 hectares de tournesol et 10 hectares de colza semés en moyenne",
+            "eus": "45 ekilore hektarea eta 10 koltza hektarea ereiten dira batez beste"
+          },
+          {
+            "fr": "40 000 litres d'huiles vierges de tournesol et de colza",
+            "eus": "40 000 litro ekilore eta koltza lehen prentsaldiko olio"
+          },
+          {
+            "fr": "(Données 2024)",
+            "eus": "(2024ko datuak)"
           }
         ],
-        "website": "https://example.com",
-        "observatory": "https://observatory.example.com"
+        "linkside": "right",
+        "website": "https://nouste-ekilili.fr/",
+        "observatory": ""
       }
     ]
   },
   {
     "id": 10,
+    "title": {
+      "fr": "Label fermier engagé IDOKI",
+      "eus": "IDOKI etxe ekoizleen label engaiatua"
+    },
+    "thumbnail": "/images/idlescreen.jpg",
+    "pages": [
+      {
+        "presentation": {
+          "fr": "IDOKI est un label local de qualité, encadré par l'Association des Producteurs Fermiers du Pays Basque (APFPB). Il promeut une production fermière à taille humaine, en relation directe avec les consommateurs et basée sur les pratiques de l'agriculture paysanne. La charte IDOKI se décline en cahiers de charges de production, définis par les producteurs eux-mêmes et contrôlés par un organisme externe. IDOKI signifie mettre « cartes sur table » et « ouvrir » en langue basque.",
+          "eus": "IDOKI Euskal Herriko Ekoizleen Elkartearen (EH EEE) arautzen duen etxe ekoizleen label engaiatua da. Zentzuzko neurriko etxe ekoizpena sustatzen du, kontsumitzaileekin zuzeneko harremanen dena, eta etxe laborantzako jokabideetan oinarritua. IDOKI araudia ekoizpenari buruzko baldintza-biltiunaren antolatu da. Azken horiek laboratriek berek finkatzen dituzle, eta kanpo organismo batek kontrolatzen. IDOKI izenak, irekidura adierazikateaz gain, kartak agerian ematearen ideia ekartzen du gogora."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
+      },
+      {
+        "history": {
+          "fr": "En l'absence d'un signe officiel de qualité et d'origine spécifique à la production fermière et face au manque d'encadrement réglementaire du terme « fermier » (hormis pour les fromages, volailles, œufs, gros bovins et porcs sous Label Rouge), les producteurs fermiers membres de l'APFPB ont décidé en 1992, de créer leur propre charte collective. Cet outil concret et évolutif, est régulièrement mis à jour pour intégrer la diversité des productions, l'évolution des pratiques agricoles et sociétales, tout en restant fidèle aux valeurs d'authenticité, prenant en compte à la fois les enjeux économiques, environnementaux et sociaux.",
+          "eus": "Etxe laborantzari buruzko kalitate eta jatorri ikur berezi ofizialik ez dagonez eta \"etxe laborantza\" esamoldea ez denez arautua (salbu Label Gorriko zerri, idi, gazta, hegazti eta arrautzetan), 1992an, EH EEEko kideak erabaki zuten beraren alai sortzea. Tresna konkretua da, kanpotasun ahal dena. Erregularki guneratzen da, ekoizpenen aniztasunaren eta laborantza eta gizarte jokabideen bilakaeraren barne hartzeko, beti benetakotasun baloreei leialazen eta gizarte jokabideetan eta gizarteko garendu ekonomikoa, ingurumen eta gizarte erronkak konutan hartuz."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "Production et transformation au Pays Basque Nord",
+          "eus": "Ipar Euskal Herrian ekoizten eta transformatzen da"
+        }
+      },
+      {
+        "characteristics": [
+          {
+            "fr": "Élevages de petite taille et de plein air, animaux nourris prioritairement à la pâture et avec des fourrages et céréales non OGM produits sur la ferme",
+            "eus": "Izari ttipiko eta kanpoko hazkuntza, kabalak lehentasunez kanpoan bazkatuak, etxaldean ekoitzi GAO gabeko zerealtz eta zuhainaz osatuz"
+          },
+          {
+            "fr": "Variétés et races locales ou conduites de manière rustique",
+            "eus": "Tokiko barietateak eta arrazak, ala haien azkartasuinean oinarriuz haziak"
+          },
+          {
+            "fr": "Cultures de saison, en plein champ et récoltées à maturité",
+            "eus": "Sasoiko laborantza, kanpoan, ekoizkinak ondurik bilduak"
+          },
+          {
+            "fr": "Interdiction des intrants chimiques",
+            "eus": "Sargai kimikoak debekatuak"
+          },
+          {
+            "fr": "Transformation à la ferme par le producteur, avec des ingrédients annexes sous démarche collective de qualité et/ou d'origine locale",
+            "eus": "Ekoizleak etxaldean transformatzen du, bertako edo/eta kalitatezko desmartxa kolektibotik jalgi osagaiekin"
+          },
+          {
+            "fr": "Vente directe et circuits courts prioritairement",
+            "eus": "Zuzeneko salmenta eta zirkuitu laburrak lehenesten dira"
+          }
+        ],
+        "products": [
+          {
+            "fr": "Le label IDOKI couvre 19 familles de produits et se retrouve sur une large gamme de produits carnés, laitiers, végétaux et boissons.",
+            "eus": "IDOKI labelak 19 produktu familia biltzen ditu eta hainbat ekoizkinen atzeman daiteke: haragi, esneki, landare eta edari."
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "91 fermes labellisées en 2024",
+            "eus": "91 etxalde labeltizatu 2024an"
+          }
+        ],
+        "linkside": "right",
+        "website": "www.idoki.org",
+        "observatory": ""
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": {
+      "fr": "L'Agneau de Lait des Pyrénées IGP et Label Rouge",
+      "eus": "AGB eta Label Gorriko Pirinioetako esneko bildotsa"
+    },
+    "thumbnail": "/images/idlescreen.jpg",
+    "pages": [
+      {
+        "presentation": {
+          "fr": "L'élevage ovin est présent dans les Pyrénées depuis la nuit des temps. Ce milieu caractérisé par une pluviométrie abondante et un ensoleillement suffisant donne une herbe de qualité qui permet d'alimenter les agneaux avec le lait de leurs mères. Ce milieu caractérisé par une pluviométrie abondante et un ensoleillement suffisant donne une herbe de qualité qui permet d'alimenter les agneaux avec le lait de leurs mères.",
+          "eus": "Pirinioetan, artzaintza beriako mendiak bezain zaharra da. Ingurunen horretan, euri anitz eta eguzki aski denez, belarra artzaintzari dagokion ertintxu onena ematen du."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
+      },
+      {
+        "history": {
+          "fr": "A la fin du 18e siècle, on estimait à 320 000 le nombre d'ovins qui passaient la frontière pyrénéenne en direction des grandes villes du Nord de l'Espagne. L'Espagne. Traditionnellement, les brebis passent l'été dans les estives en montagne, des espaces de prairies de moyenne et haute altitude. Ils y redescendent à l'automne pour agneler. La traite pour fabriquer le fromage débute en moyenne quatre semaines après la mise bas. C'est pendant cette période, avant le début de la traite, que les agneaux sont nourris au lait de la brebis L'agneau de lait des Pyrénées bénéficie de 2 labels : le Label Rouge depuis 1992 et l'IGP depuis 2012.",
+          "eus": "18. mende hondarrean, Espainia iparraldeko hirietara joateko Pirinioetako muga iragaten zuten ardien kopurua 320 000 inguruan zen. Garai hartan, haragiaren salerosketa laborarien irabazi iturri nagusia zen. Tradizioen arabera, ardiek uda mendiko bazkalekuetan pasatzen zuten, eta udazkenean itzultzen ziren, bildotsak ukatara. Gasnaean egiteko, gurditzen sortzeko hau aste berantzago hasten dira jozten, bana beste. Garai horretan dira, jezte garaia abiatu aintin, bildotsak ardi esnez elikatzen. Pirinioetako esneko bildotsak 2 label ditu: Label Gorria 1992tik eta AGB 2012z geroztik."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "Naissance et élevage dans le département des Pyrénées-Atlantiques au sud du gave de Pau.",
+          "eus": "Pirinio Atlantikoetako departamenduan eta Pauko ibaitzen hegoaldean sortzen eta hazten da."
+        }
+      },
+      {
+        "characteristics": [
+          {
+            "fr": "3 races locales : Manex Tête Rousse - Manex Tête Noire - Basco-béarnaise",
+            "eus": "3 bertako arraza: Manex burugorria - Manex burubeltza - Euskal-bearnotarra"
+          },
+          {
+            "fr": "Agneau nourri exclusivement au lait de la brebis par tétée au pis",
+            "eus": "Osoki ardi esnez errapean edoski bildotsa"
+          },
+          {
+            "fr": "Aucun traitement médicamenteux sauf homéopathie.",
+            "eus": "Sendagat tratamendurik ez, homeopatia saibu."
+          },
+          {
+            "fr": "8 mois de pâturage minimum par an et alimentation non OGM pour les brebis",
+            "eus": "Ardiak urtean 8 hilabetez gutienez kanpoan bazkatuak eta GAO gabe elikatuak"
+          },
+          {
+            "fr": "Produit disponible uniquement du 15 octobre au 15 juin",
+            "eus": "Urriaren 15etik ekainaren 15era soilik eskuragarri"
+          }
+        ],
+        "products": [
+          {
+            "fr": "Viande fraîche d'Agneau de lait des Pyrénées IGP et Label rouge",
+            "eus": "AGB eta Label Gorriko Pirinioetako esneko bildotski freskoa"
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "580 producteurs, 4 coopératives, 2 abatteurs",
+            "eus": "580 ekoizle, 4 kooperatiba, 2 hiltzaile"
+          },
+          {
+            "fr": "19 080 agneaux de lait labellisés IGP et Label Rouge (données 2023-2024)",
+            "eus": "19 080 esneko bildotsak AGB eta Label Gorria dituzte (2023-2024ko datuak)"
+          }
+        ],
+        "linkside": "right",
+        "website": "https://agneaudelaitdespyrenees.com/",
+        "observatory": "https://agriculture-opendatapaysbasque.opendatasoft.com/pages/agneaudelait/"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": {
+      "fr": "Le maïs grand roux basque",
+      "eus": "Euskal arto gorria"
+    },
+    "thumbnail": "/images/idlescreen.jpg",
+    "pages": [
+      {
+        "presentation": {
+          "fr": "Le maïs Grand Roux Basque est caractérisé par les couleurs variées de ses épis allant du jaune or au rouge bordeaux. C'est une variété ancienne de maïs dite « population ». Elle contient une grande diversité génétique et provient des sélections faites dans les champs, par les paysans depuis plusieurs siècles.",
+          "eus": "Euskal arto gorriaren berezitasuna bere bururen koloreen aniztasuna da: urte koloretik gorri-ilbelera. \"Herri arto\" mota bat da, aniztako barietatea. Aniztasun genetiko handia du eta laborariek pentzetan hainbat mendez egin hautespen prozesuen ondorioa da."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
+      },
+      {
+        "history": {
+          "fr": "Le maïs est une plante originaire du Mexique qui a été ramenée en Europe au cours du 16e siècle par les conquistadors. Le maïs Grand Roux Basque est un maïs paysan cultivé depuis le 16e siècle au Pays Basque. Il était utilisé pour l'alimentation humaine, notamment pour la confection des traditionnels taloas (galettes de maïs hybrides). Dans les années 50, l'introduction de variétés de maïs hybrides et de haute technologie a progressivement remplacé les maïs paysans qui ont quasiment disparaitre. Dans les années 90, des graines de Grand Roux Basque sont retrouvées dans un couvent du Pays Basque Sud et sont ramenées au Pays Basque Nord. En 2016, l'association Arto Gorria est créée. Elle regroupe des producteurs qui ont pour but de développer la production, la transformation et la commercialisation du maïs Grand Roux en Agriculture Biologique sur le territoire basque. Une marque collective « Arto Gorria » a également été créée pour vendre et promouvoir les produits issus de ce maïs et respectant le cahier des charges de l'association.",
+          "eus": "Artoa Mexikotik dator, eta 16. mendean iritsi zen Europara, konkistatzaileak ekarririk. Euskal arto gorria herri artoa da, eta 16. mendeaz geroztik lantzen da Euskal Herrian. Garaian, jendeen elikaduran baliatzen zen, bereziki arto taloen egiteko. 1950eko hamarkadan, emankorragoak ziren barietate hibridoak sartu ziren, eta arto gorria ikanik desagertu zen. 1990eko hamarkadan, Hego Euskal Herriko komentu batean arto gorri haziak atzeman zituzten, eta Ipar Euskal Herrira ekarri. 2016an, Arto Gorria elkartea sortu zuten. Elkarteak Euskal Herrian arto gorraren laborantza biologikoko ekoizpena, transformazioa eta salmenta garatzen xede duten ekoizleak biltzen ditu. Arto Gorria marka kolektiboa ere sortu da, arto horrez eginak diren eta elkartearen baldintza bilduma betetzen duten produktuen saltzeko eta sustatzeko."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "Culture, récolte, séchage et transformation au Pays Basque ou cantons limitrophes",
+          "eus": "Ipar Euskal Herrian ala inguruko kantonamenduetan hazten, biltzen eta transformatzen da"
+        }
+      },
+      {
+        "characteristics": [
+          {
+            "fr": "Semences paysannes sélectionnées et conservées sur les fermes et échangées gratuitement entre les paysans",
+            "eus": "Herri haziak etxaldestan hautatzen eta kontserbatzen dira, eta laborarien artean uririk trukatzen"
+          },
+          {
+            "fr": "Cultivé en agriculture biologique ou en conversion (pas d'engrais et de pesticides de synthèse, rotations obligatoires…)",
+            "eus": "Laborantza biologikoan ala konbertsio bidean haziak (ongarririk ez pestizida sintetikorik gabe, aldízkatzea beharrun…)"
+          },
+          {
+            "fr": "Fermes en polycultures ou polycultures/élevage",
+            "eus": "Polilaborko edo polilabore/hazkuntzako etxaldeak"
+          },
+          {
+            "fr": "Engrais organique issu des fermes",
+            "eus": "Etxaldetatik hartu ongrarri organikoak"
+          },
+          {
+            "fr": "Irrigation interdite",
+            "eus": "Ureztateza debekatua"
+          },
+          {
+            "fr": "Séchage naturel des épis entiers après récolte",
+            "eus": "Artaburuak bildu ondotik, osorik naturalki idortzen dira"
+          },
+          {
+            "fr": "Moulu sur meule de pierre",
+            "eus": "Eihera-harrian ehoa"
+          },
+          {
+            "fr": "Ajout d'additifs interdit",
+            "eus": "Osagarrien gehitzea debekatua"
+          }
+        ],
+        "products": [
+          {
+            "fr": "La farine complète, la polenta et le « bihiñ » (sorte de semoule de maïs concassé) de maïs Grand Roux Basque",
+            "eus": "Arto gorri irin osoa, polenta eta \"bihiñ\" (arto-ertirin xehatua)"
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "15 producteurs",
+            "eus": "15 ekoizle"
+          },
+          {
+            "fr": "Environ 30 hectares semés tous les ans",
+            "eus": "Urte guziz 30 hektarea inguru ereinak"
+          },
+          {
+            "fr": "(Données 2024)",
+            "eus": "(2024ko datuak)"
+          }
+        ],
+        "linkside": "right",
+        "website": "https://artogorria.com/",
+        "observatory": "https://agriculture-opendatapaysbasque.aws-ec2-eu-1.opendatasoft.com/pages/artogorria/"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": {
+      "fr": "Herriko Haragia - la filière viande bovine du Pays Basque",
+      "eus": "Herriko Haragia - Ipar Euskal Herriko idiki saila"
+    },
+    "longTitle": true,
+    "thumbnail": "/images/idlescreen.jpg",
+    "pages": [
+      {
+        "presentation": {
+          "fr": "L'élevage de vaches allaitantes (vaches destinées à la production de viande) est une activité importante sur le territoire et concerne la moitié des fermes. La création de la filière Herriko Haragia vise à relocaliser la consommation de viande bovine au Pays Basque tout en permettant de mieux rémunérer les éleveurs pour qu'ils puissent vivre de leur activité. « Herriko » signifie « du pays » et « Haragia » viande en langue basque.",
+          "eus": "Behi esne-emaileen hazkuntza (hots, haragiaren ekoizteko behiena) jarduera garrantzitsua da; lurraldeko etxaldeen erdiak hazten ditu. Herriko Haragia sailaren sortzaren helburuak hauek dira: idikiaren kontsumoa Ipar Euskal Herrira berritz ekartzea eta abeltzainak hobeki ordainduak izatea, beren jardueratik bizi ahal izan daiteezen."
+        },
+        "imagePresentation": "/images/idlescreen.jpg"
+      },
+      {
+        "history": {
+          "fr": "Bien que l'élevage de bovins viande soit une des productions les plus importantes du territoire, la plupart des animaux nés au Pays Basque sont engraissés en dehors du territoire. De l'autre côté, beaucoup de la viande mangée localement est importée malgré une demande de plus en plus grande des consommateurs et professionnels pour le manger local. C'est suite à ce constat que la filière Herriko Haragia a été créée en 2013. Pour la première fois, elle rassemble des éleveurs et des transformateurs afin de proposer une viande locale qui rémunère mieux les producteurs.",
+          "eus": "Nahiz eta haragirako behien hazkuntza lurraldeko ekoizpen garrantzitsuenetarikoa izan, Ipar Euskal Herrian sortzen diren kabala gehienak lurraldetik kanpo gizenaratzten dira. Bestalde, Euskal Herrian jaien den haragiaren parte handi bat inportatzen da, nahiz gero eta kontsumitzaile eta profesional gehiagok bertako janaria nahi duten. Egoera horrez oharturik zuten Herriko Haragia saila, 2013an. Lehen aldikoz, abeltzainak eta transformatzaileak biltzen ditu, ekoizleel ordainsari hobea ekartzen dien bertako haragiaren proposatzeko."
+        },
+        "areaProductionImage": "/images/idlescreen.jpg",
+        "areaProductionDescription": {
+          "fr": "Naissance, élevage et abattage des animaux au Pays Basque",
+          "eus": "Kabalak Ipar Euskal Herrian sortzen, hazten eta hiltzen dira"
+        }
+      },
+      {
+        "characteristics": [
+          {
+            "fr": "Origine Pays Basque garantie : animaux nés, élevés et abattus au Pays Basque",
+            "eus": "Euskal Herriko jatorri bermatua: Ipar Euskal Herrian sortzen, hazten eta hiltzen dira"
+          },
+          {
+            "fr": "Alimentation : sans OGM pendant l'engraissement",
+            "eus": "Elikadura: gizentze garaian GAOrik ez"
+          },
+          {
+            "fr": "Race à viande (croisée viande/lait possible pour les veaux)",
+            "eus": "Haragi arraza (aratxeak haragi/esne gurutzatuak izan ditzakez)"
+          },
+          {
+            "fr": "Viande de qualité bouchère (critères de gras, poids etc.)",
+            "eus": "Harategi kalitateko haragia (gizen, pisu etab. irizpideak)"
+          }
+        ],
+        "products": [
+          {
+            "fr": "Viande de veau et viande de bœuf Herriko",
+            "eus": "Herriko aratxekia eta idikia"
+          }
+        ],
+        "keyfigures": [
+          {
+            "fr": "343 élevages",
+            "eus": "343 etxalde"
+          },
+          {
+            "fr": "138 tonnes de viande bovine commercialisées en Herriko",
+            "eus": "138 tona idiki Herriko gisa salduak"
+          },
+          {
+            "fr": "Une centaine de distributeurs réguliers (boucheries artisanales, restaurants, grandes surfaces)",
+            "eus": "Ehun bat banatzaile erregular (ofiziale-harategiak, jatexeak, hipermerkatuak)"
+          },
+          {
+            "fr": "(Données 2024 )",
+            "eus": "(2024ko datuak)"
+          }
+        ],
+        "website": "https://herriko.fr/herriko-haragia/",
+        "observatory": "https://agriculture-opendatapaysbasque.aws-ec2-eu-1.opendatasoft.com/pages/herrikoharagia/"
+      }
+    ]
+  },
+  {
+    "id": 14,
     "title": {
       "fr": "Patrimoine 10",
       "eus": "Ondarea 10"
@@ -592,7 +987,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 15,
     "title": {
       "fr": "Filière 1",
       "eus": "Filière 1"
@@ -650,7 +1045,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 16,
     "title": {
       "fr": "Filière 2",
       "eus": "Filière 2"
@@ -708,7 +1103,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 17,
     "title": {
       "fr": "Filière 3",
       "eus": "Filière 3"
@@ -766,7 +1161,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": 18,
     "title": {
       "fr": "Filière 4",
       "eus": "Filière 4"
@@ -824,7 +1219,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": 19,
     "title": {
       "fr": "Filière 5",
       "eus": "Filière 5"
@@ -882,7 +1277,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 20,
     "title": {
       "fr": "Filière 6",
       "eus": "Filière 6"
@@ -940,7 +1335,7 @@
     ]
   },
   {
-    "id": 17,
+    "id": 21,
     "title": {
       "fr": "Filière 7",
       "eus": "Filière 7"
@@ -998,7 +1393,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 22,
     "title": {
       "fr": "Filière 8",
       "eus": "Filière 8"
@@ -1056,7 +1451,7 @@
     ]
   },
   {
-    "id": 19,
+    "id": 23,
     "title": {
       "fr": "Filière 9",
       "eus": "Filière 9"
@@ -1114,7 +1509,7 @@
     ]
   },
   {
-    "id": 20,
+    "id": 24,
     "title": {
       "fr": "Filière 10",
       "eus": "Filière 10"
@@ -1172,7 +1567,7 @@
     ]
   },
   {
-    "id": 21,
+    "id": 25,
     "title": {
       "fr": "Production 1",
       "eus": "Ekoizpena 1"
@@ -1222,818 +1617,6 @@
           {
             "fr": "Chiffres clés et statistiques de la production 1",
             "eus": "1. ekoizpenaren zenbaki gakoak eta estatistikak"
-          }
-        ],
-        "website": "https://example.com",
-        "observatory": "https://observatory.example.com"
-      }
-    ]
-  },
-  {
-    "id": 22,
-    "title": {
-      "fr": "Production 2",
-      "eus": "Ekoizpena 2"
-    },
-    "thumbnail": "/images/idlescreen.jpg",
-    "pages": [
-      {
-        "presentation": {
-          "fr": "Présentation de la production 2. Description détaillée de cette production économique et culturelle.",
-          "eus": "2. ekoizpenaren aurkezpena. Ekoizpen ekonomiko eta kultural honen deskribapen xehea."
-        },
-        "imagePresentation": "/images/idlescreen.jpg"
-      },
-      {
-        "history": {
-          "fr": "Histoire de la production 2. Contexte historique et évolution au fil du temps.",
-          "eus": "2. ekoizpenaren historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
-        },
-        "areaProductionImage": "/images/idlescreen.jpg",
-        "areaProductionDescription": {
-          "fr": "Description de la zone de production et de l'aire géographique de la production 2.",
-          "eus": "2. ekoizpenaren ekoizpen eremuaren eta eremu geografikoaren deskribapena."
-        }
-      },
-      {
-        "characteristics": [
-          {
-            "fr": "Caractéristique principale de la production 2",
-            "eus": "2. ekoizpenaren ezaugarri nagusia"
-          },
-          {
-            "fr": "Deuxième caractéristique importante",
-            "eus": "Bigarren ezaugarri garrantzitsua"
-          },
-          {
-            "fr": "Troisième caractéristique distinctive",
-            "eus": "Hirugarren ezaugarri bereizgarria"
-          }
-        ],
-        "products": [
-          {
-            "fr": "Produits dérivés de la production 2",
-            "eus": "2. ekoizpenatik eratorritako produktuak"
-          }
-        ],
-        "keyfigures": [
-          {
-            "fr": "Chiffres clés et statistiques de la production 2",
-            "eus": "2. ekoizpenaren zenbaki gakoak eta estatistikak"
-          }
-        ],
-        "website": "https://example.com",
-        "observatory": "https://observatory.example.com"
-      }
-    ]
-  },
-  {
-    "id": 23,
-    "title": {
-      "fr": "Production 3",
-      "eus": "Ekoizpena 3"
-    },
-    "thumbnail": "/images/idlescreen.jpg",
-    "pages": [
-      {
-        "presentation": {
-          "fr": "Présentation de la production 3. Description détaillée de cette production économique et culturelle.",
-          "eus": "3. ekoizpenaren aurkezpena. Ekoizpen ekonomiko eta kultural honen deskribapen xehea."
-        },
-        "imagePresentation": "/images/idlescreen.jpg"
-      },
-      {
-        "history": {
-          "fr": "Histoire de la production 3. Contexte historique et évolution au fil du temps.",
-          "eus": "3. ekoizpenaren historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
-        },
-        "areaProductionImage": "/images/idlescreen.jpg",
-        "areaProductionDescription": {
-          "fr": "Description de la zone de production et de l'aire géographique de la production 3.",
-          "eus": "3. ekoizpenaren ekoizpen eremuaren eta eremu geografikoaren deskribapena."
-        }
-      },
-      {
-        "characteristics": [
-          {
-            "fr": "Caractéristique principale de la production 3",
-            "eus": "3. ekoizpenaren ezaugarri nagusia"
-          },
-          {
-            "fr": "Deuxième caractéristique importante",
-            "eus": "Bigarren ezaugarri garrantzitsua"
-          },
-          {
-            "fr": "Troisième caractéristique distinctive",
-            "eus": "Hirugarren ezaugarri bereizgarria"
-          }
-        ],
-        "products": [
-          {
-            "fr": "Produits dérivés de la production 3",
-            "eus": "3. ekoizpenatik eratorritako produktuak"
-          }
-        ],
-        "keyfigures": [
-          {
-            "fr": "Chiffres clés et statistiques de la production 3",
-            "eus": "3. ekoizpenaren zenbaki gakoak eta estatistikak"
-          }
-        ],
-        "website": "https://example.com",
-        "observatory": "https://observatory.example.com"
-      }
-    ]
-  },
-  {
-    "id": 24,
-    "title": {
-      "fr": "Production 4",
-      "eus": "Ekoizpena 4"
-    },
-    "thumbnail": "/images/idlescreen.jpg",
-    "pages": [
-      {
-        "presentation": {
-          "fr": "Présentation de la production 4. Description détaillée de cette production économique et culturelle.",
-          "eus": "4. ekoizpenaren aurkezpena. Ekoizpen ekonomiko eta kultural honen deskribapen xehea."
-        },
-        "imagePresentation": "/images/idlescreen.jpg"
-      },
-      {
-        "history": {
-          "fr": "Histoire de la production 4. Contexte historique et évolution au fil du temps.",
-          "eus": "4. ekoizpenaren historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
-        },
-        "areaProductionImage": "/images/idlescreen.jpg",
-        "areaProductionDescription": {
-          "fr": "Description de la zone de production et de l'aire géographique de la production 4.",
-          "eus": "4. ekoizpenaren ekoizpen eremuaren eta eremu geografikoaren deskribapena."
-        }
-      },
-      {
-        "characteristics": [
-          {
-            "fr": "Caractéristique principale de la production 4",
-            "eus": "4. ekoizpenaren ezaugarri nagusia"
-          },
-          {
-            "fr": "Deuxième caractéristique importante",
-            "eus": "Bigarren ezaugarri garrantzitsua"
-          },
-          {
-            "fr": "Troisième caractéristique distinctive",
-            "eus": "Hirugarren ezaugarri bereizgarria"
-          }
-        ],
-        "products": [
-          {
-            "fr": "Produits dérivés de la production 4",
-            "eus": "4. ekoizpenatik eratorritako produktuak"
-          }
-        ],
-        "keyfigures": [
-          {
-            "fr": "Chiffres clés et statistiques de la production 4",
-            "eus": "4. ekoizpenaren zenbaki gakoak eta estatistikak"
-          }
-        ],
-        "website": "https://example.com",
-        "observatory": "https://observatory.example.com"
-      }
-    ]
-  },
-  {
-    "id": 25,
-    "title": {
-      "fr": "Production 5",
-      "eus": "Ekoizpena 5"
-    },
-    "thumbnail": "/images/idlescreen.jpg",
-    "pages": [
-      {
-        "presentation": {
-          "fr": "Présentation de la production 5. Description détaillée de cette production économique et culturelle.",
-          "eus": "5. ekoizpenaren aurkezpena. Ekoizpen ekonomiko eta kultural honen deskribapen xehea."
-        },
-        "imagePresentation": "/images/idlescreen.jpg"
-      },
-      {
-        "history": {
-          "fr": "Histoire de la production 5. Contexte historique et évolution au fil du temps.",
-          "eus": "5. ekoizpenaren historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
-        },
-        "areaProductionImage": "/images/idlescreen.jpg",
-        "areaProductionDescription": {
-          "fr": "Description de la zone de production et de l'aire géographique de la production 5.",
-          "eus": "5. ekoizpenaren ekoizpen eremuaren eta eremu geografikoaren deskribapena."
-        }
-      },
-      {
-        "characteristics": [
-          {
-            "fr": "Caractéristique principale de la production 5",
-            "eus": "5. ekoizpenaren ezaugarri nagusia"
-          },
-          {
-            "fr": "Deuxième caractéristique importante",
-            "eus": "Bigarren ezaugarri garrantzitsua"
-          },
-          {
-            "fr": "Troisième caractéristique distinctive",
-            "eus": "Hirugarren ezaugarri bereizgarria"
-          }
-        ],
-        "products": [
-          {
-            "fr": "Produits dérivés de la production 5",
-            "eus": "5. ekoizpenatik eratorritako produktuak"
-          }
-        ],
-        "keyfigures": [
-          {
-            "fr": "Chiffres clés et statistiques de la production 5",
-            "eus": "5. ekoizpenaren zenbaki gakoak eta estatistikak"
-          }
-        ],
-        "website": "https://example.com",
-        "observatory": "https://observatory.example.com"
-      }
-    ]
-  },
-  {
-    "id": 26,
-    "title": {
-      "fr": "Production 6",
-      "eus": "Ekoizpena 6"
-    },
-    "thumbnail": "/images/idlescreen.jpg",
-    "pages": [
-      {
-        "presentation": {
-          "fr": "Présentation de la production 6. Description détaillée de cette production économique et culturelle.",
-          "eus": "6. ekoizpenaren aurkezpena. Ekoizpen ekonomiko eta kultural honen deskribapen xehea."
-        },
-        "imagePresentation": "/images/idlescreen.jpg"
-      },
-      {
-        "history": {
-          "fr": "Histoire de la production 6. Contexte historique et évolution au fil du temps.",
-          "eus": "6. ekoizpenaren historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
-        },
-        "areaProductionImage": "/images/idlescreen.jpg",
-        "areaProductionDescription": {
-          "fr": "Description de la zone de production et de l'aire géographique de la production 6.",
-          "eus": "6. ekoizpenaren ekoizpen eremuaren eta eremu geografikoaren deskribapena."
-        }
-      },
-      {
-        "characteristics": [
-          {
-            "fr": "Caractéristique principale de la production 6",
-            "eus": "6. ekoizpenaren ezaugarri nagusia"
-          },
-          {
-            "fr": "Deuxième caractéristique importante",
-            "eus": "Bigarren ezaugarri garrantzitsua"
-          },
-          {
-            "fr": "Troisième caractéristique distinctive",
-            "eus": "Hirugarren ezaugarri bereizgarria"
-          }
-        ],
-        "products": [
-          {
-            "fr": "Produits dérivés de la production 6",
-            "eus": "6. ekoizpenatik eratorritako produktuak"
-          }
-        ],
-        "keyfigures": [
-          {
-            "fr": "Chiffres clés et statistiques de la production 6",
-            "eus": "6. ekoizpenaren zenbaki gakoak eta estatistikak"
-          }
-        ],
-        "website": "https://example.com",
-        "observatory": "https://observatory.example.com"
-      }
-    ]
-  },
-  {
-    "id": 27,
-    "title": {
-      "fr": "Production 7",
-      "eus": "Ekoizpena 7"
-    },
-    "thumbnail": "/images/idlescreen.jpg",
-    "pages": [
-      {
-        "presentation": {
-          "fr": "Présentation de la production 7. Description détaillée de cette production économique et culturelle.",
-          "eus": "7. ekoizpenaren aurkezpena. Ekoizpen ekonomiko eta kultural honen deskribapen xehea."
-        },
-        "imagePresentation": "/images/idlescreen.jpg"
-      },
-      {
-        "history": {
-          "fr": "Histoire de la production 7. Contexte historique et évolution au fil du temps.",
-          "eus": "7. ekoizpenaren historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
-        },
-        "areaProductionImage": "/images/idlescreen.jpg",
-        "areaProductionDescription": {
-          "fr": "Description de la zone de production et de l'aire géographique de la production 7.",
-          "eus": "7. ekoizpenaren ekoizpen eremuaren eta eremu geografikoaren deskribapena."
-        }
-      },
-      {
-        "characteristics": [
-          {
-            "fr": "Caractéristique principale de la production 7",
-            "eus": "7. ekoizpenaren ezaugarri nagusia"
-          },
-          {
-            "fr": "Deuxième caractéristique importante",
-            "eus": "Bigarren ezaugarri garrantzitsua"
-          },
-          {
-            "fr": "Troisième caractéristique distinctive",
-            "eus": "Hirugarren ezaugarri bereizgarria"
-          }
-        ],
-        "products": [
-          {
-            "fr": "Produits dérivés de la production 7",
-            "eus": "7. ekoizpenatik eratorritako produktuak"
-          }
-        ],
-        "keyfigures": [
-          {
-            "fr": "Chiffres clés et statistiques de la production 7",
-            "eus": "7. ekoizpenaren zenbaki gakoak eta estatistikak"
-          }
-        ],
-        "website": "https://example.com",
-        "observatory": "https://observatory.example.com"
-      }
-    ]
-  },
-  {
-    "id": 28,
-    "title": {
-      "fr": "Production 8",
-      "eus": "Ekoizpena 8"
-    },
-    "thumbnail": "/images/idlescreen.jpg",
-    "pages": [
-      {
-        "presentation": {
-          "fr": "Présentation de la production 8. Description détaillée de cette production économique et culturelle.",
-          "eus": "8. ekoizpenaren aurkezpena. Ekoizpen ekonomiko eta kultural honen deskribapen xehea."
-        },
-        "imagePresentation": "/images/idlescreen.jpg"
-      },
-      {
-        "history": {
-          "fr": "Histoire de la production 8. Contexte historique et évolution au fil du temps.",
-          "eus": "8. ekoizpenaren historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
-        },
-        "areaProductionImage": "/images/idlescreen.jpg",
-        "areaProductionDescription": {
-          "fr": "Description de la zone de production et de l'aire géographique de la production 8.",
-          "eus": "8. ekoizpenaren ekoizpen eremuaren eta eremu geografikoaren deskribapena."
-        }
-      },
-      {
-        "characteristics": [
-          {
-            "fr": "Caractéristique principale de la production 8",
-            "eus": "8. ekoizpenaren ezaugarri nagusia"
-          },
-          {
-            "fr": "Deuxième caractéristique importante",
-            "eus": "Bigarren ezaugarri garrantzitsua"
-          },
-          {
-            "fr": "Troisième caractéristique distinctive",
-            "eus": "Hirugarren ezaugarri bereizgarria"
-          }
-        ],
-        "products": [
-          {
-            "fr": "Produits dérivés de la production 8",
-            "eus": "8. ekoizpenatik eratorritako produktuak"
-          }
-        ],
-        "keyfigures": [
-          {
-            "fr": "Chiffres clés et statistiques de la production 8",
-            "eus": "8. ekoizpenaren zenbaki gakoak eta estatistikak"
-          }
-        ],
-        "website": "https://example.com",
-        "observatory": "https://observatory.example.com"
-      }
-    ]
-  },
-  {
-    "id": 29,
-    "title": {
-      "fr": "Production 9",
-      "eus": "Ekoizpena 9"
-    },
-    "thumbnail": "/images/idlescreen.jpg",
-    "pages": [
-      {
-        "presentation": {
-          "fr": "Présentation de la production 9. Description détaillée de cette production économique et culturelle.",
-          "eus": "9. ekoizpenaren aurkezpena. Ekoizpen ekonomiko eta kultural honen deskribapen xehea."
-        },
-        "imagePresentation": "/images/idlescreen.jpg"
-      },
-      {
-        "history": {
-          "fr": "Histoire de la production 9. Contexte historique et évolution au fil du temps.",
-          "eus": "9. ekoizpenaren historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
-        },
-        "areaProductionImage": "/images/idlescreen.jpg",
-        "areaProductionDescription": {
-          "fr": "Description de la zone de production et de l'aire géographique de la production 9.",
-          "eus": "9. ekoizpenaren ekoizpen eremuaren eta eremu geografikoaren deskribapena."
-        }
-      },
-      {
-        "characteristics": [
-          {
-            "fr": "Caractéristique principale de la production 9",
-            "eus": "9. ekoizpenaren ezaugarri nagusia"
-          },
-          {
-            "fr": "Deuxième caractéristique importante",
-            "eus": "Bigarren ezaugarri garrantzitsua"
-          },
-          {
-            "fr": "Troisième caractéristique distinctive",
-            "eus": "Hirugarren ezaugarri bereizgarria"
-          }
-        ],
-        "products": [
-          {
-            "fr": "Produits dérivés de la production 9",
-            "eus": "9. ekoizpenatik eratorritako produktuak"
-          }
-        ],
-        "keyfigures": [
-          {
-            "fr": "Chiffres clés et statistiques de la production 9",
-            "eus": "9. ekoizpenaren zenbaki gakoak eta estatistikak"
-          }
-        ],
-        "website": "https://example.com",
-        "observatory": "https://observatory.example.com"
-      }
-    ]
-  },
-  {
-    "id": 30,
-    "title": {
-      "fr": "Production 10",
-      "eus": "Ekoizpena 10"
-    },
-    "thumbnail": "/images/idlescreen.jpg",
-    "pages": [
-      {
-        "presentation": {
-          "fr": "Présentation de la production 10. Description détaillée de cette production économique et culturelle.",
-          "eus": "10. ekoizpenaren aurkezpena. Ekoizpen ekonomiko eta kultural honen deskribapen xehea."
-        },
-        "imagePresentation": "/images/idlescreen.jpg"
-      },
-      {
-        "history": {
-          "fr": "Histoire de la production 10. Contexte historique et évolution au fil du temps.",
-          "eus": "10. ekoizpenaren historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
-        },
-        "areaProductionImage": "/images/idlescreen.jpg",
-        "areaProductionDescription": {
-          "fr": "Description de la zone de production et de l'aire géographique de la production 10.",
-          "eus": "10. ekoizpenaren ekoizpen eremuaren eta eremu geografikoaren deskribapena."
-        }
-      },
-      {
-        "characteristics": [
-          {
-            "fr": "Caractéristique principale de la production 10",
-            "eus": "10. ekoizpenaren ezaugarri nagusia"
-          },
-          {
-            "fr": "Deuxième caractéristique importante",
-            "eus": "Bigarren ezaugarri garrantzitsua"
-          },
-          {
-            "fr": "Troisième caractéristique distinctive",
-            "eus": "Hirugarren ezaugarri bereizgarria"
-          }
-        ],
-        "products": [
-          {
-            "fr": "Produits dérivés de la production 10",
-            "eus": "10. ekoizpenatik eratorritako produktuak"
-          }
-        ],
-        "keyfigures": [
-          {
-            "fr": "Chiffres clés et statistiques de la production 10",
-            "eus": "10. ekoizpenaren zenbaki gakoak eta estatistikak"
-          }
-        ],
-        "website": "https://example.com",
-        "observatory": "https://observatory.example.com"
-      }
-    ]
-  },
-  {
-    "id": 31,
-    "title": {
-      "fr": "Innovation 1",
-      "eus": "Berrikuntza 1"
-    },
-    "thumbnail": "/images/idlescreen.jpg",
-    "pages": [
-      {
-        "presentation": {
-          "fr": "Présentation de l'innovation 1. Description détaillée de cette innovation technologique et culturelle.",
-          "eus": "1. berrikuntzaren aurkezpena. Berrikuntza teknologiko eta kultural honen deskribapen xehea."
-        },
-        "imagePresentation": "/images/idlescreen.jpg"
-      },
-      {
-        "history": {
-          "fr": "Histoire de l'innovation 1. Contexte historique et évolution au fil du temps.",
-          "eus": "1. berrikuntzaren historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
-        },
-        "areaProductionImage": "/images/idlescreen.jpg",
-        "areaProductionDescription": {
-          "fr": "Description de la zone de production et de l'aire géographique de l'innovation 1.",
-          "eus": "1. berrikuntzaren ekoizpen eremuaren eta eremu geografikoaren deskribapena."
-        }
-      },
-      {
-        "characteristics": [
-          {
-            "fr": "Caractéristique principale de l'innovation 1",
-            "eus": "1. berrikuntzaren ezaugarri nagusia"
-          },
-          {
-            "fr": "Deuxième caractéristique importante",
-            "eus": "Bigarren ezaugarri garrantzitsua"
-          },
-          {
-            "fr": "Troisième caractéristique distinctive",
-            "eus": "Hirugarren ezaugarri bereizgarria"
-          }
-        ],
-        "products": [
-          {
-            "fr": "Produits dérivés de l'innovation 1",
-            "eus": "1. berrikuntzatik eratorritako produktuak"
-          }
-        ],
-        "keyfigures": [
-          {
-            "fr": "Chiffres clés et statistiques de l'innovation 1",
-            "eus": "1. berrikuntzaren zenbaki gakoak eta estatistikak"
-          }
-        ],
-        "website": "https://example.com",
-        "observatory": "https://observatory.example.com"
-      }
-    ]
-  },
-  {
-    "id": 32,
-    "title": {
-      "fr": "Innovation 2",
-      "eus": "Berrikuntza 2"
-    },
-    "thumbnail": "/images/idlescreen.jpg",
-    "pages": [
-      {
-        "presentation": {
-          "fr": "Présentation de l'innovation 2. Description détaillée de cette innovation technologique et culturelle.",
-          "eus": "2. berrikuntzaren aurkezpena. Berrikuntza teknologiko eta kultural honen deskribapen xehea."
-        },
-        "imagePresentation": "/images/idlescreen.jpg"
-      },
-      {
-        "history": {
-          "fr": "Histoire de l'innovation 2. Contexte historique et évolution au fil du temps.",
-          "eus": "2. berrikuntzaren historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
-        },
-        "areaProductionImage": "/images/idlescreen.jpg",
-        "areaProductionDescription": {
-          "fr": "Description de la zone de production et de l'aire géographique de l'innovation 2.",
-          "eus": "2. berrikuntzaren ekoizpen eremuaren eta eremu geografikoaren deskribapena."
-        }
-      },
-      {
-        "characteristics": [
-          {
-            "fr": "Caractéristique principale de l'innovation 2",
-            "eus": "2. berrikuntzaren ezaugarri nagusia"
-          },
-          {
-            "fr": "Deuxième caractéristique importante",
-            "eus": "Bigarren ezaugarri garrantzitsua"
-          },
-          {
-            "fr": "Troisième caractéristique distinctive",
-            "eus": "Hirugarren ezaugarri bereizgarria"
-          }
-        ],
-        "products": [
-          {
-            "fr": "Produits dérivés de l'innovation 2",
-            "eus": "2. berrikuntzatik eratorritako produktuak"
-          }
-        ],
-        "keyfigures": [
-          {
-            "fr": "Chiffres clés et statistiques de l'innovation 2",
-            "eus": "2. berrikuntzaren zenbaki gakoak eta estatistikak"
-          }
-        ],
-        "website": "https://example.com",
-        "observatory": "https://observatory.example.com"
-      }
-    ]
-  },
-  {
-    "id": 33,
-    "title": {
-      "fr": "Innovation 3",
-      "eus": "Berrikuntza 3"
-    },
-    "thumbnail": "/images/idlescreen.jpg",
-    "pages": [
-      {
-        "presentation": {
-          "fr": "Présentation de l'innovation 3. Description détaillée de cette innovation technologique et culturelle.",
-          "eus": "3. berrikuntzaren aurkezpena. Berrikuntza teknologiko eta kultural honen deskribapen xehea."
-        },
-        "imagePresentation": "/images/idlescreen.jpg"
-      },
-      {
-        "history": {
-          "fr": "Histoire de l'innovation 3. Contexte historique et évolution au fil du temps.",
-          "eus": "3. berrikuntzaren historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
-        },
-        "areaProductionImage": "/images/idlescreen.jpg",
-        "areaProductionDescription": {
-          "fr": "Description de la zone de production et de l'aire géographique de l'innovation 3.",
-          "eus": "3. berrikuntzaren ekoizpen eremuaren eta eremu geografikoaren deskribapena."
-        }
-      },
-      {
-        "characteristics": [
-          {
-            "fr": "Caractéristique principale de l'innovation 3",
-            "eus": "3. berrikuntzaren ezaugarri nagusia"
-          },
-          {
-            "fr": "Deuxième caractéristique importante",
-            "eus": "Bigarren ezaugarri garrantzitsua"
-          },
-          {
-            "fr": "Troisième caractéristique distinctive",
-            "eus": "Hirugarren ezaugarri bereizgarria"
-          }
-        ],
-        "products": [
-          {
-            "fr": "Produits dérivés de l'innovation 3",
-            "eus": "3. berrikuntzatik eratorritako produktuak"
-          }
-        ],
-        "keyfigures": [
-          {
-            "fr": "Chiffres clés et statistiques de l'innovation 3",
-            "eus": "3. berrikuntzaren zenbaki gakoak eta estatistikak"
-          }
-        ],
-        "website": "https://example.com",
-        "observatory": "https://observatory.example.com"
-      }
-    ]
-  },
-  {
-    "id": 34,
-    "title": {
-      "fr": "Innovation 4",
-      "eus": "Berrikuntza 4"
-    },
-    "thumbnail": "/images/idlescreen.jpg",
-    "pages": [
-      {
-        "presentation": {
-          "fr": "Présentation de l'innovation 4. Description détaillée de cette innovation technologique et culturelle.",
-          "eus": "4. berrikuntzaren aurkezpena. Berrikuntza teknologiko eta kultural honen deskribapen xehea."
-        },
-        "imagePresentation": "/images/idlescreen.jpg"
-      },
-      {
-        "history": {
-          "fr": "Histoire de l'innovation 4. Contexte historique et évolution au fil du temps.",
-          "eus": "4. berrikuntzaren historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
-        },
-        "areaProductionImage": "/images/idlescreen.jpg",
-        "areaProductionDescription": {
-          "fr": "Description de la zone de production et de l'aire géographique de l'innovation 4.",
-          "eus": "4. berrikuntzaren ekoizpen eremuaren eta eremu geografikoaren deskribapena."
-        }
-      },
-      {
-        "characteristics": [
-          {
-            "fr": "Caractéristique principale de l'innovation 4",
-            "eus": "4. berrikuntzaren ezaugarri nagusia"
-          },
-          {
-            "fr": "Deuxième caractéristique importante",
-            "eus": "Bigarren ezaugarri garrantzitsua"
-          },
-          {
-            "fr": "Troisième caractéristique distinctive",
-            "eus": "Hirugarren ezaugarri bereizgarria"
-          }
-        ],
-        "products": [
-          {
-            "fr": "Produits dérivés de l'innovation 4",
-            "eus": "4. berrikuntzatik eratorritako produktuak"
-          }
-        ],
-        "keyfigures": [
-          {
-            "fr": "Chiffres clés et statistiques de l'innovation 4",
-            "eus": "4. berrikuntzaren zenbaki gakoak eta estatistikak"
-          }
-        ],
-        "website": "https://example.com",
-        "observatory": "https://observatory.example.com"
-      }
-    ]
-  },
-  {
-    "id": 35,
-    "title": {
-      "fr": "Innovation 5",
-      "eus": "Berrikuntza 5"
-    },
-    "thumbnail": "/images/idlescreen.jpg",
-    "pages": [
-      {
-        "presentation": {
-          "fr": "Présentation de l'innovation 5. Description détaillée de cette innovation technologique et culturelle.",
-          "eus": "5. berrikuntzaren aurkezpena. Berrikuntza teknologiko eta kultural honen deskribapen xehea."
-        },
-        "imagePresentation": "/images/idlescreen.jpg"
-      },
-      {
-        "history": {
-          "fr": "Histoire de l'innovation 5. Contexte historique et évolution au fil du temps.",
-          "eus": "5. berrikuntzaren historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
-        },
-        "areaProductionImage": "/images/idlescreen.jpg",
-        "areaProductionDescription": {
-          "fr": "Description de la zone de production et de l'aire géographique de l'innovation 5.",
-          "eus": "5. berrikuntzaren ekoizpen eremuaren eta eremu geografikoaren deskribapena."
-        }
-      },
-      {
-        "characteristics": [
-          {
-            "fr": "Caractéristique principale de l'innovation 5",
-            "eus": "5. berrikuntzaren ezaugarri nagusia"
-          },
-          {
-            "fr": "Deuxième caractéristique importante",
-            "eus": "Bigarren ezaugarri garrantzitsua"
-          },
-          {
-            "fr": "Troisième caractéristique distinctive",
-            "eus": "Hirugarren ezaugarri bereizgarria"
-          }
-        ],
-        "products": [
-          {
-            "fr": "Produits dérivés de l'innovation 5",
-            "eus": "5. berrikuntzatik eratorritako produktuak"
-          }
-        ],
-        "keyfigures": [
-          {
-            "fr": "Chiffres clés et statistiques de l'innovation 5",
-            "eus": "5. berrikuntzaren zenbaki gakoak eta estatistikak"
           }
         ],
         "website": "https://example.com",

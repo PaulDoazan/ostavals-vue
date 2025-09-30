@@ -108,7 +108,7 @@ const isImageLoaded = (itemId: number) => {
     <!-- Grid container -->
     <div class="h-screen flex flex-col">
       <!-- Grid that takes full width between title and menu -->
-      <div class="px-20 pt-36 pb-40">
+      <div class="px-20 pt-36 pb-32">
         <div class="grid grid-cols-5 grid-rows-3 gap-x-16 gap-y-12 h-full">
           <div v-for="item in currentPageItems" :key="item.id"
             class="flex flex-col items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"

@@ -1,7 +1,7 @@
 import { ref, onUnmounted } from 'vue'
 import { useI18n } from 'vue-i18n'
 
-const IDLE_TIMEOUT = 5000 // 20 seconds
+const IDLE_TIMEOUT = 50000 // 20 seconds
 const WARNING_TIMEOUT = 5000 // 5 seconds warning
 
 export function useIdleScreen() {

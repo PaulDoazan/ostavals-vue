@@ -166,7 +166,7 @@ const getCurrentPageComponent = computed(() => {
     <!-- Content container -->
     <div class="h-screen flex flex-col">
       <!-- Content area that takes full width between title and menu -->
-      <div class="px-20 pt-40 pb-52 flex-1">
+      <div class="px-20 pt-40 flex-1">
         <!-- Dynamic page component -->
         <component :is="getCurrentPageComponent" v-if="currentPage === 0"
           :title="presentationData.pages[currentPage].title"

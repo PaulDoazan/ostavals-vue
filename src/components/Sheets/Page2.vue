@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
-import RedThinDecoration from '../Icon/RedThinDecoration.vue'
 import ImageSkeleton from './ImageSkeleton.vue'
+import RedThinDecorationTiny from '../Icon/RedThinDecorationTiny.vue'
 
 // Props
 interface Props {
@@ -19,16 +19,16 @@ defineProps<Props>()
 <template>
   <div class="h-full flex items-start">
     <!-- Left side - Content -->
-    <RedThinDecoration class="absolute -top-48 right-56 rotate-90" />
-    <div class="w-[45%] pr-20">
-      <h2 class="text-3xl font-soleil font-bold text-black mb-8">
+    <RedThinDecorationTiny class="absolute -top-48 right-56 rotate-90" />
+    <div class="w-[55%] pr-20 h-full flex flex-col">
+      <h2 class="text-3xl font-soleil font-bold text-black mb-8 flex-shrink-0">
         {{ t('history') }}
       </h2>
 
-      <div class="space-y-6">
-        <p class="text-xl font-soleil leading-relaxed" style="font-size: 28px; line-height: 1.3">
+      <div class="overflow-y-auto pr-8" style="height: 71%">
+        <div class="text-xl font-soleil leading-relaxed" style="font-size: 28px; line-height: 1.3">
           {{ history }}
-        </p>
+        </div>
       </div>
     </div>
 

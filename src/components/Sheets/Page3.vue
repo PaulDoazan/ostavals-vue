@@ -1,25 +1,30 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
-import RedThinDecoration from '../Icon/RedThinDecoration.vue';
+import RedThinDecorationTiny from '../Icon/RedThinDecorationTiny.vue';
 
 // Props
 interface Props {
   characteristics: string[],
   products: string[],
   keyFigures: string[],
+  linkside?: string
 }
 
-defineProps<Props>()
+const props = defineProps<Props>()
 
 const { t } = useI18n()
+
+// Compute left position based on linkside
+const rectangleLeft = props.linkside === 'right' ? '904px' : '0px'
 </script>
 
 <template>
   <div class="h-full">
-    <RedThinDecoration class="absolute -top-48 right-56 rotate-90" />
+    <RedThinDecorationTiny class="absolute -top-48 right-56 rotate-90" />
 
     <!-- Rectangle shape at specified position -->
-    <div class="absolute bg-gray-600" style="left: 904px; top: 665px; width: 1016px; height: 240px;"></div>
+    <div class="absolute bg-gray-600" :style="{ left: rectangleLeft, top: '665px', width: '1016px', height: '240px' }">
+    </div>
 
     <div class="grid grid-cols-3 gap-16 h-full">
       <!-- Characteristics Column -->
