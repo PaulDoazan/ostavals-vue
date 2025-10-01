@@ -73,13 +73,13 @@ const getLayoutClass = () => {
       <div class="w-full flex" :class="getLayoutClass()">
         <!-- Website Column -->
         <div v-if="website && website.trim() !== ''" class="flex items-center text-white font-soleil">
-          <div class="font-bold mr-6" style="font-size: 32px;">Siteweb : </div>
+          <div class="font-bold mr-6" style="font-size: 32px;">{{ t('sheets.page3.website') }} </div>
           <img v-if="websiteQRCode" :src="websiteQRCode" alt="Website QR Code" class="w-48 h-48" />
         </div>
 
         <!-- Observatory Column -->
         <div v-if="observatory && observatory.trim() !== ''" class="flex items-center text-white font-soleil">
-          <div class="font-bold mr-6" style="font-size: 32px;">Observatoire : </div>
+          <div class="font-bold mr-6" style="font-size: 32px;">{{ t('sheets.page3.observatory') }} </div>
           <img v-if="observatoryQRCode" :src="observatoryQRCode" alt="Observatory QR Code" class="w-48 h-48" />
         </div>
       </div>

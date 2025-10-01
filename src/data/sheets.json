@@ -196,7 +196,7 @@
           }
         ],
         "website": "https://www.pimentdespelette.com/",
-        "observatory": "https://agriculture-opendatapaysbasque.aws-ec2-eu-1.opendatasoft.com/pages/piment-espelette/"
+        "observatory": "https://agriculture-opendatapaysbasque.aws-ec2-eu-1.opendatasoft.com/pages/piments-espelette/"
       }
     ]
   },
@@ -253,7 +253,7 @@
             "eus": "Hamar bat abeltzain eta txitategi bat"
           }
         ],
-        "website": "pas de site web",
+        "website": "",
         "observatory": ""
       }
     ]
@@ -323,8 +323,8 @@
             "eus": "Ekoizpena anua aldakorra da klima-baldintzak arabera, batez besteko 8 eta 10 toneladatara"
           }
         ],
-        "website": "https://www.itsasukogerezia.com/",
-        "observatory": "https://www.observatoire-cerise.com/cerise-itsasuko-gerezia"
+        "website": "https://www.cerise-itxassou.com/",
+        "observatory": "https://agriculture-opendatapaysbasque.opendatasoft.com/pages/xapata/"
       }
     ]
   },

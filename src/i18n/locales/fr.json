@@ -24,7 +24,9 @@
     "page3": {
       "characteristicsTitle": "Caractéristiques de production",
       "productsTitle": "Produits",
-      "keyFiguresTitle": "Chiffres clés"
+      "keyFiguresTitle": "Chiffres clés",
+      "website": "Site-web :",
+      "observatory": "Observatoire :"
     }
   },
   "videos": {

@@ -24,7 +24,9 @@
     "page3": {
       "characteristicsTitle": "Ekoizpenaren ezaugarriak",
       "productsTitle": "Produktuak",
-      "keyFiguresTitle": "Zenbaki gakoak"
+      "keyFiguresTitle": "Zenbaki gakoak",
+      "website": "Webgunea :",
+      "observatory": "Behatokia :"
     }
   },
   "videos": {
