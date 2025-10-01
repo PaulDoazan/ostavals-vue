@@ -109,12 +109,12 @@ const isImageLoaded = (itemId: number) => {
     <div class="h-screen flex flex-col">
       <!-- Grid that takes full width between title and menu -->
       <div class="px-20 pt-36 pb-32">
-        <div class="grid grid-cols-5 grid-rows-3 gap-x-16 gap-y-12 h-full">
+        <div class="grid grid-cols-5 grid-rows-3 gap-x-16 gap-y-6 h-full">
           <div v-for="item in currentPageItems" :key="item.id"
-            class="flex flex-col items-center justify-center cursor-pointer hover:opacity-80 transition-opacity"
+            class="flex flex-col items-center cursor-pointer hover:opacity-80 transition-opacity"
             @click="goToPresentation(item.id); resetIdleTimer()">
             <!-- Thumbnail image -->
-            <div class="mb-3 overflow-hidden relative" style="width: 300px; height: 169px;">
+            <div class="mb-3 overflow-hidden relative" style="width: 256px; height: 145px;">
               <!-- Show skeleton while image is loading -->
               <!-- <ImageSkeleton :width="'300px'" :height="'169px'" /> -->
               <!-- Show image once loaded -->
