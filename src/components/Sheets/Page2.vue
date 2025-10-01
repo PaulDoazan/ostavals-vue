@@ -25,7 +25,7 @@ defineProps<Props>()
         {{ t('history') }}
       </h2>
 
-      <div class="overflow-y-auto pr-8" style="height: 71%">
+      <div class="overflow-y-auto pr-8" style="height: 650px">
         <div class="text-xl font-soleil leading-relaxed" style="font-size: 28px; line-height: 1.3">
           {{ history }}
         </div>

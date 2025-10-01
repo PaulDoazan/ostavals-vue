@@ -123,7 +123,8 @@ const presentationData = computed(() => {
         imageDescription: '/images/idlescreen.jpg',
         characteristics,
         products,
-        keyFigures: keyfigures
+        keyFigures: keyfigures,
+        linkside: page.linkside
       }
     }
   })
@@ -182,7 +183,8 @@ const getCurrentPageComponent = computed(() => {
         <component :is="getCurrentPageComponent" v-else-if="currentPage === 2"
           :characteristics="presentationData.pages[currentPage].characteristics || []"
           :products="presentationData.pages[currentPage].products || []"
-          :keyFigures="presentationData.pages[currentPage].keyFigures || []" />
+          :keyFigures="presentationData.pages[currentPage].keyFigures || []"
+          :linkside="presentationData.pages[currentPage].linkside" />
       </div>
 
       <!-- Navigation arrows -->

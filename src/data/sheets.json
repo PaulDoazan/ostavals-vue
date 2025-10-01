@@ -931,696 +931,858 @@
   {
     "id": 14,
     "title": {
-      "fr": "Patrimoine 10",
-      "eus": "Ondarea 10"
+      "fr": "Le Piment doux Label Rouge Biper Eztia",
+      "eus": "Label gorridun Biper Eztia"
     },
     "thumbnail": "/images/idlescreen.jpg",
     "pages": [
       {
         "presentation": {
-          "fr": "Présentation du patrimoine 10. Description détaillée de ce patrimoine culturel et historique.",
-          "eus": "10. ondarearen aurkezpena. Ondare kultural eta historiko honen deskribapen xehea."
+          "fr": "Le Piment doux Label Rouge Biper Eztia est un légume traditionnel du Pays Basque et des Landes, utilisé dans de nombreuses recettes traditionnelles comme la piperade, l'axoa (plat à base de viande hachée) ou dans les omelettes. Il est exclusivement vert, non piquant, et peut être consommé cru ou cuit.",
+          "eus": "Label gorridun Biper Eztia Euskal Herriko eta Landesetako antzinako barazkia da, eta hainbat errezeta tradizionaletan erabiltzen da: piperrada, axoa (haragi xehatuaz egindako platera) edo moletan. Berdea da, ez du minik egiten, eta gordinik edo egosirik jan daiteke."
         },
         "imagePresentation": "/images/idlescreen.jpg"
       },
       {
         "history": {
-          "fr": "Histoire du patrimoine 10. Contexte historique et évolution au fil du temps.",
-          "eus": "10. ondarearen historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+          "fr": "Le piment doux est un légume ancien cultivé dans le Sud des Landes et le Nord du Pays Basque. Le Syndicat des Producteurs de Piment Doux existe depuis 2002. Ils ont créé la marque collective \"Biper Eztia\" en 2004 et obtenu un Label Rouge \"Piment\" en 2016.",
+          "eus": "Biper Eztia antzinako barazkia da, Landes hegoaldean eta Euskal Herri iparraldean landatzen dena. Biper Ezti ekoizleen sindikatuak 2002an sortu zen. \"Biper Eztia\" marka kolektiboa 2004an sortu zuten, eta \"Biper\" Label Gorria 2016an lortu zuten."
         },
         "areaProductionImage": "/images/idlescreen.jpg",
         "areaProductionDescription": {
-          "fr": "Description de la zone de production et de l'aire géographique du patrimoine 10.",
-          "eus": "10. ondarearen ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+          "fr": "Le Label Rouge est accordé aux produits qui respectent un cahier des charges, sans délimitation géographique. La marque Biper Eztia associée au Label Rouge couvre un total de 166 communes.",
+          "eus": "Label Gorria baldintza-bilduma bat betetzen duten produktuei ematen zaie, eremu geografiko zehatzik gabe. Label Gorri horrekin lotutako Biper Eztia markak 166 herri biltzen ditu."
         }
       },
       {
         "characteristics": [
           {
-            "fr": "Caractéristique principale du patrimoine 10",
-            "eus": "10. ondarearen ezaugarri nagusia"
+            "fr": "Variétés sélectionnées garantissant un goût non piquant (Aturri, Errobi, Errekaldea, Doux Très Long des Landes)",
+            "eus": "Hautatutako barietateak, zapore ez pikantea bermatzen dutenak (Aturri, Errobi, Errekaldea, Landesetako ezti luze-luzea)"
           },
           {
-            "fr": "Deuxième caractéristique importante",
-            "eus": "Bigarren ezaugarri garrantzitsua"
+            "fr": "Cultivé en plein champ du 1er mars au 1er décembre",
+            "eus": "Kanpoan landatzen da, martxoaren 1etik abenduaren 1era"
           },
           {
-            "fr": "Troisième caractéristique distinctive",
-            "eus": "Hirugarren ezaugarri bereizgarria"
+            "fr": "Rotation des cultures obligatoire",
+            "eus": "Laborantza aldizkakuntza beharrezkoa"
+          },
+          {
+            "fr": "Récolte manuelle, expédition dans les deux jours suivant la récolte",
+            "eus": "Eskuz biltzen da, eta bi egunen buruan bidaltzen"
+          },
+          {
+            "fr": "Exclusivement piment vert, à peau fine, forme allongée (minimum 17 cm), droit ou légèrement courbé et pointu",
+            "eus": "Beti biper berdea, azal mehekoa, forma luzea (gutienez 17 cm), zuzena edo apur bat kurbatua eta zorrotza"
+          },
+          {
+            "fr": "Commercialisé frais, entier et cru, entre mai et début décembre",
+            "eus": "Fresko, oso eta gordinik saltzen da, maiatzetik abenduaren hasierara"
           }
         ],
         "products": [
           {
-            "fr": "Produits dérivés du patrimoine 10",
-            "eus": "10. ondaretik eratorritako produktuak"
+            "fr": "Piment doux frais entier et cru",
+            "eus": "Biper ezti fresko, oso eta gordina"
           }
         ],
         "keyfigures": [
           {
-            "fr": "Chiffres clés et statistiques du patrimoine 10",
-            "eus": "10. ondarearen zenbaki gakoak eta estatistikak"
+            "fr": "8 producteurs",
+            "eus": "8 ekoizle"
+          },
+          {
+            "fr": "1,2 hectare de piment doux planté",
+            "eus": "1,2 hektarea biper ezti landatuak"
+          },
+          {
+            "fr": "22 tonnes récoltées",
+            "eus": "22 tonako uzta"
+          },
+          {
+            "fr": "(Données 2022)",
+            "eus": "(2022ko datuak)"
           }
         ],
-        "website": "https://example.com",
-        "observatory": "https://observatory.example.com"
+        "linkside": "right",
+        "website": "https://www.bipereztia.fr/",
+        "observatory": "https://agriculture-opendatapaysbasque.aws-ec2-eu-1.opendatasoft.com/pages/pimentdoux/"
       }
     ]
   },
   {
     "id": 15,
     "title": {
-      "fr": "Filière 1",
-      "eus": "Filière 1"
+      "fr": "Vins AOP d'Irouléguy",
+      "eus": "JDB Irulegi arnoak"
     },
     "thumbnail": "/images/idlescreen.jpg",
     "pages": [
       {
         "presentation": {
-          "fr": "Présentation de la filière 1. Description détaillée de cette filière économique et culturelle.",
-          "eus": "1. filièrearen aurkezpena. Filière ekonomiko eta kultural honen deskribapen xehea."
+          "fr": "Le vignoble d'Irouléguy est l'un des plus petits vignobles de montagne de France, situé entre 200 et 400 mètres d'altitude, sur les flancs sud des Pyrénées Occidentales. L'histoire de cette appellation est liée à celle des monastères sur les chemins de Saint-Jacques-de-Compostelle. Composée de fermes familiales à taille humaine, cette AOP participe à la préservation et développement du territoire grâce son engagement dans des démarches environnementales fortes et ses parcelles en terrasse donnent un caractère unique au paysage. Il bénéficie depuis 2020 de la labellisation « Vignobles et Découverte ».",
+          "eus": "Irulegiko mahastia Frantziako estatuko mendiko mahasti ttipienetakoa da. 200 eta 400 metro arteko goratasunean dago, Mendebaldeko Pirinioetako mendi mazeletan. Deitura hori Donejakue bideetako monasterioen historiari lotua zaio. Zentzuzko neurriko familia-etxaldez osatua da, eta lurraldearen babesean eta garapenean parte hartzen du, ingurumen desmartxa handinahietan engaiatuz eta paisaiari itxura paregabea ematen dion lursailen terraza-antolaketa eramanez. 2020an, Frantziako « Vignobles et Découverte » (mahastiak eta aurkikuntza) labela kausitu zuen."
         },
         "imagePresentation": "/images/idlescreen.jpg"
       },
       {
         "history": {
-          "fr": "Histoire de la filière 1. Contexte historique et évolution au fil du temps.",
-          "eus": "1. filièrearen historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+          "fr": "À partir du 12e siècle, les moines de l'Abbaye de Roncevaux plantèrent un vignoble autour des prieurés d'Irouléguy et Anhaux. Le vin ainsi produit était destiné aux pèlerins qui cheminaient en direction de St Jacques de Compostelle. Le vignoble connut un fort développement jusqu'au 20e siècle quand il fut touché par la crise du phylloxera (maladie de la vigne). En 1945, alors qu'il ne reste qu'une dizaine d'hectares, un groupe de vignerons attachés à leur histoire crée le Syndicat de défense des Vins d'Irouléguy. C'est le début du renouveau du vignoble. La Cave coopérative d'Irouléguy est créée en 1952 puis l'Appellation d'Origine Contrôlée est reconnue en 1970 et l'Appellation d'Origine Protégée en 2013. Le vignoble de l'Irouleguy est composé d'une multitude de petites parcelles sur des terroirs très divers (grès rouges, ophite du Keuper, calcaires etc..). Ces parcelles pentues (jusqu'à 80% de pente) sont majoritairement cultivées en terrasses, ce qui impose le travail manuel des vignes.",
+          "eus": "12. mendetik goiti, Orreagako abadiako fraideek Irulegiko eta Anhauzeko priorerrien inguruan mahastiak landatu zituzten. Bertan ekoizten zuten arnoa Santiago de Compostelarako bidean ziren beilariei ematen zieten. 20. mendea arte, mahastiak anitz garatu ziren, filoxera edo mahats-zorriaren krisia jasan zuen arte. 1945ean, hamar bat hektarea baizik gelditzen ez zirelarik, historiari atxikia zitzaion mahastizain talde batek Irulegiko Arnoen defenditzeko Sindikatua sortu zuen. Mahastiaren berpizte garaia hasi zen. Irulegiko soto kooperatiboa 1952an sortu zen; 1970ean Jatorri Deitura Kontrolatua kausitu zuen, eta 2013an, Jatorri Deitura Babestua. Irulegiko mahastia lur mota zinez desberdinetan dauden lursail ttipi anitzez osatua da (hareharri gorria, Keuper ofita, gisuharria etab.). Patar handiko lursailak direnez (% 80 batzuetan), gehienik terrazatan lantzen dira, eta horrek mahastizainak eskuz aritzera behatzen ditu."
         },
         "areaProductionImage": "/images/idlescreen.jpg",
         "areaProductionDescription": {
-          "fr": "Description de la zone de production et de l'aire géographique de la filière 1.",
-          "eus": "1. filièrearen ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+          "fr": "Zone de production: Vignes et chais dans l'aire géographique.",
+          "eus": "Ekoizpen eremua: Mahastiak eta sotoak eremu geografikoan."
         }
       },
       {
         "characteristics": [
           {
-            "fr": "Caractéristique principale de la filière 1",
-            "eus": "1. filièrearen ezaugarri nagusia"
+            "fr": "2/3 du vignoble implantés en terrasses, sur des parcelles jusqu'à 80% de pente, imposant ainsi un travail manuel",
+            "eus": "Mahastien 2/3 terrazatan antolatuak, lursailetan % 80rainoko patarra, eta beraz, eskuz landuak"
           },
           {
-            "fr": "Deuxième caractéristique importante",
-            "eus": "Bigarren ezaugarri garrantzitsua"
+            "fr": "Une multitude de petites parcelles sur des terroirs de type grès rouges, ophite du Keuper, calcaires, schistes",
+            "eus": "Lursail ttipi anitz, mota hauetakoak: hareharri gorria, Keuper ofita, gisuharria, eskistoak"
           },
           {
-            "fr": "Troisième caractéristique distinctive",
-            "eus": "Hirugarren ezaugarri bereizgarria"
+            "fr": "4 cépages blancs autorisés: Courbu - Gros Manseng - Petit Manseng - Petit Courbu",
+            "eus": "4 mahats zuri mota baimenduak: Courbu - Ixkiriot handia - Ixkiriot ttipia - Petit Courbu"
+          },
+          {
+            "fr": "3 cépages rouges autorisés: Tannat - Cabernet Sauvignon - Cabernet Franc",
+            "eus": "3 mahats beltz mota baimenduak: Tannat - Cabernet Sauvignon - Cabernet Franc"
+          },
+          {
+            "fr": "Les vendanges sont exclusivement manuelles",
+            "eus": "Mahatsa beti eskuz biltzen da"
           }
         ],
         "products": [
           {
-            "fr": "Produits dérivés de la filière 1",
-            "eus": "1. filièreatik eratorritako produktuak"
+            "fr": "Vins AOP d'Irouléguy: rouges, blancs secs et rosés",
+            "eus": "JDB Irulegi arnoak: beltzak, zuri idorrak eta gorriak"
           }
         ],
         "keyfigures": [
           {
-            "fr": "Chiffres clés et statistiques de la filière 1",
-            "eus": "1. filièrearen zenbaki gakoak eta estatistikak"
+            "fr": "53 viticulteurs dont 22 domaines indépendants et 1 cave coopérative",
+            "eus": "53 mahastizain, eta horietatik 22 jabego pribatu eta soto kooperatibo 1"
+          },
+          {
+            "fr": "270 hectares en production dont 78% en Agriculture Biologique (données 2024)",
+            "eus": "260 hektarea ekoizpenerako; horien % 78 laborantza biologikoan (2024ko datuak)"
+          },
+          {
+            "fr": "Cuvée 2024: 5909 hectolitres (soit environ 770 000 bouteilles)",
+            "eus": "2024ko uzta: 5 909 hektolitro (hots, 770 000 botila inguru)"
+          },
+          {
+            "fr": "En rouge: 3 514 hectolitres",
+            "eus": "Beltza: 3 514 hektolitro"
+          },
+          {
+            "fr": "En blanc: 1 575 hectolitres",
+            "eus": "Zuria: 1 575 hektolitro"
+          },
+          {
+            "fr": "En rosé: 820 hectolitres",
+            "eus": "Gorria: 820 hektolitro"
           }
         ],
-        "website": "https://example.com",
-        "observatory": "https://observatory.example.com"
+        "linkside": "right",
+        "website": "https://www.irouleguy.net/fr/",
+        "observatory": "https://agriculture-opendatapaysbasque.aws-ec2-eu-1.opendatasoft.com/pages/vinirouleguy/"
       }
     ]
   },
   {
     "id": 16,
     "title": {
-      "fr": "Filière 2",
-      "eus": "Filière 2"
+      "fr": "La chèvre Pirenaika",
+      "eus": "Pirenaika ahuntza"
     },
     "thumbnail": "/images/idlescreen.jpg",
     "pages": [
       {
         "presentation": {
-          "fr": "Présentation de la filière 2. Description détaillée de cette filière économique et culturelle.",
-          "eus": "2. filièrearen aurkezpena. Filière ekonomiko eta kultural honen deskribapen xehea."
+          "fr": "Quand on pense à la montagne basque, on pense généralement aux brebis, aux vaches et aux chevaux... mais on pense rarement aux chèvres ! Une race locale aussi ancienne que les brebis, après avoir failli disparaitre, fait son retour: la chèvre des Pyrénées, « Ahuntz Pirenaika » en langue basque. Grande et robuste, elle est parfaitement adaptée à la vie en montagne et à la pratique de la transhumance.",
+          "eus": "Euskal mendia irudikatzen dugularik, gehienetan, ardiak, behiak eta pottokak heldu zaizkigu gogora... baina ahuntzak maiz ahanzten ditugu! Alta, ardiak bezain aspalditik bertan dagoen arraza bat, kasik desagertu ondotik, Euskal Herrira itzuli da: Pirinioetako ahuntza edo Pirenaika. Handia eta azkarra da, eta mendian bizitzeko eta transhumantziaren egiteko zinez egokia da."
         },
         "imagePresentation": "/images/idlescreen.jpg"
       },
       {
         "history": {
-          "fr": "Histoire de la filière 2. Contexte historique et évolution au fil du temps.",
-          "eus": "2. filièrearen historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+          "fr": "Autrefois, la chèvre Pirenaika peuplait traditionnellement tout le massif des Pyrénées (dont le Pays Basque) où elle était réputée pour la richesse de son lait. Présente en petites troupes dans les troupeaux d'ovins à vocation viande, elle constituait, en estive, un apport de lait frais nécessaire pour le berger et ses chiens. Ce lait était également très consommé en ville. Vers 1900 on comptait environ 1 500 chèvres des Pyrénées dans les rues de Paris ! Alors que sa population comptait 70 000 individus au milieu du 19e siècle, la chèvre Pirenaika était considérée comme quasiment disparue au début des années 90. La quasi-disparition de l'élevage traditionnel s'explique par l'exode rural, l'élimination des chèvres dans les zones forestières et la concurrence de races plus productives. C'est alors qu'une poignée d'éleveurs se mobilise pour sauvegarder cette race et crée en 2004 une association pour protéger et valoriser la chèvre des Pyrénées à l'échelle française. Les réalités pouvant être différentes selon les territoires, les éleveurs du Pays Basque Nord se réunissent également au sein du collectif Ahuntz Pirenaika pour lancer une dynamique locale autour de cette race.",
+          "eus": "Aspaldi, Pirenaika ahuntza Pirinioetako mendi guzietan zegoen (Euskal Herrian barne), eta esne aberatsaren emateko fama zuen. Haragirako artaldeen artean ahuntz tropa ttipiak baziren, eta udako bazkalekuetan, artzainek eta zakurrek behar zuten esne freskoa ekartzen zuten. Hirian ere ahuntz esne anitz edaten zen. 1900 inguruan, Pariseko karriketan baziren 1 500 Pirenaika ahuntz inguru! 19. mende erdian 70 000 Pirenaika ahuntz ziren, baina 90eko hamarkada hastapenean kasik desagertutzat jotzen zen. Baserrialdearen husteak, ahuntzak oihan eremuetatik kentzeak eta arraza emankorragoen lehiak zuten tradiziozko ahuntz zaintza kasik desagerrarazi. Orduan, abeltzain bakar batzuk mobilizatu ziren arraza horren babesteko; 2004an, Frantziako estatu mailan Pirenaika ahuntzaren babesteko eta agerian emateko elkartea sortu zuten. Lurralde batetik bestera egoerak desberdinak direnez, Ipar Euskal Herriko abeltzainak Ahuntz Pirenaika kolektiboan bildu dira, arraza horren inguruan tokiko dinamika baten abiatzeko."
         },
         "areaProductionImage": "/images/idlescreen.jpg",
         "areaProductionDescription": {
-          "fr": "Description de la zone de production et de l'aire géographique de la filière 2.",
-          "eus": "2. filièrearen ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+          "fr": "Sur l'ensemble du Massif Pyrénéen et particulièrement au Pays Basque Nord",
+          "eus": "Pirinio osoetan eta bereziki Ipar Euskal Herrian"
         }
       },
       {
         "characteristics": [
           {
-            "fr": "Caractéristique principale de la filière 2",
-            "eus": "2. filièrearen ezaugarri nagusia"
+            "fr": "Production fermière en plein air",
+            "eus": "Kanpoan hazten eta etxaldean ekoizten da"
           },
           {
-            "fr": "Deuxième caractéristique importante",
-            "eus": "Bigarren ezaugarri garrantzitsua"
-          },
-          {
-            "fr": "Troisième caractéristique distinctive",
-            "eus": "Hirugarren ezaugarri bereizgarria"
+            "fr": "Transhumance des troupeaux",
+            "eus": "Tropen transhumantzia"
           }
         ],
         "products": [
           {
-            "fr": "Produits dérivés de la filière 2",
-            "eus": "2. filièreatik eratorritako produktuak"
+            "fr": "Fromage",
+            "eus": "Gasna"
+          },
+          {
+            "fr": "Yahourts",
+            "eus": "Jogurtak"
+          },
+          {
+            "fr": "Lait",
+            "eus": "Esnea"
+          },
+          {
+            "fr": "Savon",
+            "eus": "Xaboia"
+          },
+          {
+            "fr": "Viande de chevreaux",
+            "eus": "Pittika haragia"
           }
         ],
         "keyfigures": [
           {
-            "fr": "Chiffres clés et statistiques de la filière 2",
-            "eus": "2. filièrearen zenbaki gakoak eta estatistikak"
+            "fr": "6000 chèvres Pirenaika répertoriées – environ 600 au Pays Basque Nord",
+            "eus": "6000 Pirenaika ahuntz zerrendatuak – horietatik 600 inguru Ipar Euskal Herrian"
+          },
+          {
+            "fr": "12 producteurs au Pays Basque Nord",
+            "eus": "12 ekoizle Ipar Euskal Herrian"
           }
         ],
-        "website": "https://example.com",
-        "observatory": "https://observatory.example.com"
+        "linkside": "right",
+        "website": "https://www.chevredespyrenees.org/",
+        "observatory": ""
       }
     ]
   },
   {
     "id": 17,
     "title": {
-      "fr": "Filière 3",
-      "eus": "Filière 3"
+      "fr": "H.A.Z.I. Sarea",
+      "eus": "H.A.Z.I. Sarea"
     },
     "thumbnail": "/images/idlescreen.jpg",
     "pages": [
       {
         "presentation": {
-          "fr": "Présentation de la filière 3. Description détaillée de cette filière économique et culturelle.",
-          "eus": "3. filièrearen aurkezpena. Filière ekonomiko eta kultural honen deskribapen xehea."
+          "fr": "H.A.Z.I. Sarea est le réseau des semences paysannes en Pays Basque Nord (Iparralde). Il est porté par l'association BLE avec pour objectif de recenser, sauvegarder, multiplier et valoriser les semences paysannes. Ce collectif rassemble tous les acteurs (agriculteurs, jardiniers et structures) impliqués dans le maintien et le développement de la biodiversité cultivée.",
+          "eus": "H.A.Z.I. sarea, izenak adierazten duen bezala, Ipar Euskal Herriko herri hazi sarearen sarea da. BLE elkarteak kudeatzen du eta helburu hauek ditu: tokiko haziak zerrendatu, babestu, ugaritu eta sustatu. Kolektibo honek landare aniztasunaren babesean eta garapenean inplikatuta dauden aktore guztiak (nekazariek, baratzalek eta egiturek) biltzen ditu."
         },
         "imagePresentation": "/images/idlescreen.jpg"
       },
       {
         "history": {
-          "fr": "Histoire de la filière 3. Contexte historique et évolution au fil du temps.",
-          "eus": "3. filièrearen historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+          "fr": "Les semences paysannes sont des semences issues d'une population dynamique ou d'un ensemble de populations dynamiques reproductibles par le cultivateur, sélectionnées et multipliées selon des méthodes et savoir-faire paysans, dans des champs, jardins et vergers gérés en agriculture paysanne, biologique ou biodynamique. Avec l'intensification et l'industrialisation de l'agriculture au cours du 20e siècle, les semences paysannes ont été progressivement abandonnées au profit de semences plus productives et standardisées produites par les entreprises semencières. On estime que les trois quarts des plantes et céréales cultivées dans le monde ont été perdues depuis le début du 20e siècle. Face à cette érosion de la biodiversité cultivée, un mouvement national de sauvegarde des semences paysannes (Réseau Semences Paysannes) a été lancé et se traduit localement par le réseau H.A.Z.I. Sarea. Parmi les missions du collectif figure un inventaire des variétés cultivées en Pays Basque Nord avec une collecte d'informations à partager au sein du réseau. Il vise à identifier, puis multiplier les variétés présentes dans les fermes et jardins, historiquement cultivées et adaptées à nos conditions climatiques et nos sols.",
+          "eus": "Herri haziak populazio dinamiko batetik edo populazio dinamiko multzo batetik ateratako haziak dira, eta laborariek berriz erein ditzakete; metodo eta jakintza tradizionalen arabera hautatzen eta ugaritzen dira, laborantza organiko edo biodinamikoan kudeatutako soroetan, baratzetan eta fruitu-arboladietan. 20. mendean, laborantza intentsifikatu eta industrializatu zenez, herri haziak pixkanaka baztertu ziren, eta enpresa hazi-ekoizleek ekoizten zituzten hazi emankorrago eta estandarizatuagoak erabiltzen hasi ziren. Horrela, kalkuluen arabera, munduan landatzen diren landare eta zereal hiru laurdenak galdu dira 20. mendearen hasieratik. Landare aniztasunaren higadura horri aurre egiteko, Frantziako estatuan herri hazien babesteko mugimendu nazional bat (Réseau Semences Paysannes) abiarazi zen; tokiko baliokidea H.A.Z.I. sarea da. Kolektiboaren beste zereginen artean, Ipar Euskal Herrian landatzen diren barietateen zerrendatzea eta sarean partekatzeko informazioa biltzea da. Hots, etxalde eta baratzetan dauden barietateak identifikatu eta ugaritu nahi ditu, historikoki landatu izan direnak eta gure klima eta lur baldintzetara egokituak direnak."
         },
         "areaProductionImage": "/images/idlescreen.jpg",
         "areaProductionDescription": {
-          "fr": "Description de la zone de production et de l'aire géographique de la filière 3.",
-          "eus": "3. filièrearen ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+          "fr": "L'ensemble du Pays Basque Nord",
+          "eus": "Ipar Euskal Herri osoa"
         }
       },
       {
         "characteristics": [
           {
-            "fr": "Caractéristique principale de la filière 3",
-            "eus": "3. filièrearen ezaugarri nagusia"
-          },
-          {
-            "fr": "Deuxième caractéristique importante",
-            "eus": "Bigarren ezaugarri garrantzitsua"
-          },
-          {
-            "fr": "Troisième caractéristique distinctive",
-            "eus": "Hirugarren ezaugarri bereizgarria"
+            "fr": "Semences cultivées, sélectionnées et multipliées selon des méthodes et savoir-faire paysans, dans des champs, jardins et vergers gérés en agriculture biologique",
+            "eus": "Herri haziak laborantza organikoan kudeatutako soroetan, baratzetan eta fruitu-arboladietan metodo eta jakintza tradizionalen arabera landatzen, hautatzen eta ugaritzen dira"
           }
         ],
         "products": [
           {
-            "fr": "Produits dérivés de la filière 3",
-            "eus": "3. filièreatik eratorritako produktuak"
+            "fr": "Semences paysannes, cultivées, sélectionnées, multipliées et diffusées en Pays Basque Nord (légumes, aromatiques, maïs, blé, pâturages)",
+            "eus": "Ipar Euskal Herrian landatzen, hautatzen, ugaritzen eta zabaltzen diren herri haziak (barazkiak, aromatikoak, artoa, garia, larreak)"
           }
         ],
         "keyfigures": [
           {
-            "fr": "Chiffres clés et statistiques de la filière 3",
-            "eus": "3. filièrearen zenbaki gakoak eta estatistikak"
+            "fr": "50 fermes et 100 adhérents privés du réseau",
+            "eus": "50 etxalde eta 100 kide pribatu sarean"
           }
         ],
-        "website": "https://example.com",
-        "observatory": "https://observatory.example.com"
+        "linkside": "right",
+        "website": "https://hazisarea.fr",
+        "observatory": ""
       }
     ]
   },
   {
     "id": 18,
     "title": {
-      "fr": "Filière 4",
-      "eus": "Filière 4"
+      "fr": "La Sasi Ardi",
+      "eus": "Sasi Ardia"
     },
     "thumbnail": "/images/idlescreen.jpg",
     "pages": [
       {
         "presentation": {
-          "fr": "Présentation de la filière 4. Description détaillée de cette filière économique et culturelle.",
-          "eus": "4. filièrearen aurkezpena. Filière ekonomiko eta kultural honen deskribapen xehea."
+          "fr": "La Sasi Ardi est une race de brebis traditionnelle originaire de la moyenne montagne basque. Son nom signifie « brebis des broussailles » en référence à son mode de vie et à son adaptation aux landes, fourrés et sous-bois qu'elle valorise très bien. De petite taille, rustique et de caractère sauvage, elle a failli disparaitre mais grâce à la volonté de quelques éleveurs passionnés regroupés au sein de l'association Sasi Artalde, elle a pu être préservée.",
+          "eus": "Sasi Ardia euskal mendi ertaineko tradiziozko ardi arraza da. Bere bizimoldearengatik du izen hori, larreetan, sasietan eta oihanpeetan ongi egokitzen baita, eta ongi mantentzen baititu. Ttipia, azkarra eta nortasun basakoa da, eta kasik desagertu zen, baina Sasi Artalde elkartean bildu laborari kartsu batzuek nahikeria handiz babestu dute."
         },
         "imagePresentation": "/images/idlescreen.jpg"
       },
       {
         "history": {
-          "fr": "Histoire de la filière 4. Contexte historique et évolution au fil du temps.",
-          "eus": "4. filièrearen historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+          "fr": "Le berceau de la race Sasi Ardi est réparti entre le Pays Basque Nord (Iparralde) et le Pays Basque Sud (Hegoalde) sur les villages transfrontaliers de Lesaka, Bera, Ainhoa, Oiartzun, Sare et Biriatou. Cette race était très répandue dans les fermes de ces villages jusqu'au 20è siècle. Elle permettait d'entretenir les landes, avec les Pottok et les vaches Betizu. Elle est aussi connue pour fournir les fameux Zikiro (mouton castré de 3 ans) et Bildots (agneau élevé sous la mère), mangés pour les moments festifs. Après la guerre, la race disparait peu à peu au profit de races plus laitières. En 2014, des éleveurs créent l'association Sasi Artalde pour relancer son élevage. La race a été officiellement reconnue en 2016. Une marque collective « Sasiko », a été créée pour valoriser et commercialiser le Zikiro et le Bildots.",
+          "eus": "Sasi Ardi arrazaren jatorria Ipar Euskal Herriaren eta Hego Euskal Herriaren artean dago, mugako herri hauetan: Lesaka, Bera, Ainhoa, Oiartzun, Sara eta Biriatu. Bertako etxaldeetan, 20. mendea arte, ardi arraza hori biziki hedatua zen. Larreak mantentzen laguntzen zuen, pottokekin eta Betizu behiekin batean. Bestetako zikiro famatuak eta errapean hazi bildotsak ere ematen zituen. Gerlatik landa, emeki-emeki, arraza galtzen hasi zen, esne gehiago ematen zuten arrazen mesedetan. 2014an, laborari batzuek Sasi Artalde elkartea sortu zuten, hazkuntza horren berriz abiarazteko. 2016an, arrazak ezagupen ofiziala ukan zuen. \"Sasiko\" marka kolektiboa ere sortu da, zikiroen eta bildotsen saltzeko."
         },
         "areaProductionImage": "/images/idlescreen.jpg",
         "areaProductionDescription": {
-          "fr": "Description de la zone de production et de l'aire géographique de la filière 4.",
-          "eus": "4. filièrearen ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+          "fr": "Production et transformation au Pays Basque Nord et Sud",
+          "eus": "Ipar eta Hego Euskal Herrian ekoizten eta transformatzen da"
         }
       },
       {
         "characteristics": [
           {
-            "fr": "Caractéristique principale de la filière 4",
-            "eus": "4. filièrearen ezaugarri nagusia"
+            "fr": "Race Sasi Ardi",
+            "eus": "Sasi Ardi arraza"
           },
           {
-            "fr": "Deuxième caractéristique importante",
-            "eus": "Bigarren ezaugarri garrantzitsua"
+            "fr": "Élevé en plein air en libre parcours de landes et montagnes pendant une période de 6 mois minimum",
+            "eus": "Kanpoan eta larre eta mendiko ibilbide librean hazia, gutienez 6 hilabetez"
           },
           {
-            "fr": "Troisième caractéristique distinctive",
-            "eus": "Hirugarren ezaugarri bereizgarria"
+            "fr": "Alimentation principalement à base de pâture (herbe, bruyère, ronces, glands, châtaignes...)",
+            "eus": "Gehienbat kanpoan elikatua (belarra, elarra, laparrak, ezkurrak, gaztainak...)"
+          },
+          {
+            "fr": "Alimentation OGM et fourrages fermentés (ensilage) interdits",
+            "eus": "GAOdun zerealak eta zuhain hartzituak (silokoak) debekatuak"
+          },
+          {
+            "fr": "Les zikiros sont élevés deux ans et demi minimum",
+            "eus": "Zikiroak gutienez bi urte eta erdi hazten dira"
           }
         ],
         "products": [
           {
-            "fr": "Produits dérivés de la filière 4",
-            "eus": "4. filièreatik eratorritako produktuak"
+            "fr": "Le Bildots (agneau élevé sous la mère)",
+            "eus": "Errapean hazi bildotsa"
+          },
+          {
+            "fr": "Le Zikiro (mouton castré de 3 ans)",
+            "eus": "3 urteko zikiroa"
           }
         ],
         "keyfigures": [
           {
-            "fr": "Chiffres clés et statistiques de la filière 4",
-            "eus": "4. filièrearen zenbaki gakoak eta estatistikak"
+            "fr": "1500 brebis Sasi ardi",
+            "eus": "1500 sasi ardi"
+          },
+          {
+            "fr": "Une vingtaine d'éleveurs",
+            "eus": "Hogei bat artzain"
           }
         ],
-        "website": "https://example.com",
-        "observatory": "https://observatory.example.com"
+        "linkside": "right",
+        "website": "https://sasiko.eus",
+        "observatory": ""
       }
     ]
   },
   {
     "id": 19,
     "title": {
-      "fr": "Filière 5",
-      "eus": "Filière 5"
+      "fr": "Harpea - la vache Pirenaika",
+      "eus": "Harpea - Pirenaika behia"
     },
     "thumbnail": "/images/idlescreen.jpg",
     "pages": [
       {
         "presentation": {
-          "fr": "Présentation de la filière 5. Description détaillée de cette filière économique et culturelle.",
-          "eus": "5. filièrearen aurkezpena. Filière ekonomiko eta kultural honen deskribapen xehea."
+          "fr": "La vache Pirenaika est une race originaire du Pays Basque, reconnaissable à ses cornes en forme de lyre et à sa robe blonde-fauve uniforme. Elle se distingue par sa rusticité, ses qualités maternelles et laitières et sa capacité à valoriser l'estive (pâturage de montagne), ce qui en fait une race parfaitement adaptée aux systèmes d'élevage de montagne. C'est pourquoi un secteur viande de qualité, mettant en avant la race Pirenaika et la transhumance, a été créé : le secteur HARPEA.",
+          "eus": "Pirenaika behia Euskal Herriko arraza da, eta lira itxurako adarrak eta kolore hori-ardo uniformea ditu. Arraza azkarra da, eta amatasun eta esne kalitate handiak ditu; gainera, udako bazkalekuetan (mendiko larreetan) ongi egokitzen da, eta horrek mendiko hazkuntza sistemetarako zinez egokia egiten du. Horregatik, Pirenaika arraza eta transhumantzia lehenesten dituen kalitatezko haragi sektore bat sortu da: HARPEA sektorea."
         },
         "imagePresentation": "/images/idlescreen.jpg"
       },
       {
         "history": {
-          "fr": "Histoire de la filière 5. Contexte historique et évolution au fil du temps.",
-          "eus": "5. filièrearen historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+          "fr": "La Pirenaika est une vache originaire du Pays Basque Sud (Hegoalde), historiquement utilisée pour la traction et l'autoconsommation. Elle a failli disparaître dans les années 1970 mais a été sauvée grâce aux efforts d'éleveurs navarrais (Espagne). Elle apparaît au Pays Basque Nord (Iparralde) à partir des années 2010 quand quelques éleveurs décident de promouvoir son élevage sur le territoire. En 2016, ces éleveurs et trois abattoirs se regroupent en association pour promouvoir et défendre la race. En 2018, la race reçoit une reconnaissance officielle en France. Pour mieux valoriser la Pirenaika et le travail des éleveurs, une démarche qualité, basée notamment sur la transhumance, a été mise en place. Cela a donné naissance à des produits veau et bœuf sous la marque collective « Harpea ».",
+          "eus": "Pirenaika behia Hego Euskal Herriko jatorrizko behia da. Garaian, gurdietan erabiltzen zen eta familiaren kontsumorako baliatzen zen. 1970eko hamarkadan kasik desagertu zen, baina nafar abeltzain batzuen ahaleginari esker salbatu zen. 2010eko hamarkadatik aurrera, Ipar Euskal Herrian agertu zen, abeltzain batzuek lurralde horretan hazkuntza sustatzea erabaki zutenean. 2016an, abeltzain horiek eta hiru hiltzaile elkartu ziren, arraza sustatu eta defendatzeko. 2018an, Frantziako estatuan ezagupen ofiziala jaso zuen. Pirenaika eta abeltzainen lana hobeki agerian emateko, kalitate desmartxa bat jarri zuten martxan, transhumantzian oinarritua. Horren ondorioz, \"Harpea\" marka kolektiboaren pean aratxe eta idiki produktuak sortu zituzten."
         },
         "areaProductionImage": "/images/idlescreen.jpg",
         "areaProductionDescription": {
-          "fr": "Description de la zone de production et de l'aire géographique de la filière 5.",
-          "eus": "5. filièrearen ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+          "fr": "Élevage, abattage et transformation au Pays Basque",
+          "eus": "Euskal Herrian hazten, hiltzen eta transformatzen da"
         }
       },
       {
         "characteristics": [
           {
-            "fr": "Caractéristique principale de la filière 5",
-            "eus": "5. filièrearen ezaugarri nagusia"
+            "fr": "Race Pirenaika",
+            "eus": "Pirenaika arraza"
           },
           {
-            "fr": "Deuxième caractéristique importante",
-            "eus": "Bigarren ezaugarri garrantzitsua"
+            "fr": "6 mois de pâturage minimum",
+            "eus": "6 hilabetez kanpoan bazkatua gutienez"
           },
           {
-            "fr": "Troisième caractéristique distinctive",
-            "eus": "Hirugarren ezaugarri bereizgarria"
+            "fr": "Transhumance obligatoire de 100 jours minimum",
+            "eus": "Transhumantzia beharrezkoa 100 egunez gutienez"
+          },
+          {
+            "fr": "OGM et fourrages fermentés (ensilage) interdits",
+            "eus": "GAOak eta zuhain hartzituak (silokoak) debekatuak"
+          },
+          {
+            "fr": "Veaux nourris au pis",
+            "eus": "Errapean elikatu aratxeak"
+          },
+          {
+            "fr": "Hormones de reproduction interdites",
+            "eus": "Ugaltzeko hormonak debekatuak"
+          },
+          {
+            "fr": "Écornage interdit",
+            "eus": "Adar moztea debekatua"
           }
         ],
         "products": [
           {
-            "fr": "Produits dérivés de la filière 5",
-            "eus": "5. filièreatik eratorritako produktuak"
+            "fr": "Viande de Veau et Bœuf Harpea",
+            "eus": "Harpea aratxekia eta idikia"
           }
         ],
         "keyfigures": [
           {
-            "fr": "Chiffres clés et statistiques de la filière 5",
-            "eus": "5. filièrearen zenbaki gakoak eta estatistikak"
+            "fr": "18 éleveurs, 2 transformateurs",
+            "eus": "18 abeltzain, 2 transformatzaile"
+          },
+          {
+            "fr": "Cheptel de 2470 mères, 100 veaux vendus par an, 15 vaches vendues par an",
+            "eus": "2470 amako kabaleria, urtean 100 aratxe salduak, urtean 15 behi salduak"
           }
         ],
-        "website": "https://example.com",
-        "observatory": "https://observatory.example.com"
+        "linkside": "right",
+        "website": "https://iparraldeko-pirenaika.jimdofree.com/",
+        "observatory": ""
       }
     ]
   },
   {
     "id": 20,
     "title": {
-      "fr": "Filière 6",
-      "eus": "Filière 6"
+      "fr": "L'agriculture biologique au Pays Basque",
+      "eus": "Laborantza biologikoa Ipar Euskal Herrian"
     },
     "thumbnail": "/images/idlescreen.jpg",
     "pages": [
       {
         "presentation": {
-          "fr": "Présentation de la filière 6. Description détaillée de cette filière économique et culturelle.",
-          "eus": "6. filièrearen aurkezpena. Filière ekonomiko eta kultural honen deskribapen xehea."
+          "fr": "L'agriculture biologique (AB) s'est fortement développée ces 20 dernières années au Pays Basque, suivant les tendances nationales et européennes. Les productions biologiques du territoire sont diversifiées : 86% des surfaces bio sont des prairies permanentes et cultures fourragères pour l'élevage de ruminants (principalement brebis laitières et vaches allaitantes), suivies des grandes cultures, fruits et légumes, et vignes. Les fermes bio du Pays Basque se caractérisent par leur petite taille, et on estime que plus de 85% vendent leurs produits en circuits courts.",
+          "eus": "Laborantza biologikoa (AB) nabarmen garatu da azken 20 urteetan Ipar Euskal Herrian, Frantziako eta Europako joerak jarraituz. Gure lurraldean, laborantza biologikoko ekoizpenak anitzak dira: % 86 laborantza biologikoko lurraldeak belardi iraunkorrak eta errumiante hazkuntzarako zuhain eremuak dira (batez ere esne-ardi eta esne-emaile behiak); horien ondoren, gehien hedatutakoak lur sail handiak, fruta eta barazkiak, eta mahastiak dira. Ipar Euskal Herriko laborantza biologikoko etxaldeen berezitasuna haien neurri txikia da; eta kalkuluen arabera, % 85 baino gehiagok beren produktuak zirkuitu laburretan saltzen dituzte."
         },
         "imagePresentation": "/images/idlescreen.jpg"
       },
       {
         "history": {
-          "fr": "Histoire de la filière 6. Contexte historique et évolution au fil du temps.",
-          "eus": "6. filièrearen historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+          "fr": "L'agriculture biologique est un mode de production qui allie pratiques environnementales optimales, respect de la biodiversité, préservation des ressources naturelles et assurance d'un niveau élevé de bien-être animal. Elle repose sur de nombreux principes comme l'interdiction des pesticides et engrais de synthèse, l'interdiction des OGM, la rotation des cultures, l'élevage en plein air... Le concept d'agriculture biologique est né dans les années 1920, et les premiers cahiers des charges définissant les pratiques de l'agriculture biologique sont apparus en 1972. L'AB a été officiellement reconnue par les pouvoirs publics français en 1981, puis au niveau européen en 1991. L'association B.L.E Civam Bio du Pays Basque est un collectif qui regroupe environ 350 fermes adhérentes. Elle a été créée en 1993 avec pour objectif de créer des outils de développement pour une agriculture biologique, autonome et économe en Pays Basque Nord. Ses actions s'appuient sur le travail collectif et le partage de savoirs entre agriculteurs. Ses principales missions sont : l'accompagnement à l'installation et à la conversion en AB, l'organisation de formations, l'animation d'un réseau d'échanges, d'entraide et de mutualisation, ainsi que la gestion du réseau de semences paysannes Hazi Sarea. Elle soutient également les initiatives en faveur de l'alimentation bio sur le territoire : accompagnement à la commercialisation et au développement d'approvisionnements bio pour la restauration collective et actions de sensibilisation des consommateurs.",
+          "eus": "Laborantza biologikoak ingurumen jokabide optimoak, landare aniztasunaren errespetua, baliabide naturalen babesa eta animalien ongizate handia uztartzen ditu. Hainbat printzipiotan oinarritzen da: pestizida eta ongarri sintetikoen debekua, GAOen debekua, laborantza aldizkakuntza, kanpoan hazkuntza, eta beste batzuk. Laborantza biologikoaren kontzeptua 1920ko hamarkadan sortu zen, eta praktikak definitzen zituzten lehen baldintza-bildumak 1972an argitaratu ziren. Frantziako agintariek ofizialki aitortu zuten AB laborantza 1981ean; Europa, 1991n. Ipar Euskal Herriko BLE Civam elkarteak 350 etxalde inguru biltzen ditu. 1993an sortu zen, Ipar Euskal Herrian laborantza biologiko, autonomo eta ekonomikoaren garapenerako tresnak sortzeko asmoz. Elkartearen ekintzak lan kolektiboan eta laborarien artean jakintza partekatzean oinarritzen dira. Bere zeregin nagusiak hauek dira: laborariei laborantza biologikoan ezartzeko eta bihurtzeko laguntzea, formakuntzak antolatzea, truke, elkar laguntza eta elkarlan sare bat animatzea, eta Hazi Sarea herri hazi sarearen kudeaketa. Tokiko elikadura biologikorako ekimenak ere laguntzen ditu: merkaturatze eta janari kolektiborako hornidura biologikoen garapenerako laguntza eta kontsumitzaileen sentsibilizazio ekintzak, besteak beste."
         },
         "areaProductionImage": "/images/idlescreen.jpg",
         "areaProductionDescription": {
-          "fr": "Description de la zone de production et de l'aire géographique de la filière 6.",
-          "eus": "6. filièrearen ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+          "fr": "L'ensemble du Pays Basque Nord",
+          "eus": "Ipar Euskal Herri osoa"
         }
       },
       {
         "characteristics": [
           {
-            "fr": "Caractéristique principale de la filière 6",
-            "eus": "6. filièrearen ezaugarri nagusia"
+            "fr": "Interdiction des pesticides et engrais de synthèse et des OGM (Organismes Génétiquement Modifiés)",
+            "eus": "Pestizida eta ongarri sintetikoen eta GAOen (genetikoki aldatutako organismoen) debekua"
           },
           {
-            "fr": "Deuxième caractéristique importante",
-            "eus": "Bigarren ezaugarri garrantzitsua"
+            "fr": "Rotation des cultures et culture en plein champ obligatoires",
+            "eus": "Laborantza aldizkakuntza eta kanpoan landatzea beharrezkoa"
           },
           {
-            "fr": "Troisième caractéristique distinctive",
-            "eus": "Hirugarren ezaugarri bereizgarria"
+            "fr": "Respect du bien-être animal (accès aux espaces extérieurs, alimentation bio, densité animale limitée, traitements antibiotiques limités, etc.)",
+            "eus": "Animalien ongizatearen errespetua (kanpoan mugitzeko aukera, elikadura biologikoa, animalien dentsitatea mugatua, antibiotiko tratamenduak mugatuak, etab.)"
+          },
+          {
+            "fr": "Utilisation très restreinte des additifs",
+            "eus": "Osagarrien erabilera oso mugatua"
           }
         ],
         "products": [
           {
-            "fr": "Produits dérivés de la filière 6",
-            "eus": "6. filièreatik eratorritako produktuak"
+            "fr": "Toutes les productions agricoles",
+            "eus": "Laborantza ekoizpen guziak"
           }
         ],
         "keyfigures": [
           {
-            "fr": "Chiffres clés et statistiques de la filière 6",
-            "eus": "6. filièrearen zenbaki gakoak eta estatistikak"
+            "fr": "7 920 hectares de terres bio ou en conversion (6,6% de la surface agricole totale du Pays Basque) dont :",
+            "eus": "7 920 hektarea laborantza biologikoko edo bihurtze bidean (Ipar Euskal Herriko laborantza eremuaren % 6,6); horietatik:"
+          },
+          {
+            "fr": "6 784 hectares de cultures fourragères",
+            "eus": "6 784 hektarea zuhain"
+          },
+          {
+            "fr": "483 hectares de grandes cultures",
+            "eus": "483 hektarea lur sail handi"
+          },
+          {
+            "fr": "279 hectares de fruits et légumes",
+            "eus": "279 hektarea fruta eta barazki"
+          },
+          {
+            "fr": "182 hectares de vignes",
+            "eus": "182 hektarea mahasti"
+          },
+          {
+            "fr": "403 fermes bio (10,6% des fermes du Pays Basque)",
+            "eus": "403 laborantza biologikoko etxalde (Ipar Euskal Herriko etxaldeen % 10,6)"
+          },
+          {
+            "fr": "L'agriculture biologique représente environ 90% du maraîchage en Pays Basque Nord, près de 78% de la viticulture et 50% de l'arboriculture.",
+            "eus": "Ipar Euskal Herriko barazkigintzaren % 90, mahastigintzaren % 78 inguru eta zuhaitz laborantzaren % 50 laborantza biologikoa da."
+          },
+          {
+            "fr": "(Données 2023)",
+            "eus": "(2023ko datuak)"
           }
         ],
-        "website": "https://example.com",
-        "observatory": "https://observatory.example.com"
+        "website": "https://www.civam.org/ble-paysbasque-bio/",
+        "observatory": "https://agriculture-opendatapaysbasque.aws-ec2-eu-1.opendatasoft.com/pages/bio_pays_basque/"
       }
     ]
   },
   {
     "id": 21,
     "title": {
-      "fr": "Filière 7",
-      "eus": "Filière 7"
+      "fr": "Herriko Ogia - la filière blé/farine/pain du Pays Basque",
+      "eus": "Herriko Ogia - Ipar Euskal Herriko gari/irin/ogi saila"
     },
     "thumbnail": "/images/idlescreen.jpg",
     "pages": [
       {
         "presentation": {
-          "fr": "Présentation de la filière 7. Description détaillée de cette filière économique et culturelle.",
-          "eus": "7. filièrearen aurkezpena. Filière ekonomiko eta kultural honen deskribapen xehea."
+          "fr": "Cette démarche collective est née suite à la double volonté de relancer la culture du blé disparue depuis une quarantaine d'années sur le territoire et de relocaliser la consommation de pain en s'appuyant sur le savoir-faire des artisans locaux. C'est ainsi qu'une filière blé/farine/pain 100% Pays Basque est née sous la dénomination Herriko ogia; Herriko signifie « du pays » et Ogia, « pain ».",
+          "eus": "Desmartxa kolektiboa bi xederekin sortu zen: lurraldean duela berrogei bat urte desagertu zen gari laborantzaren berriz abiaraztea eta tokiko ofizialeen trebetasun eta jakintzetan oinarrituz ogi kontsumoaren berriz herrira ekartzea. Horrela sortu zen Herriko ogia, % 100 Euskal Herriko gari/irin/ogi saila."
         },
         "imagePresentation": "/images/idlescreen.jpg"
       },
       {
         "history": {
-          "fr": "Histoire de la filière 7. Contexte historique et évolution au fil du temps.",
-          "eus": "7. filièrearen historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+          "fr": "La démarche est initiée en 2009 par un groupe d'agriculteurs et deux meuniers motivés par la relocalisation sur le territoire du blé panifiable. Cultiver du blé en rotation et sans irrigation permet de diversifier les cultures sur une même parcelle, de préserver la ressource en eau et de palier à la monoculture du maïs irrigué. Pour les meuniers, c'est la possibilité d'élargir leur gamme avec une farine produite à partir d'une matière première produite localement en circuit court. Avec les boulangeries artisanales, ils créent en 2013, l'association Herriko Ogia, regroupant ainsi les 3 maillons de cette filière.",
+          "eus": "Ogiaren egiteko gariaren berriz ekartzeko xedea zuten laborari zenbaitek eta bi eiherazainek zuten desmartxa abiatu, 2009an. Garia aldizkatuz eta ureztatu gabe landuz, lursail bakarrean gauza gehiago lantzen da, ur baliabidea babesten da eta arto ureztatuaren monolaboreari aterabide bat ematen zaio. Eiherazainei produktuen anizteko parada ematen die, bertan eta zirkuitu laburrean ekoitzi lehengaizko irina proposatzen ahal baitute. 2013an, sailari eskas zuen hirugarren zutabea gehitu ondotik, hots, ofiziale-ogitegiena, Herriko Ogia elkartea sortu zen."
         },
         "areaProductionImage": "/images/idlescreen.jpg",
         "areaProductionDescription": {
-          "fr": "Description de la zone de production et de l'aire géographique de la filière 7.",
-          "eus": "7. filièrearen ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+          "fr": "Culture, transformation et commercialisation dans l'aire géographique.",
+          "eus": "Eremu geografikoan hazten, transformatzen eta saltzen da."
         }
       },
       {
         "characteristics": [
           {
-            "fr": "Caractéristique principale de la filière 7",
-            "eus": "7. filièrearen ezaugarri nagusia"
+            "fr": "Variétés hybrides et OGM interdites, semences fermières autorisées, mélange de variétés obligatoires",
+            "eus": "Barietate hibridoak eta GAOak debekatuak, herri haziak baimenduak, barietateen nahastea nahitaezkoa"
           },
           {
-            "fr": "Deuxième caractéristique importante",
-            "eus": "Bigarren ezaugarri garrantzitsua"
+            "fr": "Rotation des cultures obligatoire",
+            "eus": "Aldizkatzea nahitaezkoa"
           },
           {
-            "fr": "Troisième caractéristique distinctive",
-            "eus": "Hirugarren ezaugarri bereizgarria"
+            "fr": "Irrigation interdite",
+            "eus": "Ureztatzea debekatua"
+          },
+          {
+            "fr": "Insecticides, désherbants total, régulateurs de croissance interdits",
+            "eus": "Intsektizidak, herbizida osoak eta hazkuntzaren erregulatzaileak debekatuak"
+          },
+          {
+            "fr": "Farine de tradition réalisée exclusivement à base de blé Herriko sans additif ni conservateur",
+            "eus": "Tradiziozko irina, osoki Herriko gariz egina, gehigarririk ez kontserbagarririk gabe"
+          },
+          {
+            "fr": "Pain fabriqué uniquement à base de farine Herriko, commercialisé le jour de la fabrication",
+            "eus": "Ogia osoki Herriko irinez egina eta fabrikazio egunean saldua"
+          },
+          {
+            "fr": "Circuit court avec une production, transformation et commercialisation dans un rayon de 50km",
+            "eus": "Zirkuitu laburra: ekoizpena, transformazioa eta salmenta 50 km-ko inguruan"
           }
         ],
         "products": [
           {
-            "fr": "Produits dérivés de la filière 7",
-            "eus": "7. filièreatik eratorritako produktuak"
+            "fr": "Pains Herriko (baguette, pain, pavé, gros pain à la coupe, petit pain individuel, pain burger). Autres produits à base de farine Herriko: Gâteau basque, Biscuit, Bière à base blé et farine Herriko",
+            "eus": "Herriko ogiak (ogi makila, ogia, lauza, mozteko ogi handia, bakarkako ogi ttipia, burger ogia). Herri irinezko beste produktu batzuk: euskal pastiza, bixkotxak, garizko garagarnoa eta Herriko irina"
           }
         ],
         "keyfigures": [
           {
-            "fr": "Chiffres clés et statistiques de la filière 7",
-            "eus": "7. filièrearen zenbaki gakoak eta estatistikak"
+            "fr": "15 producteurs, 1 minoterie, 51 artisans (boulangers, biscuitiers, brasseur)",
+            "eus": "15 ekoizle, eihera handi 1, 51 ofiziale (okin, bixkotx-egile, garagarnogile)"
+          },
+          {
+            "fr": "94 hectares de blé semés en 2024 (100 ha en 2025)",
+            "eus": "94 hektarea gari ereinak 2024an (100 ha 2025ean)"
+          },
+          {
+            "fr": "375 tonnes de blé labellisées Herriko en 2024",
+            "eus": "375 tona gari Herriko labelizatuak 2024an"
+          },
+          {
+            "fr": "284 tonnes de farine commercialisées en Herriko en 2024",
+            "eus": "284 tona irin Herriko gisa salduak 2024an"
           }
         ],
-        "website": "https://example.com",
-        "observatory": "https://observatory.example.com"
+        "linkside": "right",
+        "website": "https://herriko.fr/herriko-ogia/",
+        "observatory": ""
       }
     ]
   },
   {
     "id": 22,
     "title": {
-      "fr": "Filière 8",
-      "eus": "Filière 8"
+      "fr": "Le Kiwi de l'Adour IGP et Label Rouge",
+      "eus": "AGB eta Label gorridun Aturriko kiwia"
     },
     "thumbnail": "/images/idlescreen.jpg",
     "pages": [
       {
         "presentation": {
-          "fr": "Présentation de la filière 8. Description détaillée de cette filière économique et culturelle.",
-          "eus": "8. filièrearen aurkezpena. Filière ekonomiko eta kultural honen deskribapen xehea."
+          "fr": "Originaire de Chine, le kiwi est arrivé en France dans la deuxième moitié du 20e siècle grâce à un agronome passionné. Son adaptation réussie dans le bassin de l'Adour (territoire à cheval entre les Pyrénées-Atlantiques, les Landes et le Gers) a été rendue possible grâce à un climat océanique tempéré et des sols favorables.",
+          "eus": "Kiwia Txinatik heldu da. 20. mende erdian iritsi zen Frantziako estatura, agronomo sutsu bati esker. Aturriko ibarrean ongi egokitu zen (Pirinio Atlantikoen, Landesen eta Gers eskualdearen arteko mugan), lurraldean klima ozeaniko epela eta lur egokiak baitira."
         },
         "imagePresentation": "/images/idlescreen.jpg"
       },
       {
         "history": {
-          "fr": "Histoire de la filière 8. Contexte historique et évolution au fil du temps.",
-          "eus": "8. filièrearen historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+          "fr": "Le kiwi est une plante subtropicale originaire de Chine introduite en France en 1965 par un agronome et arboriculteur landais, Henri Pedelucq. Le bassin de l'Adour offre des conditions favorables à cette production arboricole qui exige un climat doux, ensoleillé et humide, des sols fertiles, bien drainés et non calcaires. Après plusieurs années d'expérimentation et face au succès commercial du produit à partir du milieu des années 70, d'autres producteurs ont emboîté le pas de cette production, grâce notamment à des plants fournis par M. Pedelucq. Le Kiwi de l'Adour est le seul kiwi à bénéficier de la double certification Label Rouge (depuis 1992) et IGP, Indication Géographique Protégée (depuis 2009).",
+          "eus": "Kiwia Txinako landare subtropikala da. Henri Pedelucq Landesetako agronomo eta arbolazainak ekarri zuen Frantziako estatura, 1965ean. Aturriko ibarrak arbolazaintzako ekoizpen horretarako baldintza egokiak ditu: klima epel, eguzkitsu eta hezea, lur emankor eta drainatuak eta gisurik gabeak. Hainbat urtez esperimentatzen ibili ondotik eta 1970eko hamarkada erditik goiti fruituak ukan zuen arrakasta ikusirik, beste ekoizle batzuk bide beretik abiatu ziren, gehienbat Pedelucq jaunak eman zizkien landareak baliatuz. Aturriko Kiwia Label gorria (1992tik) eta AGB Adierazpen Geografiko Babestua (2009tik) bi ziurtagiriak dituen kiwi bakarra da."
         },
         "areaProductionImage": "/images/idlescreen.jpg",
         "areaProductionDescription": {
-          "fr": "Description de la zone de production et de l'aire géographique de la filière 8.",
-          "eus": "8. filièrearen ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+          "fr": "Culture, conditionnement et stockage dans l'aire géographique.",
+          "eus": "Eremu geografikoan hazten, paketatzen eta biltegiratzen da."
         }
       },
       {
         "characteristics": [
           {
-            "fr": "Caractéristique principale de la filière 8",
-            "eus": "8. filièrearen ezaugarri nagusia"
+            "fr": "Récolte manuelle et tardive des fruits (après le 25 octobre), à maturité optimale avec un taux de sucre supérieur ou égal à 6,5° Brix",
+            "eus": "Fruituak eskuz eta berant biltzen dira (urriaren 25etik landa), ondurik, gutienez 6,5° Brixeko azukre tasarekin"
           },
           {
-            "fr": "Deuxième caractéristique importante",
-            "eus": "Bigarren ezaugarri garrantzitsua"
-          },
-          {
-            "fr": "Troisième caractéristique distinctive",
-            "eus": "Hirugarren ezaugarri bereizgarria"
+            "fr": "Conservation des kiwis en frigo et/ou sous atmosphère contrôlée, sans aucun traitement chimique",
+            "eus": "Kiwiak hozkailuan eta/edo atmosfera kontrolatuan atxikitzen dira, tratamendu kimikorik gabe"
           }
         ],
         "products": [
           {
-            "fr": "Produits dérivés de la filière 8",
-            "eus": "8. filièreatik eratorritako produktuak"
+            "fr": "Le kiwi de l'Adour IGP et Label Rouge",
+            "eus": "AGB eta Label Gorridun Aturriko kiwia"
           }
         ],
         "keyfigures": [
           {
-            "fr": "Chiffres clés et statistiques de la filière 8",
-            "eus": "8. filièrearen zenbaki gakoak eta estatistikak"
+            "fr": "358 producteurs - 10 stations fruitières",
+            "eus": "358 ekoizle - 10 fruitu gune"
+          },
+          {
+            "fr": "600 hectares, soit en moyenne 2 ha par verger",
+            "eus": "600 hektarea: bana beste, 2 ha-ko arboladiak"
+          },
+          {
+            "fr": "6 500 tonnes de kiwis produits en 2024",
+            "eus": "6 500 tona kiwi ekoitziak 2024an"
           }
         ],
-        "website": "https://example.com",
-        "observatory": "https://observatory.example.com"
+        "linkside": "right",
+        "website": "",
+        "observatory": ""
       }
     ]
   },
   {
     "id": 23,
     "title": {
-      "fr": "Filière 9",
-      "eus": "Filière 9"
+      "fr": "La brebis Manex Tête Noire",
+      "eus": "Manex burubeltz ardia"
     },
     "thumbnail": "/images/idlescreen.jpg",
     "pages": [
       {
         "presentation": {
-          "fr": "Présentation de la filière 9. Description détaillée de cette filière économique et culturelle.",
-          "eus": "9. filièrearen aurkezpena. Filière ekonomiko eta kultural honen deskribapen xehea."
+          "fr": "La Manex Tête Noire est une race ovine historiquement implantée dans les zones montagneuses du Pays Basque. Elle est facilement reconnaissable par sa tête, ses pattes et son collier de laine noirs, sa toison blanche, et ses fameuses cornes spiralées chez les femelles comme chez les mâles. Ses principaux atouts sont sa rusticité, son aptitude maternelle et la qualité de ses produits. Son élevage est particulièrement lié à la pratique de la transhumance, car cette brebis permet une bonne valorisation des ressources fourragères estivales. La Manex Tête Noire est l'une des 3 races ovines laitières autorisées dans la production de fromage AOP Ossau-Iraty.",
+          "eus": "Manex burubeltz ardia aspalditik dago Euskal Herriko mendi eremuetan. Burua, hankak eta artile lepokoa beltzak ditu, zuria da, eta eme zein arrek adar kiribilduak dituzte. Abantaila handiak ditu: gogorra da eta ama ona, eta produktu onak ekoizten ditu. Transhumantziarekin lotuta dago bereziki, udako bazkaleku baliabideen ondo aprobetxatzeko aukera ematen baitu. Manex burubeltza Ossau-Iraty JDB gazta ekoizteko erabil daitezkeen hiru esne-ardi arrazetako bat da."
         },
         "imagePresentation": "/images/idlescreen.jpg"
       },
       {
         "history": {
-          "fr": "Histoire de la filière 9. Contexte historique et évolution au fil du temps.",
-          "eus": "9. filièrearen historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+          "fr": "La Manex Tête Noire est une race très ancienne, implantée depuis des siècles dans les vallées pyrénéennes. Son histoire est liée à celle des bergers traditionnels et à la pratique de la transhumance en montagne. La race a été officiellement reconnue en 1970. Dans les années 80, on comptait près de 200 000 brebis. Mais face à l'utilisation croissante de races plus « compétitives », sa population a fortement chuté (-60% en 40 ans). Face à ce constat, un groupe d'éleveurs a créé l'association Buru Beltza en 2010, « tête noire » en basque. Elle a pour objectif de défendre et promouvoir la race Manex Tête Noire dans des systèmes d'élevage privilégiant l'autonomie, la durabilité, la présence longue en estive et le lien avec l'AOP Ossau-Iraty. L'association regroupe actuellement une centaine d'éleveurs sur l'ensemble du département des Pyrénées-Atlantiques et au-delà, pour structurer la filière et revaloriser ses productions.",
+          "eus": "Manex burubeltza oso antzinako arraza da, eta mendeetan zehar Pirinioetako ibarretan dago. Ardi honen historia euskal artzainekin eta mendiko transhumantziarekin lotuta dago. 1970eko hamarkadan jaso zuen ofizialki aitortza. 1980ko hamarkadan, 200 000 ardi inguru zeuden. Baina « lehiakorragoak » diren arzen erabilera handituz joan zen heinean, kopurua nabarmen jaitsi zen (% 60 40 urtetan). Egoera hori ikusirik, 2010ean artzain talde batek Buru Beltza elkartea sortu zuen. Xedea Manex burubeltza defenditzea eta sustatzea da, autonomia, iraunkortasuna, udako bazkalekuetan egonaldia luzea eta Ossau-Iraty JDBrekin harremana lehenesten duten hazkuntza sistemetan. Gaur egun, elkarteak ehun artzain inguru biltzen ditu Pirinio Atlantikoetan eta inguruan, sailaren egitura emateko eta ekoizpenak berriz balioztatzeko."
         },
         "areaProductionImage": "/images/idlescreen.jpg",
         "areaProductionDescription": {
-          "fr": "Description de la zone de production et de l'aire géographique de la filière 9.",
-          "eus": "9. filièrearen ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+          "fr": "Production et transformation en Pays Basque",
+          "eus": "Ipar Euskal Herrian ekoizten eta transformatzen da"
         }
       },
       {
         "characteristics": [
           {
-            "fr": "Caractéristique principale de la filière 9",
-            "eus": "9. filièrearen ezaugarri nagusia"
+            "fr": "Race Manex Tête Noire",
+            "eus": "Manex burubeltz arraza"
           },
           {
-            "fr": "Deuxième caractéristique importante",
-            "eus": "Bigarren ezaugarri garrantzitsua"
-          },
-          {
-            "fr": "Troisième caractéristique distinctive",
-            "eus": "Hirugarren ezaugarri bereizgarria"
+            "fr": "Pratique de l'estive, généralement de 3 à plus de 6 mois par an",
+            "eus": "Udako bazkalekuetako egonaldiak, oro har urtean 3 eta 6 hilabete artean, edo gehiago"
           }
         ],
         "products": [
           {
-            "fr": "Produits dérivés de la filière 9",
-            "eus": "9. filièreatik eratorritako produktuak"
+            "fr": "Fromages, produits carnés et laine sous la marque qualitative Buru Beltza, Fromages AOP Ossau-Iraty, Agneau de lait des Pyrénées IGP et LR",
+            "eus": "Buru Beltza kalitate-markako gasnak, haragiak eta artilea, JDB Ossau-Iraty gasnak, AGB eta Label gorriko esneko bildotsak"
           }
         ],
         "keyfigures": [
           {
-            "fr": "Chiffres clés et statistiques de la filière 9",
-            "eus": "9. filièrearen zenbaki gakoak eta estatistikak"
+            "fr": "70 000 brebis Manex Tête Noire",
+            "eus": "70 000 ardi Manex burubeltz"
+          },
+          {
+            "fr": "228 éleveurs (données 2022)",
+            "eus": "228 artzain (2022ko datuak)"
           }
         ],
-        "website": "https://example.com",
-        "observatory": "https://observatory.example.com"
+        "website": "https://buru-beltza.com/",
+        "observatory": ""
       }
     ]
   },
   {
     "id": 24,
     "title": {
-      "fr": "Filière 10",
-      "eus": "Filière 10"
+      "fr": "La filière piscicole du Pays Basque",
+      "eus": "Ipar Euskal Herriko arrain hazkuntza saila"
     },
     "thumbnail": "/images/idlescreen.jpg",
     "pages": [
       {
         "presentation": {
-          "fr": "Présentation de la filière 10. Description détaillée de cette filière économique et culturelle.",
-          "eus": "10. filièrearen aurkezpena. Filière ekonomiko eta kultural honen deskribapen xehea."
+          "fr": "Les cours d'eau du Pays Basque sont divisés en cinq bassins versants : les côtiers basques, la Nive, la Bidouze, l'Adour aval, et le Saison (avec les Gaves). Ils traversent les vallées depuis leur source jusqu'à l'Océan Atlantique. Ils se remplissent avec des affluents, des eaux souterraines et des eaux de pluie. Leur eau fraîche et propre est réputée pour la pêche à la truite et au saumon. La qualité de ces eaux a permis la mise en place d'une pisciculture de qualité, à taille humaine et respectueuse des milieux.",
+          "eus": "Ipar Euskal Herriko erreka eta ibaiak bost arro hidrografikotan banatuak dira: euskal kostaldekoak, Errobi, Biduze, Aturri behealdea eta Ühaitza (eta bere ibaiadarrak). Ibarrak zeharkatzen dituzte, beren iturrietarik Ozeano Atlantikora. Ibaiadarrek, lurpeko urek eta euriak elikatuak dira. Haien ur fresko eta garbiak amuarrainen eta izokinen erakartzeko fama du. Ur bikain horiei esker, kalitatezko arrain hazkuntza garatu da, zentzuzko neurrikoa eta ingurumena errespetatzen duena."
         },
         "imagePresentation": "/images/idlescreen.jpg"
       },
       {
         "history": {
-          "fr": "Histoire de la filière 10. Contexte historique et évolution au fil du temps.",
-          "eus": "10. filièrearen historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+          "fr": "Dans les années 30, la Basse Navarre voit naître plusieurs piscicultures, par exemple à Bidarray, sur la rive droite du ruisseau du Batzan qui prend sa source en Espagne, traverse un vallon étroit et se jette dans la Nive. D'autres sont situées sur la Nive des Aldudes connue pour son eau fraîche et limpide.",
+          "eus": "1930eko hamarkadan, Baxenabarren zenbait arrain haztegi sortu ziren; horien artean, Bidarraikoa, Baztango errekaren eskuineko hegian. Baztan Nafarroan sortzen da eta ibar hertsia zeharkatzen du, Errobin sartu aitzin. Aldudeko Errobin ere beste haztegi batzuk daude, bertako ura freskoa eta bereziki garbia baita."
         },
         "areaProductionImage": "/images/idlescreen.jpg",
         "areaProductionDescription": {
-          "fr": "Description de la zone de production et de l'aire géographique de la filière 10.",
-          "eus": "10. filièrearen ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+          "fr": "De St Etienne de Baigorry jusqu'à Urepel sur la Nive des Aldudes, Ahaxe sur le Laurhibar, Estérençuby sur la Nive d'Esterenguibel",
+          "eus": "Baigorritik Urepelera, Aldudeko Errobin, Ahatsan, Lauribarren, Ezterentzubin, Ezterengibeleko errekan"
         }
       },
       {
-        "characteristics": [
-          {
-            "fr": "Caractéristique principale de la filière 10",
-            "eus": "10. filièrearen ezaugarri nagusia"
-          },
-          {
-            "fr": "Deuxième caractéristique importante",
-            "eus": "Bigarren ezaugarri garrantzitsua"
-          },
-          {
-            "fr": "Troisième caractéristique distinctive",
-            "eus": "Hirugarren ezaugarri bereizgarria"
-          }
-        ],
+        "characteristics": [],
         "products": [
           {
-            "fr": "Produits dérivés de la filière 10",
-            "eus": "10. filièreatik eratorritako produktuak"
+            "fr": "Truite arc-en-ciel",
+            "eus": "Ortzadar-amuarraina"
           }
         ],
         "keyfigures": [
           {
-            "fr": "Chiffres clés et statistiques de la filière 10",
-            "eus": "10. filièrearen zenbaki gakoak eta estatistikak"
+            "fr": "Une douzaine de piscicultures et 4 centres d'alevinage au Pays Basque",
+            "eus": "Dozena bat arrain-haztegi eta 4 arrainkume-zentro Ipar Euskal Herrian"
+          },
+          {
+            "fr": "1 500 tonnes de truites produites en moyenne par an",
+            "eus": "1 500 tona amuarrain ekoitziak urtean, bana beste"
+          },
+          {
+            "fr": "Une cinquantaine d'emplois autour des métiers de l'élevage, de la transformation et de la commercialisation des produits",
+            "eus": "Berrogeita hamar bat lanpostu hazkuntzaren, transformazioaren eta produktuen salmentaren inguruan"
           }
         ],
-        "website": "https://example.com",
-        "observatory": "https://observatory.example.com"
+        "website": "",
+        "observatory": ""
       }
     ]
   },
   {
     "id": 25,
     "title": {
-      "fr": "Production 1",
-      "eus": "Ekoizpena 1"
+      "fr": "Le Pottok",
+      "eus": "Pottoka"
     },
     "thumbnail": "/images/idlescreen.jpg",
     "pages": [
       {
         "presentation": {
-          "fr": "Présentation de la production 1. Description détaillée de cette production économique et culturelle.",
-          "eus": "1. ekoizpenaren aurkezpena. Ekoizpen ekonomiko eta kultural honen deskribapen xehea."
+          "fr": "Le Pottok (« Pottoka » en langue basque) fait partie de la culture basque depuis toujours. Connu pour sa petite taille, sa robustesse et sa rusticité, il joue un rôle important dans l'entretien des montagnes qu'il pâture toute l'année en semi-liberté ou totale liberté. Il s'agit d'une race autochtone, très bien adaptée à la vie en montagne.",
+          "eus": "Pottoka betidanik da euskal kulturaren parte. Ttipia, indartsua eta azkarra da, eta mendien mantentze lanetan eginkizun handia du, urte osoan bazkatzen baititu, erdi-libre ala libre. Bertako arraza da, mendiko bizirako ezin egokiagoa."
         },
         "imagePresentation": "/images/idlescreen.jpg"
       },
       {
         "history": {
-          "fr": "Histoire de la production 1. Contexte historique et évolution au fil du temps.",
-          "eus": "1. ekoizpenaren historia. Testuinguru historikoa eta denboran zeharreko bilakaera."
+          "fr": "Le Pottok est installé depuis des millénaires au Pays Basque. Les peintures préhistoriques découvertes dans les grottes de Sare, d'Oxocelhaya et d'Isturitz représentent des chevaux d'un type proche du Pottok actuel. Il appartient à une souche de poneys atlantiques très ancienne et possède par une grande diversité génétique. Au 19e siècle, il était utilisé dans les mines de la région en raison de sa taille réduite, sa force et sa rusticité. L'Association Nationale du Pottok a été créée en 1970 sous l'impulsion de la direction des Haras Nationaux et de Paul Dutournier, alors maire de Sare. Elle a notamment pour objectif la conservation de la race Pottok, la promotion de ses qualités, ainsi que la préservation de l'élevage traditionnel en libre parcours dans les montagnes basques. Historiquement, il est de couleur sombre (noire, baie, alezan) mais aujourd'hui la robe pie est très répandue, elle résulte de croisements récents au 20e siècle.",
+          "eus": "Milaka urtez geroztik dago pottoka Euskal Herrian. Sarako, Otsozelaiko eta Isturitzeko harpeetan atzeman historiaurreko margolanetan, egungo pottokaren eite handia duten zaldiak agertzen dira. Zinez aspaldiko Atlantikoko poney mota batekoak dira eta aniztasun genetiko handia dute. 19. mendean, eskualdeko meategietan baliatzen zen, ttipia, indartsua eta azkarra baitzen. 1970ean, Pottokaren Frantziako elkartea sortu zen, Frantziako garañotegien zuzendaritzaren eta orduan Sarako auzapez zen Paul Dutournierren ekimenez. Xede hauek ditu, besteak beste: Pottok arrazaren babestea, haren kalitateen sustatzea eta euskal mendietan saro libreko hazkuntzaren babestea. Historikoki, kolore ilunekoa da (beltza, gaztaina, alazana); baina, egun, pio ilea ere biziki zabaldua da, 20. mendeko gurutzaketen ondorioz."
         },
         "areaProductionImage": "/images/idlescreen.jpg",
         "areaProductionDescription": {
-          "fr": "Description de la zone de production et de l'aire géographique de la production 1.",
-          "eus": "1. ekoizpenaren ekoizpen eremuaren eta eremu geografikoaren deskribapena."
+          "fr": "Massif de la Rhune - Massif de l'Artzamendi - Mont Baïgura - Mont Ursuya. Les troupeaux sont également présents dans d'autres montagnes du Pays Basque français, notamment dans le Labourd, la Basse-Navarre et la Soule.",
+          "eus": "Larhun - Artzamendi - Baigura - Urtsua. Tropak Ipar Euskal Herriko beste mendi batzuetan ere badira, Lapurdin, Baxenabarren eta Xiberon"
         }
       },
       {
         "characteristics": [
           {
-            "fr": "Caractéristique principale de la production 1",
-            "eus": "1. ekoizpenaren ezaugarri nagusia"
+            "fr": "Les Pottoks vivent librement en horde d'une vingtaine de juments accompagnées de leur étalon",
+            "eus": "Pottokak libre bizi dira, hogei bat behorreko saldotan, haien garañoekin"
           },
           {
-            "fr": "Deuxième caractéristique importante",
-            "eus": "Bigarren ezaugarri garrantzitsua"
+            "fr": "Ils participent à l'entretien écologique de la montagne et à la lutte contre les incendies par le pâturage",
+            "eus": "Mendietan bazkatuz, mantentze ekologikoan eta suteen prebentzioan parte hartzen dute"
           },
           {
-            "fr": "Troisième caractéristique distinctive",
-            "eus": "Hirugarren ezaugarri bereizgarria"
+            "fr": "Lorsqu'ils sont destinés aux loisirs (équitation, attelage, etc.), ils peuvent être élevés en prairie",
+            "eus": "Aisialdirako baliatzen direlarik (zaldiketa, karrosak etab.), pentzeetan hazten ahal dira"
           }
         ],
-        "products": [
-          {
-            "fr": "Produits dérivés de la production 1",
-            "eus": "1. ekoizpenatik eratorritako produktuak"
-          }
-        ],
+        "products": [],
         "keyfigures": [
           {
-            "fr": "Chiffres clés et statistiques de la production 1",
-            "eus": "1. ekoizpenaren zenbaki gakoak eta estatistikak"
+            "fr": "130 adhérents à L'Association National du pottok",
+            "eus": "130 kide Pottokaren Frantziako elkartean"
+          },
+          {
+            "fr": "1500 pottoks recensés sur le Pays Basque",
+            "eus": "1500 pottoka zerrendatuak Ipar Euskal Herrian"
           }
         ],
-        "website": "https://example.com",
-        "observatory": "https://observatory.example.com"
+        "website": "https://anpottoka.fr/",
+        "observatory": ""
       }
     ]
   }

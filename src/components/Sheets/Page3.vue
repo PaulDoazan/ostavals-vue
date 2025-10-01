@@ -16,6 +16,7 @@ const { t } = useI18n()
 
 // Compute left position based on linkside
 const rectangleLeft = props.linkside === 'right' ? '904px' : '0px'
+console.log("rectangleLeft", rectangleLeft)
 </script>
 
 <template>
