@@ -1,5 +1,5 @@
 <template>
-  <div v-if="showWarning" class="fixed inset-0 z-50 flex bg-background bg-opacity-40 items-center justify-center"
+  <div v-if="showWarning" class="fixed inset-0 z-50 flex bg-black bg-opacity-40 items-center justify-center"
     @click="cancelIdleReturn">
     <div class="text-center bg-background p-12 border-2 border-red max-w-4xl rounded-xl">
       <div class="text-red text-3xl md:text-6xl font-semibold mb-8">
