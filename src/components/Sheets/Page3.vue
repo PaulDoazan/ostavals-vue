@@ -7,7 +7,9 @@ interface Props {
   characteristics: string[],
   products: string[],
   keyFigures: string[],
-  linkside?: string
+  linkside?: string,
+  website?: string,
+  observatory?: string
 }
 
 const props = defineProps<Props>()
@@ -23,7 +25,16 @@ const rectangleLeft = props.linkside === 'right' ? '904px' : '0px'
     <RedThinDecorationTiny class="absolute -top-48 right-56 rotate-90" />
 
     <!-- Rectangle shape at specified position -->
-    <div class="absolute bg-gray-600" :style="{ left: rectangleLeft, top: '665px', width: '1016px', height: '240px' }">
+    <div class="absolute bg-gray-600 flex flex-col justify-center items-center"
+      :style="{ left: rectangleLeft, top: '665px', width: '1016px', height: '240px' }">
+      <!-- Website URL -->
+      <div v-if="website && website.trim() !== ''" class="text-white font-soleil mb-2" style="font-size: 24px;">
+        <span class="font-bold">Website:</span> {{ website }}
+      </div>
+      <!-- Observatory URL -->
+      <div v-if="observatory && observatory.trim() !== ''" class="text-white font-soleil" style="font-size: 24px;">
+        <span class="font-bold">Observatory:</span> {{ observatory }}
+      </div>
     </div>
 
     <div class="grid grid-cols-3 gap-16 h-full">

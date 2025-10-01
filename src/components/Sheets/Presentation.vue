@@ -45,13 +45,8 @@ const getLocalizedTitle = (title: any): string => {
 
 // Get data for the current grid item from the JSON file
 const presentationData = computed(() => {
-  console.log("props:", props)
-  console.log("gridItemId:", props.gridItemId, "type:", typeof props.gridItemId)
-  console.log("sheetsData:", sheetsData)
-
   const item = sheetsData.find(item => item.id === Number(props.gridItemId))
 
-  console.log("item", item)
   if (!item) {
     // Fallback data if item not found
     return {
@@ -124,7 +119,9 @@ const presentationData = computed(() => {
         characteristics,
         products,
         keyFigures: keyfigures,
-        linkside: page.linkside
+        linkside: page.linkside,
+        website: page.website,
+        observatory: page.observatory
       }
     }
   })
@@ -184,7 +181,9 @@ const getCurrentPageComponent = computed(() => {
           :characteristics="presentationData.pages[currentPage].characteristics || []"
           :products="presentationData.pages[currentPage].products || []"
           :keyFigures="presentationData.pages[currentPage].keyFigures || []"
-          :linkside="presentationData.pages[currentPage].linkside" />
+          :linkside="presentationData.pages[currentPage].linkside"
+          :website="presentationData.pages[currentPage].website || ''"
+          :observatory="presentationData.pages[currentPage].observatory || ''" />
       </div>
 
       <!-- Navigation arrows -->
