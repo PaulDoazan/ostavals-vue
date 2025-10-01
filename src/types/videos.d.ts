@@ -5,10 +5,8 @@ export interface VideoItem {
     eus: string
   }
   thumbnail: string
-  urls: {
-    fr?: string
-    eus?: string
-  }
+  url: string
+  icons: string[]
 }
 
 export type VideosData = VideoItem[]

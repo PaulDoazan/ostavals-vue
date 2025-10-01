@@ -2,109 +2,85 @@
   {
     "id": 1,
     "title": {
-      "fr": "Filière d’excellence : l’agneau de lait des Pyrénées",
+      "fr": "Filière d'excellence : l'agneau de lait des Pyrénées",
       "eus": "Filiera ekoizpena : Pyreneen agneiak"
     },
     "thumbnail": "/images/idlescreen.jpg",
-    "urls": {
-      "fr": "/videos/idle.mp4",
-      "eus": ""
-    }
+    "url": "/videos/lagneaulaitpyrenees.mp4",
+    "icons": [
+      "fr", "eus-sub"
+    ]
   },
   {
     "id": 2,
     "title": {
-      "fr": "Filière d’excellence : l’agneau de lait des Pyrénées",
-      "eus": "Filiera ekoizpena : Pyreneen agneiak"
+      "fr": "Filière d'excellence : le porc basque Kintoa",
+      "eus": "Filiera ekoizpena : Kintoaren pizkaretz"
     },
     "thumbnail": "/images/idlescreen.jpg",
-    "urls": {
-      "fr": "/videos/ForBiggerFun.mp4",
-      "eus": "/videos/idle.mp4"
-    }
+    "url": "/videos/kintoa.mp4",
+    "icons": [
+      "fr", "eus-sub"
+    ]
   },
   {
     "id": 3,
     "title": {
-      "fr": "Filière d’excellence : l’agneau de lait des Pyrénées",
-      "eus": "Filiera ekoizpena : Pyreneen agneiak"
+      "fr": "Filière d'excellence : la charte fermière IDOKI",
+      "eus": "Filiera ekoizpena : IDOKI fermako charta"
     },
     "thumbnail": "/images/idlescreen.jpg",
-    "urls": {
-      "fr": "/videos/BigBuckBunny.mp4",
-      "eus": "/videos/idle.mp4"
-    }
+    "url": "/videos/idoki.mp4",
+    "icons": [
+      "fr", "eus-sub"
+    ]
   },
   {
     "id": 4,
     "title": {
-      "fr": "Musique traditionnelle basque",
-      "eus": "Euskal musika tradizionala"
+      "fr": "Filière d'excellence : l’AOP Ossau-Iraty",
+      "eus": "Filiera ekoizpena : Ossau-Iraty AOP"
     },
     "thumbnail": "/images/idlescreen.jpg",
-    "urls": {
-      "fr": "/videos/ForBiggerJoyrides.mp4",
-      "eus": "/videos/idle.mp4"
-    }
+    "url": "/videos/ossauiraty.mp4",
+    "icons": [
+      "fr", "eus-sub"
+    ]
   },
   {
     "id": 5,
     "title": {
-      "fr": "Architecture basque - Maisons typiques",
-      "eus": "Euskal arkitektura - Etxe tipikoak"
+      "fr": "Filière d'excellence : les vins AOC Irouléguy",
+      "eus": "Filiera ekoizpena : Irulegiko AOC vinoak"
     },
     "thumbnail": "/images/idlescreen.jpg",
-    "urls": {
-      "fr": "/videos/idle.mp4",
-      "eus": "/videos/idle.mp4"
-    }
+    "url": "/videos/irouleguy.mp4",
+    "icons": [
+      "fr", "eus-sub"
+    ]
   },
   {
     "id": 6,
     "title": {
-      "fr": "Sports basques traditionnels",
-      "eus": "Euskal kirol tradizionalak"
+      "fr": "L'agriculture biologique au Pays Basque",
+      "eus": "Laborantza biologikoak Euskal Herriko"
     },
     "thumbnail": "/images/idlescreen.jpg",
-    "urls": {
-      "fr": "/videos/idle.mp4",
-      "eus": "/videos/idle.mp4"
-    }
+    "url": "/videos/bio.mp4",
+    "icons": [
+      "fr", "eus-sub"
+    ]
   },
   {
     "id": 7,
     "title": {
-      "fr": "Fêtes et célébrations basques",
-      "eus": "Euskal jaiak eta ospakizunak"
+      "fr": "Filière d'excellence : l'AOP Piment d'Espelette",
+      "eus": "Filiera ekoizpena : Espeletzko piment AOP"
     },
     "thumbnail": "/images/idlescreen.jpg",
-    "urls": {
-      "fr": "/videos/idle.mp4",
-      "eus": "/videos/idle.mp4"
-    }
-  },
-  {
-    "id": 8,
-    "title": {
-      "fr": "Langue basque - Euskera",
-      "eus": "Euskera - Euskal hizkuntza"
-    },
-    "thumbnail": "/images/idlescreen.jpg",
-    "urls": {
-      "fr": "/videos/idle.mp4",
-      "eus": "/videos/idle.mp4"
-    }
-  },
-  {
-    "id": 9,
-    "title": {
-      "fr": "Paysages du Pays Basque",
-      "eus": "Euskal Herriko paisaia"
-    },
-    "thumbnail": "/images/idlescreen.jpg",
-    "urls": {
-      "fr": "/videos/idle.mp4",
-      "eus": "/videos/idle.mp4"
-    }
+    "url": "/videos/pimentespelette.mp4",
+    "icons": [
+      "fr", "eus-sub"
+    ]
   }
 ]

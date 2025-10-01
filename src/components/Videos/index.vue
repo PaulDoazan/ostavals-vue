@@ -45,22 +45,25 @@ const toggleVideoLanguage = (videoId: number) => {
   videoLanguages.value[videoId] = currentLang === 'fr' ? 'eus' : 'fr'
 }
 
-// Check if specific language URL exists
-const hasLanguageUrl = (video: VideoItem, language: 'fr' | 'eus'): boolean => {
-  const url = language === 'fr' ? video.urls.fr : video.urls.eus
-  console.log('Checking URL for', language, ':', url, 'Result:', !!(url && url.trim() !== ''))
-  return !!(url && url.trim() !== '')
+// Check if specific language icon exists
+const hasLanguageIcon = (video: VideoItem, language: 'fr' | 'eus'): boolean => {
+  const iconToCheck = language === 'fr' ? 'fr' : 'eus-sub'
+  return video.icons.includes(iconToCheck)
+}
+
+// Check if title is likely to be single line (rough estimation based on character count)
+const isSingleLineTitle = (title: string): boolean => {
+  // Titles with fewer characters are more likely to be single line
+  // Based on the font size (28px) and container width, ~45 characters is a good threshold
+  return title.length < 42
 }
 
 const playVideo = (video: VideoItem) => {
-  const videoLang = getVideoLanguage(video.id)
-  const videoUrl = videoLang === 'eus' ? video.urls.eus : video.urls.fr
-  if (videoUrl) {
-    selectedVideo.value = video
-    isDialogOpen.value = true
-    // Reset idle timer on video interaction
-    resetIdleTimer()
-  }
+  // Since we now have a single URL, we can play it directly
+  selectedVideo.value = video
+  isDialogOpen.value = true
+  // Reset idle timer on video interaction
+  resetIdleTimer()
 }
 
 const closeDialog = () => {
@@ -70,9 +73,7 @@ const closeDialog = () => {
 
 const getSelectedVideoUrl = (): string => {
   if (!selectedVideo.value) return ''
-  const videoLang = getVideoLanguage(selectedVideo.value.id)
-  const videoUrl = videoLang === 'eus' ? selectedVideo.value.urls.eus : selectedVideo.value.urls.fr
-  return videoUrl || ''
+  return selectedVideo.value.url
 }
 
 const handlePageChange = (newPage: number) => {
@@ -96,12 +97,12 @@ const handlePageChange = (newPage: number) => {
       <!-- Video Gallery that takes full width between title and menu -->
       <div class="px-20 pt-36 pb-40">  
         <div class="grid grid-cols-3 gap-16 h-full">
-          <div v-for="video in currentPageItems" :key="video.id"
-            class="relative group flex flex-col items-center justify-center">
-            <!-- Language Toggle Buttons (show if at least one language has URL) -->
-            <div v-if="hasLanguageUrl(video, 'fr') || hasLanguageUrl(video, 'eus')" class="mb-12 flex gap-4 self-start">
+          <div v-for="video in currentPageItems" :key="video.id" class="relative group flex flex-col items-center">
+            <!-- Language Toggle Buttons (show if at least one language has icon) -->
+            <div v-if="hasLanguageIcon(video, 'fr') || hasLanguageIcon(video, 'eus')"
+              class="mb-12 flex gap-4 self-start">
               <div class="flex flex-col items-center" @click.stop="toggleVideoLanguage(video.id); resetIdleTimer()">
-                <div v-if="!hasLanguageUrl(video, 'fr')">
+                <div v-if="!hasLanguageIcon(video, 'fr')">
                   <img src="/icons/lsf.svg" alt="FR" class="w-24 h-24" />
                 </div>
                 <div v-else>
@@ -110,7 +111,7 @@ const handlePageChange = (newPage: number) => {
               </div>
               <div class="flex flex-col items-center cursor-pointer"
                 @click.stop="toggleVideoLanguage(video.id); resetIdleTimer()">
-                <div v-if="!hasLanguageUrl(video, 'eus')">
+                <div v-if="!hasLanguageIcon(video, 'eus')">
                   <img src="/icons/lsf.svg" alt="EUS" class="w-24 h-24" />
                 </div>
 
@@ -121,7 +122,7 @@ const handlePageChange = (newPage: number) => {
             </div>
 
             <!-- Video Title -->
-            <div class="mb-12">
+            <div :style="{ marginBottom: isSingleLineTitle(video.title.fr) ? '84px' : '48px' }">
               <h3
                 class="text-3xl font-soleil font-bold text-gray-800 group-hover:text-gray-600 transition-colors duration-300"
                 style="font-size: 28px;">

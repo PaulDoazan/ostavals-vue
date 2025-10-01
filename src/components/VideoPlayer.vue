@@ -120,7 +120,7 @@ import { useGlobalIdle } from '../composables/useGlobalIdle'
 
 const route = useRoute()
 const router = useRouter()
-const { t, locale } = useI18n()
+const { t } = useI18n()
 
 // Global idle manager
 const { resetIdleTimer, setVideoPlaying } = useGlobalIdle()
@@ -178,11 +178,10 @@ const video = computed(() => {
   return videosData.find((v) => v.id === videoId.value)
 })
 
-// Get video URL based on current language
+// Get video URL (now single URL per video)
 const videoUrl = computed(() => {
   if (!video.value) return ''
-  const lang = locale.value as 'fr' | 'eus'
-  return video.value.urls[lang] || video.value.urls.fr || ''
+  return video.value.url || ''
 })
 
 // Progress percentage for progress bar
