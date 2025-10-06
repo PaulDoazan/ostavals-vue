@@ -1,7 +1,7 @@
 import { ref, onUnmounted } from 'vue'
 import { useI18n } from 'vue-i18n'
 
-const IDLE_TIMEOUT = 60000 // 1 minutes
+const IDLE_TIMEOUT = 300000 // 5 minutes
 const WARNING_TIMEOUT = 10000 // 10 seconds warning
 
 export function useIdleScreen() {
@@ -40,7 +40,7 @@ export function useIdleScreen() {
       }
       
       showWarning.value = true
-      countdown.value = 5
+      countdown.value = 10
       isIdleActive.value = true
       
       // Start countdown

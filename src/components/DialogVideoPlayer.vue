@@ -453,8 +453,8 @@ video {
   position: relative;
   width: 100%;
   height: 100%;
-  transform: scaleX(1.13) !important;
-  transform-origin: center !important;
+  object-fit: cover;
+  object-position: center;
 }
 
 /* BrightSign button styling fixes */
