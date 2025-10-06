@@ -15,7 +15,7 @@ npm run build
 ## Configuration du repository BrightSign
 
 ### 3. Préparation du repository bixie-node
-- Récupérer le repository `bixie-node`
+- Récupérer le repository `bixie-node` à [Link Text](https://github.com/PaulDoazan/bixie-nodejs)
 - Coller le contenu du dossier `dist` dans le dossier `client` du repository
 
 ## Configuration dans BrightAuthor:Connected
