@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
-import { ref, computed, onMounted, onUnmounted } from 'vue'
+import { ref, computed, onMounted, onUnmounted, nextTick, watch } from 'vue'
 import ImageSkeleton from './ImageSkeleton.vue'
 import RedThinDecorationTiny from '../Icon/RedThinDecorationTiny.vue'
 
@@ -14,7 +14,14 @@ interface Props {
 
 const { t } = useI18n()
 
-defineProps<Props>()
+const props = defineProps<Props>()
+
+// Watch for content changes to update scrollbar
+watch(() => props.history, () => {
+  nextTick(() => {
+    updateScrollbar()
+  })
+}, { flush: 'post' })
 
 // Custom scrollbar state
 const scrollContainer = ref<HTMLElement>()
@@ -44,6 +51,11 @@ const handleScroll = () => {
   if (!scrollContainer.value) return
   scrollPosition.value = scrollContainer.value.scrollTop
 }
+
+// Check if content is scrollable
+const isScrollable = computed(() => {
+  return scrollHeight.value > containerHeight.value
+})
 
 // Computed thumb position
 const thumbTop = computed(() => {
@@ -164,11 +176,12 @@ onUnmounted(() => {
           </div>
         </div>
 
-        <!-- Custom scrollbar -->
-        <div ref="scrollTrack" class="w-6 bg-gray-200 rounded-lg cursor-pointer relative flex-shrink-0"
-          style="height: 650px" @mousedown="handleTrackClick">
+        <!-- Custom scrollbar - only show when content is scrollable -->
+        <div v-if="isScrollable" ref="scrollTrack"
+          class="w-6 bg-gray-200 rounded-lg cursor-pointer relative flex-shrink-0" style="height: 650px"
+          @mousedown="handleTrackClick">
           <!-- Scroll thumb -->
-          <div ref="scrollThumb" class="w-4 bg-red-600 rounded-lg cursor-pointer absolute left-0" :style="{
+          <div ref="scrollThumb" class="w-4 bg-red rounded-lg cursor-pointer absolute left-0" :style="{
             height: thumbHeight + 'px',
             top: thumbTop
           }" @mousedown="handleThumbMouseDown" @touchstart="handleThumbTouchStart"></div>
