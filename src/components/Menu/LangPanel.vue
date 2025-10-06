@@ -12,7 +12,7 @@ const emit = defineEmits(['closeLangPanel'])
 </script>
 
 <template>
-  <div class="lang-panel absolute bottom-36 left-80">
+  <div class="lang-panel absolute bottom-36 left-80 z-10">
     <div class="h-60 flex justify-between items-center bg-redgrey rounded-t-[50px] rounded-r-[50px] px-6">
       <div class="flex flex-col items-center mx-10 cursor-pointer" @click="handleLanguageClick('fr')">
         <div :class="`text-white font-soleil flex items-center justify-center transition-all duration-200 ${currentLanguage === 'fr'
