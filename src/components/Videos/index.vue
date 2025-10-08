@@ -51,12 +51,32 @@ const hasLanguageIcon = (video: VideoItem, language: 'fr' | 'eus'): boolean => {
   return video.icons.includes(iconToCheck)
 }
 
-// Check if title is likely to be single line (rough estimation based on character count)
-const isSingleLineTitle = (title: string): boolean => {
-  // Titles with fewer characters are more likely to be single line
-  // Based on the font size (28px) and container width, ~45 characters is a good threshold
-  return title.length < 42
+// Calculate the number of lines a title will take (rough estimation based on character count)
+const getTitleLines = (title: string): number => {
+  // Based on the font size (28px) and container width, ~42 characters per line
+  if (title.length < 42) return 1
+  if (title.length < 84) return 2
+  return 3
 }
+
+// Get max lines across all three videos on current page to align them
+// Returns the height in pixels for the title container
+const getMaxLinesTitle = computed(() => {
+  let maxLines = 1
+
+  for (const video of currentPageItems.value) {
+    const currentLang = getVideoLanguage(video.id)
+    const title = currentLang === 'eus' ? video.title.eus : video.title.fr
+    const lines = getTitleLines(title)
+    if (lines > maxLines) {
+      maxLines = lines
+    }
+  }
+
+  // Return height in pixels: 36px per line (28px font + 8px line spacing)
+  // Plus 48px fixed margin-bottom
+  return maxLines * 36 + 48
+})
 
 const playVideo = (video: VideoItem) => {
   // Since we now have a single URL, we can play it directly
@@ -122,12 +142,11 @@ const handlePageChange = (newPage: number) => {
             </div>
 
             <!-- Video Title -->
-            <div :style="{ marginBottom: isSingleLineTitle(video.title.fr) ? '84px' : '48px' }">
+            <div :style="{ minHeight: `${getMaxLinesTitle}px` }" class="flex items-start">
               <h3
                 class="text-3xl font-soleil font-bold text-gray-800 group-hover:text-gray-600 transition-colors duration-300"
-                style="font-size: 28px;">
-                <!-- {{ getVideoLanguage(video.id) === 'eus' ? video.title.eus : video.title.fr }} -->
-                {{ video.title.fr }}
+                style="font-size: 28px; line-height: 36px;">
+                {{ getVideoLanguage(video.id) === 'eus' ? video.title.eus : video.title.fr }}
               </h3>
             </div>
 
