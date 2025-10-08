@@ -5,8 +5,8 @@
       "fr": "Filière d'excellence : l'agneau de lait des Pyrénées",
       "eus": "Filiera ekoizpena : Pyreneen agneiak"
     },
-    "thumbnail": "/images/idlescreen.jpg",
-    "url": "/videos/lagneaulaitpyrenees.mp4",
+    "thumbnail": "/videos/agneaulait.png",
+    "url": "/videos/agneaulait.mp4",
     "icons": [
       "fr", "eus-sub"
     ]
@@ -17,7 +17,7 @@
       "fr": "Filière d'excellence : le porc basque Kintoa",
       "eus": "Filiera ekoizpena : Kintoaren pizkaretz"
     },
-    "thumbnail": "/images/idlescreen.jpg",
+    "thumbnail": "/videos/kintoa.png",
     "url": "/videos/kintoa.mp4",
     "icons": [
       "fr", "eus-sub"
@@ -29,7 +29,7 @@
       "fr": "Filière d'excellence : la charte fermière IDOKI",
       "eus": "Filiera ekoizpena : IDOKI fermako charta"
     },
-    "thumbnail": "/images/idlescreen.jpg",
+    "thumbnail": "/videos/idoki.png",
     "url": "/videos/idoki.mp4",
     "icons": [
       "fr", "eus-sub"
@@ -41,7 +41,7 @@
       "fr": "Filière d'excellence : l’AOP Ossau-Iraty",
       "eus": "Filiera ekoizpena : Ossau-Iraty AOP"
     },
-    "thumbnail": "/images/idlescreen.jpg",
+    "thumbnail": "/videos/ossauiraty.png",
     "url": "/videos/ossauiraty.mp4",
     "icons": [
       "fr", "eus-sub"
@@ -53,7 +53,7 @@
       "fr": "Filière d'excellence : les vins AOC Irouléguy",
       "eus": "Filiera ekoizpena : Irulegiko AOC vinoak"
     },
-    "thumbnail": "/images/idlescreen.jpg",
+    "thumbnail": "/videos/irouleguy.png",
     "url": "/videos/irouleguy.mp4",
     "icons": [
       "fr", "eus-sub"
@@ -65,7 +65,7 @@
       "fr": "L'agriculture biologique au Pays Basque",
       "eus": "Laborantza biologikoak Euskal Herriko"
     },
-    "thumbnail": "/images/idlescreen.jpg",
+    "thumbnail": "/videos/bio.png",
     "url": "/videos/bio.mp4",
     "icons": [
       "fr", "eus-sub"
@@ -77,8 +77,80 @@
       "fr": "Filière d'excellence : l'AOP Piment d'Espelette",
       "eus": "Filiera ekoizpena : Espeletzko piment AOP"
     },
-    "thumbnail": "/images/idlescreen.jpg",
+    "thumbnail": "/videos/pimentespelette.png",
     "url": "/videos/pimentespelette.mp4",
+    "icons": [
+      "fr", "eus-sub"
+    ]
+  },
+  {
+    "id": 8,
+    "title": {
+      "fr": "Inventaire du patrimoine : L'etxe et la vie familiale à la ferme",
+      "eus": "Egutegia patria : Etxe eta etxeko bizitza"
+    },
+    "thumbnail": "",
+    "url": "/videos/patrimoine_letxe.mp4",
+    "icons": [
+      "fr", "eus-sub"
+    ]
+  },
+  {
+    "id": 9,
+    "title": {
+      "fr": "Inventaire du patrimoine : La pratique du pastoralisme basque aujourd'hui",
+      "eus": "Egutegia patria : Pastoralismo euskaldunetan"
+    },
+    "thumbnail": "",
+    "url": "/videos/patrimoine_pastoralisme.mp4",
+    "icons": [
+      "fr", "eus-sub"
+    ]
+  },
+  {
+    "id": 10,
+    "title": {
+      "fr": "Inventaire du patrimoine : L'histoire du pastoralisme basque du point de vue de l'archéologie",
+      "eus": "Egutegia patria : Pastoralismo euskaldunetan arkeologia ikuspegtik"
+    },
+    "thumbnail": "",
+    "url": "/videos/patrimoine_pastoralismearcheologie.mp4",
+    "icons": [
+      "fr", "eus-sub"
+    ]
+  },
+  {
+    "id": 11,
+    "title": {
+      "fr": "Inventaire du patrimoine : Les fêtes pastorales basques",
+      "eus": "Egutegia patria : Pastoralismo euskaldunetan eguneroko festak"
+    },
+    "thumbnail": "",
+    "url": "/videos/patrimoine_fetespastorales.mp4",
+    "icons": [
+      "fr", "eus-sub"
+    ]
+  },
+  {
+    "id": 12,
+    "title": {
+      "fr": "Inventaire du patrimoine : L’été dans les etxola et cayolar traditionnels",
+      "eus": "Egutegia patria : Etxola eta cayolar tradizionaletan etena"
+    },
+    "thumbnail": "",
+    "url": "/videos/patrimoine_etxola.mp4",
+    "icons": [
+      "fr", "eus-sub"
+    ]
+  },
+  {
+    "id": 13,
+    "title": {
+      "fr": "Inventaire du patrimoine : La borde basque, une grange d'altitude",
+      "eus": "Egutegia patria : Euskal kostaldeko borde bat"
+    },
+    "thumbnail": "",
+    "url": "/videos/patrimoine_bordebasque.mp4",
     "icons": [
       "fr", "eus-sub"
     ]
