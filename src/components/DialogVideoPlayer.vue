@@ -286,7 +286,7 @@ onUnmounted(() => {
 
 <template>
   <div class="relative w-screen flex flex-col fixed top-0 left-0 right-0 z-40 fullscreen-video"
-    style="height: calc(100vh - 120px);">
+    style="height: calc(100vh - 96px);">
     <!-- Video container -->
     <div class="flex-1 bg-black overflow-hidden video-container relative">
       <!-- Title overlay -->
@@ -320,7 +320,7 @@ onUnmounted(() => {
     <!-- Custom Controls - positioned at bottom of screen -->
     <div class="w-full z-50 fixed bottom-0 left-0 right-0" @click.stop>
       <!-- Full width shadow background -->
-      <div class="py-4 px-6 bg-gray-900 shadow-lg">
+      <div class="px-6 bg-gray-900 shadow-lg">
         <!-- Controls container - 3 column layout -->
         <div class="w-full flex items-center">
           <!-- Left column - close button -->

@@ -185,7 +185,8 @@ const handlePageChange = (newPage: number) => {
         </button>
 
         <!-- Video Player -->
-        <TruncatedVideoPlayer :video-url="getSelectedVideoUrl()" :video-title="selectedVideo?.title?.fr || ''"
+        <TruncatedVideoPlayer :video-url="getSelectedVideoUrl()"
+          :video-title="selectedVideo ? (getVideoLanguage(selectedVideo.id) === 'eus' ? selectedVideo.title.eus : selectedVideo.title.fr) : ''"
           @close="closeDialog" />
       </div>
     </div>
