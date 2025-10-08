@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import IdleScreen from './components/Idle/index.vue'
 import IdleWarning from './components/IdleWarning.vue'
-import { computed } from 'vue';
+import ImagePreloader from './components/ImagePreloader.vue'
+import { computed, ref } from 'vue';
 import { useRouter, useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { useIdleScreen } from './composables/useIdleScreen'
@@ -10,6 +11,12 @@ import { useGlobalIdle } from './composables/useGlobalIdle'
 const router = useRouter()
 const route = useRoute()
 const { t } = useI18n()
+
+// Preloader state
+const isPreloadComplete = ref(false)
+const handlePreloadComplete = () => {
+  isPreloadComplete.value = true
+}
 
 // Use idle screen composable
 const {
@@ -41,7 +48,11 @@ const isHomePage = computed(() => route.name === 'Home')
 </script>
 
 <template>
-  <div class="bg-black relative" @click="resetIdleTimer" @keydown="resetIdleTimer" @mousemove="resetIdleTimer">
+  <!-- Image Preloader - shown first on app load -->
+  <ImagePreloader v-if="!isPreloadComplete" @complete="handlePreloadComplete" />
+
+  <!-- Main app content - shown after preload is complete -->
+  <div v-else class="bg-black relative" @click="resetIdleTimer" @keydown="resetIdleTimer" @mousemove="resetIdleTimer">
     <IdleScreen v-if="isIdleScreenVisible" @exit="handleIdleScreenExit" />
 
     <!-- Idle Warning -->
