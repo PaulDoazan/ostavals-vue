@@ -136,7 +136,7 @@ const handlePageChange = (newPage: number) => {
                 </div>
 
                 <div v-else>
-                  <img src="/icons/eus-sub.svg" alt="EUS" class="w-24 h-24" />
+                  <img src="/icons/eus-sub.png" alt="EUS" class="w-24 h-24" />
                 </div>
               </div>
             </div>
