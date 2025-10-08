@@ -154,7 +154,7 @@ const handlePageChange = (newPage: number) => {
             <div class="relative overflow-hidden rounded-lg shadow-lg bg-gray-200 aspect-video w-full cursor-pointer"
               @click="playVideo(video); resetIdleTimer()">
               <img :src="video.thumbnail" :alt="getVideoLanguage(video.id) === 'eus' ? video.title.eus : video.title.fr"
-                class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" />
+                class="w-[640px] h-[360px] object-cover transition-transform duration-300 group-hover:scale-105" />
 
               <!-- Play Button Overlay -->
               <div
