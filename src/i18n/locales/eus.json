@@ -44,7 +44,19 @@
   },
   "credits": {
     "title": "Kredituak",
-    "button": "Kredituak"
+    "button": "Kredituak",
+    "project": {
+      "description": "Proiektu hau {scenography} -k diseinatutako eszenografia-lana da, eta {realized} -k egin du, {client} -rentzat."
+    },
+    "images": {
+      "title": "Irudiak eta baliabide ikonografikoak ondorengo elementuetatik datoz :",
+      "organizations": {
+        "title": "Erakundeak"
+      },
+      "photographers": {
+        "title": "Argazkilariak eta sortzaileak"
+      }
+    }
   },
   "history": "Historia",
   "productionZone": "Ekoizpen eremua"

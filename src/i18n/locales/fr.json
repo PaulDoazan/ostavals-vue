@@ -44,7 +44,19 @@
   },
   "credits": {
     "title": "Crédits",
-    "button": "Crédits"
+    "button": "Crédits",
+    "project": {
+      "description": "Ce projet est un travail de scénographie conçu par {scenography} et réalisé par {realized}, pour la {client}."
+    },
+    "images": {
+      "title": "Les images et ressources iconographiques sont issues des éléments suivants :",
+      "organizations": {
+        "title": "Organisations"
+      },
+      "photographers": {
+        "title": "Photographes et créateurs"
+      }
+    }
   },
   "history": "Histoire",
   "productionZone": "Zone de production"
