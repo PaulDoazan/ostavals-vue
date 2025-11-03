@@ -26,6 +26,9 @@ const goBack = () => {
     } else if (currentPath === '/videos') {
         // From videos, go back to home
         router.push('/');
+    } else if (currentPath === '/credits') {
+        // From credits, go back to home
+        router.push('/');
     } else {
         // If we're already at home, do nothing (or could go to a previous app state)
         // For now, just stay at home
