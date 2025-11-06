@@ -89,7 +89,7 @@
       "fr": "Inventaire du patrimoine : L'etxe et la vie familiale à la ferme",
       "eus": "Egutegia patria : Etxe eta etxeko bizitza"
     },
-    "thumbnail": "",
+    "thumbnail": "/videos/patrimoine_letxe.png",
     "url": "/videos/patrimoine_letxe.mp4",
     "icons": [
       "fr", "eus-sub"
@@ -101,7 +101,7 @@
       "fr": "Inventaire du patrimoine : La pratique du pastoralisme basque aujourd'hui",
       "eus": "Egutegia patria : Pastoralismo euskaldunetan"
     },
-    "thumbnail": "",
+    "thumbnail": "/videos/patrimoine_pastoralisme.png",
     "url": "/videos/patrimoine_pastoralisme.mp4",
     "icons": [
       "fr", "eus-sub"
@@ -113,7 +113,7 @@
       "fr": "Inventaire du patrimoine : L'histoire du pastoralisme basque du point de vue de l'archéologie",
       "eus": "Egutegia patria : Pastoralismo euskaldunetan arkeologia ikuspegtik"
     },
-    "thumbnail": "",
+    "thumbnail": "/videos/patrimoine_pastoralismearcheologie.png",
     "url": "/videos/patrimoine_pastoralismearcheologie.mp4",
     "icons": [
       "fr", "eus-sub"
@@ -125,7 +125,7 @@
       "fr": "Inventaire du patrimoine : Les fêtes pastorales basques",
       "eus": "Egutegia patria : Pastoralismo euskaldunetan eguneroko festak"
     },
-    "thumbnail": "",
+    "thumbnail": "/videos/patrimoine_fetespastorales.png",
     "url": "/videos/patrimoine_fetespastorales.mp4",
     "icons": [
       "fr", "eus-sub"
@@ -137,7 +137,7 @@
       "fr": "Inventaire du patrimoine : L’été dans les etxola et cayolar traditionnels",
       "eus": "Egutegia patria : Etxola eta cayolar tradizionaletan etena"
     },
-    "thumbnail": "",
+    "thumbnail": "/videos/patrimoine_etxola.png",
     "url": "/videos/patrimoine_etxola.mp4",
     "icons": [
       "fr", "eus-sub"
@@ -149,7 +149,7 @@
       "fr": "Inventaire du patrimoine : La borde basque, une grange d'altitude",
       "eus": "Egutegia patria : Euskal kostaldeko borde bat"
     },
-    "thumbnail": "",
+    "thumbnail": "/videos/patrimoine_bordebasque.png",
     "url": "/videos/patrimoine_bordebasque.mp4",
     "icons": [
       "fr", "eus-sub"

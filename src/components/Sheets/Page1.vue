@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { ref } from 'vue';
 import RedThinDecoration from '../Icon/RedThinDecoration.vue';
 import ImageSkeleton from './ImageSkeleton.vue';
 
@@ -10,6 +11,13 @@ interface Props {
 }
 
 defineProps<Props>()
+
+// Image loading state
+const imageLoaded = ref(false)
+
+const handleImageLoad = () => {
+  imageLoaded.value = true
+}
 </script>
 
 <template>
@@ -19,11 +27,11 @@ defineProps<Props>()
     <div class="flex flex-1 gap-20">
       <!-- Left column: Image (763px / 1729px ≈ 44.1%) -->
       <div class="w-[44%]">
-        <!-- Show skeleton while image is loading v-if="!imageLoaded"-->
-        <ImageSkeleton :width="'100%'" :height="'calc(100vh - 400px)'" class="rounded-lg" />
+        <!-- Show skeleton while image is loading -->
+        <ImageSkeleton v-if="!imageLoaded" :width="'100%'" :height="'calc(100vh - 400px)'" class="rounded-lg" />
         <!-- Show image once loaded -->
-        <!-- <img v-show="imageLoaded" :src="imageDescription" :alt="title" class="w-full h-full object-cover rounded-lg"
-          style="max-height: calc(100vh - 200px);" @load="handleImageLoad" @error="handleImageLoad" /> -->
+        <img v-show="imageLoaded" :src="imageDescription" :alt="title" class="w-full object-cover"
+          style="height: calc(100vh - 400px);" @load="handleImageLoad" @error="handleImageLoad" />
       </div>
 
       <!-- Right column: Description (966px / 1729px ≈ 55.9%) -->
