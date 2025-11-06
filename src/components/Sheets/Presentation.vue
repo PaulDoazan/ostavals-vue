@@ -121,7 +121,8 @@ const presentationData = computed(() => {
         keyFigures: keyfigures,
         linkside: page.linkside,
         website: page.website,
-        observatory: page.observatory
+        observatory: page.observatory,
+        grallUrl: page.grall_url || ''
       }
     }
   })
@@ -169,7 +170,8 @@ const getCurrentPageComponent = computed(() => {
         <component :is="getCurrentPageComponent" v-if="currentPage === 0"
           :title="presentationData.pages[currentPage].title"
           :description="presentationData.pages[currentPage].description || ''"
-          :imageDescription="presentationData.pages[currentPage].imageDescription || ''" />
+          :imageDescription="presentationData.pages[currentPage].imageDescription || ''"
+          :grallUrl="presentationData.pages[2]?.grallUrl || ''" />
 
         <component :is="getCurrentPageComponent" v-else-if="currentPage === 1"
           :title="presentationData.pages[currentPage].title"

@@ -40,6 +40,7 @@
           }
         ],
         "website": "https://www.erlebeltza.com/",
+        "grall_url": "https://map.grall.io/points/123548057",
         "observatory": ""
       }
     ]
@@ -114,7 +115,8 @@
           }
         ],
         "website": "https://www.kintoa.fr/",
-        "observatory": ""
+        "observatory": "",
+        "grall_url": "https://map.grall.io/points/123552109"
       }
     ]
   },
@@ -196,7 +198,8 @@
           }
         ],
         "website": "https://www.pimentdespelette.com/",
-        "observatory": "https://agriculture-opendatapaysbasque.aws-ec2-eu-1.opendatasoft.com/pages/piments-espelette/"
+        "observatory": "https://agriculture-opendatapaysbasque.aws-ec2-eu-1.opendatasoft.com/pages/piments-espelette/",
+        "grall_url": "https://map.grall.io/points/123556944"
       }
     ]
   },
@@ -254,7 +257,8 @@
           }
         ],
         "website": "",
-        "observatory": ""
+        "observatory": "",
+        "grall_url": "https://map.grall.io/points/123561147"
       }
     ]
   },
@@ -324,7 +328,8 @@
           }
         ],
         "website": "https://www.cerise-itxassou.com/",
-        "observatory": "https://agriculture-opendatapaysbasque.opendatasoft.com/pages/xapata/"
+        "observatory": "https://agriculture-opendatapaysbasque.opendatasoft.com/pages/xapata/",
+        "grall_url": "https://map.grall.io/points/123569819"
       }
     ]
   },
@@ -389,7 +394,8 @@
           }
         ],
         "website": "",
-        "observatory": "https://agriculture-opendatapaysbasque.opendatasoft.com/pages/gaztaina/"
+        "observatory": "https://agriculture-opendatapaysbasque.opendatasoft.com/pages/gaztaina/",
+        "grall_url": "https://map.grall.io/points/123584615"
       }
     ]
   },
@@ -458,7 +464,8 @@
           }
         ],
         "website": "https://merludeligne.fr/le-merlu/",
-        "observatory": "https://pecheursdaquitaine.eu"
+        "observatory": "https://pecheursdaquitaine.eu",
+        "grall_url": "https://map.grall.io/points/123587220"
       }
     ]
   },
@@ -541,7 +548,8 @@
         ],
         "linkside": "right",
         "website": "https://www.ossau-iraty.fr/",
-        "observatory": ""
+        "observatory": "",
+        "grall_url": "https://map.grall.io/points/123635827"
       }
     ]
   },
@@ -620,7 +628,8 @@
         ],
         "linkside": "right",
         "website": "https://nouste-ekilili.fr/",
-        "observatory": ""
+        "observatory": "",
+        "grall_url": "https://map.grall.io/points/123636540"
       }
     ]
   },
@@ -691,7 +700,8 @@
         ],
         "linkside": "right",
         "website": "www.idoki.org",
-        "observatory": ""
+        "observatory": "",
+        "grall_url": "https://map.grall.io/points/123636745"
       }
     ]
   },
@@ -762,7 +772,8 @@
         ],
         "linkside": "right",
         "website": "https://agneaudelaitdespyrenees.com/",
-        "observatory": "https://agriculture-opendatapaysbasque.opendatasoft.com/pages/agneaudelait/"
+        "observatory": "https://agriculture-opendatapaysbasque.opendatasoft.com/pages/agneaudelait/",
+        "grall_url": "https://map.grall.io/points/123636965"
       }
     ]
   },
@@ -849,7 +860,8 @@
         ],
         "linkside": "right",
         "website": "https://artogorria.com/",
-        "observatory": "https://agriculture-opendatapaysbasque.aws-ec2-eu-1.opendatasoft.com/pages/artogorria/"
+        "observatory": "https://agriculture-opendatapaysbasque.aws-ec2-eu-1.opendatasoft.com/pages/artogorria/",
+        "grall_url": "https://map.grall.io/points/123637137"
       }
     ]
   },
@@ -924,7 +936,8 @@
           }
         ],
         "website": "https://herriko.fr/herriko-haragia/",
-        "observatory": "https://agriculture-opendatapaysbasque.aws-ec2-eu-1.opendatasoft.com/pages/herrikoharagia/"
+        "observatory": "https://agriculture-opendatapaysbasque.aws-ec2-eu-1.opendatasoft.com/pages/herrikoharagia/",
+        "grall_url": "https://map.grall.io/points/123637302"
       }
     ]
   },
@@ -1007,7 +1020,8 @@
         ],
         "linkside": "right",
         "website": "https://www.bipereztia.fr/",
-        "observatory": "https://agriculture-opendatapaysbasque.aws-ec2-eu-1.opendatasoft.com/pages/pimentdoux/"
+        "observatory": "https://agriculture-opendatapaysbasque.aws-ec2-eu-1.opendatasoft.com/pages/pimentdoux/",
+        "grall_url": "https://map.grall.io/points/123637516"
       }
     ]
   },
@@ -1094,7 +1108,8 @@
         ],
         "linkside": "right",
         "website": "https://www.irouleguy.net/fr/",
-        "observatory": "https://agriculture-opendatapaysbasque.aws-ec2-eu-1.opendatasoft.com/pages/vinirouleguy/"
+        "observatory": "https://agriculture-opendatapaysbasque.aws-ec2-eu-1.opendatasoft.com/pages/vinirouleguy/",
+        "grall_url": "https://map.grall.io/points/123637865"
       }
     ]
   },
@@ -1169,7 +1184,8 @@
         ],
         "linkside": "right",
         "website": "https://www.chevredespyrenees.org/",
-        "observatory": ""
+        "observatory": "",
+        "grall_url": "https://map.grall.io/points/123638414"
       }
     ]
   },
@@ -1220,7 +1236,8 @@
         ],
         "linkside": "right",
         "website": "https://hazisarea.fr",
-        "observatory": ""
+        "observatory": "",
+        "grall_url": "https://map.grall.io/points/123638728"
       }
     ]
   },
@@ -1295,7 +1312,8 @@
         ],
         "linkside": "right",
         "website": "https://sasiko.eus",
-        "observatory": ""
+        "observatory": "",
+        "grall_url": "https://map.grall.io/points/123638903"
       }
     ]
   },
@@ -1374,7 +1392,8 @@
         ],
         "linkside": "right",
         "website": "https://iparraldeko-pirenaika.jimdofree.com/",
-        "observatory": ""
+        "observatory": "",
+        "grall_url": "https://map.grall.io/points/123639087"
       }
     ]
   },
@@ -1464,7 +1483,8 @@
           }
         ],
         "website": "https://www.civam.org/ble-paysbasque-bio/",
-        "observatory": "https://agriculture-opendatapaysbasque.aws-ec2-eu-1.opendatasoft.com/pages/bio_pays_basque/"
+        "observatory": "https://agriculture-opendatapaysbasque.aws-ec2-eu-1.opendatasoft.com/pages/bio_pays_basque/",
+        "grall_url": "https://map.grall.io/points/123639300"
       }
     ]
   },
@@ -1551,7 +1571,8 @@
         ],
         "linkside": "right",
         "website": "https://herriko.fr/herriko-ogia/",
-        "observatory": ""
+        "observatory": "",
+        "grall_url": "https://map.grall.io/points/123639536"
       }
     ]
   },
@@ -1614,7 +1635,8 @@
         ],
         "linkside": "right",
         "website": "",
-        "observatory": ""
+        "observatory": "",
+        "grall_url": "https://map.grall.io/points/123639735"
       }
     ]
   },
@@ -1672,7 +1694,8 @@
           }
         ],
         "website": "https://buru-beltza.com/",
-        "observatory": ""
+        "observatory": "",
+        "grall_url": "https://map.grall.io/points/123640024"
       }
     ]
   },
@@ -1725,7 +1748,8 @@
           }
         ],
         "website": "",
-        "observatory": ""
+        "observatory": "",
+        "grall_url": "https://map.grall.io/points/123640784"
       }
     ]
   },
@@ -1782,7 +1806,8 @@
           }
         ],
         "website": "https://anpottoka.fr/",
-        "observatory": ""
+        "observatory": "",
+        "grall_url": "https://map.grall.io/points/123641001"
       }
     ]
   }
