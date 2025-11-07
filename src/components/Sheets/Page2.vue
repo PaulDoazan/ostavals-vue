@@ -16,6 +16,28 @@ const { t } = useI18n()
 
 const props = defineProps<Props>()
 
+const PLACEHOLDER_IMAGE = '/images/idlescreen.jpg'
+
+// Image loading state
+const imageLoaded = ref(false)
+
+const hasImage = computed(() => {
+  const src = props.areaProductionImage?.trim()
+  return !!src && src !== PLACEHOLDER_IMAGE
+})
+
+const handleImageLoad = () => {
+  imageLoaded.value = true
+}
+
+const handleImageError = () => {
+  imageLoaded.value = false
+}
+
+watch(() => props.areaProductionImage, () => {
+  imageLoaded.value = false
+})
+
 // Watch for content changes to update scrollbar
 watch(() => props.history, () => {
   nextTick(() => {
@@ -195,10 +217,10 @@ onUnmounted(() => {
         {{ t('productionZone') }}
       </h3>
       <!-- Show skeleton while image is loading v-if="!imageLoaded"-->
-      <ImageSkeleton :width="'100%'" :height="'560px'" class="mb-4" />
+      <ImageSkeleton v-if="!hasImage || !imageLoaded" :width="'100%'" :height="'560px'" class="mb-4" />
       <!-- Show image once loaded -->
-      <!-- <img v-show="imageLoaded" :src="areaProductionImage" class="w-full object-cover" @load="handleImageLoad"
-        @error="handleImageLoad" /> -->
+      <img v-if="hasImage" v-show="imageLoaded" :src="areaProductionImage" class="w-full object-cover mb-4"
+        style="height: 560px;" @load="handleImageLoad" @error="handleImageError" />
       <p class="text-lg font-soleil mt-4 leading-relaxed" style="font-size: 28px; line-height: 1.3">
         {{ areaProductionDescription }}
       </p>
