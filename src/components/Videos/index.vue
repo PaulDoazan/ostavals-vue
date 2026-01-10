@@ -121,7 +121,7 @@ const handlePageChange = (newPage: number) => {
             <!-- Language Toggle Buttons (show if at least one language has icon) -->
             <div v-if="hasLanguageIcon(video, 'fr') || hasLanguageIcon(video, 'eus')"
               class="mb-12 flex gap-4 self-start">
-              <div class="flex flex-col items-center" @click.stop="toggleVideoLanguage(video.id); resetIdleTimer()">
+              <div class="flex flex-col items-center pointer-events-none">
                 <div v-if="!hasLanguageIcon(video, 'fr')">
                   <img src="/icons/lsf.svg" alt="FR" class="w-24 h-24" />
                 </div>
@@ -129,8 +129,7 @@ const handlePageChange = (newPage: number) => {
                   <img src="/icons/fr.svg" alt="FR" class="w-24 h-24" />
                 </div>
               </div>
-              <div class="flex flex-col items-center cursor-pointer"
-                @click.stop="toggleVideoLanguage(video.id); resetIdleTimer()">
+              <div class="flex flex-col items-center pointer-events-none">
                 <div v-if="!hasLanguageIcon(video, 'eus')">
                   <img src="/icons/lsf.svg" alt="EUS" class="w-24 h-24" />
                 </div>

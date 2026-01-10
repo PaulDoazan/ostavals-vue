@@ -66,7 +66,7 @@ onMounted(generateQRCode)
       </div>
     </div>
     <!-- Grall icon rectangle - positioned at bottom right of page -->
-    <div class="absolute bottom-0 right-96 rounded-lg">
+    <div class="absolute bottom-0 left-[820px] rounded-lg">
       <div class="flex bg-redgrey">
         <div v-if="grallQRCode" class="p-3">
           <img :src="grallQRCode" alt="Grall QR Code" class="w-32 h-32" />
