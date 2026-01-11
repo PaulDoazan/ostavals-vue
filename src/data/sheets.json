@@ -2,26 +2,26 @@
   {
     "id": 1,
     "title": {
-      "fr": "L'abeille noire du Pays basque",
+      "fr": "L’abeille noire du Pays Basque",
       "eus": "Euskal Herriko erle beltza"
     },
     "thumbnail": "/images/abeille_thumbnail.png",
     "pages": [
       {
         "presentation": {
-          "fr": "L'abeille noire est une sous espèce de l'abeille domestique européenne. Il existe une souche locale propre au Pays Basque. Rustique, petite et de couleur foncée, cette abeille est bien adaptée aux conditions climatiques et à la montagne.",
-          "eus": "Erle beltza Europako erle arrunaren azpiespezies da. Euskal Herrian ekotipo berezia dago. Erle mota hori azkarra, ttipia eta iluna da, eta gure lurraldeko berezitasunen ongi egokituta zaie, bereziki mendiari."
+          "fr": "L’abeille noire est une sous espèce de l’abeille domestique européenne. Il existe une souche locale propre au Pays Basque. Rustique, petite et de couleur foncée, cette abeille est bien adaptée aux spécificités de notre territoire notamment la montagne.",
+          "eus": "Erle beltza Europako erle arruntaren azpiespeziea da. Euskal Herrian ekotipo berezia dago. Erle mota hori azkarra, ttipia eta iluna da, eta gure lurraldeko berezitasunei ongi egokitua zaie, bereziki mendiari."
         },
         "imagePresentation": "/images/abeille_presentation.jpg"
       },
       {
         "history": {
-          "fr": "Le conservatoire Euskal Erle Beltza (« Abeille noire basque » en langue basque) a été créée en 2012 dans l'objectif de préserver et développer l'abeille noire endémique du Pays Basque. En effet, cette abeille est menacée de disparition et les causes sont nombreuses : pesticides, simplification des paysages, changement climatique, prédateurs (ex : varroa, frelon asiatique), pathogènes ou encore compétition avec des abeilles importées du monde entier. Sa disparition constituerait une perte de biodiversité du territoire. Les apiculteurs amateurs et professionnels, soucieux de conserver cette espèce de grande valeur patrimoniale, se sont donc mobilisés pour préserver et développer l'abeille noire à travers une sélection génétique. L'association propose également des formations autour de l'apiculture, de la vente de produits et de location de matériel pour aider le développement de l'apiculture utilisant l'abeille noire. De plus, Euskal Erle Beltza travaille avec les arboriculteurs locaux pour favoriser la biodiversité et permettre la pollinisation des cultures.",
-          "eus": "Euskal Erle Beltza kontserbatorioa 2012an sortu zen, Euskal Herriko bertako erle beltza babesteko eta garateko. Alabaina, erle mota hori desagertzeko arriskuan da, hainbat arrazoi direla medio: pestizidak, paisaien sinplifikazioa, klima aldaketa, harrapariak (varroa, liztor asiarra etab.), patogeneak elota erle hainbat inportatzaileekin ongi egokituan konpetentzia. Urtean zehar gertatu berritzeko baliabideak baita dela, aldi berean, hautaketa genetiko harrean egitea. Erleantzari buruzko formakuntzak ere proposatzen ditu, erle multzoak saltzen eta erle beltzarekin ari diren erlezaintzariei artzeko materialak alokatzen. Euskal Erle Beltzak tokiko arbolatzailekin ere lan egiten du, polinizatzen laguntzeko."
+          "fr": "Le conservatoire Euskal Erle Beltza (« Abeille noire basque » en langue basque) a été créée en 2012 dans l’objectif de préserver et développer l’abeille noire endémique du Pays Basque. En effet, cette abeille est menacée de disparition et les causes sont nombreuses : pesticides, simplification des paysages, changement climatique, prédateurs (ex : varroa, frelon asiatique), pathogènes ou encore compétition avec des abeilles hybrides importées plus productives mais moins bien adaptées au territoire. Elle regroupe des apiculteurs amateurs et professionnels. Sa mission consiste à préserver la diversité naturelle de l’abeille noire tout en opérant un travail de sélection génétique. L’association propose également des formations autour de l’apiculture, de la vente d’essaim et de la location de matériel pour aider le développement de l’apiculture utilisant l’abeille noire. De plus, Euskal Erle Beltza travaille avec les arboriculteurs (cerise, pomme…) et agriculteurs locaux pour favoriser la pollinisation des cultures.",
+          "eus": "Euskal Erle Beltza kontserbatorioa 2012an sortu zen, Euskal Herriko bertako erle beltza babesteko eta garatzeko. Alabaina, erle mota hori desagertzeko arriskuan da, hainbat arrazoi direla medio: pestizidak, paisaien sinplifikazioa, klima aldaketa, harrapariak (varroa, liztor asiarra etab.), patogenoak edota erle hibrido inportatuekilako lehia, azken horiek emankorragoak baitira, lurraldeari hain ongi egokituak ez izanik ere. Elkarteak erlezain amateur eta profesionalak biltzen ditu. Haren eginkizuna erle beltzaren aniztasun naturala babestea da eta, aldi berean, hautaketa genetiko lanaren egitea. Erlezaintzari buruzko formakuntzak ere proposatzen ditu, erle mulkoak saltzen eta erle beltzarekin ari den erlezaintzaren garatzeko materiala alokatzen. Horrez gain, Euskal Erle Beltzak tokiko arbolazainekin (gerezi, sagar…) eta laborariekin ere lan egiten du, polinizatzen laguntzeko."
         },
         "areaProductionImage": "/images/abeille_map.png",
         "areaProductionDescription": {
-          "fr": "L'ensemble du Pays Basque nord",
+          "fr": "L’ensemble du Pays Basque nord",
           "eus": "Ipar Euskal Herri osoa"
         }
       },
@@ -29,14 +29,14 @@
         "characteristics": [],
         "products": [
           {
-            "fr": "Miel , reines, produits de la ruche (gelée royale, propolis, pollen)",
-            "eus": "Eztia, erregínak, erlauntzeko produktuak (erregina jalea, propolia, polena)"
+            "fr": "Reines, produits de la ruche (miel, gelée royale, propolis, pollen)",
+            "eus": "Erreginak, erlauntzeko produktuak (eztia, erregina jelea, propolia, polena)"
           }
         ],
         "keyfigures": [
           {
-            "fr": "Une centaine d'apiculteurs professionnels et amateurs au Pays Basque Nord.",
-            "eus": "Ipar Euskal Herriko ehun bat erlezain profesional eta amateur."
+            "fr": "Une centaine d’apiculteurs professionnels et amateurs au Pays Basque nord",
+            "eus": "Ipar Euskal Herriko ehun bat erlezain profesional eta amateur"
           }
         ],
         "website": "https://www.erlebeltza.com/",
@@ -48,27 +48,27 @@
   {
     "id": 2,
     "title": {
-      "fr": "La viande et le jambon du Kintoa AOP",
+      "fr": "La viande fraîche et le jambon du Kintoa AOP",
       "eus": "Kintoa JDB haragia eta xingarra"
     },
     "thumbnail": "/images/kintoa_thumbnail.jpg",
     "pages": [
       {
         "presentation": {
-          "fr": "C'est grâce à l'engagement d'éleveurs et de transformateurs passionnés que la race de porc Pie Noir du Pays Basque, considérée comme menacée d'extinction depuis le début des années 1980, a pu bénéficier d'un programme de conservation et de relance de la production. Agile et résistant, le porc basque est parfaitement adapté à l'élevage extensif en zone de montagne. Il est réputé pour la qualité de sa viande et de son gras. Aujourd'hui, les parcours d'élevages de porcs basques, composés de prairies et forêts, sont répartis sur l'ensemble du territoire.",
-          "eus": "Abeltzain eta transformatzaile zaletu batzuen engaiamenduari esker du kausitu Euskal Herriko xerriak babesteko eta ekoizpenaren berritz abiarazteko programa. 1980ko hamarkada hastapenetic desagertzeko arriskuan bazegoen. Euskal xerria azkarra dena, erraz hazten da mendian, estensiboko erizz egokitzean dugu. Kalitate handiko haragia eta gizenra dituzeko fama du. Egun, euskal xerrien hazkuntza saroak pentze eta oihunez osatuta dira, eta Ipar Euskal Herri osoan banatuak dira."
+          "fr": "C’est grâce à l’engagement d’éleveurs et de transformateurs passionnés que la race de porc Pie Noir du Pays Basque, considérée comme menacée d’extinction depuis le début des années 1980, a pu bénéficier d’un programme de conservation et de relance de la production. Agile et résistant, le porc basque est parfaitement adapté à l’élevage extensif en zone de montagne. Il est réputé pour la qualité de sa viande et de son gras. Aujourd’hui, les parcours d’élevages de porcs basques, composés de prairies et forêts, sont répartis sur l’ensemble du territoire.",
+          "eus": "Abeltzain eta transformatzaile zaletu batzuen engaiamenduari esker du kausitu Euskal Herriko xerriak babesteko eta ekoizpenaren berriz abiatzeko programa, 1980ko hamarkada hastapenetik desagertzeko arriskuan baitzen. Euskal xerria zalua eta azkarra da, eta beraz, mendi aldeko laborantza estentsiborako ezin egokiagoa da. Kalitate handiko haragia eta gizena dituelako fama du. Egun, euskal xerrien hazkuntza saroak pentzez eta oihanez osatuak dira, eta Ipar Euskal Herri osoan banatuak dira."
         },
         "imagePresentation": "/images/kintoa_presentation.jpg"
       },
       {
         "history": {
-          "fr": "Le terme Kintoa remonte au 13e siècle lorsque le roi de Navarre prélevait un impôt sur les porcs qui venaient transhumer dans les forêts royales au moment de la glandée. Cet animal de chasse, peu craint, devint par la suite le Pie Noir du Pays Basque. C'est au 19e siècle que la race prend une ampleur et qu'une structure d'élevage se met en place. A partir de 1960, une nouvelle race de porc Pie Noir du Pays Basque, est menacée de disparaître. Eleveurs et artisans passionnés se regroupent pour la sauver. Ils font revivre le système d'élevage extensif, en prairies et forêts, et la fabrication d'un jambon à affinage long et naturel. La marque Kintoa a obtenu l'AOC en 1992 et l'AOP en 2019. La viande fraîche Kintoa a obtenu l'AOC en 2016 et l'AOP en 2017.",
-          "eus": "Kintoa hitza 13. mendekoaz da. Orduan, Nafarroako erregeak ezkur garaian errego-oihanetan ibiltzen ziren zerrién gainean zerga bat hartzen zuen. \"Kintoa\" izeneko zerga hori bost zerrik bat harrazan freskoaz, saltzen aditu, JDB 2019eko baldintza naturalazen egin xingarraren ekoizpena ere. Kintoa xingarrak 2016an JDB kausitu zuen, eta 2019an JDB 2016an ukan zuen, eta JDB 2017an."
+          "fr": "Le terme Kintoa remonte au 13e siècle lorsque le roi de Navarre prélevait un impôt sur les porcs qui venaient transhumer dans les forêts royales au moment de la glandée. Cet impôt, appelé la Quinta, « Kintoa » en basque, représentait un porc sur cinq. Des siècles plus tard la race endémique, le porc Pie Noir du Pays Basque, est menacée de disparaître. Éleveurs et artisans passionnés se regroupent pour la sauver. Ils font revivre le système d’élevage extensif, en prairies et forêts, et la fabrication d’un jambon à affinage long et naturel. Le jambon de Kintoa a obtenu l’AOC en 2016 et l’AOP en 2019. La viande fraîche Kintoa a obtenu l’AOC en 2016 et l’AOP en 2017.",
+          "eus": "Kintoa hitza 13. mendekoa da. Orduan, Nafarroako erregeak ezkur garaian errege-oihanetan ibiltzen ziren zerrien gainean zerga bat hartzen zuen. “Kintoa” izeneko zerga hori bost zerritik bat hartzean zetzan. Zenbait mende berantago, bertako arraza, Euskal xerria, desagertzeko arriskuan zen. Haren salbatzeko, abeltzain eta ofiziale zaletuak bildu ziren. Pentze eta oihaneko hazkuntza estentsibo sistema berpiztu zuten, baita ontze luze eta naturalez egin xingarraren ekoizpena ere. Kintoa xingarrak 2016an JDK kausitu zuen, eta 2019an, JDB. Kintoa xerriki freskoak, aldiz, JDK 2016an ukan zuen, eta JDB 2017an."
         },
         "areaProductionImage": "/images/kintoa_map.png",
         "areaProductionDescription": {
-          "fr": "Une race élevée uniquement dans le porc Pie Noir du Pays Basque (également appelé porc basque ou Euskal xerria)",
-          "eus": "Tokiko arraza azkatarre hori Euskal xerria (batzuetan xerri arri eta beltza ere deitzen da)"
+          "fr": "Une race rustique locale : le porc Pie Noir du Pays Basque (également appelé porc basque ou Euskal xerria)",
+          "eus": "Tokiko arraza azkarra: Euskal xerria (batzuetan xerri zuri eta beltza ere deitzen da)"
         }
       },
       {
@@ -107,15 +107,15 @@
           },
           {
             "fr": "3 409 carcasses de porcs charcutiers agréées Kintoa",
-            "eus": "harategirako 3 409 xerri karkasak Kintoa deitura dute"
-          },
-          {
-            "fr": "(Données 2024)",
-            "eus": "(2024ko datuak)"
+            "eus": "Harategirako 3 409 xerri karkasak Kintoa deitura dute"
           }
         ],
+        "keyfiguresYear": {
+          "fr": "(données 2024)",
+          "eus": "(2024ko datuak)"
+        },
         "website": "https://www.kintoa.fr/",
-        "observatory": "",
+        "observatory": "https://agriculture-opendatapaysbasque.aws-ec2-eu-1.opendatasoft.com/pages/kintoa/",
         "grall_url": "https://grall.app.link/YqaiYOJRtXb?real_url=https%3A%2F%2Fgrall.io%2Fselect%3Fpoint_id%3D123552109"
       }
     ]
@@ -123,34 +123,34 @@
   {
     "id": 3,
     "title": {
-      "fr": "AOP Piment d'Espelette",
+      "fr": "Le piment d’Espelette AOP",
       "eus": "JDB Ezpeletako Biperra"
     },
     "thumbnail": "/images/pimentespelette_thumbnail.jpg",
     "pages": [
       {
         "presentation": {
-          "fr": "Le Piment d'Espelette est la seule épice française reconnue en AOP. Sa culture et sa transformation, en frais, en corde et en poudre sont issues d'un savoir-faire transmis de génération en génération depuis plus de 5 siècles.",
-          "eus": "Ezpeletako Biperra Frantziako estatuan JDB duen espezia bakarra da. Biper horren egiteko eta freskoak, sokatan ala hauts gisa transformatzeko, baitu 5 mende baino gehiago tradizioan da. Belaunaldiz belaunaldira transmititutako jakintza."
+          "fr": "Le Piment d’Espelette est la seule épice française reconnue en AOP. Sa culture et sa transformation, en frais, en corde et en poudre sont issues d’un savoir-faire transmis de génération en génération depuis plus de 5 siècles.",
+          "eus": "Ezpeletako Biperra Frantziako estatuan JDB duen espezia bakarra da. Biper horren egiteko eta freskorik, sokatan ala hauts gisa transformatzeko, badu 5 mende baino gehiago trebetasun eta jakintza bereziak belaunaldiz belaunaldi transmititzen direla."
         },
         "imagePresentation": "/images/pimentespelette_presentation.jpg"
       },
       {
         "history": {
-          "fr": "Originaire du Mexique, la culture du piment est arrivée au Pays Basque à l'époque des grands explorateurs (17e siècle). La variété Gorria, semence qui donne le Piment d'Espelette, est issue d'une sélection fermière depuis 1650, à l'initiative des femmes qui l'employait en substitution au poivre. Ce sont également elles qui encordaient les piments sur une ficelle afin de les faire sécher sur un mur de la ferme, avant de les passer au four à pain et de les pilonner pour obtenir de la poudre. Cantonnée pendant longtemps au piment d'Espelette a progressé dans le champ de la professionnalité à la fin du 20e siècle. L'AOC est obtenue en 2000 et l'AOP en 2002.",
-          "eus": "Bipergintza Mexikon du jatorria, eta esplotatzaile handien garaian iritsi zen Euskal Herrira (17. mendean). Ezpeletako Biperra ematen duen Gorria barietatean kausitzeko, etxaldean hautaspen lana egiten hasi ziren, 1650 inguruan, emaleen ekimensz, biper beltzaren ordez baliatu nahi baitzuten. Emaiteek zituzten, ere, bipetrak hari batean sartzen, etxaldetxo horma baten kontra idor atzeko; gero, ogi-labeko pasatzen zituzten, eta zapatzen zituzten, hautsaren egineko. Luzaz, Ezpeletako Biperra etxaldetako baratzetan egon zen, 20. mendean profesionalizatu zen arte. JDK 2000n kausitu zuen, eta JDB 2002an."
+          "fr": "Originaire du Mexique, la culture du piment est arrivée au Pays Basque à l’époque des grands explorateurs (17e siècle). La variété Gorria, semence qui donne le Piment d’Espelette, est issue d’une sélection fermière depuis 1650, à l’initiative des femmes qui l’employaient en substitution au poivre. Ce sont également elles qui encordaient les piments sur une ficelle afin de les faire sécher sur un mur de la ferme, avant de les passer au four à pain et de les pilonner pour obtenir de la poudre. Cantonnée pendant longtemps au potager des fermes, la culture du Piment d’Espelette se professionnalise à la fin du 20e siècle. L’AOC est obtenue en 2000 et l’AOP en 2002.",
+          "eus": "Bipergintzak Mexikon du jatorria, eta esploratzaile handien garaian iritsi zen Euskal Herrira (17. mendean). Ezpeletako Biperra ematen duen Gorria barietatearen kausitzeko, etxaldeetan hautespen lana egiten hasi ziren, 1650 inguruan, emazteen ekimenez, biper beltzaren ordez baliatu nahi baitzuten. Emazteek zituzten, ere, biperrak hari batean sartzen, etxaldeko horma baten kontra idorrarazteko; gero, ogi-labean pasatzen zituzten, eta zaparrian xehatzen, hautsaren egiteko. Luzaz, Ezpeletako Biperra etxaldeetako baratzeetan egon zen, 20. mendean profesionalizatu zen arte. JDK 2000n kausitu zuen, eta JDB 2002an."
         },
         "areaProductionImage": "/images/pimentespelette_map.png",
         "areaProductionDescription": {
-          "fr": "Production, transformation et conditionnement au sein de l'aire géographique.",
-          "eus": "Eremu geografikoan berean ekoizten, transformatzen eta paketaizen da."
+          "fr": "Production, transformation et conditionnement au sein de l’aire géographique.",
+          "eus": "Eremu geografikoan berean ekoizten, transformatzen eta paketatzen da."
         }
       },
       {
         "characteristics": [
           {
-            "fr": "1 variété rustique issue d'une sélection fermière : la variété Gorria",
-            "eus": "Etxaldetako hautespen lanez kausitu barietate azkar 1: Gorria barietatua"
+            "fr": "1 variété rustique issue d’une sélection fermière : la variété Gorria",
+            "eus": "Etxaldeetako hautespen lanaz kausitu barietate azkar 1 : Gorria barietatea"
           },
           {
             "fr": "Culture exclusivement en plein champ",
@@ -161,7 +161,7 @@
             "eus": "Apirilak 1 eta uztailak 15 artean landatzen da"
           },
           {
-            "fr": "Récolte manuelle d'août aux 1ères gelées, et au plus tard au 15 décembre",
+            "fr": "Récolte manuelle d’août aux 1ères gelées, et au plus tard au 15 décembre",
             "eus": "Eskuz biltzen da, agorriletik 1. izotzaldietara, berantenaz abenduak 15 arte"
           },
           {
@@ -175,14 +175,14 @@
         ],
         "products": [
           {
-            "fr": "Piment d'Espelette AOP : le piment entier frais, la corde, la poudre",
+            "fr": "Piment d’Espelette AOP : le piment entier frais, la corde, la poudre",
             "eus": "JDB Ezpeletako Biperra: biper oso freskoa, soka, hautsa"
           }
         ],
         "keyfigures": [
           {
-            "fr": "192 producteurs - 18 transformateurs / reconditionneurs",
-            "eus": "192 ekoizle - 18 transformatzaile / paketatzaile"
+            "fr": "192 producteurs, 18 transformateurs / reconditionneurs",
+            "eus": "192 ekoizle, 18 transformatzaile / paketatzaile"
           },
           {
             "fr": "283 hectares plantés",
@@ -191,15 +191,16 @@
           {
             "fr": "173 tonnes de poudre, 40 000 cordes",
             "eus": "173 tona hauts, 40 000 soka"
-          },
-          {
-            "fr": "(Données 2024)",
-            "eus": "(2024ko datuak)"
           }
         ],
+        "linkside": "right",
         "website": "https://www.pimentdespelette.com/",
         "observatory": "https://agriculture-opendatapaysbasque.aws-ec2-eu-1.opendatasoft.com/pages/piments-espelette/",
-        "grall_url": "https://grall.app.link/0QXci15TtXb?real_url=https%3A%2F%2Fgrall.io%2Fselect%3Fpoint_id%3D123556944"
+        "grall_url": "https://grall.app.link/0QXci15TtXb?real_url=https%3A%2F%2Fgrall.io%2Fselect%3Fpoint_id%3D123556944",
+        "keyfiguresYear": {
+          "fr": "(données 2023)",
+          "eus": "(2023ko datuak)"
+        }
       }
     ]
   },
@@ -213,20 +214,20 @@
     "pages": [
       {
         "presentation": {
-          "fr": "Historiquement présent dans le Sud-Ouest, le Kriaxera-Cridassère est une race ancienne de canard de ferme destinée principalement à la production traditionnelle de canard gras. Sa rusticité lui permet d'être élevé en partie en plein air et à l'herbe. Alors que la race à failli disparaître, elle a été sauvée par un élevage-couvoir et une poignée d'éleveurs qui ont permis de remettre la race en avant et dans nos assiettes.",
-          "eus": "Kriaxera antiñako ahate-arraza aspaldik dago Frantziaren estatuko hego-mendebaldean. Ahate gizenen etxaldean ekoizteko baliatzen da gehienak. Arraza azkarral denez, partez kanpoan eta belarretz haz daiteke. Kasik desagertzekotuan zelarik, haztegi-txikitategi batek eta abeltzain zenbaitek sailatu zuten. Hatei esker, Kriaxera arraza berritz argitan eta gure aizietara da."
+          "fr": "Historiquement présent dans le Sud-Ouest, le Kriaxera-Cridassère est une race ancienne de canard de ferme destinée principalement à la production traditionnelle de canard gras. Sa rusticité lui permet d’être élevé en partie en plein air et à l’herbe. Alors que la race a failli disparaître, elle a été sauvée par un élevage-couvoir et une poignée d’éleveurs qui ont permis de remettre la race en avant et dans nos assiettes.",
+          "eus": "Kriaxera antzinako ahate-arraza aspalditik dago Frantziaren estatuko hego-mendebaldean. Ahate gizenen etxaldean ekoizteko baliatzen da gehienik. Arraza azkarra denez, partez kanpoan eta belarrez haz daiteke. Kasik desagertzekotan zelarik, haztegi-txitategi batek eta abeltzain zenbaitek salbatu zuten. Haiei esker, Kriaxera arraza berriz argitan eta gure azietetan da."
         },
         "imagePresentation": "/images/canardkriaxera_presentation.jpg"
       },
       {
         "history": {
-          "fr": "Le canard Kriaxera-Cridassère correspond à l'ancienne population locale de canard de ferme, issu du col-vert domestiqué. Il était présent dans l'ensemble du Sud-ouest et plus particulièrement les Landes de Gascogne, le Pays Basque Nord et le Béarn, terres de production de canard gras de longue date. Les animaux étaient traditionnellement utilisés pour la consommation familiale et la production locale. Au cours du 20e siècle, les canards d'origine locale sont progressivement délaissés au profit de souches industrielles. Dans les années 1980, un couvoir du Pays Basque a collecté des canards Kriaxera-Cridassère dans des fermes du Pays Basque Nord et des Landes afin de sauvegarder la race, alors qu'elle avait presque disparue. En 2022, une association pour la conservation et le développement du Kriaxera est créée et fait reconnaître officiellement la race. C'est le croisement de la cane Kriaxera avec un canard Barbarie qui permet d'obtenir un mulard pour la production de canards gras et de canes à rôtir.",
-          "eus": "Kriaxera ahatoa lehango bertako etxaldetako ahate populazioari dagokio. Basahate etxekotua da. Frantziako estatuko hego-mendebalde osoan zegoen, bereziki Gaskoniako Landestan, Ipar Euskal Herrian eta Biarnon, lurralde horistan aspaldik ekoizten baita ahate gizena. Garaian, ahate horiek familian jateko eta bertán ekoizteko baliatzen ziren. 20. mendean, emeki-emeki bertako jatorrizko ahateak baztertu zituzten, eta mota industrialak lehenesti. 1980ko hamarkadan, Ipar Euskal Herriko eta Landesetako etxaldeetan Kriaxera ahatea pildu zituen, arrazaren babestzeko, kasik desagaritua baitzen. 2022an, Kriaxera ahatearen kontserbazeko eta garatzeko elkartea sortu zen, eta arrazari ezagupen ofiziala emanarazi zion. Kriaxera ahate emea eta Cairina moschata ahatearen arteko gurutzatua ahatea da ahate gizenari ematen eta erretzeko ahate emeen ekoizteko."
+          "fr": "Le canard Kriaxera-Cridassère correspond à l’ancienne population locale de canards de ferme, issu du col-vert domestiqué. Il était présent dans l’ensemble du Sud-Ouest et plus particulièrement les Landes de Gascogne, le Pays Basque Nord et le Béarn, terres de production de canard gras de longue date. Les animaux étaient traditionnellement utilisés pour la consommation familiale et la production locale. Au cours du 20e siècle, les canards d’origine locale sont progressivement délaissés au profit de souches industrielles. Dans les années 1980, un couvoir du Pays Basque a collecté des canards Kriaxera-Cridassère dans des fermes du Pays Basque Nord et des Landes afin de sauvegarder la race alors qu’elle avait presque disparue. En 2022, une association pour la conservation et le développement du Kriaxera est créée et fait reconnaître officiellement la race. C’est le croisement de la cane Kriaxera avec un canard Barbarie qui permet d’obtenir un mulard pour la production de canards gras et de canes à rôtir.",
+          "eus": "Kriaxera ahatea lehengo bertako etxaldeetako ahate populazioari dagokio. Basahate etxekotua da. Frantziako estatuko hego-mendebalde osoan zegoen, bereziki Gaskoiniako Landesetan, Ipar Euskal Herrian eta Biarnon, lurralde horietan aspalditik ekoizten baita ahate gizena. Garaian, ahate horiek familian jateko eta bertan ekoizteko baliatzen ziren. 20. mendean, emeki-emeki bertako jatorrizko ahateak baztertu zituzten, eta mota industrialak lehenetsi. 1980ko hamarkadan, Ipar Euskal Herriko txitategi batek Ipar Euskal Herriko eta Landesetako etxaldeetan Kriaxera ahateak bildu zituen, arrazaren babesteko, kasik desagertua baitzen. 2022an, Kriaxera ahatearen kontserbatzeko eta garatzeko elkartea sortu zen, eta arrazari ezagupen ofiziala emanarazi zion. Kriaxera ahate emea eta Cairina moschata ahatea gurutzatuz, ahate antzuak sortzen dira, ahate gizenen eta erretzeko ahate emeen ekoizteko."
         },
         "areaProductionImage": "/images/canardkriaxera_map.png",
         "areaProductionDescription": {
-          "fr": "Élevage et transformation en Pays Basque Nord, Béarn et Landes.",
-          "eus": "Ipar Euskal Herrian, Biarnon eta Landesetan hazten eta transformatzen da."
+          "fr": "Élevage et transformation en Pays Basque nord, Béarn et Landes",
+          "eus": "Ipar Euskal Herrian, Biarnon eta Landesetan hazten eta transformatzen da"
         }
       },
       {
@@ -236,11 +237,11 @@
             "eus": "Kriaxera arraza"
           },
           {
-            "fr": "Élevage à croissance lente",
+            "fr": "Elevage à croissance lente",
             "eus": "Hazkunde urriko hazkuntza"
           },
           {
-            "fr": "Élevage en plein air sur des parcours herbeux",
+            "fr": "Elevage en plein air sur des parcours herbeux",
             "eus": "Kanpoan hazten da, belardun saroetan"
           }
         ],
@@ -252,11 +253,11 @@
         ],
         "keyfigures": [
           {
-            "fr": "Une dizaine d'éleveurs et un couvoir",
+            "fr": "Une dizaine d’éleveurs et un couvoir",
             "eus": "Hamar bat abeltzain eta txitategi bat"
           }
         ],
-        "website": "",
+        "website": "pas de site web",
         "observatory": "",
         "grall_url": "https://grall.app.link/2Gve8PaWtXb?real_url=https%3A%2F%2Fgrall.io%2Fselect%3Fpoint_id%3D123561147"
       }
@@ -265,71 +266,75 @@
   {
     "id": 5,
     "title": {
-      "fr": "La cerise d’Itxassou",
-      "eus": "Itxassou gerezia"
+      "fr": "La Cerise d’Itxassou",
+      "eus": "Itsasuko gerezia"
     },
     "thumbnail": "/images/cerise_thumbnail.png",
     "pages": [
       {
         "presentation": {
           "fr": "La cerise d’Itxassou est connue pour sa confiture utilisée dans le traditionnel gâteau basque et en accompagnement du fromage AOP Ossau-Iraty. Si la cerise noire d’Itxassou (variétés Peloa et Beltxa) est la plus connue, il existe 6 autres variétés de cerises d’Itxassou que l’association Xapata a décidé de caractériser et de relancer. Du noir au jaune orangé, en passant par le rouge rubis, ces variétés rustiques de cerise sont des guignes qui ont toutes la particularité d’avoir la chair tendre, une saveur sucrée, plutôt un petit calibre et d’être bien adaptées au climat local. Dans l’attente de l’obtention d’une AOP, seuls les fruits frais et les confitures de cerises estampillées du logo « Cerise d’Itxassou – Itsasuko gerezia » garantissent une origine locale de la production, dans le respect d’un cahier des charges.",
-          "eus": "Itxassou gerezia ezaguna da bere marmeladagatik, ohikoa den euskarri-opiletan eta Ossau-Iraty DOP gaztaren lagungarri gisa erabiltzen baita. Itxassou gerezi beltza (Peloa eta Beltxa barietateak) ezagunena den arren, Xapata elkarteak beste 6 Itxassou gerezi barietate daude karakterizatu eta berriro merkaturatzea erabaki dituenak. Beltzetik hasi eta laranja-horiraino, errubi gorriraino, gerezi barietate rustiko hauek mami samurra, zapore gozoa, tamaina txiki samarra eta tokiko klimara ondo egokituta egotearen berezitasuna duten gereziak dira. DOP bat lortzeko zain, \"Cerise d'Itxassou - Itsasuko gerezia\" logotipoa duten fruta freskoek eta gerezi marmeladek soilik bermatzen dute ekoizpenaren tokiko jatorria, zehaztapenen arabera."
+          "eus": "Itsasuko gerezi erreximenta biziki famatua da, euskal pastizan ezartzen baita, ala Ossau-Iraty JDB gasnarekin jaten. Itsasuko gerezi beltza da ezagunena (Peloa eta Beltxa barietateak), baina Itsasuko gereziak baditu beste 6 barietate; Xapata elkarteak horien guzien ezaugarritzea eta berrabiaraztea erabaki du. Barietate azkar horiek beltzak, hori-laranjak ala errubi-gorriak izan daitezke, baina guzien gingek dituzte haragi samurra, gustu azukretsua eta neurri aski ttipia, eta denak dira tokiko klimarentzat zinez egokiak. JDB kausitu bitartean, “Cerise d’Itxassou – Itsasuko gerezia” logoak baizik ez du bermatzen fruitu freskoak eta gerezi erreximentak bertan ekoitziak direla eta baldintzen bildumaren araberakoak direla."
         },
         "imagePresentation": "/images/cerise_presentation.bmp"
       },
       {
         "history": {
-          "fr": "Les vergers de cerisiers d’Itxassou remontent au moins au 18e siècle. La production est à son apogée au 19ème siècle jusqu’aux années 1960. Les producteurs en vendaient sur les marchés d’Itxassou mais aussi sur les marchés de Bayonne, Dax et même Bordeaux. La cerise d’Itxassou constituait alors le revenu principal de certaines fermes. Mais après la seconde guerre mondiale, les fermes se modernisent et se spécialisent notamment dans l’élevage de brebis laitières et l’arboriculture disparait peu à peu. En 1994, l’association Xapata est créée pour relancer, sauvegarder, promouvoir et développer la filière cerise d’Itxassou. A cette occasion, des travaux de greffage et de plantation sont initiés et un verger conservatoire est créé à Itxassou. Après plusieurs années de travail, une demande de reconnaissance en AOP a été déposée en 2023.",
-          "eus": "Itxassouko gereziondo-soroak gutxienez XVIII. mendekoak dira. Ekoizpena XIX. mendean iritsi zen gailurrera eta 1960ko hamarkadara arte jarraitu zuen. Ekoizleek Itxassouko merkatuetan saltzen zituzten, baita Baionako, Daxko eta baita Bordelekoetan ere. Itxassouko gereziak ziren baserri batzuen diru-iturri nagusia. Hala ere, Bigarren Mundu Gerraren ondoren, baserriak modernizatu eta esne-ardi hazkuntzan espezializatu ziren, eta zuhaitzen hazkuntza pixkanaka desagertu zen. 1994an, Xapata elkartea sortu zen Itxassouko gereziondo-industria berpizteko, babesteko, sustatzeko eta garatzeko. Txertoak eta landaketak hasi ziren, eta kontserbazio-soro bat sortu zen Itxassou-n. Hainbat urtez lan egin ondoren, JDB aitortza eskatzeko eskaera aurkeztu zen 2023an."
+          "fr": "Les vergers de cerisiers d’Itxassou remontent au moins au 18e siècle. La production est à son apogée au 19e siècle jusqu’aux années 1960. Les producteurs en vendaient sur les marchés d’Itxassou mais aussi sur les marchés de Bayonne, Dax et même Bordeaux. La cerise d’Itxassou constituait alors le revenu principal de certaines fermes. Mais après la seconde guerre mondiale, les fermes se modernisent et se spécialisent notamment dans l’élevage de brebis laitières et l’arboriculture disparait peu à peu. En 1994, l’association Xapata est créée pour relancer, sauvegarder, promouvoir et développer la filière cerise d’Itxassou. A cette occasion, des travaux de greffage et de plantation sont initiés et un verger conservatoire est créé à Itxassou. Après plusieurs années de travail, une demande de reconnaissance en AOP a été déposée en 2023.",
+          "eus": "Itsasun, gutienez 18. mendeaz geroztik daude gerezidiak. Ekoizpena 19. mendean iritsi zen gailurrera, 1960ko hamarkada arte. Ekoizleek merkatuetan saltzen zituzten, bai Itsasun, baita Baionan, Akizen eta Bordelen ere. Garai hartan, etxalde batzuek Itsasuko gerezia zuten sos iturri nagusia. Baina, bigarren mundu gerlatik landa, etxaldeak modernizatu ziren, eta esne ardien hazkuntzan berezitu, eta arbolazaintza emeki-emeki desagertu zen. 1994an, Xapata elkartea sortu zen, Itsasuko gereziaren sailaren berriz abiarazteko, babesteko, sustatzeko eta garatzeko. Karia horretara, txertatze eta landatze lanak abiatu ziren, eta kontserbaziorako gerezidi bat sortu zen Itsasun. Hainbat urtez lanean ibili ondotik, JDB ezagupenaren kausitzeko galdea 2023an aurkeztu dute."
         },
         "areaProductionImage": "/images/cerise_map.png",
         "areaProductionDescription": {
-          "fr": "Production et transformation dans l’aire géographique (66 communes situées dans les provinces du Labourd et de la Basse-Navarre).",
-          "eus": "Ekoizpena eta transformazioa Itxassouko eremu geografikoan (Labourd eta Basa Navarrako 66 komuna)."
+          "fr": "Production et transformation dans l’aire géographique (66 communes situées dans les provinces du Labourd et de la Basse-Navarre)",
+          "eus": "Eremu geografikoan berean ekoizten eta transformatzen da (Lapurdiko eta Baxenabarreko 66 herritan)"
         }
       },
       {
         "characteristics": [
           {
             "fr": "8 variétés locales dont 3 principalement cultivées (Peloa, Xapata, Beltxa) et 5 moins connues (Bilarroa, Garroa, Goixtiarra, Markixta et Xuria)",
-            "eus": "8 gerezi lokalak daude, non-garrantzitsuak (Bilarroa, Garroa, Goixtiarra, Markixta eta Xuria) eta garrantzitsuak (Peloa, Xapata, Beltxa)"
-          },
-          {
-            "fr": "Traitements phytosanitaires et engrais de synthèse interdits",
-            "eus": "Ezin dira eragiketa fitosanitariak eta sintetikoak egiten"
+            "eus": "8 tokiko barietate; horietatik 3 bereziki landuak (Peloa, Xapata, Beltxa) eta 5 gutiago ezagutuak (Bilarroa, Garroa, Goixtiarra, Markixta eta Xuria)"
           },
           {
             "fr": "Sols sous arbres enherbés ou cultivés au moins 6 mois par an",
-            "eus": "Ez da iragazketa egin behar txertuetan 6 hilabete edo gehiago ekoizpena egitean"
+            "eus": "Zuhaitzen azpiko lurra belarreztatua da, ala gutienez urtean 6 hilabetez landua"
+          },
+          {
+            "fr": "Traitements phytosanitaires et engrais de synthèse interdits",
+            "eus": "Tratamendu fitosanitarioak eta ongarri sintetikoak debekatuak dira"
           },
           {
             "fr": "Irrigation des vergers adultes interdite pendant la fructification",
-            "eus": "Ez da iragazketa egin behar txertuetan 6 hilabete edo gehiago ekoizpena egitean"
+            "eus": "Fruitu emate garaian, gerezidi helduen ureztatzea debekatua da"
           }
         ],
         "products": [
           {
-            "fr": "Cerise d’Itxassou – Itsasuko gerezia fraîche et Cerise d’Itxassou – Itsasuko gerezia transformée en confiture",
-            "eus": "Itxassou gerezia fraikia eta Itxassou gerezia transformatua marmeladatan"
+            "fr": "Cerise d’Itxassou - Itsasuko gerezia fraîche et Cerise d’Itxassou - Itsasuko gerezia transformée en confiture",
+            "eus": "Itsasuko gerezi freskoa eta Itsasuko gerezizko erreximenta"
           }
         ],
         "keyfigures": [
           {
-            "fr": "33 producteurs (donnée 2023) - 1 verger conservatoire",
-            "eus": "33 ekoizle (2023ko datuak) - 1 kontserbazio-soro"
+            "fr": "33 producteurs, 1 verger conservatoire",
+            "eus": "33 ekoizle, kontserbaziorako gerezidi 1"
           },
           {
             "fr": "Plus de 6 500 cerisiers recensés sur l’actuelle zone de production (en partie dans les provinces du Labourd et de la Basse Navarre)",
-            "eus": "6500 gereziak erregistratuta daude ekoizpen eremuan (Labourd eta Basa Navarrako provintzetan)"
+            "eus": "Egungo ekoizpen eremuan 6 500 gereziondo baino gehiago zerrendatuak dira (partez Lapurdin eta Baxenabarren)"
           },
           {
             "fr": "Production annuelle très variable selon les conditions climatiques, en moyenne entre 8 à 10 tonnes",
-            "eus": "Ekoizpena anua aldakorra da klima-baldintzak arabera, batez besteko 8 eta 10 toneladatara"
+            "eus": "Urteko uzta klima-baldintzen arabera biziki aldakorra da, bana beste 8 eta 10 tona artekoa"
           }
         ],
         "website": "https://www.cerise-itxassou.com/",
         "observatory": "https://agriculture-opendatapaysbasque.opendatasoft.com/pages/xapata/",
-        "grall_url": "https://grall.app.link/XoEoSnEYtXb?real_url=https%3A%2F%2Fgrall.io%2Fselect%3Fpoint_id%3D123569819"
+        "grall_url": "https://grall.app.link/XoEoSnEYtXb?real_url=https%3A%2F%2Fgrall.io%2Fselect%3Fpoint_id%3D123569819",
+        "keyfiguresYear": {
+          "fr": "(données 2023)",
+          "eus": "(2023ko datuak)"
+        }
       }
     ]
   },
@@ -355,24 +360,24 @@
         },
         "areaProductionImage": "/images/chataigne_map.png",
         "areaProductionDescription": {
-          "fr": "L'ensemble des 158 communes du Pays Basque Nord",
-          "eus": "Ipar Euskal Herriko 158 herri guziak"
+          "fr": "L’ensemble du Pays Basque nord",
+          "eus": "Ipar Euskal Herri osoa"
         }
       },
       {
         "characteristics": [],
         "products": [
           {
-            "fr": "Châtaignes crues, marrons, farine et semoule de châtaignes, divers produits transformés à base de châtaignes (pain, crème, pâte, bière, etc.) pour l'alimentation humaine",
+            "fr": "Châtaignes crues, marrons, farine et semoule de châtaignes, divers produits transformés à base de châtaignes (pain, crème, pâte, bière, etc.) pour l’alimentation humaine",
             "eus": "Gaztaina gordina, gaztaina irina eta ertirina, jateko gaztainazko hainbat produktu transformatu (ogia, krema, pastak, garagarnoa, etab.)"
           },
           {
-            "fr": "Châtaigne crues pour l'alimentation animale",
+            "fr": "Châtaigne crues pour l’alimentation animale",
             "eus": "Gaztaina gordinak, kabalendako"
           },
           {
-            "fr": "Bois et artisanat (ex: vannerie, cerclage de tonnellerie, instruments de musique...)",
-            "eus": "Zura eta artisautza (adb: saskigintza, dupen inguratzea, musika tresnak...)"
+            "fr": "Bois et artisanat (ex : vannerie, cerclage de tonnellerie, instruments de musique, etc.)",
+            "eus": "Zura eta artisautza (adb: saskigintza, dupen inguratzea, musika tresnak, etab.)"
           }
         ],
         "keyfigures": [
@@ -387,15 +392,15 @@
           {
             "fr": "5 vergers conservatoire en projet",
             "eus": "Kontserbaziorako 5 gaztainadi bidean"
-          },
-          {
-            "fr": "(Données 2024)",
-            "eus": "(2024ko datuak)"
           }
         ],
         "website": "",
         "observatory": "https://agriculture-opendatapaysbasque.opendatasoft.com/pages/gaztaina/",
-        "grall_url": "https://grall.app.link/SFbyvN9auXb?real_url=https%3A%2F%2Fgrall.io%2Fselect%3Fpoint_id%3D123584615"
+        "grall_url": "https://grall.app.link/SFbyvN9auXb?real_url=https%3A%2F%2Fgrall.io%2Fselect%3Fpoint_id%3D123584615",
+        "keyfiguresYear": {
+          "fr": "(données 2024)",
+          "eus": "(2024ko datuak)"
+        }
       }
     ]
   },
@@ -409,15 +414,15 @@
     "pages": [
       {
         "presentation": {
-          "fr": "La filière pêche est profondément ancrée dans l'histoire et la culture basque. Pendant des siècles, elle a constitué un pilier économique essentiel pour la côte. Différents types de pêche ont marqué son histoire et aujourd'hui, elle se caractérise par le maintien d'une diversité de pratiques avec une volonté de valoriser les ressources locales et de promouvoir une pêche durable.",
-          "eus": "Arrantza sailak erro zahar eta sakonak ditu euskal kulturan. Hainbat mendez, kostaldeko funtsezko zutabe ekonomikoa izan zen. Garaien arabera, arrantza mota ezberdinak nagusitu dira. Egun, euskal arrantzan jokabideen aniztasunak irauten du, eta arrantzaleek tokiko baliabideen agerian emateko eta arrantza iraunkorraren sustatzeko xedea dute."
+          "fr": "La filière débute au 12e siècle avec la chasse à la baleine dans le Golfe de Gascogne. Les baleines sont chassées principalement pour leur huile utilisée pour l’éclairage. Cette activité très lucrative a fait la renommée des marins basques mais décline progressivement avec la raréfaction des cétacés dans cette zone. Vers le 16e siècle, les marins se déplacent vers les mers du Nord pour poursuivre la chasse à la baleine et la pêche à la morue à Terre Neuve. Ces pêches lointaines ont occupé une place importante dans l’économie du Pays Basque jusqu’à la Révolution, permettant de faire vivre des milliers de marins et à de nombreux artisans liés à la construction des navires. A partir du 18e siècle, la pêche au large décline progressivement au profit d’une pêche côtière avec la sardine et le hareng. Au cours du 20e siècle, le port de de Saint-Jean-de-Luz/Ciboure devient successivement premier port sardinier puis premier port thonier de France. De nombreuses conserveries voient le jour. Pour des raisons économiques, cette activité décline progressivement jusqu’aux années 2000. Aujourd’hui, la pêche maritime dans son ensemble reste une filière dynamique et plurielle qui s’adapte et se diversifie en lien avec l’évolution des ressources marines dont l’accès est devenu très encadré par la réglementation européenne, nationale ou locale qui vise des objectifs de durabilité de plus en plus élevés. Les 5 ports du Pays Basque et des Landes sont composés de petites et moyennes embarcations pour la pêche côtière et de bateaux plus gros pour la pêche au large.  La criée de Saint-Jean-de-Luz se distingue par des spécialités telles que le merlu ou le thon. Une marque associée à un cahier des charges a été créée pour valoriser des poissons pêchés à la ligne à la journée (bar, merlu et autres poissons). Enfin, certains pêcheurs récoltent l’algue rouge à partir de laquelle est notamment produit l’agar-agar, gélifiant utilisé dans l’agroalimentaire.",
+          "eus": "Arrantza 12. mendean hasi zen, Bizkaiko Golkoko balea ihiziarekin. Baleak olioaren hartzeko ihiztatzen zituzten bereziki, olioa argitzeko baliatzen baitzen. Jarduera biziki irabazi onekoa zen, eta euskal marinelek arlo horretan fama handia bildu zuen; baina, gure itsasoetan zetazeoak gutitzearekin, jarduera ttipitu zen. 16. mende inguruan, marinelak Iparraldeko itsasoetara mugitu ziren, Ternua aldera, balea ihiztatzen eta bakailaoa arrantzatzen segitu ahal izateko. Frantziako Iraultza arte, urruneko arrantzak Euskal Herriko ekonomian toki handia hartu zuen, eta milaka marinel eta ontzigintzako ofiziale anitz biziarazi zituen. 18. mendetik goiti, itsaso urruneko arrantza gutitu zen, eta kostaldeko sardina eta sardinzar arrantza garatu. 20. mendean, Donibane Lohizuneko eta Ziburuko portua Frantziako estatuko lehen sardina portua bilakatu zen lehenik, eta ondotik, lehen atuna portua. Kontserbategi anitz sortu ziren. Arrazoi ekonomikoengatik, jarduera hori emeki-emeki apaldu zen, 2000ko hamarkada arte."
         },
         "imagePresentation": "/images/peche_presentation.jpg"
       },
       {
         "history": {
-          "fr": "Pêche maritime : Dès le 12e siècle, la chasse à la baleine dans le golfe de Gascogne pour l'huile est attestée. Le déclin de la chasse à la baleine pousse les marins basques vers les mers du Nord (Terre-Neuve) pour la pêche à la morue et à la baleine dès le 16e siècle. La pêche lointaine est essentielle pour l'économie basque jusqu'à la Révolution. À partir du 18e siècle, la pêche au large décline au profit de la pêche côtière (sardine, hareng). Le 20e siècle voit Saint-Jean-de-Luz/Ciboure devenir un grand port sardinier puis thonier, avec l'émergence de nombreuses conserveries. L'activité décline progressivement jusqu'aux années 2000 pour des raisons économiques. Aujourd'hui, le secteur de la pêche maritime est dynamique et diversifié, s'adaptant aux ressources marines évolutives et aux réglementations strictes (européennes, nationales, locales) pour la durabilité. 5 ports dans le Pays Basque et les Landes regroupent des bateaux de petite à moyenne taille pour la pêche côtière et de plus gros pour la pêche au large. La criée de Saint-Jean-de-Luz est spécialisée dans les merlus et thons. Un label existe pour les poissons pêchés à la ligne (bar, merlu...). Certains pêcheurs récoltent aussi les algues rouges pour la production d'agar-agar.",
-          "eus": "Itsasoko arrantza: XII. mendeaz geroztik, baleen ehiza Bizkaiko golkoan olioaren bila egiten zen. Baleen ehizaren gainbeherak euskal itsasgizonak iparraldeko itsasoetara (Ternua) bultzatu zituen, XVI. mendeaz geroztik bakailao eta baleen arrantza egiteko. Urruneko arrantza euskal ekonomiarentzat funtsezkoa izan zen Iraultzaraino. XVIII. mendeaz geroztik, itsasoko arrantza gainbehera etorri zen, kostaldeko arrantzaren (sardina, sardina) mesedetan. XX. mendean, Donibane Lohizune/Ziburu portu handi bihurtu zen, lehen sardina eta gero atun arrantzarako, eta kontserba-fabrika asko sortu ziren. Jarduera pixkanaka gainbehera etorri zen 2000ko hamarkadaraino, arrazoi ekonomikoengatik. Gaur egun, itsasoko arrantza sektorea dinamikoa eta anitza da, itsas baliabide aldakorretara eta erregulazio zorrotzetara (europar, nazional, tokiko) egokitzen dena iraunkortasunerako. Euskal Herriko eta Landetako 5 portuk itsasontzi txiki eta ertainak biltzen dituzte kostaldeko arrantzarako eta handiagoak itsasoko arrantzarako. Donibane Lohizuneko arrain saltokia legatz eta atunetan espezializatua dago. Etiketa bat dago lerroan arrantzatutako arrainentzat (lubina, legatza...). Arrantzale batzuek alga gorriak ere biltzen dituzte agar-agar ekoizpenerako."
+          "fr": "L’Adour a constitué pendant de nombreux siècles une ressource halieutique très importante pour les habitants de ce territoire. Au Moyen Âge, la pêche est très développée et déjà réglementée. De nombreux poissons migrateurs sont capturés tels que le saumon, l’anguille, la truite de mer ou encore l’esturgeon. Le bassin de l’Adour comptait 1 500 marins pêcheurs avant la Première Guerre mondiale, plus de 400 bateaux de pêche naviguaient sur le fleuve. Cependant le 20e siècle est marqué par une forte baisse des populations de poissonS. Les causes sont multiples : la forte réduction des aires de reproduction, la multiplication des barrages, la pollution et la surpêche. Aujourd’hui la pêche dans l’estuaire de l’Adour est très réglementée afin de protéger les espèces. Cette filière ne compte plus que quelques petits navires et les volumes de pêche sont très faibles. Elle évolue dans un contexte difficile et son avenir est incertain.",
+          "eus": "Hainbat mendez, Aturri arrantzarako baliabide zinez garrantzitsua izan zen lurraldeko biztanleentzat. Erdi Aroan, arrantza biziki garatua zen, eta jada arautua zen. Arrain migratzaile anitz hartzen ziren; besteak beste, izokina, aingira, itsasoko amuarraina edota gaizkata. Lehen Mundu Gerla aitzin, Aturriko ibarrean 1500 arrantzale ziren, eta 400 arrantza ontzi baino gehiago ibiltzen ziren ibaian. Baina 20. mendean, arrain populazioak anitz apaldu ziren, arrazoi anitzengatik: ugalketa guneen ttipitze handia, urtegien emendioa, kutsadura eta gehiegizko arrantza. Egun, Aturriko itsasadarreko arrantza biziki arautua da, espezieen babesteko. Sail horretan barku bakan batzuk baizik ez dira, eta arrantza bolumenak zinez ttipiak dira. Arrantza mota horrek testuinguru zaila du, eta geroa duda handikoa."
         },
         "areaProductionImage": "",
         "areaProductionDescription": {
@@ -429,21 +434,21 @@
         "characteristics": [],
         "products": [
           {
-            "fr": "Une centaine d'espèces commercialisées",
+            "fr": "Une centaine d’espèces commercialisées",
             "eus": "Ehun bat espezie merkatuan"
           },
           {
-            "fr": "Spécificités locales: Merlu de ligne pêché à la journée et thon rouge pêché à la canne à l'appât vivant",
-            "eus": "Tokiko berezitasunak: egunean amuan arrantzatu legatza eta beita biziarekin kanaberaz arrantzatu atungorria"
+            "fr": "Spécificités locales : Merlu de ligne pêché à la journée et thon rouge pêché à la canne à l’appât vivant",
+            "eus": "Tokiko berezitasunak : egunean amuan arrantzatu legatza eta beita biziarekin kanaberaz arrantzatu atungorria"
           }
         ],
         "keyfigures": [
           {
-            "fr": "120 navires producteurs dont une quinzaine engagés dans la pêche à la ligne et 9 dans la pêche dans l'Adour",
-            "eus": "120 ontzi ekoizle; horietatik, hamabost bat amuko arrantzan engaiatuak, eta 9 Aturriko arrantzan"
+            "fr": "120 navires producteurs dont une quinzaine engagés dans la pêche à la ligne et 9 dans la pêche dans l’Adour.",
+            "eus": "120 ontzi ekoizle; horietatik, hamabost bat amuko arrantzan engaiatuak, eta 9 Aturriko arrantzan."
           },
           {
-            "fr": "Une Criée à St Jean de Luz (1ère criée de Nouvelle Aquitaine et 1ère criée de débarquement pour le merlu en France)",
+            "fr": "Une Criée à Saint-Jean-de-Luz (1ère criée de Nouvelle-Aquitaine et 1ère criée de débarquement pour le merlu en France)",
             "eus": "Arrain saltoki bat Donibane Lohizunen (Akitania Berriko 1. arrain saltokia eta Frantziako estatuko 1. legatz saltokia)"
           },
           {
@@ -455,17 +460,17 @@
             "eus": "117 espezie merkatuan"
           },
           {
-            "fr": "2 900 tonnes de merlu dont 200 tonnes de merlu pêchés à la ligne",
-            "eus": "2 900 tona legatz; horietatik 200 tona amuan hartuak"
-          },
-          {
-            "fr": "(Données 2024)",
-            "eus": "(2024ko datuak)"
+            "fr": "2 900 tonnes de merlu dont 200 tonnes de merlu pêchées à la ligne",
+            "eus": "2 900 tona legatz ; horietatik 200 tona amuan hartuak"
           }
         ],
-        "website": "https://merludeligne.fr/le-merlu/",
+        "website": "https://pecheursdaquitaine.eu/",
         "observatory": "https://pecheursdaquitaine.eu",
-        "grall_url": "https://grall.app.link/S9SOz8FduXb?real_url=https%3A%2F%2Fgrall.io%2Fselect%3Fpoint_id%3D123587220"
+        "grall_url": "https://grall.app.link/S9SOz8FduXb?real_url=https%3A%2F%2Fgrall.io%2Fselect%3Fpoint_id%3D123587220",
+        "keyfiguresYear": {
+          "fr": "(données 2024)",
+          "eus": "(2024ko datuak)"
+        }
       }
     ]
   },
@@ -479,19 +484,19 @@
     "pages": [
       {
         "presentation": {
-          "fr": "L'Appellation Ossau-Iraty est un trait d'union entre le Pays Basque Nord et sa forêt d'Iraty et le Béarn et sa vallée d'Ossau. Avec la pratique de la transhumance tout au long de l'année, à minima 2 jours après l'agnelage et 15 jours après la mise-bas, le berceau de fabrication est celui d'un fromage au lait de brebis, à la pâte pressée non cuite au lait de brebis, qui traduit le goût et la typicité d'un terroir et d'un paysage.",
-          "eus": "Ossau-Irati deiturak Ipar Euskal Herria eta Biarno lotzen ditu erdi: urte osoan kanpoan hazkatzen dira, gutienez 3 gundaririk 2z; beraz, paisiaren mantentzen laguntzen dute."
+          "fr": "L’Appellation Ossau-Iraty est un trait d’union entre le Pays Basque nord et sa forêt d’Iraty et le Béarn et sa vallée d’Ossau. Avec la pratique de la pâture tout au long de l’année, à minima 2 jours sur 3, les brebis de races locales contribuent à la préservation du paysage.",
+          "eus": "Ossau-Irati deiturak Ipar Euskal Herria eta Biarno lotzen ditu, Iratiko oihanetik Ossau ibarrera. Gasna horren ekoizteko esnea ematen duten ardiak bertako arrazetakoak dira ; urte osoan kanpoan bazkatzen dira, gutienez 3 egunetarik 2z ; beraz, paisaiaren mantentzen laguntzen dute."
         },
         "imagePresentation": "/images/ossauiraty_presentation.jpg"
       },
       {
         "history": {
-          "fr": "L'activité pastorale et la transformation fromagère sont présentes au Pays Basque depuis le début de notre ère. Les liaisons difficiles entre les vallées favorisent le développement de pratiques et savoirs locaux. Le fromage devient un élément indissociable de l'économie de montagne et d'autoconsommation, et également devient une monnaie d'échanges commerciale et constituait une des principales sources de revenus pour les bergers. Les premières preuves écrites de fabrication commerciale et d'échanges datent historiquement fermiers, mais au 20e siècle, les premières fromageries se développent. En 1978, les producteurs créent un Syndicat de Défense pour maintenir la fabrication du fromage de brebis traditionnel sur le territoire. L'AOC Ossau-Iraty est obtenue en 1980 et l'AOP en 1996.",
-          "eus": "Artzaintza eta gasnagintza gure aroareen hastapenetik egiten dira Euskal Herrian. Udako bazkalekuen eta ibarren arteko bideak zailak zirenez, artzainak gasna egiten hasi ziren, estiea gal ez zedin. Lehenak, gasna hori haiek jateko egiten zuten, eta gero, trukenko bahazen hasi ziren, artzainen irabazi iturri nagusietako bat bilakatzearno. Lehen idazkiko salerosien frogak 16. mendekoekoak dira. Gaurdaino ekoizpen ekologikaren dute. 20. mendean, aldiz, lehen gasnatgiak sortu ziren. 1978an, ekoizlek defentsa sindikatu bat sortu zuten, hurraldeari ardi gasnaren tradizioan arbelako gasna ekoizpenaren arkitzetako. Ossau-Irati JDK 1980an kausitu zuten, eta JDB 1996an."
+          "fr": "L’activité pastorale et la transformation fromagère sont présentes au Pays Basque depuis le début de notre ère. Les liaisons difficiles entre les estives et les vallées ont conduit les bergers à transformer le lait en fromage sur place pour pouvoir le conserver. Ce fromage destiné à de l’autoconsommation, est également devenu une monnaie d’échanges commerciale et constituait une des principales sources de revenus pour les bergers. Les premières preuves écrites de l’activité commerciale datent du 15e siècle. La production était historiquement fermière, mais au 20e siècle, les premières fromageries se développent. En 1978, les producteurs créent un Syndicat de Défense pour maintenir la fabrication du fromage de brebis traditionnel sur le territoire. L’AOC Ossau-Iraty est obtenue en 1980 et l’AOP en 1996.",
+          "eus": "Artzaintza eta gasnagintza gure aroaren hastapenetik egiten dira Euskal Herrian. Udako bazkalekuen eta ibarren arteko bideak zailak zirenez, artzainak gasna egiten hasi ziren, esnea gal ez zedin. Lehenik, gasna hori haiek jateko egiten zuten, eta gero, trukerako baliatzen hasi ziren, artzainen irabazi iturri nagusietako bat bilakatzeraino. Lehen idatzizko salerosketa frogak 15. mendekoak dira. Garaian, gasna etxaldean ekoizten zen. 20. mendean, aldiz, lehen gasnategiak sortu ziren. 1978an, ekoizleek defentsa sindikatu bat sortu zuten, lurraldean ardi gasnaren tradizioaren araberako gasna ekoizpenaren atxikitzeko. Ossau-Irati JDK 1980an kausitu zuten, eta JDB 1996an."
         },
         "areaProductionImage": "/images/ossauiraty_map.png",
         "areaProductionDescription": {
-          "fr": "Élevage, transformation et affinage dans l'aire géographique.",
+          "fr": "Élevage, transformation et affinage dans l’aire géographique.",
           "eus": "Hazkuntza, gasnatzea eta ontzea eremu geografikoan berean egiten dira."
         }
       },
@@ -499,79 +504,95 @@
         "characteristics": [
           {
             "fr": "3 races locales : Manex Tête Rousse - Manex Tête Noire - Basco-Béarnaise",
-            "eus": "Tokiko 3 arraza: Manex burugorria - Manex burubeltza - Euskal-biarnoarra"
+            "eus": "Tokiko 3 arraza: Manex burugorria - Manex burubeltza - Euskal-bearnotarra"
           },
           {
-            "fr": "Alimentation principalement basée sur le pâturage (autant de fois que possible pour chaque saison) avec interdiction de certains fourrages et complémentés avec des céréales non OGM et des oléagineux",
-            "eus": "Ardiák kanpoan hazkatzen dira (urteko denborak gurenez); zuhaina ere ematen zaie, eta elikadura GAO gabeko zerealtz eta oleaginosoz osaitzen da."
+            "fr": "Alimentation principalement à base de pâture (les brebis pâturent au minimum 240 jours par an), de fourrages et complétée avec des céréales non OGM et des oléagineux",
+            "eus": "Ardiak kanpoan bazkatzen dira gehienik (urtean 240 egunez gutienez) ; zuhaina ere ematen zaie, eta elikadura GAO gabeko zerealez eta oleaginosoz osatzen da."
           },
           {
-            "fr": "Traitement de la lactation de fromage saisonnière entre le 1er novembre et le 31 août au maximum",
-            "eus": "Esne ekoizpenaren eta gasnatzaren sasuia azaroaren 1 etik gehienez abuztuaren 31ra iragaten da"
+            "fr": "Production de lait et fabrication de fromage saisonnière entre le 1er novembre et le 31 août au maximum",
+            "eus": "Esne ekoizpenaren eta gasnatzearen sasoia azaroaren 1.etik gehienez agorrilaren 31ra iragaten da"
           },
           {
-            "fr": "Transformation selon une méthode traditionnelle (sans additif chimique, croûte naturelle) avec une durée minimale d'affinage dans l'aire d'appellation de 80 ou 120 jours selon le poids des fromages (deux formats : autour de 2 kg ou de 4 kg)",
-            "eus": "Gasnatze moldea tradiziokoa da (gehigarri kimikorik gabe, azal naturala), eta deituraren eremuan, gasna gutitienz 80 ala 120 egunez ontzi utzi behar da, gasnen pisuaren arabera (bi formatu: 2 kg inguru eta 4 kg inguru)"
+            "fr": "Transformation selon une méthode traditionnelle (sans additif chimique, croûte naturelle) avec une durée minimale d’affinage dans l’aire d’appellation de 80 ou 120 jours selon le poids des fromages (deux formats : autour de 2 kg ou de 4 kg)",
+            "eus": "Gasnatze moldea tradiziozkoa da (gehigarri kimikorik gabe, azal naturala), eta deituraren eremuan, gasna gutienez 80 ala 120 egunez ontzen utzi behar da, gasnen pisuaren arabera (bi formatu : 2 kg inguru eta 4 kg inguru)"
           }
         ],
         "products": [
           {
-            "fr": "Fromages AOP Ossau-Iraty (fromages à pâte pressée non cuite au lait de brebis) : au lait entier cru thermisé ou pasteurisé",
-            "eus": "Ossau-Irati JDB gasna (ardi esne egosi gabezko gasna tinkatua): esne gordinazkoa termizatua ala pasteurizatua"
+            "fr": "Fromages AOP Ossau-Iraty (fromages à pâte pressée non cuite au lait de brebis) :",
+            "eus": "Ossau-Irati JDB gasna (ardi esne egosi gabezko gasna tinkatua) :"
           },
           {
-            "fr": "2 typicités (basque et béarnaise)",
-            "eus": "2 nortasun (Euskal Herrikoa eta Biarnokoa)"
+            "fr": "au lait entier cru, thermisé ou pasteurisé",
+            "eus": "esne gordinezkoa, termizatua ala pasteurizatua"
           },
           {
-            "fr": "2 types principaux de fromages reconnaissables à leurs poinçons sur la croûte : Ossau-Iraty de fromagerie Ossau-Iraty fermier (sachant que l'Ossau-Iraty fermier existe aussi « d'estive »)",
-            "eus": "2 gasna mota nagusi, azaleko zigiluaz ezaugarriak: Gasnatgiko Ossau-Irati Etxaldeko Ossau-Irati (\"mendiko gasna\" ere etxaldekoen barne da)"
+            "fr": "2 typicités : basque et béarnaise",
+            "eus": "2 nortasun : Euskal Herrikoa eta Biarnokoa"
+          },
+          {
+            "fr": "2 types principaux de fromages reconnaissables à leurs poinçons sur la croûte :",
+            "eus": "2 gasna mota nagusi, azaleko zigiluaz ezaugarriak :"
+          },
+          {
+            "fr": "Ossau-Iraty de fromagerie",
+            "eus": "Gasnategiko Ossau-Irati"
+          },
+          {
+            "fr": "Ossau-Iraty fermier",
+            "eus": "Etxaldeko Ossau-Irati"
+          },
+          {
+            "fr": "Ossau-Iraty fermier « d’estive »",
+            "eus": "Etxaldeko Ossau-Irati “mendiko gasna”"
           }
         ],
         "keyfigures": [
           {
-            "fr": "1 272 éleveurs au total dont 1 156 situés au Pays Basque Nord (dont 174 producteurs fermiers)",
+            "fr": "1 272 éleveurs au total dont 1 156 situés au Pays Basque nord (dont 174 producteurs fermiers)",
             "eus": "1 272 artzain, eta horietatik 1 156 Ipar Euskal Herrian (horietatik 174 etxaldeko ekoizle)"
           },
           {
-            "fr": "13 fromageries - 26 affineurs (laitiers et/ou fermiers)",
-            "eus": "13 gasnategi - 26 ontzaile (esnetegi eta/edo etxaldeetakoak)"
+            "fr": "13 fromageries et 26 affineurs (laitiers et/ou fermiers)",
+            "eus": "13 gasnategi eta 26 ontzaile (esnetegi eta/edo etxaldeetakoak)"
           },
           {
-            "fr": "4 357 tonnes de fromage vendu sous appellation Ossau Iraty",
-            "eus": "4 357 tona gasna saltzen da Ossau-Irati deiturararekin"
-          },
-          {
-            "fr": "(Données 2023)",
-            "eus": "(2023ko datuak)"
+            "fr": "4 357 tonnes de fromage vendu sous appellation Ossau-Iraty",
+            "eus": "4 357 tona gasna saltzen da Ossau-Irati deiturarekin"
           }
         ],
         "linkside": "right",
         "website": "https://www.ossau-iraty.fr/",
-        "observatory": "",
-        "grall_url": "https://grall.app.link/BwdcToLDvXb?real_url=https%3A%2F%2Fgrall.io%2Fselect%3Fpoint_id%3D123635827"
+        "observatory": "https://agriculture-opendatapaysbasque.aws-ec2-eu-1.opendatasoft.com/pages/ossau_iraty/",
+        "grall_url": "https://grall.app.link/BwdcToLDvXb?real_url=https%3A%2F%2Fgrall.io%2Fselect%3Fpoint_id%3D123635827",
+        "keyfiguresYear": {
+          "fr": "(données 2023)",
+          "eus": "(2023ko datuak)"
+        }
       }
     ]
   },
   {
     "id": 9,
     "title": {
-      "fr": "Huile paysanne basco-béarnaise Nouste Ekiliñ",
-      "eus": "Nouste Ekiliñ etxalde olio euskal-biarnokarra"
+      "fr": "Huile paysanne basco-béarnaise Nouste Ekilili",
+      "eus": "Nouste Ekilili etxalde olio euskal-biarnotarra"
     },
     "thumbnail": "/images/huile_thumbnail.jpg",
     "pages": [
       {
         "presentation": {
-          "fr": "L'huile Nouste Ekiliñ est issue de l'implantation des nouvelles cultures de tournesol et de colza sur le territoire. C'est le résultat d'un travail de coopération entre les paysans et les acteurs des cultures de tournesol et de colza sur le territoire. C'est le résultat d'un travail de coopération entre paysans, meuniers, huileries et restaurateurs pour permettre la souveraineté alimentaire locale et favoriser la production collective ainsi que la restauration commerciale, des épiceries et lors d'événementiels.",
-          "eus": "Nouste Ekiliñ kooperatiba 2009an sortu zen. Izena ere euskal-biarnorarra du, \"nouste\" hitzak \"gure\" arran nahi baitu harnezez. Kooperatiba sortu zuten laborari euskaldunek eta bearneseek ohurgarri dute beraienezko elikadura ekonomikoa, autonomiaren handizteko eta ardien urteko denborak gurenez); zuhaina ere ematen zaie, eta elikadura GAO gabeko zerealtz eta oleaginosoz osaitzen da. Bero-presioaren bidez, artzainak gasna egiten hasi ziren, esnea gal ez zedin. Lehenak, gasna hori haiek jateko egiten zuten, eta gero, trukenko bahazen hasi ziren, artzainen irabazi iturri."
+          "fr": "L’huile Nouste Ekilili est issue de l’implantation des nouvelles cultures de tournesol et de colza sur le territoire. C’est le résultat d’un travail de coopération entre des paysans basques et béarnais désireux de produire durablement, de renforcer leur autonomie et de diversifier leurs productions. Une tonne de graines donne environ 300 litres d’huile vierge et 600 kg de tourteau (une source de protéines locales et sans OGM destinée à l’alimentation des troupeaux de brebis et de vaches).",
+          "eus": "Nouste Ekilili olioa lurraldean aski berriak diren ekilore eta koltza pentzeetan ekoizten da. Iraunkortasunez ekoizteko, autonomiaren handitzeko eta ekoizpenen anizteko xedea zuten Euskal Herriko eta Biarnoko laborari batzuen arteko lankidetzaren fruitua da. Tona bat hazirekin, lehen prentsaldiko 300 litro olio inguru eta 600 kg turto (ardi eta behi tropendako bertako eta GAOrik gabeko proteina iturria) ekoizten da."
         },
         "imagePresentation": "/images/huile_presentation.jpg"
       },
       {
         "history": {
-          "fr": "La coopérative Nouste Ekiliñ (respectivement « notre » en béarnais et « fleur de tournesol » en langue basque) a été créée en 2009. Elle est née de l'initiative de paysans basques et béarnais désireux : - de développer des productions et ainsi éviter la monoculture de maïs, - et également de gagner en autonomie sur leurs fermes grâce à la production de tourteau non OGM pour l'alimentation animale. Si la production est diversifiée dès le premier an tant que bio-carburant, depuis 2015, elle est exclusivement alimentaire humaine et est commercialisée principalement auprès de la restauration collective ainsi que de la restauration commerciale, des épiceries et lors d'événementiels. Collectivement, les paysans de Nouste Ekiliñ ont créé un cahier des charges, de qualité et de respectueuse de l'environnement.",
-          "eus": "Nouste Ekiliñ kooperatiba 2009an sortu zen. Izena ere euskal-biarnorarra du, \"nouste\" hitzak \"gure\" arran nahi baitu harnezez. Kooperatiba sortu zuten laborari euskaldunek eta bearneseek ohurgarri dute beraienezko - ekoizpenean aniztea, arto monokultuararen saihesteko, - ekoizle autonomia gehitzearekín ematea, beharrezkoa huste GAO rik gabeko turrua ekoítzíz. Hastalpenean, olio ekoizpena bio-erregai gisa baliatzen zen; baina, 2015etik, jendeen elikagai gisa baliatzen da, eta osatsu eta bermatze bat sortu dute, baldintza kalitate bat sortu dute, baldíntza hidduma kalítatezko dela eta inguruména errespétatzen duela bermatza."
+          "fr": "La coopérative Nouste Ekilili (respectivement « notre » en béarnais et « fleur de tournesol » en langue basque) a été créée en 2009. Elle est née de l’initiative de paysans basques et béarnais désireux d'une part, de diversifier leurs productions et ainsi éviter la monoculture de maïs, et d'autre part de gagner en autonomie sur leurs fermes grâce à la production de tourteau non OGM pour l’alimentation animale.Si la production d’huile est valorisée dans un premier en tant que bio-carburant, depuis 2015, elle est dédiée à l’alimentation humaine et est commercialisée principalement auprès de la restauration collective ainsi que de la restauration commerciale, des épiceries et lors d’événementiels. Collectivement, les paysans de Nouste Ekilili ont créé un cahier des charges qui assure la production d’une huile locale, de qualité et respectueuse de l’environnement.",
+          "eus": "Nouste Ekilili kooperatiba 2009an sortu zen. Izena ere euskal-biarnotarra du, “nouste” hitzak “gure” erran nahi baitu biarnesez. Kooperatiba sortu zuten laborari euskaldun eta biarnesek xede hauek zituzten : ekoizpenen aniztea, arto monolaborearen saihesteko eta, etxaldeei autonomia gehiagoren ematea, kabalen elikatzeko GAOrik gabeko turtoa ekoitziz.Hastapenean, olio ekoizpena bio-erregai gisa baliatzen zen; baina, 2015etik, jendeen elikagai gisa baliatzen da, eta ostatu kolektiboei, merkataritza-ostatuei, epizeriei eta gertakari-antolatzaileei saltzen zaie. Nouste Ekilili kolektiboko laborariek, elkarrekin, baldintza bilduma bat sortu dute, olio ekoizpena bertakoa eta kalitatezkoa dela eta ingurumena errespetatzen duela bermatzeko."
         },
         "areaProductionImage": "/images/huile_map.png",
         "areaProductionDescription": {
@@ -590,21 +611,21 @@
             "eus": "Pentzeak gutienez hiru urte guziz aldizkatzen dira"
           },
           {
-            "fr": "Recours à l'irrigation limité",
-            "eus": "Ureztatzen mugatu da"
+            "fr": "Recours à l’irrigation limité",
+            "eus": "Ureztatzea mugatua da"
           },
           {
             "fr": "Interdiction du glyphosate et des néonicotinoïdes. Aucun traitement dans les 3 mois précédents la récolte.",
-            "eus": "Glifosatoa eta neonikotinoideak debekatua dira. Uzta aitzineko 3 hilabeteetan tratamendurik ez."
+            "eus": "Glifosatoa eta neonikotinoideak debekatuak dira. Uzta aitzineko 3 hilabeteetan tratamendurik ez."
           },
           {
-            "fr": "Huiles vierges issues d'une première pression à froid, sans additif ni solvant, non désodorisées",
+            "fr": "Huiles vierges issues d’une première pression à froid, sans additif ni solvant, non désodorisées",
             "eus": "Hotzeko lehen prentsaldiko olioak, gehigarri ez disolbatzailerik gabe, desodorizatu gabeak"
           }
         ],
         "products": [
           {
-            "fr": "Huiles vierges de tournesol et de colza, conventionnelle et AB",
+            "fr": "Huiles vierges de tournesol et de colza, conventionnelles et AB",
             "eus": "Lehen prentsaldiko ekilore eta koltza olioak, AB eta ohikoak"
           }
         ],
@@ -620,12 +641,12 @@
           {
             "fr": "40 000 litres d'huiles vierges de tournesol et de colza",
             "eus": "40 000 litro ekilore eta koltza lehen prentsaldiko olio"
-          },
-          {
-            "fr": "(Données 2024)",
-            "eus": "(2024ko datuak)"
           }
         ],
+        "keyfiguresYear": {
+          "fr": "(données 2024)",
+          "eus": "(2024ko datuak)"
+        },
         "linkside": "right",
         "website": "https://nouste-ekilili.fr/",
         "observatory": "",
@@ -636,27 +657,27 @@
   {
     "id": 10,
     "title": {
-      "fr": "Label fermier engagé IDOKI",
+      "fr": "Le label fermier engagé IDOKI",
       "eus": "IDOKI etxe ekoizleen label engaiatua"
     },
     "thumbnail": "/images/idoki_thumbnail.jpg",
     "pages": [
       {
         "presentation": {
-          "fr": "IDOKI est un label local de qualité, encadré par l'Association des Producteurs Fermiers du Pays Basque (APFPB). Il promeut une production fermière à taille humaine, en relation directe avec les consommateurs et basée sur les pratiques de l'agriculture paysanne. La charte IDOKI se décline en cahiers de charges de production, définis par les producteurs eux-mêmes et contrôlés par un organisme externe. IDOKI signifie mettre « cartes sur table » et « ouvrir » en langue basque.",
-          "eus": "IDOKI Euskal Herriko Ekoizleen Elkartearen (EH EEE) arautzen duen etxe ekoizleen label engaiatua da. Zentzuzko neurriko etxe ekoizpena sustatzen du, kontsumitzaileekin zuzeneko harremanen dena, eta etxe laborantzako jokabideetan oinarritua. IDOKI araudia ekoizpenari buruzko baldintza-biltiunaren antolatu da. Azken horiek laboratriek berek finkatzen dituzle, eta kanpo organismo batek kontrolatzen. IDOKI izenak, irekidura adierazikateaz gain, kartak agerian ematearen ideia ekartzen du gogora."
+          "fr": "IDOKI est un label fermier engagé, encadré par l’Association des Producteurs Fermiers du Pays Basque (APFPB). Il promeut une production fermière à taille humaine, en relation directe avec les consommateurs et basée sur les pratiques de l’agriculture paysanne. La charte IDOKI se décline en cahiers des charges de production, définis par les producteurs eux-mêmes et contrôlés par un organisme externe. IDOKI signifie « mettre cartes sur table » et « ouvrir » en langue basque.",
+          "eus": "IDOKI Euskal Herriko Etxe Ekoizleen Elkarteak (EH EEE) arautzen duen etxe ekoizleen label engaiatua da. Zentzuzko neurriko etxe ekoizpena sustatzen du, kontsumitzaileekin zuzeneko harremanean dena, eta etxe laborantzako jokabideetan oinarritua. IDOKI araudia ekoizpenari buruzko baldintza-bildumatan antolatua da. Azken horiek laborariek berek finkatzen dituzte, eta kanpo organismo batek kontrolatzen. IDOKI izenak, irekidura aldarrikatzeaz gain, kartak agerian ematearen ideia ekartzen du gogora."
         },
         "imagePresentation": "/images/idoki_presentation.jpg"
       },
       {
         "history": {
-          "fr": "En l'absence d'un signe officiel de qualité et d'origine spécifique à la production fermière et face au manque d'encadrement réglementaire du terme « fermier » (hormis pour les fromages, volailles, œufs, gros bovins et porcs sous Label Rouge), les producteurs fermiers membres de l'APFPB ont décidé en 1992, de créer leur propre charte collective. Cet outil concret et évolutif, est régulièrement mis à jour pour intégrer la diversité des productions, l'évolution des pratiques agricoles et sociétales, tout en restant fidèle aux valeurs d'authenticité, prenant en compte à la fois les enjeux économiques, environnementaux et sociaux.",
-          "eus": "Etxe laborantzari buruzko kalitate eta jatorri ikur berezi ofizialik ez dagonez eta \"etxe laborantza\" esamoldea ez denez arautua (salbu Label Gorriko zerri, idi, gazta, hegazti eta arrautzetan), 1992an, EH EEEko kideak erabaki zuten beraren alai sortzea. Tresna konkretua da, kanpotasun ahal dena. Erregularki guneratzen da, ekoizpenen aniztasunaren eta laborantza eta gizarte jokabideen bilakaeraren barne hartzeko, beti benetakotasun baloreei leialazen eta gizarte jokabideetan eta gizarteko garendu ekonomikoa, ingurumen eta gizarte erronkak konutan hartuz."
+          "fr": "En l’absence d’un signe officiel de qualité et d’origine spécifique à la production fermière et face au manque d’encadrement réglementaire du terme « fermier » (hormis pour les fromages, volailles, œufs, gros bovins et porcs sous Label Rouge), les producteurs fermiers membres de l’APFPB ont décidé, en 1992, de créer leur propre charte collective. Cet outil concret et évolutif, est régulièrement mis à jour pour intégrer la diversité des productions, l’évolution des pratiques agricoles et sociétales, tout en restant fidèle à une vision ambitieuse et durable, prenant en compte à la fois les enjeux économiques, environnementaux et sociaux.",
+          "eus": "Etxe laborantzari buruzko kalitate eta jatorri ikur berezi ofizialik ez dagoenez eta “etxe laborantza” esamoldea ez denez arautua (salbu Label Gorriko zerri, idi, gasna, hegazti eta arroltzeentzat), 1992an, EH EEEko etxe ekoizle kideek erabaki zuten araudi kolektibo baten sortzea. Tresna konkretua da, kanbiatzen ahal dena. Erregularki eguneratzen da, ekoizpenen aniztasunaren eta laborantza eta gizarte jokabideen bilakaeraren barne hartzeko, eta beti ikuspegi handinahi eta iraunkorra atxikiz eta ekonomia, ingurumen eta gizarte erronkak kontuan hartuz."
         },
         "areaProductionImage": "/images/idoki_map.png",
         "areaProductionDescription": {
-          "fr": "Production et transformation au Pays Basque Nord",
-          "eus": "Ipar Euskal Herrian ekoizten eta transformatzen da"
+          "fr": "Production et transformation en Pays Basque",
+          "eus": "Euskal Herrian ekoizten eta transformatzen da"
         }
       },
       {
@@ -689,17 +710,21 @@
         "products": [
           {
             "fr": "Le label IDOKI couvre 19 familles de produits et se retrouve sur une large gamme de produits carnés, laitiers, végétaux et boissons.",
-            "eus": "IDOKI labelak 19 produktu familia biltzen ditu eta hainbat ekoizkinen atzeman daiteke: haragi, esneki, landare eta edari."
+            "eus": "IDOKI labelak 19 produktu familia biltzen ditu eta hainbat ekoizkinetan atzeman daiteke: haragi, esneki, landare eta edari."
           }
         ],
         "keyfigures": [
           {
-            "fr": "91 fermes labellisées en 2024",
-            "eus": "91 etxalde labeltizatu 2024an"
+            "fr": "91 fermes labellisées",
+            "eus": "91 etxalde labelizatu"
           }
         ],
+        "keyfiguresYear": {
+          "fr": "(données 2024)",
+          "eus": "(2024ko datuak)"
+        },
         "linkside": "right",
-        "website": "www.idoki.org",
+        "website": "http://www.idoki.org/",
         "observatory": "",
         "grall_url": "https://grall.app.link/JE13TI0DvXb?real_url=https%3A%2F%2Fgrall.io%2Fselect%3Fpoint_id%3D123636745"
       }
@@ -708,42 +733,42 @@
   {
     "id": 11,
     "title": {
-      "fr": "L'Agneau de Lait des Pyrénées IGP et Label Rouge",
+      "fr": "L’Agneau de Lait des Pyrénées IGP et Label Rouge",
       "eus": "AGB eta Label Gorriko Pirinioetako esneko bildotsa"
     },
     "thumbnail": "/images/igp_thumbnail.jpg",
     "pages": [
       {
         "presentation": {
-          "fr": "L'élevage ovin est présent dans les Pyrénées depuis la nuit des temps. Ce milieu caractérisé par une pluviométrie abondante et un ensoleillement suffisant donne une herbe de qualité qui permet d'alimenter les agneaux avec le lait de leurs mères. Ce milieu caractérisé par une pluviométrie abondante et un ensoleillement suffisant donne une herbe de qualité qui permet d'alimenter les agneaux avec le lait de leurs mères.",
-          "eus": "Pirinioetan, artzaintza beriako mendiak bezain zaharra da. Ingurunen horretan, euri anitz eta eguzki aski denez, belarra artzaintzari dagokion ertintxu onena ematen du."
+          "fr": "L’élevage ovin est présent dans les Pyrénées depuis la nuit des temps. Ce milieu caractérisé par une pluviométrie abondante et un ensoleillement suffisant permet une pousse d’herbe en adéquation avec le pastoralisme. Production traditionnelle et ancestrale du Pays Basque et du Béarn, l’agneau de lait est un co-produit de la fabrication du fromage AOP Ossau-Iraty.",
+          "eus": "Pirinioetan, artzaintza bertako mendiak bezain zaharra da. Ingurumen horretan, euri anitz eta eguzki aski denez, belarra artzaintzari dagokion erritmoan pusatzen da. Esneko bildotsa Euskal Herriko eta Biarnoko tradizioen parte da, eta Ossau-Irati gasnaren fabrikazioaren ko-produktua da."
         },
         "imagePresentation": "/images/igp_presentation.jpg"
       },
       {
         "history": {
-          "fr": "A la fin du 18e siècle, on estimait à 320 000 le nombre d'ovins qui passaient la frontière pyrénéenne en direction des grandes villes du Nord de l'Espagne. L'Espagne. Traditionnellement, les brebis passent l'été dans les estives en montagne, des espaces de prairies de moyenne et haute altitude. Ils y redescendent à l'automne pour agneler. La traite pour fabriquer le fromage débute en moyenne quatre semaines après la mise bas. C'est pendant cette période, avant le début de la traite, que les agneaux sont nourris au lait de la brebis L'agneau de lait des Pyrénées bénéficie de 2 labels : le Label Rouge depuis 1992 et l'IGP depuis 2012.",
-          "eus": "18. mende hondarrean, Espainia iparraldeko hirietara joateko Pirinioetako muga iragaten zuten ardien kopurua 320 000 inguruan zen. Garai hartan, haragiaren salerosketa laborarien irabazi iturri nagusia zen. Tradizioen arabera, ardiek uda mendiko bazkalekuetan pasatzen zuten, eta udazkenean itzultzen ziren, bildotsak ukatara. Gasnaean egiteko, gurditzen sortzeko hau aste berantzago hasten dira jozten, bana beste. Garai horretan dira, jezte garaia abiatu aintin, bildotsak ardi esnez elikatzen. Pirinioetako esneko bildotsak 2 label ditu: Label Gorria 1992tik eta AGB 2012z geroztik."
+          "fr": "À la fin du 18e siècle, on estimait à 320 000 le nombre d’ovins qui passaient la frontière pyrénéenne en direction des grandes villes du nord de l’Espagne. Le commerce de la viande était alors la principale source de revenu des paysans. Traditionnellement, les brebis passent l’été en estive et redescendent à l’automne pour agneler. La traite pour fabriquer le fromage débute en moyenne quatre semaines après la mise bas. C’est pendant cette période, avant le début de la traite, que les agneaux sont nourris au lait de la brebis. L’agneau de lait des Pyrénées bénéficie de 2 labels : le Label Rouge depuis 1992 et l’IGP depuis 2012.",
+          "eus": "18. mende hondarrean, Espainia iparraldeko hirietara joateko Pirinioetako muga iragaten zuten ardien kopurua 320 000 inguruan zen. Garai hartan, haragiaren salerosketa laborarien irabazi iturri nagusia zen. Tradizioen arabera, ardiek uda mendiko bazkalekuetan pasatzen zuten, eta udazkenean itzultzen ziren, bildotsen ukatera. Gasnaren egiteko, bildotsen sortzea baino lau aste berantago hasten dira jezten, bana beste. Garai horretan dira, jezte garaia abiatu aitzin, bildotsak ardi esnez elikatzen. Pirinioetako esneko bildotsak 2 label ditu: Label Gorria 1992tik eta AGB 2012z geroztik."
         },
         "areaProductionImage": "/images/igp_map.png",
         "areaProductionDescription": {
-          "fr": "Naissance et élevage dans le département des Pyrénées-Atlantiques au sud du gave de Pau.",
-          "eus": "Pirinio Atlantikoetako departamenduan eta Pauko ibaitzen hegoaldean sortzen eta hazten da."
+          "fr": "Naissance et élevage dans le département des Pyrénées-Atlantiques, au sud du gave de Pau",
+          "eus": "Pirinio Atlantikoetako departamenduan eta Paueko uhaitzaren hegoaldean sortzen eta hazten da"
         }
       },
       {
         "characteristics": [
           {
-            "fr": "3 races locales : Manex Tête Rousse - Manex Tête Noire - Basco-béarnaise",
-            "eus": "3 bertako arraza: Manex burugorria - Manex burubeltza - Euskal-bearnotarra"
+            "fr": "3 races locales : Manex Tête Rousse, Manex Tête Noire, Basco-béarnaise",
+            "eus": "3 bertako arraza : Manex burugorria, Manex burubeltza, Euskal-bearnotarra"
           },
           {
             "fr": "Agneau nourri exclusivement au lait de la brebis par tétée au pis",
             "eus": "Osoki ardi esnez errapean edoski bildotsa"
           },
           {
-            "fr": "Aucun traitement médicamenteux sauf homéopathie.",
-            "eus": "Sendagat tratamendurik ez, homeopatia saibu."
+            "fr": "Aucun traitement médicamenteux sauf homéopathie",
+            "eus": "Sendagai tratamendurik ez, homeopatia salbu"
           },
           {
             "fr": "8 mois de pâturage minimum par an et alimentation non OGM pour les brebis",
@@ -766,29 +791,33 @@
             "eus": "580 ekoizle, 4 kooperatiba, 2 hiltzaile"
           },
           {
-            "fr": "19 080 agneaux de lait labellisés IGP et Label Rouge (données 2023-2024)",
-            "eus": "19 080 esneko bildotsak AGB eta Label Gorria dituzte (2023-2024ko datuak)"
+            "fr": "19 080 agneaux de lait labellisés IGP et Label Rouge",
+            "eus": "19 080 esneko bildotsek AGB eta Label Gorria dituzte"
           }
         ],
         "linkside": "right",
         "website": "https://agneaudelaitdespyrenees.com/",
         "observatory": "https://agriculture-opendatapaysbasque.opendatasoft.com/pages/agneaudelait/",
-        "grall_url": "https://grall.app.link/MrtCGa3DvXb?real_url=https%3A%2F%2Fgrall.io%2Fselect%3Fpoint_id%3D123636965"
+        "grall_url": "https://grall.app.link/MrtCGa3DvXb?real_url=https%3A%2F%2Fgrall.io%2Fselect%3Fpoint_id%3D123636965",
+        "keyfiguresYear": {
+          "fr": "(données 2024)",
+          "eus": "(2024ko datuak)"
+        }
       }
     ]
   },
   {
     "id": 12,
     "title": {
-      "fr": "Le maïs grand roux basque",
+      "fr": "Le maïs Grand Roux Basque",
       "eus": "Euskal arto gorria"
     },
     "thumbnail": "/images/grandroux_thumbnail.jpg",
     "pages": [
       {
         "presentation": {
-          "fr": "Le maïs Grand Roux Basque est caractérisé par les couleurs variées de ses épis allant du jaune or au rouge bordeaux. C'est une variété ancienne de maïs dite « population ». Elle contient une grande diversité génétique et provient des sélections faites dans les champs, par les paysans depuis plusieurs siècles.",
-          "eus": "Euskal arto gorriaren berezitasuna bere bururen koloreen aniztasuna da: urte koloretik gorri-ilbelera. \"Herri arto\" mota bat da, aniztako barietatea. Aniztasun genetiko handia du eta laborariek pentzetan hainbat mendez egin hautespen prozesuen ondorioa da."
+          "fr": "Le maïs Grand Roux Basque est caractérisé par les couleurs variées de ses épis allant du jaune or au rouge bordeaux. C’est une variété ancienne de maïs dite « population ». Elle contient une grande diversité génétique et provient des sélections faites dans les champs, par les paysans depuis plusieurs siècles.",
+          "eus": "Euskal arto gorriaren berezitasuna bere buruen koloreen aniztasuna da: urre koloretik gorri-ubelera. “Herri arto” mota bat da, antzinako barietatea. Aniztasun genetiko handia du eta laborariek pentzeetan hainbat mendez egin hautespen prozesuen ondorioa da."
         },
         "imagePresentation": "/images/grandroux_presentation.jpg"
       },
@@ -807,23 +836,23 @@
         "characteristics": [
           {
             "fr": "Semences paysannes sélectionnées et conservées sur les fermes et échangées gratuitement entre les paysans",
-            "eus": "Herri haziak etxaldestan hautatzen eta kontserbatzen dira, eta laborarien artean uririk trukatzen"
+            "eus": "Herri haziak etxaldeetan hautatzen eta kontserbatzen dira, eta laborarien artean urririk trukatzen"
           },
           {
-            "fr": "Cultivé en agriculture biologique ou en conversion (pas d'engrais et de pesticides de synthèse, rotations obligatoires…)",
-            "eus": "Laborantza biologikoan ala konbertsio bidean haziak (ongarririk ez pestizida sintetikorik gabe, aldízkatzea beharrun…)"
+            "fr": "Cultivé en Agriculture Biologique (AB) ou en conversion (pas d’engrais et de pesticides de synthèse, rotations obligatoire, etc.)",
+            "eus": "Laborantza biologikoan ala konbertsio bidean haziak (ongarririk ez pestizida sintetikorik gabe, aldizkatzea behartua…)"
           },
           {
-            "fr": "Fermes en polycultures ou polycultures/élevage",
-            "eus": "Polilaborko edo polilabore/hazkuntzako etxaldeak"
+            "fr": "Fermes en polyculture ou polyculture/élevage",
+            "eus": "Polilaboreko edo polilabore/hazkuntzako etxaldeak"
           },
           {
             "fr": "Engrais organique issu des fermes",
-            "eus": "Etxaldetatik hartu ongrarri organikoak"
+            "eus": "Etxaldeetatik hartu ongarri organikoak"
           },
           {
             "fr": "Irrigation interdite",
-            "eus": "Ureztateza debekatua"
+            "eus": "Ureztatzea debekatua"
           },
           {
             "fr": "Séchage naturel des épis entiers après récolte",
@@ -834,14 +863,22 @@
             "eus": "Eihera-harrian ehoa"
           },
           {
-            "fr": "Ajout d'additifs interdit",
+            "fr": "Ajout d’additifs interdit",
             "eus": "Osagarrien gehitzea debekatua"
           }
         ],
         "products": [
           {
-            "fr": "La farine complète, la polenta et le « bihiñ » (sorte de semoule de maïs concassé) de maïs Grand Roux Basque",
-            "eus": "Arto gorri irin osoa, polenta eta \"bihiñ\" (arto-ertirin xehatua)"
+            "fr": "Zone de production :",
+            "eus": "Ekoizpen eremua"
+          },
+          {
+            "fr": "Culture, récolte, séchage et transformation au Pays Basque ou cantons limitrophes",
+            "eus": "Ipar Euskal Herrian ala inguruko kantonamenduetan hazten, biltzen eta transformatzen da"
+          },
+          {
+            "fr": "La farine complète, la polenta et le « bihia » (sorte de semoule de maïs concassé) de maïs Grand Roux Basque",
+            "eus": "Arto gorri irin osoa, polenta eta “bihia” (arto-ertirin xehatua)"
           }
         ],
         "keyfigures": [
@@ -852,16 +889,16 @@
           {
             "fr": "Environ 30 hectares semés tous les ans",
             "eus": "Urte guziz 30 hektarea inguru ereinak"
-          },
-          {
-            "fr": "(Données 2024)",
-            "eus": "(2024ko datuak)"
           }
         ],
         "linkside": "right",
         "website": "https://artogorria.com/",
         "observatory": "https://agriculture-opendatapaysbasque.aws-ec2-eu-1.opendatasoft.com/pages/artogorria/",
-        "grall_url": "https://grall.app.link/yG9h8j6DvXb?real_url=https%3A%2F%2Fgrall.io%2Fselect%3Fpoint_id%3D123637137"
+        "grall_url": "https://grall.app.link/yG9h8j6DvXb?real_url=https%3A%2F%2Fgrall.io%2Fselect%3Fpoint_id%3D123637137",
+        "keyfiguresYear": {
+          "fr": "(données 2024)",
+          "eus": "(2024ko datuak)"
+        }
       }
     ]
   },
@@ -876,38 +913,38 @@
     "pages": [
       {
         "presentation": {
-          "fr": "L'élevage de vaches allaitantes (vaches destinées à la production de viande) est une activité importante sur le territoire et concerne la moitié des fermes. La création de la filière Herriko Haragia vise à relocaliser la consommation de viande bovine au Pays Basque tout en permettant de mieux rémunérer les éleveurs pour qu'ils puissent vivre de leur activité. « Herriko » signifie « du pays » et « Haragia » viande en langue basque.",
-          "eus": "Behi esne-emaileen hazkuntza (hots, haragiaren ekoizteko behiena) jarduera garrantzitsua da; lurraldeko etxaldeen erdiak hazten ditu. Herriko Haragia sailaren sortzaren helburuak hauek dira: idikiaren kontsumoa Ipar Euskal Herrira berritz ekartzea eta abeltzainak hobeki ordainduak izatea, beren jardueratik bizi ahal izan daiteezen."
+          "fr": "L’élevage de vaches allaitantes (vaches destinées à la production de viande) est une activité importante sur le territoire et concerne la moitié des fermes. La création de la filière Herriko Haragia vise à relocaliser la consommation de viande bovine au Pays Basque tout en permettant de mieux rémunérer les éleveurs pour qu’ils puissent vivre de leur activité. « Herriko » signifie « du pays » et « Haragia » viande en langue basque.",
+          "eus": "Behi esne-emaileen hazkuntza (hots, haragiaren ekoizteko behiena) jarduera garrantzitsua da; lurraldeko etxaldeen erdiak hazten ditu. Herriko Haragia sailaren sortzearen helburuak hauek dira: idikiaren kontsumoa Ipar Euskal Herrira berriz ekartzea eta abeltzainak hobeki ordainduak izatea, beren jardueratik bizi ahal izan daitezen."
         },
         "imagePresentation": "/images/herrikoharagia_presentation.jpg"
       },
       {
         "history": {
-          "fr": "Bien que l'élevage de bovins viande soit une des productions les plus importantes du territoire, la plupart des animaux nés au Pays Basque sont engraissés en dehors du territoire. De l'autre côté, beaucoup de la viande mangée localement est importée malgré une demande de plus en plus grande des consommateurs et professionnels pour le manger local. C'est suite à ce constat que la filière Herriko Haragia a été créée en 2013. Pour la première fois, elle rassemble des éleveurs et des transformateurs afin de proposer une viande locale qui rémunère mieux les producteurs.",
-          "eus": "Nahiz eta haragirako behien hazkuntza lurraldeko ekoizpen garrantzitsuenetarikoa izan, Ipar Euskal Herrian sortzen diren kabala gehienak lurraldetik kanpo gizenaratzten dira. Bestalde, Euskal Herrian jaien den haragiaren parte handi bat inportatzen da, nahiz gero eta kontsumitzaile eta profesional gehiagok bertako janaria nahi duten. Egoera horrez oharturik zuten Herriko Haragia saila, 2013an. Lehen aldikoz, abeltzainak eta transformatzaileak biltzen ditu, ekoizleel ordainsari hobea ekartzen dien bertako haragiaren proposatzeko."
+          "fr": "Bien que l’élevage de bovins viande soit l'une des productions les plus importantes du territoire, la plupart des animaux nés au Pays Basque sont engraissés en dehors du territoire. De l’autre côté, beaucoup de la viande mangée localement est importée malgré une demande de plus en plus grande des consommateurs et professionnels pour le manger local. C’est suite à ce constat que la filière Herriko Haragia a été créée en 2013. Pour la première fois, elle rassemble des éleveurs et des transformateurs afin de proposer une viande locale qui rémunère mieux les producteurs.",
+          "eus": "Nahiz eta haragirako behien hazkuntza lurraldeko ekoizpen garrantzitsuenetarikoa izan, Ipar Euskal Herrian sortzen diren kabala gehienak lurraldetik kanpo gizenarazten dira. Bestalde, Euskal Herrian jaten den haragiaren parte handi bat inportatzen da, nahiz gero eta kontsumitzaile eta profesional gehiagok bertako janaria nahi duten. Egoera horrez oharturik zuten sortu Herriko Haragia saila, 2013an. Lehen aldikoz, abeltzainak eta transformatzaileak biltzen ditu, ekoizleei ordainsari hobea ekartzen dien bertako haragiaren proposatzeko."
         },
         "areaProductionImage": "/images/herrikoharagia_map.png",
         "areaProductionDescription": {
-          "fr": "Naissance, élevage et abattage des animaux au Pays Basque",
+          "fr": "Naissance, élevage et abattage des animaux en Pays Basque",
           "eus": "Kabalak Ipar Euskal Herrian sortzen, hazten eta hiltzen dira"
         }
       },
       {
         "characteristics": [
           {
-            "fr": "Origine Pays Basque garantie : animaux nés, élevés et abattus au Pays Basque",
+            "fr": "Origine Pays Basque garantie : animaux nés, élevés et abattus en Pays Basque",
             "eus": "Euskal Herriko jatorri bermatua: Ipar Euskal Herrian sortzen, hazten eta hiltzen dira"
           },
           {
-            "fr": "Alimentation : sans OGM pendant l'engraissement",
-            "eus": "Elikadura: gizentze garaian GAOrik ez"
+            "fr": "Alimentation : sans OGM pendant l’engraissement",
+            "eus": "Elikadura : gizentze garaian GAOrik ez"
           },
           {
             "fr": "Race à viande (croisée viande/lait possible pour les veaux)",
-            "eus": "Haragi arraza (aratxeak haragi/esne gurutzatuak izan ditzakez)"
+            "eus": "Haragi arraza (aratxeak haragi/esne gurutzatuak izan daitezke)"
           },
           {
-            "fr": "Viande de qualité bouchère (critères de gras, poids etc.)",
+            "fr": "Viande de qualité bouchère (critères de gras, poids, etc.)",
             "eus": "Harategi kalitateko haragia (gizen, pisu etab. irizpideak)"
           }
         ],
@@ -928,43 +965,43 @@
           },
           {
             "fr": "Une centaine de distributeurs réguliers (boucheries artisanales, restaurants, grandes surfaces)",
-            "eus": "Ehun bat banatzaile erregular (ofiziale-harategiak, jatexeak, hipermerkatuak)"
-          },
-          {
-            "fr": "(Données 2024 )",
-            "eus": "(2024ko datuak)"
+            "eus": "Ehun bat banatzaile erregular (ofiziale-harategiak, jatetxeak, hipermerkatuak)"
           }
         ],
         "website": "https://herriko.fr/herriko-haragia/",
         "observatory": "https://agriculture-opendatapaysbasque.aws-ec2-eu-1.opendatasoft.com/pages/herrikoharagia/",
-        "grall_url": "https://grall.app.link/sO3rLC8DvXb?real_url=https%3A%2F%2Fgrall.io%2Fselect%3Fpoint_id%3D123637302"
+        "grall_url": "https://grall.app.link/sO3rLC8DvXb?real_url=https%3A%2F%2Fgrall.io%2Fselect%3Fpoint_id%3D123637302",
+        "keyfiguresYear": {
+          "fr": "(données 2024)",
+          "eus": "(2024ko datuak)"
+        }
       }
     ]
   },
   {
     "id": 14,
     "title": {
-      "fr": "Le Piment doux Label Rouge Biper Eztia",
+      "fr": "Le piment Doux Label Rouge Biper Eztia",
       "eus": "Label gorridun Biper Eztia"
     },
     "thumbnail": "/images/pimentdoux_thumbnail.jpg",
     "pages": [
       {
         "presentation": {
-          "fr": "Le Piment doux Label Rouge Biper Eztia est un légume traditionnel du Pays Basque et des Landes, utilisé dans de nombreuses recettes traditionnelles comme la piperade, l'axoa (plat à base de viande hachée) ou dans les omelettes. Il est exclusivement vert, non piquant, et peut être consommé cru ou cuit.",
-          "eus": "Label gorridun Biper Eztia Euskal Herriko eta Landesetako antzinako barazkia da, eta hainbat errezeta tradizionaletan erabiltzen da: piperrada, axoa (haragi xehatuaz egindako platera) edo moletan. Berdea da, ez du minik egiten, eta gordinik edo egosirik jan daiteke."
+          "fr": "Le piment doux est un légume traditionnel du Pays Basque et des Landes qui se retrouve dans de nombreuses recettes traditionnelles comme la piperade, l’axoa (plat à base de viande émincée) ou encore utilisé en omelette. De couleur verte exclusivement et non piquant, ce piment peut se consommer cru ou cuit.",
+          "eus": "Biper eztia Euskal Herriko eta Landesetako aspaldiko barazkia da. Errezeta anitzetan baliatzen da; besteren artean, piperradan, axoan eta moletan. Berdea da eta ez da batere mina. Gordinik ala egosirik jan daiteke."
         },
         "imagePresentation": "/images/pimentdoux_presentation.jpg"
       },
       {
         "history": {
-          "fr": "Le piment doux est un légume ancien cultivé dans le Sud des Landes et le Nord du Pays Basque. Le Syndicat des Producteurs de Piment Doux existe depuis 2002. Ils ont créé la marque collective \"Biper Eztia\" en 2004 et obtenu un Label Rouge \"Piment\" en 2016.",
-          "eus": "Biper Eztia antzinako barazkia da, Landes hegoaldean eta Euskal Herri iparraldean landatzen dena. Biper Ezti ekoizleen sindikatuak 2002an sortu zen. \"Biper Eztia\" marka kolektiboa 2004an sortu zuten, eta \"Biper\" Label Gorria 2016an lortu zuten."
+          "fr": "Le piment doux est un légume ancien cultivé dans le sud des Landes et le nord du Pays Basque. Le Syndicat de Défense et de Promotion du Piment Doux du Pays Basque et du Seignanx existe depuis 2002. Il a créé la marque collective « Biper Eztia » en 2004 et a obtenu le Label Rouge en 2016.",
+          "eus": "Biper eztia Landesetako hegoaldeko eta Ipar Euskal Herriko aspaldiko barazkia da. Biper Ezti ekoizleen sindikatua 2002an sortu zen. “Biper Eztia” marka kolektiboa 2004an sortu zuen, eta “Biper” Label gorria 2016an kausitu zuen."
         },
         "areaProductionImage": "/images/pimentdoux_map.png",
         "areaProductionDescription": {
-          "fr": "Le Label Rouge est accordé aux produits qui respectent un cahier des charges, sans délimitation géographique. La marque Biper Eztia associée au Label Rouge couvre un total de 166 communes.",
-          "eus": "Label Gorria baldintza-bilduma bat betetzen duten produktuei ematen zaie, eremu geografiko zehatzik gabe. Label Gorri horrekin lotutako Biper Eztia markak 166 herri biltzen ditu."
+          "fr": "Le Label Rouge est ouvert aux produits qui respectent le cahier des charges, sans délimitation géographique. La marque Biper Eztia associée au Label Rouge couvre au total 166 communes du Pays Basque et sud des Landes.",
+          "eus": "Label Gorria baldintza-bilduma betetzen duten produktuei ezartzen zaie, eremu geografiko berezirik gabe. Label Gorri horri dagokion Biper Eztia markak 166 herri biltzen ditu."
         }
       },
       {
@@ -1012,12 +1049,12 @@
           {
             "fr": "22 tonnes récoltées",
             "eus": "22 tonako uzta"
-          },
-          {
-            "fr": "(Données 2022)",
-            "eus": "(2022ko datuak)"
           }
         ],
+        "keyfiguresYear": {
+          "fr": "(données 2022)",
+          "eus": "(2022ko datuak)"
+        },
         "linkside": "right",
         "website": "https://www.bipereztia.fr/",
         "observatory": "https://agriculture-opendatapaysbasque.aws-ec2-eu-1.opendatasoft.com/pages/pimentdoux/",
@@ -1028,33 +1065,33 @@
   {
     "id": 15,
     "title": {
-      "fr": "Vins AOP d'Irouléguy",
+      "fr": "Les vins AOP d’Irouléguy",
       "eus": "JDB Irulegi arnoak"
     },
     "thumbnail": "/images/irouleguy_thumbnail.jpg",
     "pages": [
       {
         "presentation": {
-          "fr": "Le vignoble d'Irouléguy est l'un des plus petits vignobles de montagne de France, situé entre 200 et 400 mètres d'altitude, sur les flancs sud des Pyrénées Occidentales. L'histoire de cette appellation est liée à celle des monastères sur les chemins de Saint-Jacques-de-Compostelle. Composée de fermes familiales à taille humaine, cette AOP participe à la préservation et développement du territoire grâce son engagement dans des démarches environnementales fortes et ses parcelles en terrasse donnent un caractère unique au paysage. Il bénéficie depuis 2020 de la labellisation « Vignobles et Découverte ».",
-          "eus": "Irulegiko mahastia Frantziako estatuko mendiko mahasti ttipienetakoa da. 200 eta 400 metro arteko goratasunean dago, Mendebaldeko Pirinioetako mendi mazeletan. Deitura hori Donejakue bideetako monasterioen historiari lotua zaio. Zentzuzko neurriko familia-etxaldez osatua da, eta lurraldearen babesean eta garapenean parte hartzen du, ingurumen desmartxa handinahietan engaiatuz eta paisaiari itxura paregabea ematen dion lursailen terraza-antolaketa eramanez. 2020an, Frantziako « Vignobles et Découverte » (mahastiak eta aurkikuntza) labela kausitu zuen."
+          "fr": "Le vignoble d’Irouléguy est l’un des plus petits vignobles de montagne de France, situé entre 200 et 400 mètres d’altitude, sur les flancs sud des Pyrénées Occidentales. L’histoire de cette appellation est liée à celle des monastères sur les chemins de Saint-Jacques-de-Compostelle. Composée de fermes familiales à taille humaine, cette AOP participe à la préservation et au développement du territoire grâce à son engagement dans des démarches environnementales fortes et ses parcelles en terrasse donnent un caractère unique au paysage. Il bénéficie depuis 2020 de la labellisation « Vignobles et Découverte ».",
+          "eus": "Irulegiko mahastia Frantziako estatuko mendiko mahasti ttipienetakoa da. 200 eta 400 metro arteko goratasunean dago, Mendebaldeko Pirinioetako mendi mazeletan. Deitura hori Donejakue bideetako monasterioen historiari lotua zaio. Zentzuzko neurriko familia-etxaldez osatua da, eta lurraldearen babesean eta garapenean parte hartzen du, ingurumen desmartxa handinahietan engaiatuz eta paisaiari itxura paregabea ematen dion lursailen terraza-antolaketa eramanez. 2020an, Frantziako “Vignobles et Découverte” (mahastiak eta aurkikuntza) labela kausitu zuen."
         },
         "imagePresentation": "/images/irouleguy_presentation.jpg"
       },
       {
         "history": {
-          "fr": "À partir du 12e siècle, les moines de l'Abbaye de Roncevaux plantèrent un vignoble autour des prieurés d'Irouléguy et Anhaux. Le vin ainsi produit était destiné aux pèlerins qui cheminaient en direction de St Jacques de Compostelle. Le vignoble connut un fort développement jusqu'au 20e siècle quand il fut touché par la crise du phylloxera (maladie de la vigne). En 1945, alors qu'il ne reste qu'une dizaine d'hectares, un groupe de vignerons attachés à leur histoire crée le Syndicat de défense des Vins d'Irouléguy. C'est le début du renouveau du vignoble. La Cave coopérative d'Irouléguy est créée en 1952 puis l'Appellation d'Origine Contrôlée est reconnue en 1970 et l'Appellation d'Origine Protégée en 2013. Le vignoble de l'Irouleguy est composé d'une multitude de petites parcelles sur des terroirs très divers (grès rouges, ophite du Keuper, calcaires etc..). Ces parcelles pentues (jusqu'à 80% de pente) sont majoritairement cultivées en terrasses, ce qui impose le travail manuel des vignes.",
-          "eus": "12. mendetik goiti, Orreagako abadiako fraideek Irulegiko eta Anhauzeko priorerrien inguruan mahastiak landatu zituzten. Bertan ekoizten zuten arnoa Santiago de Compostelarako bidean ziren beilariei ematen zieten. 20. mendea arte, mahastiak anitz garatu ziren, filoxera edo mahats-zorriaren krisia jasan zuen arte. 1945ean, hamar bat hektarea baizik gelditzen ez zirelarik, historiari atxikia zitzaion mahastizain talde batek Irulegiko Arnoen defenditzeko Sindikatua sortu zuen. Mahastiaren berpizte garaia hasi zen. Irulegiko soto kooperatiboa 1952an sortu zen; 1970ean Jatorri Deitura Kontrolatua kausitu zuen, eta 2013an, Jatorri Deitura Babestua. Irulegiko mahastia lur mota zinez desberdinetan dauden lursail ttipi anitzez osatua da (hareharri gorria, Keuper ofita, gisuharria etab.). Patar handiko lursailak direnez (% 80 batzuetan), gehienik terrazatan lantzen dira, eta horrek mahastizainak eskuz aritzera behatzen ditu."
+          "fr": "À partir du 12e siècle, les moines de l’abbaye de Roncevaux plantèrent un vignoble autour des prieurés d’Irouléguy et Anhaux. Le vin produit était destiné aux pèlerins qui cheminaient en direction de Saint-Jacques-de-Compostelle. Le vignoble connut un fort développement jusqu’au 20e siècle quand il fut touché par la crise du phylloxera (maladie de la vigne). En 1945, alors qu’il ne reste qu’une dizaine d’hectares, un groupe de vignerons attachés à leur histoire crée le Syndicat de défense des Vins d’Irouléguy. C’est le début du renouveau du vignoble. La cave coopérative d’Irouléguy est créée en 1952 puis l’AOC est reconnue en 1970 et l’AOP en 2013.Le vignoble d’Irouleguy est composé d’une multitude de petites parcelles sur des terroirs très divers (grès rouges, ophite du Keuper, calcaires, etc.). Ces parcelles pentues (jusqu’à 80 % de pente) sont majoritairement cultivées en terrasses, ce qui impose le travail manuel des vignes.",
+          "eus": "12. mendetik goiti, Orreagako abadiako fraideek Irulegiko eta Anhauzeko priorerrien inguruan mahastiak landatu zituzten. Bertan ekoizten zuten arnoa Santiago de Compostelarako bidean ziren beilariei ematen zieten. 20. mendea arte, mahastiak anitz garatu ziren, filoxera edo mahats-zorriaren krisia jasan zuen arte. 1945ean, hamar bat hektarea baizik gelditzen ez zirelarik, historiari atxikia zitzaion mahastizain talde batek Irulegiko Arnoen defenditzeko Sindikatua sortu zuen. Mahastiaren berpizte garaia hasi zen. Irulegiko soto kooperatiboa 1952an sortu zen; 1970ean Jatorri Deitura Kontrolatua kausitu zuen, eta 2013an, Jatorri Deitura Babestua.Irulegiko mahastia lur mota zinez desberdinetan dauden lursail ttipi anitzez osatua da (hareharri gorria, Keuper ofita, gisuharria etab.). Patar handiko lursailak direnez (% 80 batzuetan), gehienik terrazatan lantzen dira, eta horrek mahastizainak eskuz aritzera behatzen ditu."
         },
         "areaProductionImage": "/images/irouleguy_map.png",
         "areaProductionDescription": {
-          "fr": "Zone de production: Vignes et chais dans l'aire géographique.",
-          "eus": "Ekoizpen eremua: Mahastiak eta sotoak eremu geografikoan."
+          "fr": "Vignes et chais dans l'aire géographique.",
+          "eus": "Mahastiak eta sotoak eremu geografikoan."
         }
       },
       {
         "characteristics": [
           {
-            "fr": "2/3 du vignoble implantés en terrasses, sur des parcelles jusqu'à 80% de pente, imposant ainsi un travail manuel",
+            "fr": "2/3 du vignoble implanté en terrasse, sur des parcelles jusqu’à 80 % de pente, imposant ainsi un travail manuel",
             "eus": "Mahastien 2/3 terrazatan antolatuak, lursailetan % 80rainoko patarra, eta beraz, eskuz landuak"
           },
           {
@@ -1062,21 +1099,21 @@
             "eus": "Lursail ttipi anitz, mota hauetakoak: hareharri gorria, Keuper ofita, gisuharria, eskistoak"
           },
           {
-            "fr": "4 cépages blancs autorisés: Courbu - Gros Manseng - Petit Manseng - Petit Courbu",
-            "eus": "4 mahats zuri mota baimenduak: Courbu - Ixkiriot handia - Ixkiriot ttipia - Petit Courbu"
+            "fr": "4 cépages blancs autorisés : Courbu, Gros Manseng, Petit Manseng, Petit Courbu",
+            "eus": "4 mahats zuri mota baimenduak : Courbu, Ixkiriot handia, Ixkiriot ttipia, Petit Courbu"
           },
           {
-            "fr": "3 cépages rouges autorisés: Tannat - Cabernet Sauvignon - Cabernet Franc",
-            "eus": "3 mahats beltz mota baimenduak: Tannat - Cabernet Sauvignon - Cabernet Franc"
+            "fr": "3 cépages rouges autorisés : Tannat, Cabernet Sauvignon, Cabernet Franc",
+            "eus": "3 mahats beltz mota baimenduak : Tannat, Cabernet Sauvignon, Cabernet Franc"
           },
           {
-            "fr": "Les vendanges sont exclusivement manuelles",
+            "fr": "Vendanges exclusivement manuelles",
             "eus": "Mahatsa beti eskuz biltzen da"
           }
         ],
         "products": [
           {
-            "fr": "Vins AOP d'Irouléguy: rouges, blancs secs et rosés",
+            "fr": "Vins AOP d’Irouleguy : rouges, blancs secs et rosés",
             "eus": "JDB Irulegi arnoak: beltzak, zuri idorrak eta gorriak"
           }
         ],
@@ -1086,30 +1123,22 @@
             "eus": "53 mahastizain, eta horietatik 22 jabego pribatu eta soto kooperatibo 1"
           },
           {
-            "fr": "270 hectares en production dont 78% en Agriculture Biologique (données 2024)",
-            "eus": "260 hektarea ekoizpenerako; horien % 78 laborantza biologikoan (2024ko datuak)"
+            "fr": "270 hectares en production dont 78 % en Agriculture Biologique",
+            "eus": "260 hektarea ekoizpenerako; horien % 78 laborantza biologikoan"
           },
           {
-            "fr": "Cuvée 2024: 5909 hectolitres (soit environ 770 000 bouteilles)",
-            "eus": "2024ko uzta: 5 909 hektolitro (hots, 770 000 botila inguru)"
-          },
-          {
-            "fr": "En rouge: 3 514 hectolitres",
-            "eus": "Beltza: 3 514 hektolitro"
-          },
-          {
-            "fr": "En blanc: 1 575 hectolitres",
-            "eus": "Zuria: 1 575 hektolitro"
-          },
-          {
-            "fr": "En rosé: 820 hectolitres",
-            "eus": "Gorria: 820 hektolitro"
+            "fr": "5 909 hectolitres (soit environ 770 000 bouteilles) dont 3 514 hectolitres en rouge, 1 575 hectolitres en blanc et 820 hectolitres en rosé",
+            "eus": "5 909 hektolitro (hots, 770 000 botila inguru) : beltza 3 514 hektolitro, zuria 1 575 hektolitro, gorria 820 hektolitro"
           }
         ],
         "linkside": "right",
         "website": "https://www.irouleguy.net/fr/",
         "observatory": "https://agriculture-opendatapaysbasque.aws-ec2-eu-1.opendatasoft.com/pages/vinirouleguy/",
-        "grall_url": "https://grall.app.link/M2HqpmiEvXb?real_url=https%3A%2F%2Fgrall.io%2Fselect%3Fpoint_id%3D123637865"
+        "grall_url": "https://grall.app.link/M2HqpmiEvXb?real_url=https%3A%2F%2Fgrall.io%2Fselect%3Fpoint_id%3D123637865",
+        "keyfiguresYear": {
+          "fr": "(données 2024)",
+          "eus": "(2024ko datuak)"
+        }
       }
     ]
   },
@@ -1123,8 +1152,8 @@
     "pages": [
       {
         "presentation": {
-          "fr": "Quand on pense à la montagne basque, on pense généralement aux brebis, aux vaches et aux chevaux... mais on pense rarement aux chèvres ! Une race locale aussi ancienne que les brebis, après avoir failli disparaitre, fait son retour: la chèvre des Pyrénées, « Ahuntz Pirenaika » en langue basque. Grande et robuste, elle est parfaitement adaptée à la vie en montagne et à la pratique de la transhumance.",
-          "eus": "Euskal mendia irudikatzen dugularik, gehienetan, ardiak, behiak eta pottokak heldu zaizkigu gogora... baina ahuntzak maiz ahanzten ditugu! Alta, ardiak bezain aspalditik bertan dagoen arraza bat, kasik desagertu ondotik, Euskal Herrira itzuli da: Pirinioetako ahuntza edo Pirenaika. Handia eta azkarra da, eta mendian bizitzeko eta transhumantziaren egiteko zinez egokia da."
+          "fr": "Quand on pense à la montagne basque, on pense généralement aux brebis, aux vaches et aux chevaux mais on pense rarement aux chèvres ! Une race locale aussi ancienne que les brebis, après avoir failli disparaitre, fait son retour : la chèvre des Pyrénées, « ahuntz Pirenaika » en langue basque. Grande et robuste, elle est parfaitement adaptée à la vie en montagne et à la pratique de la transhumance.",
+          "eus": "Euskal mendia irudikatzen dugularik, gehienetan, ardiak, behiak eta pottokak heldu zaizkigu gogora baina ahuntzak maiz ahanzten ditugu! Alta, ardiak bezain aspalditik bertan dagoen arraza bat, kasik desagertu ondotik, Euskal Herrira itzuli da: Pirinioetako ahuntza edo Pirenaika. Handia eta azkarra da, eta mendian bizitzeko eta transhumantziaren egiteko zinez egokia da."
         },
         "imagePresentation": "/images/chevrepirenaika_presentation.png"
       },
@@ -1135,7 +1164,7 @@
         },
         "areaProductionImage": "/images/chevrepirenaika_map.png",
         "areaProductionDescription": {
-          "fr": "Sur l'ensemble du Massif Pyrénéen et particulièrement au Pays Basque Nord",
+          "fr": "Sur l’ensemble du Massif Pyrénéen et particulièrement au Pays Basque nord",
           "eus": "Pirinio osoetan eta bereziki Ipar Euskal Herrian"
         }
       },
@@ -1152,40 +1181,28 @@
         ],
         "products": [
           {
-            "fr": "Fromage",
-            "eus": "Gasna"
-          },
-          {
-            "fr": "Yahourts",
-            "eus": "Jogurtak"
-          },
-          {
-            "fr": "Lait",
-            "eus": "Esnea"
-          },
-          {
-            "fr": "Savon",
-            "eus": "Xaboia"
-          },
-          {
-            "fr": "Viande de chevreaux",
-            "eus": "Pittika haragia"
+            "fr": "Fromages, yaourts, lait, savon, viande de chevreau",
+            "eus": "Gasnak, jogurtak, esnea, xaboia, pittika haragia"
           }
         ],
         "keyfigures": [
           {
-            "fr": "6000 chèvres Pirenaika répertoriées – environ 600 au Pays Basque Nord",
-            "eus": "6000 Pirenaika ahuntz zerrendatuak – horietatik 600 inguru Ipar Euskal Herrian"
+            "fr": "6 000 chèvres Pirenaika répertoriées dont environ 600 au Pays Basque nord",
+            "eus": "6000 Pirenaika ahuntz zerrendatuak, horietatik 600 inguru Ipar Euskal Herrian"
           },
           {
-            "fr": "12 producteurs au Pays Basque Nord",
+            "fr": "12 producteurs au Pays Basque nord",
             "eus": "12 ekoizle Ipar Euskal Herrian"
           }
         ],
         "linkside": "right",
         "website": "https://www.chevredespyrenees.org/",
         "observatory": "",
-        "grall_url": "https://grall.app.link/5pdRvvpEvXb?real_url=https%3A%2F%2Fgrall.io%2Fselect%3Fpoint_id%3D123638414"
+        "grall_url": "https://grall.app.link/5pdRvvpEvXb?real_url=https%3A%2F%2Fgrall.io%2Fselect%3Fpoint_id%3D123638414",
+        "keyfiguresYear": {
+          "fr": "(données 2024)",
+          "eus": "(2024ko datuak)"
+        }
       }
     ]
   },
@@ -1199,45 +1216,49 @@
     "pages": [
       {
         "presentation": {
-          "fr": "H.A.Z.I. Sarea est le réseau des semences paysannes en Pays Basque Nord (Iparralde). Il est porté par l'association BLE avec pour objectif de recenser, sauvegarder, multiplier et valoriser les semences paysannes. Ce collectif rassemble tous les acteurs (agriculteurs, jardiniers et structures) impliqués dans le maintien et le développement de la biodiversité cultivée.",
-          "eus": "H.A.Z.I. sarea, izenak adierazten duen bezala, Ipar Euskal Herriko herri hazi sarearen sarea da. BLE elkarteak kudeatzen du eta helburu hauek ditu: tokiko haziak zerrendatu, babestu, ugaritu eta sustatu. Kolektibo honek landare aniztasunaren babesean eta garapenean inplikatuta dauden aktore guztiak (nekazariek, baratzalek eta egiturek) biltzen ditu."
+          "fr": "H.A.Z.I. Sarea est le réseau de semences paysannes du Pays Basque nord. Il est porté par l’association BLE avec pour objectif de recenser, sauvegarder, multiplier et promouvoir les semences paysannes. Ce collectif rassemble tous les acteurs (paysans, jardiniers et structures) impliqués dans le maintien et le développement de la biodiversité cultivée.",
+          "eus": "H.A.Z.I. sarea, izenak dioen bezala, Ipar Euskal Herriko herri hazien sarea da. BLE elkarteak darama eta helburu hauek ditu: herri hazien zerrendatzea, babestea, emendatzea eta sustatzea. Kolektibo horrek bioaniztasun landuaren babesean eta garapenean inplikatuak diren eragile guziak biltzen ditu (laborariak, baratzezainak eta egiturak)."
         },
         "imagePresentation": "/images/hazi_presentation.png"
       },
       {
         "history": {
-          "fr": "Les semences paysannes sont des semences issues d'une population dynamique ou d'un ensemble de populations dynamiques reproductibles par le cultivateur, sélectionnées et multipliées selon des méthodes et savoir-faire paysans, dans des champs, jardins et vergers gérés en agriculture paysanne, biologique ou biodynamique. Avec l'intensification et l'industrialisation de l'agriculture au cours du 20e siècle, les semences paysannes ont été progressivement abandonnées au profit de semences plus productives et standardisées produites par les entreprises semencières. On estime que les trois quarts des plantes et céréales cultivées dans le monde ont été perdues depuis le début du 20e siècle. Face à cette érosion de la biodiversité cultivée, un mouvement national de sauvegarde des semences paysannes (Réseau Semences Paysannes) a été lancé et se traduit localement par le réseau H.A.Z.I. Sarea. Parmi les missions du collectif figure un inventaire des variétés cultivées en Pays Basque Nord avec une collecte d'informations à partager au sein du réseau. Il vise à identifier, puis multiplier les variétés présentes dans les fermes et jardins, historiquement cultivées et adaptées à nos conditions climatiques et nos sols.",
-          "eus": "Herri haziak populazio dinamiko batetik edo populazio dinamiko multzo batetik ateratako haziak dira, eta laborariek berriz erein ditzakete; metodo eta jakintza tradizionalen arabera hautatzen eta ugaritzen dira, laborantza organiko edo biodinamikoan kudeatutako soroetan, baratzetan eta fruitu-arboladietan. 20. mendean, laborantza intentsifikatu eta industrializatu zenez, herri haziak pixkanaka baztertu ziren, eta enpresa hazi-ekoizleek ekoizten zituzten hazi emankorrago eta estandarizatuagoak erabiltzen hasi ziren. Horrela, kalkuluen arabera, munduan landatzen diren landare eta zereal hiru laurdenak galdu dira 20. mendearen hasieratik. Landare aniztasunaren higadura horri aurre egiteko, Frantziako estatuan herri hazien babesteko mugimendu nazional bat (Réseau Semences Paysannes) abiarazi zen; tokiko baliokidea H.A.Z.I. sarea da. Kolektiboaren beste zereginen artean, Ipar Euskal Herrian landatzen diren barietateen zerrendatzea eta sarean partekatzeko informazioa biltzea da. Hots, etxalde eta baratzetan dauden barietateak identifikatu eta ugaritu nahi ditu, historikoki landatu izan direnak eta gure klima eta lur baldintzetara egokituak direnak."
+          "fr": "Les semences paysannes sont des graines issues d’une population ou d’un ensemble de populations dynamiques reproductibles par le cultivateur, sélectionnées et multipliées avec des méthodes et savoir-faire paysans, dans les champs, les jardins, les vergers conduits en agriculture paysanne, biologique ou biodynamique. Avec l’intensification et l’industrialisation de l’agriculture au cours du 20e siècle, les semences paysannes sont peu à peu abandonnées au profit de semences plus productives et standardisées produites par des firmes semencières. Ainsi, on estime que les trois quarts des plantes et céréales cultivées dans le monde ont été perdues depuis le début du 20e siècle. Face à cette érosion de la biodiversité cultivée, un mouvement national pour la sauvegarde des semences paysannes (Réseau Semences Paysannes) a été lancé et se traduit localement par le réseau H.A.Z.I. Sarea. Une des principales missions du collectif consiste à identifier et à multiplier les variétés présentes dans les fermes et jardins, historiquement cultivées en Pays Basque nord et adaptées aux sols et aux conditions climatiques locales.",
+          "eus": "Herri haziak populazio ala populazio-multzo dinamiko batetik hartu haziak dira, laborariak ugalarazten ahal dituenak, etxaldeetako metodo eta jakintzen arabera laborantza biologikoan ala biodinamikoan landu pentze, baratze eta arboladietan hautatuak. 20. mendean laborantza intentsifikatu eta industrializatu zenez, herri haziak emeki-emeki baztertu ziren, eta hazi-firmek ekoitzi hazi emankorragoak eta estandarizatuak baliatu. Hala, estimazioen arabera, 20. mende hastapenetik, munduan lantzen ziren landare eta zerealen hiru laurden galdu dira. Bioaniztasun landuaren higadura horri buru egiteko, Frantzia mailan herri hazien babesteko mugimendu bat piztu zen (Réseau Semences Paysannes); horren tokiko baliokidea da H.A.Z.I. sarea. Kolektiboak, beste zenbait eginkizunen artean, Ipar Euskal Herrian lantzen diren barietateen inbentarioa egin nahi du, eta sarean partekatzeko informazioak bildu. Hots, historikoki etxaldeetan eta baratzeetan landu diren barietateak identifikatu eta ugaritu nahi ditu, gure klima baldintzei eta zolei egokituak baitzaizkie."
         },
         "areaProductionImage": "/images/hazi_map.png",
         "areaProductionDescription": {
-          "fr": "L'ensemble du Pays Basque Nord",
+          "fr": "L’ensemble du Pays Basque nord",
           "eus": "Ipar Euskal Herri osoa"
         }
       },
       {
         "characteristics": [
           {
-            "fr": "Semences cultivées, sélectionnées et multipliées selon des méthodes et savoir-faire paysans, dans des champs, jardins et vergers gérés en agriculture biologique",
-            "eus": "Herri haziak laborantza organikoan kudeatutako soroetan, baratzetan eta fruitu-arboladietan metodo eta jakintza tradizionalen arabera landatzen, hautatzen eta ugaritzen dira"
+            "fr": "Semences cultivées, sélectionnées et multipliées avec des méthodes et savoir-faire paysans, dans les champs, les jardins, les vergers conduits en Agriculture Biologique",
+            "eus": "Herri haziak etxaldeetako metodo eta jakintzen arabera laborantza biologikoko pentzeetan, baratzeetan eta arboladietan lantzen, hautatzen eta ugaritzen dira"
           }
         ],
         "products": [
           {
-            "fr": "Semences paysannes, cultivées, sélectionnées, multipliées et diffusées en Pays Basque Nord (légumes, aromatiques, maïs, blé, pâturages)",
-            "eus": "Ipar Euskal Herrian landatzen, hautatzen, ugaritzen eta zabaltzen diren herri haziak (barazkiak, aromatikoak, artoa, garia, larreak)"
+            "fr": "Semences paysannes, cultivées, sélectionnées, multipliées et diffusées au Pays Basque nord (potagères, aromatiques, maïs, blé, prairies)",
+            "eus": "Ipar Euskal Herrian landu, hautatu, ugaritu eta hedatu herri haziak (baratzekoak, usaintsuak, artoa, garia, pentzeak)"
           }
         ],
         "keyfigures": [
           {
-            "fr": "50 fermes et 100 adhérents privés du réseau",
-            "eus": "50 etxalde eta 100 kide pribatu sarean"
+            "fr": "50 fermes et 100 particuliers membres du réseau",
+            "eus": "50 etxalde eta 100 partikular sareko kide"
           }
         ],
         "linkside": "right",
-        "website": "https://hazisarea.fr",
+        "website": "https://hazisarea.fr/",
         "observatory": "",
-        "grall_url": "https://grall.app.link/EDdlHHrEvXb?real_url=https%3A%2F%2Fgrall.io%2Fselect%3Fpoint_id%3D123638728"
+        "grall_url": "https://grall.app.link/EDdlHHrEvXb?real_url=https%3A%2F%2Fgrall.io%2Fselect%3Fpoint_id%3D123638728",
+        "keyfiguresYear": {
+          "fr": "(données 2024)",
+          "eus": "(2024ko datuak)"
+        }
       }
     ]
   },
@@ -1251,20 +1272,20 @@
     "pages": [
       {
         "presentation": {
-          "fr": "La Sasi Ardi est une race de brebis traditionnelle originaire de la moyenne montagne basque. Son nom signifie « brebis des broussailles » en référence à son mode de vie et à son adaptation aux landes, fourrés et sous-bois qu'elle valorise très bien. De petite taille, rustique et de caractère sauvage, elle a failli disparaitre mais grâce à la volonté de quelques éleveurs passionnés regroupés au sein de l'association Sasi Artalde, elle a pu être préservée.",
+          "fr": "La Sasi Ardi est une race de brebis traditionnelle originaire de la moyenne montagne basque. Son nom signifie « brebis des broussailles » en langue basque, en référence à son mode de vie et à son adaptation aux landes, fourrés et sous-bois qu’elle valorise très bien. De petite taille, rustique et de caractère sauvage, elle a failli disparaitre mais grâce à la volonté de quelques éleveurs passionnés regroupés au sein de l’association Sasi Artalde, elle a pu être préservée.",
           "eus": "Sasi Ardia euskal mendi ertaineko tradiziozko ardi arraza da. Bere bizimoldearengatik du izen hori, larreetan, sasietan eta oihanpeetan ongi egokitzen baita, eta ongi mantentzen baititu. Ttipia, azkarra eta nortasun basakoa da, eta kasik desagertu zen, baina Sasi Artalde elkartean bildu laborari kartsu batzuek nahikeria handiz babestu dute."
         },
         "imagePresentation": "/images/sasi_presentation.jpg"
       },
       {
         "history": {
-          "fr": "Le berceau de la race Sasi Ardi est réparti entre le Pays Basque Nord (Iparralde) et le Pays Basque Sud (Hegoalde) sur les villages transfrontaliers de Lesaka, Bera, Ainhoa, Oiartzun, Sare et Biriatou. Cette race était très répandue dans les fermes de ces villages jusqu'au 20è siècle. Elle permettait d'entretenir les landes, avec les Pottok et les vaches Betizu. Elle est aussi connue pour fournir les fameux Zikiro (mouton castré de 3 ans) et Bildots (agneau élevé sous la mère), mangés pour les moments festifs. Après la guerre, la race disparait peu à peu au profit de races plus laitières. En 2014, des éleveurs créent l'association Sasi Artalde pour relancer son élevage. La race a été officiellement reconnue en 2016. Une marque collective « Sasiko », a été créée pour valoriser et commercialiser le Zikiro et le Bildots.",
-          "eus": "Sasi Ardi arrazaren jatorria Ipar Euskal Herriaren eta Hego Euskal Herriaren artean dago, mugako herri hauetan: Lesaka, Bera, Ainhoa, Oiartzun, Sara eta Biriatu. Bertako etxaldeetan, 20. mendea arte, ardi arraza hori biziki hedatua zen. Larreak mantentzen laguntzen zuen, pottokekin eta Betizu behiekin batean. Bestetako zikiro famatuak eta errapean hazi bildotsak ere ematen zituen. Gerlatik landa, emeki-emeki, arraza galtzen hasi zen, esne gehiago ematen zuten arrazen mesedetan. 2014an, laborari batzuek Sasi Artalde elkartea sortu zuten, hazkuntza horren berriz abiarazteko. 2016an, arrazak ezagupen ofiziala ukan zuen. \"Sasiko\" marka kolektiboa ere sortu da, zikiroen eta bildotsen saltzeko."
+          "fr": "Le berceau de la race Sasi Ardi est réparti entre le Pays Basque nord et le Pays Basque sud sur les villages transfrontaliers de Lesaka, Bera, Ainhoa, Oiartzun, Sare et Biriatou. Cette race était très répandue dans les fermes de ces villages jusqu’au 20e siècle. Elle permettait d’entretenir les landes, avec les Pottok et les vaches Betizu. Elle est aussi connue pour fournir les fameux Zikiro (mouton castré de 3 ans) et Bildots (agneau élevé sous la mère), mangés pour les moments festifs. Après la guerre, la race disparait peu à peu au profit de races plus laitières. En 2014, des éleveurs créent l’association Sasi Artalde pour relancer son élevage. La race a été officiellement reconnue en 2016. Une marque collective « Sasiko », a été créée pour valoriser et commercialiser le Zikiro et le Bildots.",
+          "eus": "Sasi Ardi arrazaren jatorria Ipar Euskal Herriaren eta Hego Euskal Herriaren artean dago, mugako herri hauetan: Lesaka, Bera, Ainhoa, Oiartzun, Sara eta Biriatu. Bertako etxaldeetan, 20. mendea arte, ardi arraza hori biziki hedatua zen. Larreak mantentzen laguntzen zuen, pottokekin eta Betizu behiekin batean. Bestetako zikiro famatuak eta errapean hazi bildotsak ere ematen zituen. Gerlatik landa, emeki-emeki, arraza galtzen hasi zen, esne gehiago ematen zuten arrazen mesedetan. 2014an, laborari batzuek Sasi Artalde elkartea sortu zuten, hazkuntza horren berriz abiarazteko. 2016an, arrazak ezagupen ofiziala ukan zuen. “Sasiko” marka kolektiboa ere sortu da, zikiroen eta bildotsen saltzeko."
         },
         "areaProductionImage": "/images/sasi_map.png",
         "areaProductionDescription": {
-          "fr": "Production et transformation au Pays Basque Nord et Sud",
-          "eus": "Ipar eta Hego Euskal Herrian ekoizten eta transformatzen da"
+          "fr": "Production et transformation en Pays Basque nord et sud",
+          "eus": "Ipar eta hego Euskal Herrian ekoizten eta transformatzen da"
         }
       },
       {
@@ -1274,46 +1295,46 @@
             "eus": "Sasi Ardi arraza"
           },
           {
-            "fr": "Élevé en plein air en libre parcours de landes et montagnes pendant une période de 6 mois minimum",
+            "fr": "Elevage en plein air en libre parcours de landes et montagnes pendant une période de 6 mois minimum",
             "eus": "Kanpoan eta larre eta mendiko ibilbide librean hazia, gutienez 6 hilabetez"
           },
           {
-            "fr": "Alimentation principalement à base de pâture (herbe, bruyère, ronces, glands, châtaignes...)",
-            "eus": "Gehienbat kanpoan elikatua (belarra, elarra, laparrak, ezkurrak, gaztainak...)"
+            "fr": "Alimentation principalement à base de pâture (herbe, bruyère, ronces, glands, châtaignes…)",
+            "eus": "Gehienbat kanpoan elikatua (belarra, elarra, laparrak, ezkurrak, gaztainak…)"
           },
           {
             "fr": "Alimentation OGM et fourrages fermentés (ensilage) interdits",
             "eus": "GAOdun zerealak eta zuhain hartzituak (silokoak) debekatuak"
           },
           {
-            "fr": "Les zikiros sont élevés deux ans et demi minimum",
+            "fr": "Moutons élevés pendant deux ans et demi minimum",
             "eus": "Zikiroak gutienez bi urte eta erdi hazten dira"
           }
         ],
         "products": [
           {
-            "fr": "Le Bildots (agneau élevé sous la mère)",
-            "eus": "Errapean hazi bildotsa"
-          },
-          {
-            "fr": "Le Zikiro (mouton castré de 3 ans)",
-            "eus": "3 urteko zikiroa"
+            "fr": "Le Bildots (agneau élevé sous la mère) et le Zikiro (mouton castré de 3 ans)",
+            "eus": "Errapean hazi bildotsa eta 3 urteko zikiroa"
           }
         ],
         "keyfigures": [
           {
-            "fr": "1500 brebis Sasi ardi",
+            "fr": "1 500 brebis Sasi ardi",
             "eus": "1500 sasi ardi"
           },
           {
-            "fr": "Une vingtaine d'éleveurs",
+            "fr": "Une vingtaine d’éleveurs",
             "eus": "Hogei bat artzain"
           }
         ],
         "linkside": "right",
         "website": "https://sasiko.eus",
         "observatory": "",
-        "grall_url": "https://grall.app.link/SphwAUtEvXb?real_url=https%3A%2F%2Fgrall.io%2Fselect%3Fpoint_id%3D123638903"
+        "grall_url": "https://grall.app.link/SphwAUtEvXb?real_url=https%3A%2F%2Fgrall.io%2Fselect%3Fpoint_id%3D123638903",
+        "keyfiguresYear": {
+          "fr": "(données 2024)",
+          "eus": "(2024ko datuak)"
+        }
       }
     ]
   },
@@ -1321,14 +1342,14 @@
     "id": 19,
     "title": {
       "fr": "Harpea - la vache Pirenaika",
-      "eus": "Harpea - Pirenaika behia"
+      "eus": "Harpea – Pirenaika behia"
     },
     "thumbnail": "/images/vachepirenaika_thumbnail.jpg",
     "pages": [
       {
         "presentation": {
-          "fr": "La vache Pirenaika est une race originaire du Pays Basque, reconnaissable à ses cornes en forme de lyre et à sa robe blonde-fauve uniforme. Elle se distingue par sa rusticité, ses qualités maternelles et laitières et sa capacité à valoriser l'estive (pâturage de montagne), ce qui en fait une race parfaitement adaptée aux systèmes d'élevage de montagne. C'est pourquoi un secteur viande de qualité, mettant en avant la race Pirenaika et la transhumance, a été créé : le secteur HARPEA.",
-          "eus": "Pirenaika behia Euskal Herriko arraza da, eta lira itxurako adarrak eta kolore hori-ardo uniformea ditu. Arraza azkarra da, eta amatasun eta esne kalitate handiak ditu; gainera, udako bazkalekuetan (mendiko larreetan) ongi egokitzen da, eta horrek mendiko hazkuntza sistemetarako zinez egokia egiten du. Horregatik, Pirenaika arraza eta transhumantzia lehenesten dituen kalitatezko haragi sektore bat sortu da: HARPEA sektorea."
+          "fr": "Reconnaissable à ses cornes en forme de lyre et sa robe blond-froment unie, la Pirenaika est une race de vache originaire du Pays Basque. Sa rusticité, ses qualités maternelles et laitières, son aptitude à passer l'été en estive, en font une vache parfaitement adaptée aux systèmes d'élevage de montagne. C’est pourquoi, une filière de viande de qualité qui met en avant la race Pirenaika et la transhumance a été créée : la filière Harpea.",
+          "eus": "Pirenaika behia Euskal Herriko behi arraza da. Lira formako adarrak eta kolore bakarreko ile horaila ditu bereizgarri. Arraza azkarra denez, amatasun eta esne kalitate handiak dituenez eta udak mendiko bazkalekuetan iragateko gai denez, mendiko hazkuntzarako ezin behi egokiagoa da. Hori dela eta, Pirenaika arraza eta transhumantzia defenditzen dituen kalitatezko haragi saila sortu da: HARPEA saila."
         },
         "imagePresentation": "/images/vachepirenaika_presentation.jpg"
       },
@@ -1339,7 +1360,7 @@
         },
         "areaProductionImage": "/images/vachepirenaika_map.png",
         "areaProductionDescription": {
-          "fr": "Élevage, abattage et transformation au Pays Basque",
+          "fr": "Élevage, abattage et transformation en Pays Basque",
           "eus": "Euskal Herrian hazten, hiltzen eta transformatzen da"
         }
       },
@@ -1376,7 +1397,7 @@
         ],
         "products": [
           {
-            "fr": "Viande de Veau et Bœuf Harpea",
+            "fr": "Viande de veau et bœuf Harpea",
             "eus": "Harpea aratxekia eta idikia"
           }
         ],
@@ -1386,60 +1407,64 @@
             "eus": "18 abeltzain, 2 transformatzaile"
           },
           {
-            "fr": "Cheptel de 2470 mères, 100 veaux vendus par an, 15 vaches vendues par an",
-            "eus": "2470 amako kabaleria, urtean 100 aratxe salduak, urtean 15 behi salduak"
+            "fr": "Cheptel de 2 470 mères, 100 veaux et 15 vaches vendus par an",
+            "eus": "2 470 amako kabaleria, urtean 100 aratxe et 15 behi salduak"
           }
         ],
         "linkside": "right",
         "website": "https://iparraldeko-pirenaika.jimdofree.com/",
         "observatory": "",
-        "grall_url": "https://grall.app.link/coODjdwEvXb?real_url=https%3A%2F%2Fgrall.io%2Fselect%3Fpoint_id%3D123639087"
+        "grall_url": "https://grall.app.link/coODjdwEvXb?real_url=https%3A%2F%2Fgrall.io%2Fselect%3Fpoint_id%3D123639087",
+        "keyfiguresYear": {
+          "fr": "(données 2024)",
+          "eus": "(2024ko datuak)"
+        }
       }
     ]
   },
   {
     "id": 20,
     "title": {
-      "fr": "L'agriculture biologique au Pays Basque",
+      "fr": "L’agriculture biologique en Pays Basque nord",
       "eus": "Laborantza biologikoa Ipar Euskal Herrian"
     },
     "thumbnail": "/images/bio_thumbnail.jpg",
     "pages": [
       {
         "presentation": {
-          "fr": "L'agriculture biologique (AB) s'est fortement développée ces 20 dernières années au Pays Basque, suivant les tendances nationales et européennes. Les productions biologiques du territoire sont diversifiées : 86% des surfaces bio sont des prairies permanentes et cultures fourragères pour l'élevage de ruminants (principalement brebis laitières et vaches allaitantes), suivies des grandes cultures, fruits et légumes, et vignes. Les fermes bio du Pays Basque se caractérisent par leur petite taille, et on estime que plus de 85% vendent leurs produits en circuits courts.",
-          "eus": "Laborantza biologikoa (AB) nabarmen garatu da azken 20 urteetan Ipar Euskal Herrian, Frantziako eta Europako joerak jarraituz. Gure lurraldean, laborantza biologikoko ekoizpenak anitzak dira: % 86 laborantza biologikoko lurraldeak belardi iraunkorrak eta errumiante hazkuntzarako zuhain eremuak dira (batez ere esne-ardi eta esne-emaile behiak); horien ondoren, gehien hedatutakoak lur sail handiak, fruta eta barazkiak, eta mahastiak dira. Ipar Euskal Herriko laborantza biologikoko etxaldeen berezitasuna haien neurri txikia da; eta kalkuluen arabera, % 85 baino gehiagok beren produktuak zirkuitu laburretan saltzen dituzte."
+          "fr": "L’agriculture biologique (AB) s’est fortement développée durant ces 20 dernières années en Pays Basque, suivant la tendance nationale et européenne. Les productions en bio sur notre territoire sont diversifiées : 87 % des surfaces bio sont des surfaces toujours en herbe et cultures fourragères destinées aux élevages ruminants (principalement brebis laitières et vaches allaitantes), viennent ensuite les grandes cultures, les fruits et légumes et la vigne. Les fermes bio du Pays Basque se caractérisent par leur petite taille et on estime que plus de 85 % vendent leurs produits en circuit court et de proximité.",
+          "eus": "Laborantza biologikoa (AB) anitz garatu da azken 20 urteetan Euskal Herrian, baita Frantziako estatuan eta Europan ere. Gure lurraldean, ekoizpen biologikoak anitzak dira: biologikoki lantzen den azaleraren % 87 beti belarrez diren pentzeak eta bazkarako guneak dira, hausnarkari hazkuntzarako baliatzen direnak (bereziki ardi esnedunentzat eta behi edoskitzaileentzat); horien ondotik, zabalduenak lur landu handiak, fruitu eta barazkiak eta mahastiak dira. Ipar Euskal Herriko etxalde biologikoen berezitasuna neurri ttipia da; eta, estimazioen arabera, % 85 baino gehiagok produktuak hurbileko zirkuitu laburrean saltzen dituzte."
         },
         "imagePresentation": "/images/bio_presentation.jpg"
       },
       {
         "history": {
-          "fr": "L'agriculture biologique est un mode de production qui allie pratiques environnementales optimales, respect de la biodiversité, préservation des ressources naturelles et assurance d'un niveau élevé de bien-être animal. Elle repose sur de nombreux principes comme l'interdiction des pesticides et engrais de synthèse, l'interdiction des OGM, la rotation des cultures, l'élevage en plein air... Le concept d'agriculture biologique est né dans les années 1920, et les premiers cahiers des charges définissant les pratiques de l'agriculture biologique sont apparus en 1972. L'AB a été officiellement reconnue par les pouvoirs publics français en 1981, puis au niveau européen en 1991. L'association B.L.E Civam Bio du Pays Basque est un collectif qui regroupe environ 350 fermes adhérentes. Elle a été créée en 1993 avec pour objectif de créer des outils de développement pour une agriculture biologique, autonome et économe en Pays Basque Nord. Ses actions s'appuient sur le travail collectif et le partage de savoirs entre agriculteurs. Ses principales missions sont : l'accompagnement à l'installation et à la conversion en AB, l'organisation de formations, l'animation d'un réseau d'échanges, d'entraide et de mutualisation, ainsi que la gestion du réseau de semences paysannes Hazi Sarea. Elle soutient également les initiatives en faveur de l'alimentation bio sur le territoire : accompagnement à la commercialisation et au développement d'approvisionnements bio pour la restauration collective et actions de sensibilisation des consommateurs.",
-          "eus": "Laborantza biologikoak ingurumen jokabide optimoak, landare aniztasunaren errespetua, baliabide naturalen babesa eta animalien ongizate handia uztartzen ditu. Hainbat printzipiotan oinarritzen da: pestizida eta ongarri sintetikoen debekua, GAOen debekua, laborantza aldizkakuntza, kanpoan hazkuntza, eta beste batzuk. Laborantza biologikoaren kontzeptua 1920ko hamarkadan sortu zen, eta praktikak definitzen zituzten lehen baldintza-bildumak 1972an argitaratu ziren. Frantziako agintariek ofizialki aitortu zuten AB laborantza 1981ean; Europa, 1991n. Ipar Euskal Herriko BLE Civam elkarteak 350 etxalde inguru biltzen ditu. 1993an sortu zen, Ipar Euskal Herrian laborantza biologiko, autonomo eta ekonomikoaren garapenerako tresnak sortzeko asmoz. Elkartearen ekintzak lan kolektiboan eta laborarien artean jakintza partekatzean oinarritzen dira. Bere zeregin nagusiak hauek dira: laborariei laborantza biologikoan ezartzeko eta bihurtzeko laguntzea, formakuntzak antolatzea, truke, elkar laguntza eta elkarlan sare bat animatzea, eta Hazi Sarea herri hazi sarearen kudeaketa. Tokiko elikadura biologikorako ekimenak ere laguntzen ditu: merkaturatze eta janari kolektiborako hornidura biologikoen garapenerako laguntza eta kontsumitzaileen sentsibilizazio ekintzak, besteak beste."
+          "fr": "L’agriculture biologique est un mode de production qui allie des pratiques environnementales optimales, le respect de la biodiversité, la préservation des ressources naturelles et l’assurance d’un niveau élevé de bien-être animal. Elle est fondée sur de nombreux principes tels que l’interdiction des pesticides et engrais de synthèse, l’interdiction des OGM, la rotation des cultures, l’élevage en plein air. Le concept d’agriculture biologique est né dans les années 1920 et les premiers cahiers des charges définissant les pratiques de l’agriculture biologique apparaissent en 1972. L’AB est reconnue officiellement par les pouvoirs publics français en 1981 puis au niveau européen en 1991.L’association B.L.E Civam Bio du Pays Basque est un collectif qui compte environ 350 adhérents. Elle a été créée en 1993 avec l’objectif de créer des outils de développement pour une agriculture biologique, autonome et économe en Pays Basque nord. Ses actions sont basées sur le travail en collectif et le partage de savoirs entre paysans. Ses principales missions sont : l’accompagnement à l’installation et au passage en bio, l’organisation de formations, l’animation d’un réseau d’échanges, d’entraide et de mutualisation ainsi que le portage du réseau de semences paysannes HAZI Sarea. Elle accompagne également des initiatives en faveur d’une alimentation bio sur le territoire : appui à la commercialisation et au développement des approvisionnements en bio de la restauration collective et actions de sensibilisation auprès des consommateurs notamment.",
+          "eus": "Laborantza biologikoak ingurumen jokabide onenak, bioaniztasunaren errespetua, natura-baliabideen babesa eta kabalen ongizate handia uztartzen ditu. Hainbat printzipiotan oinarritua da: pestizida eta ongarri sintetikoen debekatzea, GAOen debekatzea, aldizkatzea, kanpoan haztea eta beste. Laborantza biologikoaren kontzeptua 1920ko hamarkadan sortu zen eta dagozkion jokabideak finkatu zituzten lehen baldintza-bildumak 1972an argitaratu ziren. Frantziako botere publikoek 1981ean eman zioten ezagupen ofiziala AB laborantzari; Europak, aldiz, 1991n.Ipar Euskal Herriko BLE Civam elkarteak 350 bat etxalde kide biltzen ditu. 1993an sortu zen, Ipar Euskal Herrian laborantza biologiko, autonomo eta ekonomoaren garatzeko tresnen sortzeko xedez. Elkartearen ekintzak lan kolektiboan eta laborarien arteko ezagutzen partekatzean oinarrituak dira. Hauek ditu eginkizun nagusiak: laborarien laguntzea instalatzen eta laborantza biologikora pasatzen, formakuntzen antolatzea, harreman, elkarlaguntza eta bateratze sare baten animatzea eta Hazi Sarea herri hazien sarearen kudeatzea. Elikadura biologikoaren aldeko lurraldeko ekimenak ere laguntzen ditu: ostalaritza kolektiboari hornitu janari biologikoaren merkaturatzen eta garatzen laguntzen du eta kontsumitzaileendako sentsibilizazio ekintzak antolatzen ditu, besteak beste."
         },
         "areaProductionImage": "/images/bio_map.png",
         "areaProductionDescription": {
-          "fr": "L'ensemble du Pays Basque Nord",
-          "eus": "Ipar Euskal Herri osoa"
+          "fr": "L’ensemble du Pays Basque nord (et au-delà)",
+          "eus": "Ipar Euskal Herri osoa (eta harago)"
         }
       },
       {
         "characteristics": [
           {
-            "fr": "Interdiction des pesticides et engrais de synthèse et des OGM (Organismes Génétiquement Modifiés)",
-            "eus": "Pestizida eta ongarri sintetikoen eta GAOen (genetikoki aldatutako organismoen) debekua"
+            "fr": "Interdiction des pesticides et engrais chimiques de synthèse et des OGM (Organismes Génétiquement Modifiés)",
+            "eus": "Pestizida eta ongarri kimiko sintetikoak eta GAOak (genetikoki aldatu organismoak) debekatuak dira"
           },
           {
-            "fr": "Rotation des cultures et culture en plein champ obligatoires",
-            "eus": "Laborantza aldizkakuntza eta kanpoan landatzea beharrezkoa"
+            "fr": "Rotation culturale et culture en pleine terre obligatoire",
+            "eus": "Aldizkatzea eta lur betean haztea baitezpadakoa da"
           },
           {
-            "fr": "Respect du bien-être animal (accès aux espaces extérieurs, alimentation bio, densité animale limitée, traitements antibiotiques limités, etc.)",
-            "eus": "Animalien ongizatearen errespetua (kanpoan mugitzeko aukera, elikadura biologikoa, animalien dentsitatea mugatua, antibiotiko tratamenduak mugatuak, etab.)"
+            "fr": "Respect du bien-être animal (accès à un parcours extérieur, alimentation bio, densité des animaux limitée, traitements antibiotiques limités, etc.)",
+            "eus": "Kabalen ongizatea errespetatzen da (kanpoan ibiltzeko parada, elikadura biologikoa, kabala dentsitate mugatua, tratamendu antibiotiko mugatuak, etab.)"
           },
           {
-            "fr": "Utilisation très restreinte des additifs",
-            "eus": "Osagarrien erabilera oso mugatua"
+            "fr": "Utilisation d’additifs très restreinte",
+            "eus": "Gehigarrien erabilpena biziki mugatua da"
           }
         ],
         "products": [
@@ -1450,41 +1475,25 @@
         ],
         "keyfigures": [
           {
-            "fr": "7 920 hectares de terres bio ou en conversion (6,6% de la surface agricole totale du Pays Basque) dont :",
-            "eus": "7 920 hektarea laborantza biologikoko edo bihurtze bidean (Ipar Euskal Herriko laborantza eremuaren % 6,6); horietatik:"
+            "fr": "453 fermes bio (12 % des fermes du Pays Basque)",
+            "eus": "453 etxalde biologiko (Ipar Euskal Herriko etxaldeen % 12)"
           },
           {
-            "fr": "6 784 hectares de cultures fourragères",
-            "eus": "6 784 hektarea zuhain"
+            "fr": "8 830 hectares de surfaces bio ou en conversion (7,4 % de la surface agricole totale du Pays Basque) dont 7 668 hectares en cultures fourragères, 434 hectares en grandes cultures, 318 hectares en fruits et légumes, 192 hectares en vigne",
+            "eus": "8 830 hektarea biologikoan ala biologikora pasatzen ari (Ipar Euskal Herriko laborantza azaleraren % 7,4) ; horietatik : 7 668 hektarea bazka, 434 hektarea lur landu handi, 318 hektarea fruitu eta barazki, 192 hektarea mahasti"
           },
           {
-            "fr": "483 hectares de grandes cultures",
-            "eus": "483 hektarea lur sail handi"
-          },
-          {
-            "fr": "279 hectares de fruits et légumes",
-            "eus": "279 hektarea fruta eta barazki"
-          },
-          {
-            "fr": "182 hectares de vignes",
-            "eus": "182 hektarea mahasti"
-          },
-          {
-            "fr": "403 fermes bio (10,6% des fermes du Pays Basque)",
-            "eus": "403 laborantza biologikoko etxalde (Ipar Euskal Herriko etxaldeen % 10,6)"
-          },
-          {
-            "fr": "L'agriculture biologique représente environ 90% du maraîchage en Pays Basque Nord, près de 78% de la viticulture et 50% de l'arboriculture.",
-            "eus": "Ipar Euskal Herriko barazkigintzaren % 90, mahastigintzaren % 78 inguru eta zuhaitz laborantzaren % 50 laborantza biologikoa da."
-          },
-          {
-            "fr": "(Données 2023)",
-            "eus": "(2023ko datuak)"
+            "fr": "L'agriculture bio représente environ 60 % du maraîchage en Pays Basque nord, près de 78 % du vignoble et 50 % de l’arboriculture.",
+            "eus": "Ipar Euskal Herriko baratzezaintzaren % 60, mahastizaintzaren % 78 inguru eta arbolazaintzaren % 50 biologikoak dira."
           }
         ],
         "website": "https://www.civam.org/ble-paysbasque-bio/",
         "observatory": "https://agriculture-opendatapaysbasque.aws-ec2-eu-1.opendatasoft.com/pages/bio_pays_basque/",
-        "grall_url": "https://grall.app.link/QBx2U3xEvXb?real_url=https%3A%2F%2Fgrall.io%2Fselect%3Fpoint_id%3D123639300"
+        "grall_url": "https://grall.app.link/QBx2U3xEvXb?real_url=https%3A%2F%2Fgrall.io%2Fselect%3Fpoint_id%3D123639300",
+        "keyfiguresYear": {
+          "fr": "(données 2024)",
+          "eus": "(2024ko datuak)"
+        }
       }
     ]
   },
@@ -1498,20 +1507,20 @@
     "pages": [
       {
         "presentation": {
-          "fr": "Cette démarche collective est née suite à la double volonté de relancer la culture du blé disparue depuis une quarantaine d'années sur le territoire et de relocaliser la consommation de pain en s'appuyant sur le savoir-faire des artisans locaux. C'est ainsi qu'une filière blé/farine/pain 100% Pays Basque est née sous la dénomination Herriko ogia; Herriko signifie « du pays » et Ogia, « pain ».",
+          "fr": "Cette démarche collective est née suite à la double volonté de relancer la culture du blé disparue depuis une quarantaine d’années sur le territoire et de relocaliser la consommation de pain en s’appuyant sur le savoir-faire des artisans locaux. C’est ainsi qu’une filière blé/farine/pain 100 % Pays Basque est née sous la dénomination Herriko ogia, Herriko signifie « du pays » et Ogia, « pain » en langue basque.",
           "eus": "Desmartxa kolektiboa bi xederekin sortu zen: lurraldean duela berrogei bat urte desagertu zen gari laborantzaren berriz abiaraztea eta tokiko ofizialeen trebetasun eta jakintzetan oinarrituz ogi kontsumoaren berriz herrira ekartzea. Horrela sortu zen Herriko ogia, % 100 Euskal Herriko gari/irin/ogi saila."
         },
         "imagePresentation": "/images/herrikoogia_presentation.jpg"
       },
       {
         "history": {
-          "fr": "La démarche est initiée en 2009 par un groupe d'agriculteurs et deux meuniers motivés par la relocalisation sur le territoire du blé panifiable. Cultiver du blé en rotation et sans irrigation permet de diversifier les cultures sur une même parcelle, de préserver la ressource en eau et de palier à la monoculture du maïs irrigué. Pour les meuniers, c'est la possibilité d'élargir leur gamme avec une farine produite à partir d'une matière première produite localement en circuit court. Avec les boulangeries artisanales, ils créent en 2013, l'association Herriko Ogia, regroupant ainsi les 3 maillons de cette filière.",
-          "eus": "Ogiaren egiteko gariaren berriz ekartzeko xedea zuten laborari zenbaitek eta bi eiherazainek zuten desmartxa abiatu, 2009an. Garia aldizkatuz eta ureztatu gabe landuz, lursail bakarrean gauza gehiago lantzen da, ur baliabidea babesten da eta arto ureztatuaren monolaboreari aterabide bat ematen zaio. Eiherazainei produktuen anizteko parada ematen die, bertan eta zirkuitu laburrean ekoitzi lehengaizko irina proposatzen ahal baitute. 2013an, sailari eskas zuen hirugarren zutabea gehitu ondotik, hots, ofiziale-ogitegiena, Herriko Ogia elkartea sortu zen."
+          "fr": "La démarche est initiée en 2009 par un groupe d’agriculteurs et deux meuniers motivés par la relocalisation sur le territoire du blé panifiable. Cultiver du blé en rotation et sans irrigation permet de diversifier les cultures sur une même parcelle, de préserver la ressource en eau et de palier à la monoculture du maïs irrigué. Pour les meuniers, c’est la possibilité d’élargir leur gamme avec une farine produite à partir d’une matière première produite localement en circuit court. Avec les boulangeries artisanales, ils créent en 2013, l’association Herriko Ogia, regroupant ainsi les 3 maillons de cette filière.",
+          "eus": "Ogiaren egiteko gariaren berriz ekartzeko xedea zuten laborari zenbaitek eta bi eiherazainek zuten desmartxa abiatu, 2009an.Garia aldizkatuz eta ureztatu gabe landuz, lursail bakarrean gauza gehiago lantzen da, ur baliabidea babesten da eta arto ureztatuaren monolaboreari aterabide bat ematen zaio. Eiherazainei produktuen anizteko parada ematen die, bertan eta zirkuitu laburrean ekoitzi lehengaizko irina proposatzen ahal baitute. 2013an, sailari eskas zuen hirugarren zutabea gehitu ondotik, hots, ofiziale-ogitegiena, Herriko Ogia elkartea sortu zen."
         },
         "areaProductionImage": "/images/herrikoogia_map.png",
         "areaProductionDescription": {
-          "fr": "Culture, transformation et commercialisation dans l'aire géographique.",
-          "eus": "Eremu geografikoan hazten, transformatzen eta saltzen da."
+          "fr": "Culture, transformation et commercialisation en Pays Basque",
+          "eus": "Euskal Herrian hazten, transformatzen eta saltzen da"
         }
       },
       {
@@ -1529,7 +1538,7 @@
             "eus": "Ureztatzea debekatua"
           },
           {
-            "fr": "Insecticides, désherbants total, régulateurs de croissance interdits",
+            "fr": "Insecticides, désherbants totaux, régulateurs de croissance interdits",
             "eus": "Intsektizidak, herbizida osoak eta hazkuntzaren erregulatzaileak debekatuak"
           },
           {
@@ -1541,14 +1550,14 @@
             "eus": "Ogia osoki Herriko irinez egina eta fabrikazio egunean saldua"
           },
           {
-            "fr": "Circuit court avec une production, transformation et commercialisation dans un rayon de 50km",
+            "fr": "Circuit court avec production, transformation et commercialisation dans un rayon de 50 km",
             "eus": "Zirkuitu laburra: ekoizpena, transformazioa eta salmenta 50 km-ko inguruan"
           }
         ],
         "products": [
           {
-            "fr": "Pains Herriko (baguette, pain, pavé, gros pain à la coupe, petit pain individuel, pain burger). Autres produits à base de farine Herriko: Gâteau basque, Biscuit, Bière à base blé et farine Herriko",
-            "eus": "Herriko ogiak (ogi makila, ogia, lauza, mozteko ogi handia, bakarkako ogi ttipia, burger ogia). Herri irinezko beste produktu batzuk: euskal pastiza, bixkotxak, garizko garagarnoa eta Herriko irina"
+            "fr": "Pains Herriko (baguette, pain, pavé, gros pain à la coupe, petit pain individuel, pain burger)Autres produits à base de farine Herriko : gâteaux basques, biscuits, bières à base blé et farine Herriko",
+            "eus": "Herriko ogiak (ogi makila, ogia, lauza, mozteko ogi handia, bakarkako ogi ttipia, burger ogia).Herri irinezko beste produktu batzuk : euskal pastizak, bixkotxak, garizko garagarnoak eta Herriko irina"
           }
         ],
         "keyfigures": [
@@ -1557,49 +1566,53 @@
             "eus": "15 ekoizle, eihera handi 1, 51 ofiziale (okin, bixkotx-egile, garagarnogile)"
           },
           {
-            "fr": "94 hectares de blé semés en 2024 (100 ha en 2025)",
-            "eus": "94 hektarea gari ereinak 2024an (100 ha 2025ean)"
+            "fr": "94 hectares de blé semés",
+            "eus": "94 hektarea gari ereinak"
           },
           {
-            "fr": "375 tonnes de blé labellisées Herriko en 2024",
-            "eus": "375 tona gari Herriko labelizatuak 2024an"
+            "fr": "375 tonnes de blé labellisées Herriko",
+            "eus": "375 tona gari Herriko labelizatuak"
           },
           {
-            "fr": "284 tonnes de farine commercialisées en Herriko en 2024",
-            "eus": "284 tona irin Herriko gisa salduak 2024an"
+            "fr": "284 tonnes de farine commercialisées en Herriko",
+            "eus": "284 tona irin Herriko gisa salduak"
           }
         ],
         "linkside": "right",
         "website": "https://herriko.fr/herriko-ogia/",
-        "observatory": "",
-        "grall_url": "https://grall.app.link/K7hOxUAEvXb?real_url=https%3A%2F%2Fgrall.io%2Fselect%3Fpoint_id%3D123639536"
+        "observatory": "https://agriculture-opendatapaysbasque.opendatasoft.com/pages/herrikoogia/",
+        "grall_url": "https://grall.app.link/K7hOxUAEvXb?real_url=https%3A%2F%2Fgrall.io%2Fselect%3Fpoint_id%3D123639536",
+        "keyfiguresYear": {
+          "fr": "(données 2024)",
+          "eus": "(2024ko datuak)"
+        }
       }
     ]
   },
   {
     "id": 22,
     "title": {
-      "fr": "Le Kiwi de l'Adour IGP et Label Rouge",
+      "fr": "Le kiwi de l’Adour IGP et Label Rouge",
       "eus": "AGB eta Label gorridun Aturriko kiwia"
     },
     "thumbnail": "/images/kiwi_thumbnail.jpg",
     "pages": [
       {
         "presentation": {
-          "fr": "Originaire de Chine, le kiwi est arrivé en France dans la deuxième moitié du 20e siècle grâce à un agronome passionné. Son adaptation réussie dans le bassin de l'Adour (territoire à cheval entre les Pyrénées-Atlantiques, les Landes et le Gers) a été rendue possible grâce à un climat océanique tempéré et des sols favorables.",
+          "fr": "Originaire de Chine, le kiwi est arrivé en France dans la deuxième moitié du 20e siècle grâce à un agronome passionné. Son adaptation réussie dans le bassin de l’Adour (territoire à cheval entre les Pyrénées-Atlantiques, les Landes et le Gers) a été rendue possible grâce à un climat océanique tempéré et des sols favorables.",
           "eus": "Kiwia Txinatik heldu da. 20. mende erdian iritsi zen Frantziako estatura, agronomo sutsu bati esker. Aturriko ibarrean ongi egokitu zen (Pirinio Atlantikoen, Landesen eta Gers eskualdearen arteko mugan), lurraldean klima ozeaniko epela eta lur egokiak baitira."
         },
         "imagePresentation": "/images/kiwi_presentation.jpg"
       },
       {
         "history": {
-          "fr": "Le kiwi est une plante subtropicale originaire de Chine introduite en France en 1965 par un agronome et arboriculteur landais, Henri Pedelucq. Le bassin de l'Adour offre des conditions favorables à cette production arboricole qui exige un climat doux, ensoleillé et humide, des sols fertiles, bien drainés et non calcaires. Après plusieurs années d'expérimentation et face au succès commercial du produit à partir du milieu des années 70, d'autres producteurs ont emboîté le pas de cette production, grâce notamment à des plants fournis par M. Pedelucq. Le Kiwi de l'Adour est le seul kiwi à bénéficier de la double certification Label Rouge (depuis 1992) et IGP, Indication Géographique Protégée (depuis 2009).",
+          "fr": "Le kiwi est une plante subtropicale originaire de Chine introduite en France en 1965 par un agronome et arboriculteur landais, Henri Pedelucq. Le bassin de l’Adour offre des conditions favorables à cette production arboricole qui exige un climat doux, ensoleillé et humide, des sols fertiles, bien drainés et non calcaires. Après plusieurs années d’expérimentation et face au succès commercial du produit à partir du milieu des années 70, d’autres producteurs ont emboîté le pas de cette production, grâce notamment à des plants fournis par M. Pedelucq. Le kiwi de l’Adour est le seul kiwi à bénéficier de la double certification Label Rouge (depuis 1992) et IGP (depuis 2009).",
           "eus": "Kiwia Txinako landare subtropikala da. Henri Pedelucq Landesetako agronomo eta arbolazainak ekarri zuen Frantziako estatura, 1965ean. Aturriko ibarrak arbolazaintzako ekoizpen horretarako baldintza egokiak ditu: klima epel, eguzkitsu eta hezea, lur emankor eta drainatuak eta gisurik gabeak. Hainbat urtez esperimentatzen ibili ondotik eta 1970eko hamarkada erditik goiti fruituak ukan zuen arrakasta ikusirik, beste ekoizle batzuk bide beretik abiatu ziren, gehienbat Pedelucq jaunak eman zizkien landareak baliatuz. Aturriko Kiwia Label gorria (1992tik) eta AGB Adierazpen Geografiko Babestua (2009tik) bi ziurtagiriak dituen kiwi bakarra da."
         },
         "areaProductionImage": "/images/kiwi_map.png",
         "areaProductionDescription": {
-          "fr": "Culture, conditionnement et stockage dans l'aire géographique.",
-          "eus": "Eremu geografikoan hazten, paketatzen eta biltegiratzen da."
+          "fr": "Culture, conditionnement et stockage dans l’aire géographique",
+          "eus": "Eremu geografikoan hazten, paketatzen eta biltegiratzen da"
         }
       },
       {
@@ -1621,18 +1634,22 @@
         ],
         "keyfigures": [
           {
-            "fr": "358 producteurs - 10 stations fruitières",
-            "eus": "358 ekoizle - 10 fruitu gune"
+            "fr": "358 producteurs, 10 stations fruitières",
+            "eus": "358 ekoizle, 10 fruitu gune"
           },
           {
             "fr": "600 hectares, soit en moyenne 2 ha par verger",
-            "eus": "600 hektarea: bana beste, 2 ha-ko arboladiak"
+            "eus": "600 hektarea bana beste, 2 ha-ko arboladiak"
           },
           {
-            "fr": "6 500 tonnes de kiwis produits en 2024",
-            "eus": "6 500 tona kiwi ekoitziak 2024an"
+            "fr": "6 500 tonnes de kiwis produits",
+            "eus": "6 500 tona kiwi ekoitziak"
           }
         ],
+        "keyfiguresYear": {
+          "fr": "(données 2024)",
+          "eus": "(2024ko datuak)"
+        },
         "linkside": "right",
         "website": "",
         "observatory": "",
@@ -1650,14 +1667,14 @@
     "pages": [
       {
         "presentation": {
-          "fr": "La Manex Tête Noire est une race ovine historiquement implantée dans les zones montagneuses du Pays Basque. Elle est facilement reconnaissable par sa tête, ses pattes et son collier de laine noirs, sa toison blanche, et ses fameuses cornes spiralées chez les femelles comme chez les mâles. Ses principaux atouts sont sa rusticité, son aptitude maternelle et la qualité de ses produits. Son élevage est particulièrement lié à la pratique de la transhumance, car cette brebis permet une bonne valorisation des ressources fourragères estivales. La Manex Tête Noire est l'une des 3 races ovines laitières autorisées dans la production de fromage AOP Ossau-Iraty.",
-          "eus": "Manex burubeltz ardia aspalditik dago Euskal Herriko mendi eremuetan. Burua, hankak eta artile lepokoa beltzak ditu, zuria da, eta eme zein arrek adar kiribilduak dituzte. Abantaila handiak ditu: gogorra da eta ama ona, eta produktu onak ekoizten ditu. Transhumantziarekin lotuta dago bereziki, udako bazkaleku baliabideen ondo aprobetxatzeko aukera ematen baitu. Manex burubeltza Ossau-Iraty JDB gazta ekoizteko erabil daitezkeen hiru esne-ardi arrazetako bat da."
+          "fr": "La Manex Tête Noire est une race de brebis historiquement implantée dans les zones de montagne du Pays Basque. Elle est facilement reconnaissable à sa tête, ses pattes et son collier de laine noirs, sa toison blanche et ses fameuses cornes en spirale chez les femelles comme les mâles. Ses principaux atouts sont sa rusticité, son aptitude maternelle et la qualité de ses produits. Son élevage est particulièrement lié à la pratique de la transhumance car cette brebis permet de bien valoriser les ressources fourragères des estives. La Manex Tête Noire est l’une des 3 races de brebis laitières autorisées dans la production de fromages AOP Ossau-Iraty.",
+          "eus": "Manex burubeltz ardia aspalditik dago Euskal Herriko mendiguneetan. Aise ezagutzen da, burua, zangoak eta artile lepokoa beltzak eta ilezama zuria baititu, eta emeek bezala arrek espiral formako adar famatuak baitituzte. Abantaila handiko ardia da: azkarra eta ama ona da, eta produktu onak ematen ditu. Transhumantziaren usaiari lotua zaio bereziki, udako bazkalekuetako bazka-baliabideak ontsa baliatzeko parada ematen baitu. Manex burubeltza Ossau-Irati JDB gasnaren ekoizteko balia daitezkeen hiru ardi esnedun arrazetako bat da."
         },
         "imagePresentation": "/images/manex_presentation.jpeg"
       },
       {
         "history": {
-          "fr": "La Manex Tête Noire est une race très ancienne, implantée depuis des siècles dans les vallées pyrénéennes. Son histoire est liée à celle des bergers traditionnels et à la pratique de la transhumance en montagne. La race a été officiellement reconnue en 1970. Dans les années 80, on comptait près de 200 000 brebis. Mais face à l'utilisation croissante de races plus « compétitives », sa population a fortement chuté (-60% en 40 ans). Face à ce constat, un groupe d'éleveurs a créé l'association Buru Beltza en 2010, « tête noire » en basque. Elle a pour objectif de défendre et promouvoir la race Manex Tête Noire dans des systèmes d'élevage privilégiant l'autonomie, la durabilité, la présence longue en estive et le lien avec l'AOP Ossau-Iraty. L'association regroupe actuellement une centaine d'éleveurs sur l'ensemble du département des Pyrénées-Atlantiques et au-delà, pour structurer la filière et revaloriser ses productions.",
+          "fr": "La Manex Tête Noire est une race très ancienne, implantée depuis des siècles dans les vallées pyrénéennes. Son histoire est liée à celle des bergers traditionnels et à la pratique de la transhumance en montagne. La race a été officiellement reconnue en 1970. Dans les années 80, on comptait près de 200 000 brebis. Mais face à l'utilisation croissante de races plus « compétitives », sa population a fortement chuté (-60% en 40 ans). Face à ce constat, un groupe d'éleveurs a créé l'association Buru Beltza en 2010, « tête noire » en basque. Elle a pour objectif de défendre et promouvoir la race Manex Tête Noire dans des systèmes d'élevage privilégiant l'autonomie, la durabilité, la présence longue en estive et le lien avec l'AOP Ossau-Iraty. L'association regroupe actuellement une centaine d'éleveurs sur l'ensemble du département des Pyrénées-Atlantiques et au-delà, pour structurer la filière et valoriser ses productions.",
           "eus": "Manex burubeltza oso antzinako arraza da, eta mendeetan zehar Pirinioetako ibarretan dago. Ardi honen historia euskal artzainekin eta mendiko transhumantziarekin lotuta dago. 1970eko hamarkadan jaso zuen ofizialki aitortza. 1980ko hamarkadan, 200 000 ardi inguru zeuden. Baina « lehiakorragoak » diren arzen erabilera handituz joan zen heinean, kopurua nabarmen jaitsi zen (% 60 40 urtetan). Egoera hori ikusirik, 2010ean artzain talde batek Buru Beltza elkartea sortu zuen. Xedea Manex burubeltza defenditzea eta sustatzea da, autonomia, iraunkortasuna, udako bazkalekuetan egonaldia luzea eta Ossau-Iraty JDBrekin harremana lehenesten duten hazkuntza sistemetan. Gaur egun, elkarteak ehun artzain inguru biltzen ditu Pirinio Atlantikoetan eta inguruan, sailaren egitura emateko eta ekoizpenak berriz balioztatzeko."
         },
         "areaProductionImage": "/images/manex_map.png",
@@ -1673,14 +1690,14 @@
             "eus": "Manex burubeltz arraza"
           },
           {
-            "fr": "Pratique de l'estive, généralement de 3 à plus de 6 mois par an",
+            "fr": "Pratique de l’estive, généralement de 3 à plus de 6 mois par an",
             "eus": "Udako bazkalekuetako egonaldiak, oro har urtean 3 eta 6 hilabete artean, edo gehiago"
           }
         ],
         "products": [
           {
-            "fr": "Fromages, produits carnés et laine sous la marque qualitative Buru Beltza, Fromages AOP Ossau-Iraty, Agneau de lait des Pyrénées IGP et LR",
-            "eus": "Buru Beltza kalitate-markako gasnak, haragiak eta artilea, JDB Ossau-Iraty gasnak, AGB eta Label gorriko esneko bildotsak"
+            "fr": "Fromages, produits carnés et laine sous la marque Buru Beltza, Fromages AOP Ossau-Iraty, Agneau de lait des Pyrénées IGP et Label Rouge",
+            "eus": "Buru Beltza kalitate-markako gasnak, haragiak eta artilea, JDB Ossau-Iraty gasnak, AGB eta Label Gorriko esneko bildotsak"
           }
         ],
         "keyfigures": [
@@ -1689,13 +1706,17 @@
             "eus": "70 000 ardi Manex burubeltz"
           },
           {
-            "fr": "228 éleveurs (données 2022)",
-            "eus": "228 artzain (2022ko datuak)"
+            "fr": "228 éleveurs",
+            "eus": "228 artzain"
           }
         ],
         "website": "https://buru-beltza.com/",
         "observatory": "",
-        "grall_url": "https://grall.app.link/7CjYLfGEvXb?real_url=https%3A%2F%2Fgrall.io%2Fselect%3Fpoint_id%3D123640024"
+        "grall_url": "https://grall.app.link/7CjYLfGEvXb?real_url=https%3A%2F%2Fgrall.io%2Fselect%3Fpoint_id%3D123640024",
+        "keyfiguresYear": {
+          "fr": "(données 2022)",
+          "eus": "(2022ko datuak)"
+        }
       }
     ]
   },
@@ -1709,19 +1730,19 @@
     "pages": [
       {
         "presentation": {
-          "fr": "Les cours d'eau du Pays Basque sont divisés en cinq bassins versants : les côtiers basques, la Nive, la Bidouze, l'Adour aval, et le Saison (avec les Gaves). Ils traversent les vallées depuis leur source jusqu'à l'Océan Atlantique. Ils se remplissent avec des affluents, des eaux souterraines et des eaux de pluie. Leur eau fraîche et propre est réputée pour la pêche à la truite et au saumon. La qualité de ces eaux a permis la mise en place d'une pisciculture de qualité, à taille humaine et respectueuse des milieux.",
+          "fr": "Les cours d’eau du Pays Basque sont divisés en cinq bassins versants : les côtiers basques, la Nive, la Bidouze, l’Adour aval, et le Saison (avec les Gaves). Ils traversent les vallées depuis leur source jusqu’à l’océan Atlantique. Ils se remplissent avec des affluents, des eaux souterraines et des eaux de pluie. Leur eau fraîche et propre est réputée pour la pêche à la truite et au saumon. La qualité de ces eaux a permis la mise en place d’une pisciculture de qualité, à taille humaine et respectueuse des milieux.",
           "eus": "Ipar Euskal Herriko erreka eta ibaiak bost arro hidrografikotan banatuak dira: euskal kostaldekoak, Errobi, Biduze, Aturri behealdea eta Ühaitza (eta bere ibaiadarrak). Ibarrak zeharkatzen dituzte, beren iturrietarik Ozeano Atlantikora. Ibaiadarrek, lurpeko urek eta euriak elikatuak dira. Haien ur fresko eta garbiak amuarrainen eta izokinen erakartzeko fama du. Ur bikain horiei esker, kalitatezko arrain hazkuntza garatu da, zentzuzko neurrikoa eta ingurumena errespetatzen duena."
         },
         "imagePresentation": "/images/pisciculture_presentation.jpeg"
       },
       {
         "history": {
-          "fr": "Dans les années 30, la Basse Navarre voit naître plusieurs piscicultures, par exemple à Bidarray, sur la rive droite du ruisseau du Batzan qui prend sa source en Espagne, traverse un vallon étroit et se jette dans la Nive. D'autres sont situées sur la Nive des Aldudes connue pour son eau fraîche et limpide.",
+          "fr": "Dans les années 30, la Basse-Navarre voit naître plusieurs piscicultures, par exemple à Bidarray, sur la rive droite du ruisseau du Batzan qui prend sa source en Espagne, traverse un vallon étroit et se jette dans la Nive. D’autres sont situées sur la Nive des Aldudes connue pour son eau fraîche et limpide.",
           "eus": "1930eko hamarkadan, Baxenabarren zenbait arrain haztegi sortu ziren; horien artean, Bidarraikoa, Baztango errekaren eskuineko hegian. Baztan Nafarroan sortzen da eta ibar hertsia zeharkatzen du, Errobin sartu aitzin. Aldudeko Errobin ere beste haztegi batzuk daude, bertako ura freskoa eta bereziki garbia baita."
         },
         "areaProductionImage": "",
         "areaProductionDescription": {
-          "fr": "De St Etienne de Baigorry jusqu'à Urepel sur la Nive des Aldudes, Ahaxe sur le Laurhibar, Estérençuby sur la Nive d'Esterenguibel",
+          "fr": "De Saint-Etienne-de-Baigorry jusqu’à Urepel sur la Nive des Aldudes, Ahaxe sur le Laurhibar, Estérençuby sur la Nive d’Esterenguibel",
           "eus": "Baigorritik Urepelera, Aldudeko Errobin, Ahatsan, Lauribarren, Ezterentzubin, Ezterengibeleko errekan"
         }
       },
@@ -1735,7 +1756,7 @@
         ],
         "keyfigures": [
           {
-            "fr": "Une douzaine de piscicultures et 4 centres d'alevinage au Pays Basque",
+            "fr": "Une douzaine de piscicultures et 4 centres d’alevinage en Pays Basque",
             "eus": "Dozena bat arrain-haztegi eta 4 arrainkume-zentro Ipar Euskal Herrian"
           },
           {
@@ -1743,7 +1764,7 @@
             "eus": "1 500 tona amuarrain ekoitziak urtean, bana beste"
           },
           {
-            "fr": "Une cinquantaine d'emplois autour des métiers de l'élevage, de la transformation et de la commercialisation des produits",
+            "fr": "Une cinquantaine d’emplois autour des métiers de l’élevage, de la transformation et de la commercialisation des produits",
             "eus": "Berrogeita hamar bat lanpostu hazkuntzaren, transformazioaren eta produktuen salmentaren inguruan"
           }
         ],
@@ -1763,49 +1784,41 @@
     "pages": [
       {
         "presentation": {
-          "fr": "Le Pottok (« Pottoka » en langue basque) fait partie de la culture basque depuis toujours. Connu pour sa petite taille, sa robustesse et sa rusticité, il joue un rôle important dans l'entretien des montagnes qu'il pâture toute l'année en semi-liberté ou totale liberté. Il s'agit d'une race autochtone, très bien adaptée à la vie en montagne.",
+          "fr": "Le Pottok (« Pottoka » en langue basque) fait partie de la culture basque depuis toujours. Connu pour sa petite taille, sa robustesse et sa rusticité, il joue un rôle important dans l’entretien des montagnes qu’il pâture toute l’année en semi-liberté ou totale liberté. Il s'agit d'une race autochtone, très bien adaptée à la vie en montagne.",
           "eus": "Pottoka betidanik da euskal kulturaren parte. Ttipia, indartsua eta azkarra da, eta mendien mantentze lanetan eginkizun handia du, urte osoan bazkatzen baititu, erdi-libre ala libre. Bertako arraza da, mendiko bizirako ezin egokiagoa."
         },
         "imagePresentation": "/images/pottok_presentation.jpg"
       },
       {
         "history": {
-          "fr": "Le Pottok est installé depuis des millénaires au Pays Basque. Les peintures préhistoriques découvertes dans les grottes de Sare, d'Oxocelhaya et d'Isturitz représentent des chevaux d'un type proche du Pottok actuel. Il appartient à une souche de poneys atlantiques très ancienne et possède par une grande diversité génétique. Au 19e siècle, il était utilisé dans les mines de la région en raison de sa taille réduite, sa force et sa rusticité. L'Association Nationale du Pottok a été créée en 1970 sous l'impulsion de la direction des Haras Nationaux et de Paul Dutournier, alors maire de Sare. Elle a notamment pour objectif la conservation de la race Pottok, la promotion de ses qualités, ainsi que la préservation de l'élevage traditionnel en libre parcours dans les montagnes basques. Historiquement, il est de couleur sombre (noire, baie, alezan) mais aujourd'hui la robe pie est très répandue, elle résulte de croisements récents au 20e siècle.",
-          "eus": "Milaka urtez geroztik dago pottoka Euskal Herrian. Sarako, Otsozelaiko eta Isturitzeko harpeetan atzeman historiaurreko margolanetan, egungo pottokaren eite handia duten zaldiak agertzen dira. Zinez aspaldiko Atlantikoko poney mota batekoak dira eta aniztasun genetiko handia dute. 19. mendean, eskualdeko meategietan baliatzen zen, ttipia, indartsua eta azkarra baitzen. 1970ean, Pottokaren Frantziako elkartea sortu zen, Frantziako garañotegien zuzendaritzaren eta orduan Sarako auzapez zen Paul Dutournierren ekimenez. Xede hauek ditu, besteak beste: Pottok arrazaren babestea, haren kalitateen sustatzea eta euskal mendietan saro libreko hazkuntzaren babestea. Historikoki, kolore ilunekoa da (beltza, gaztaina, alazana); baina, egun, pio ilea ere biziki zabaldua da, 20. mendeko gurutzaketen ondorioz."
+          "fr": "Le Pottok est installé depuis des millénaires en Pays Basque. Les peintures préhistoriques découvertes dans les grottes de Sare, d’Oxocelhaya et d’Isturitz représentent des chevaux d’un type proche du Pottok actuel. Il appartient à une souche de poneys atlantiques très ancienne et possède une grande diversité génétique. Au 19e siècle, il était utilisé dans les mines de la région en raison de sa taille réduite, sa force et sa rusticité. L’Association Nationale du Pottok a été créée en 1970 sous l’impulsion de la direction des Haras Nationaux et de Paul Dutournier, alors maire de Sare. Elle a notamment pour objectif la conservation de la race Pottok, la promotion de ses qualités, ainsi que la préservation de l’élevage traditionnel en libre parcours dans les montagnes basques. Historiquement, il est de couleur sombre (noire, baie, alezan) mais aujourd’hui la robe pie est très répandue : elle résulte de croisements récents au 20e siècle.",
+          "eus": "Milaka urtez geroztik dago pottoka Euskal Herrian. Sarako, Otsozelaiko eta Isturitzeko harpeetan atzeman historiaurreko margolanetan, egungo pottokaren eite handia duten zaldiak agertzen dira. Zinez aspaldiko Atlantikoko poney mota batekoak dira eta aniztasun genetiko handia dute. 19. mendean, eskualdeko meategietan baliatzen zen, ttipia, indartsua eta azkarra baitzen. 1970ean, Pottokaren Frantziako elkartea sortu zen, Frantziako garañotegien zuzendaritzaren eta orduan Sarako auzapez zen Paul Dutournierren ekimenez. Xede hauek ditu, besteak beste: Pottok arrazaren babestea, haren kalitateen sustatzea eta euskal mendietan saro libreko hazkuntzaren babestea. Historikoki, kolore ilunekoa da (beltza, gaztaina, alazana); baina, egun, pio ilea ere biziki zabaldua da : 20. mendeko gurutzaketen ondorioz."
         },
         "areaProductionImage": "/images/pottok_map.png",
         "areaProductionDescription": {
-          "fr": "Massif de la Rhune - Massif de l'Artzamendi - Mont Baïgura - Mont Ursuya. Les troupeaux sont également présents dans d'autres montagnes du Pays Basque français, notamment dans le Labourd, la Basse-Navarre et la Soule.",
-          "eus": "Larhun - Artzamendi - Baigura - Urtsua. Tropak Ipar Euskal Herriko beste mendi batzuetan ere badira, Lapurdin, Baxenabarren eta Xiberon"
+          "fr": "Massif de la Rhune, Massif de l’Artzamendi, Mont Baïgura, Mont UrsuyaLes troupeaux sont également présents dans d’autres montagnes du Pays Basque, notamment dans le Labourd, la Basse-Navarre et la Soule",
+          "eus": "Larhun, Artzamendi, Baigura, UrtsuaTropak Ipar Euskal Herriko beste mendi batzuetan ere badira, Lapurdin, Baxenabarren eta Xiberon"
         }
       },
       {
         "characteristics": [
           {
-            "fr": "Les Pottoks vivent librement en horde d'une vingtaine de juments accompagnées de leur étalon",
-            "eus": "Pottokak libre bizi dira, hogei bat behorreko saldotan, haien garañoekin"
-          },
-          {
-            "fr": "Ils participent à l'entretien écologique de la montagne et à la lutte contre les incendies par le pâturage",
-            "eus": "Mendietan bazkatuz, mantentze ekologikoan eta suteen prebentzioan parte hartzen dute"
-          },
-          {
-            "fr": "Lorsqu'ils sont destinés aux loisirs (équitation, attelage, etc.), ils peuvent être élevés en prairie",
-            "eus": "Aisialdirako baliatzen direlarik (zaldiketa, karrosak etab.), pentzeetan hazten ahal dira"
+            "fr": "Les Pottoks vivent librement en horde d’une vingtaine de juments accompagnées de leur étalon. Ils participent à l’entretien écologique de la montagne et à la lutte contre les incendies par le pâturage. Lorsqu’ils sont destinés aux loisirs (équitation, attelage, etc.), ils peuvent être élevés en prairie.",
+            "eus": "Pottokak libre bizi dira, hogei bat behorreko saldotan, haien garañoekin. Mendietan bazkatuz, mantentze ekologikoan eta suteen prebentzioan parte hartzen dute. Aisialdirako baliatzen direlarik (zaldiketa, karrosak etab.), pentzeetan hazten ahal dira."
           }
         ],
         "products": [],
         "keyfigures": [
           {
-            "fr": "130 adhérents à L'Association National du pottok",
+            "fr": "130 adhérents à L’Association National du pottok",
             "eus": "130 kide Pottokaren Frantziako elkartean"
           },
           {
-            "fr": "1500 pottoks recensés sur le Pays Basque",
-            "eus": "1500 pottoka zerrendatuak Ipar Euskal Herrian"
+            "fr": "1 500 pottoks recensés en Pays Basque nord",
+            "eus": "1 500 pottoka zerrendatuak Ipar Euskal Herrian"
           }
         ],
-        "website": "https://anpottoka.fr/",
+        "website": "https://eur01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fanpottoka.fr%2F&data=05%7C02%7Ce.nguyen%40communaute-paysbasque.fr%7C76659accc93f425b0cd808dd66d174ee%7C5c3effd59af74ab886c53b091bfd1512%7C0%7C0%7C638779771993862923%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=%2BIir5y0DbYFWzktRJeI7jefYMLDD8HcMIkprCEvJm40%3D&reserved=0",
         "observatory": "",
         "grall_url": "https://grall.app.link/x64bTjKEvXb?real_url=https%3A%2F%2Fgrall.io%2Fselect%3Fpoint_id%3D123641001"
       }

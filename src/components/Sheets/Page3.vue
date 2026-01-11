@@ -9,6 +9,7 @@ interface Props {
   characteristics: string[],
   products: string[],
   keyFigures: string[],
+  keyfiguresYear: string,
   linkside?: string,
   website?: string,
   observatory?: string
@@ -67,8 +68,9 @@ const getLayoutClass = () => {
     <RedThinDecorationTiny class="absolute -top-48 right-56 rotate-90" />
 
     <!-- Rectangle shape at specified position -->
-    <div class="absolute bg-gray-600 flex items-center px-8"
-      :style="{ left: rectangleLeft, top: '665px', width: '1016px', height: '240px' }">
+    <div v-if="website && website.trim() !== '' || observatory && observatory.trim() !== ''"
+      class="absolute bg-gray-600 flex items-center px-8"
+      :style="{ left: rectangleLeft, top: '720px', width: '1016px', height: '200px' }">
 
       <div class="w-full flex" :class="getLayoutClass()">
         <!-- Website Column -->
@@ -117,7 +119,7 @@ const getLayoutClass = () => {
       <!-- Key Figures Column -->
       <div class="flex flex-col">
         <h2 class="text-3xl font-soleil font-bold text-black mb-6">
-          {{ t('sheets.page3.keyFiguresTitle') }}
+          {{ t('sheets.page3.keyFiguresTitle') }} {{ keyfiguresYear }}
         </h2>
         <div class="flex-1 space-y-4">
           <div v-for="(figure, index) in keyFigures" :key="index">

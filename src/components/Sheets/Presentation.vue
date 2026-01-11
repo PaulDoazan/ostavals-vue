@@ -106,6 +106,10 @@ const presentationData = computed(() => {
         ? page.keyfigures.map((fig: any) => getLocalizedText(fig, 'Key figure not found.'))
         : []
 
+      const keyfiguresYear = page.keyfiguresYear
+        ? getLocalizedText(page.keyfiguresYear, '')
+        : ''
+
       const description = [
         ...characteristics.map((char: string) => `• ${char}`),
         ...products.map((prod: string) => `• ${prod}`),
@@ -119,6 +123,7 @@ const presentationData = computed(() => {
         characteristics,
         products,
         keyFigures: keyfigures,
+        keyfiguresYear,
         linkside: page.linkside,
         website: page.website,
         observatory: page.observatory,
@@ -183,6 +188,7 @@ const getCurrentPageComponent = computed(() => {
           :characteristics="presentationData.pages[currentPage].characteristics || []"
           :products="presentationData.pages[currentPage].products || []"
           :keyFigures="presentationData.pages[currentPage].keyFigures || []"
+          :keyfiguresYear="presentationData.pages[currentPage].keyfiguresYear || ''"
           :linkside="presentationData.pages[currentPage].linkside"
           :website="presentationData.pages[currentPage].website || ''"
           :observatory="presentationData.pages[currentPage].observatory || ''" />
