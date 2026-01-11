@@ -199,7 +199,8 @@ onUnmounted(() => {
       <div class="w-[56%]">
         <div class="relative flex" style="height: calc(100vh - 400px)">
           <!-- Content area -->
-          <div ref="scrollContainer" class="overflow-y-auto pr-4 flex-1" style="height: calc(100vh - 400px)" @scroll="handleScroll">
+          <div ref="scrollContainer" class="overflow-y-auto pr-4 flex-1" style="height: calc(100vh - 400px)"
+            @scroll="handleScroll">
             <p class="font-soleil text-gray-800 leading-relaxed" style="font-size: 30px">
               {{ description }}
             </p>
