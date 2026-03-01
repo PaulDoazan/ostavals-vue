@@ -46,15 +46,15 @@
     "title": "Crédits",
     "button": "Crédits",
     "project": {
-      "description": "Ce projet est un travail de scénographie conçu par {scenography} et réalisé par {realized}, pour la {client}."
+      "description": "La scénographie a été conçue par Christelle Marty (CMS Scénographie) et réalisée par Bixie avec l'appui de partenaires locaux pour le compte de la Communauté d'Agglomération du Pays Basque et en lien avec l'agence V2S architectes. Les images, les ressources iconographiques et les fonds documentaires utilisés pour la scénographie et reprises dans l'application GRALL ont été réalisés et produits par différents acteurs locaux et institutionnels."
     },
     "images": {
       "title": "Les images et ressources iconographiques sont issues des éléments suivants :",
       "organizations": {
-        "title": "Organisations"
+        "title": "Crédits - Institution et association"
       },
       "photographers": {
-        "title": "Photographes et créateurs"
+        "title": "Autres crédits photos"
       }
     }
   },

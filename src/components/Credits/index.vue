@@ -5,65 +5,41 @@ import Menu from '../Menu/index.vue'
 
 const { t } = useI18n()
 
-// Project description with interpolated values (names are not translated)
-const projectDescription = computed(() => t('credits.project.description', {
-  scenography: 'Christelle Marty (CMS Scénographie)',
-  realized: 'Bixie',
-  client: 'Communauté d\'Agglomération du Pays Basque (CAPB)'
-}))
+// Project description (full text in locale)
+const projectDescription = computed(() => t('credits.project.description'))
 
-// Organizations list (names are not translated) - split into 2 columns
+// Organizations list (institutions and associations) - split into 2 columns
 const allOrganizations = [
-  'Bixie',
+  'Agence Française des Chemins de Compostelle',
+  'Office de Tourisme Pays Basque',
+  'CAUE Pyrénées-Atlantiques',
+  'Agence d\'urbanisme Pays Basque',
+  'Association BLE CIVAM Bio',
   'AOP Ossau-Iraty',
   'AOP Piment d\'Espelette',
   'Filière du Kintoa',
   'AOC Vin d\'Irouléguy',
-  'Association BLE CIVAM Bio',
   'IGP Kiwi de l\'Adour',
   'IGP Jambon de Bayonne',
-  'Office de Tourisme Pays Basque',
-  'hazi sarea',
-  'CPIE Pays Basque – Philippe Inara',
-  'CAUE Pyrénées-Atlantiques – Leire Arbelbide Lete',
-  'CAPB – Nadia Mabille, Hadrien Rozier, Lucie Marcillac'
+  'Hazi Sarea'
 ]
 
 const organizationsCol1 = computed(() => allOrganizations.slice(0, Math.ceil(allOrganizations.length / 2)))
 const organizationsCol2 = computed(() => allOrganizations.slice(Math.ceil(allOrganizations.length / 2)))
 
-// Photographers list (names are not translated) - split into 2 columns
+// Photographers list (other photo credits) - split into 2 columns
 const allPhotographers = [
   'Rieger Bertrand / hemis.fr',
   'Adobe Stock',
   'Agence COM\' BY AVM',
-  '© CPB / CôtéSudPhotos',
-  'elapoppies-photography',
-  'Agnieszka Kwiecień',
   'Alexas Fotos',
-  'Ana Celaya',
-  'Bernard Dupont',
-  'Guilhem Vellut',
-  'Hjart',
-  'Hyppolyte de Saint-Rambert',
-  'Jean-Michel Etchecolonea',
-  'Jose Maria Plazaola Erostarbe',
-  'Laurence Goyeneche',
-  'Luis Fernández García',
+  'elapoppies-photography',
   'Lviatour',
-  'Marie-Lan Taÿ Pamart',
-  'Marianne Casamance',
-  'Max Saeling',
-  'Mixel Setoain',
-  'PaleCloudedWhite',
-  'Philippe Inara',
-  'Rieger Bertrand / hemis.fr',
-  'Sputniktilt',
-  'Syrio',
-  'Thérèse Gaigé',
-  'Tylwyth Eldar',
-  'Vengolis',
-  'Vincent Van Zalinge'
+  'Cyrille Marlin',
+  '© CPB / CôtéSudPhotos',
+  '© Mathieu Prat',
+  '© Carole Pro',
+  '© B Valcke'
 ]
 
 const photographersCol1 = computed(() => allPhotographers.slice(0, Math.ceil(allPhotographers.length / 2)))
