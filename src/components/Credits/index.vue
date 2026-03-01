@@ -5,8 +5,10 @@ import Menu from '../Menu/index.vue'
 
 const { t } = useI18n()
 
-// Project description (full text in locale)
-const projectDescription = computed(() => t('credits.project.description'))
+// Project description (redaction byline + two paragraphs in locale)
+const projectRedaction = computed(() => t('credits.project.redaction'))
+const projectDescription1 = computed(() => t('credits.project.description1'))
+const projectDescription2 = computed(() => t('credits.project.description2'))
 
 // Organizations list (institutions and associations) - split into 2 columns
 const allOrganizations = [
@@ -49,14 +51,20 @@ const photographersCol2 = computed(() => allPhotographers.slice(Math.ceil(allPho
 <template>
   <div class="w-screen h-screen bg-background relative overflow-y-auto">
     <Menu />
-    <div class="w-full px-16 pt-16">
+    <div class="w-full px-16 pt-12">
       <!-- Title -->
-      <h1 class="text-5xl font-bold font-athelas mb-12 text-center">{{ t('credits.title') }}</h1>
+      <h1 class="text-5xl font-bold font-athelas mb-6 text-center">{{ t('credits.title') }}</h1>
 
       <!-- Project Description -->
-      <div class="mb-8">
+      <div class="mb-8 space-y-6">
         <p class="font-soleil leading-relaxed text-center max-w-6xl mx-auto" style="font-size: 28px; line-height: 1.5">
-          {{ projectDescription }}
+          {{ projectRedaction }}
+        </p>
+        <p class="font-soleil leading-relaxed text-center max-w-6xl mx-auto" style="font-size: 28px; line-height: 1.5">
+          {{ projectDescription1 }}
+        </p>
+        <p class="font-soleil leading-relaxed text-center max-w-6xl mx-auto" style="font-size: 28px; line-height: 1.5">
+          {{ projectDescription2 }}
         </p>
       </div>
 

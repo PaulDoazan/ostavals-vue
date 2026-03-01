@@ -46,7 +46,9 @@
     "title": "Kredituak",
     "button": "Kredituak",
     "project": {
-      "description": "Eszenografia Christelle Marty (CMS Scénographie) -k diseinatu eta Bixie-k gauzatu du, tokiko bazkideen laguntzaz, Euskal Herriko Hirigunearen izenean eta V2S architectes agentziarekin loturaz. Eszenografian erabilitako eta GRALL aplikazioan jasotako irudiak, baliabide ikonografikoak eta dokumentazio-fondoak tokiko eta erakundeko hainbat eragilek ekoiztu eta sortu dituzte."
+      "redaction": "Berrikuspen berria - Nadia",
+      "description1": "Eszenografia Christelle Marty (CMS Scénographie) -k diseinatu eta Bixie-k gauzatu du, tokiko bazkideen laguntzaz, Euskal Herriko Hirigunearen izenean eta V2S architectes agentziarekin loturaz.",
+      "description2": "Eszenografian erabilitako eta GRALL aplikazioan jasotako irudiak, baliabide ikonografikoak eta dokumentazio-fondoak tokiko eta erakundeko hainbat eragilek ekoiztu eta sortu dituzte."
     },
     "images": {
       "title": "Irudiak eta baliabide ikonografikoak ondorengo elementuetatik datoz :",
