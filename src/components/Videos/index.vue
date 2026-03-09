@@ -39,12 +39,6 @@ const getVideoLanguage = (videoId: number): 'fr' | 'eus' => {
   return videoLanguages.value[videoId] || locale.value
 }
 
-// Toggle language for a specific video
-const toggleVideoLanguage = (videoId: number) => {
-  const currentLang = getVideoLanguage(videoId)
-  videoLanguages.value[videoId] = currentLang === 'fr' ? 'eus' : 'fr'
-}
-
 // Check if specific language icon exists
 const hasLanguageIcon = (video: VideoItem, language: 'fr' | 'eus'): boolean => {
   const iconToCheck = language === 'fr' ? 'fr' : 'eus-sub'
